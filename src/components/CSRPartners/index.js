@@ -34,8 +34,8 @@ export default function Modal() {
             <h2>Hello Modal</h2>
             <div className="modal-image-container">
               <img src={"/Images/Andraassociation.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/JoyOfReading.png"} />
+              <img src={"/Images/VishwakarmaInstitutes.png"} />
               <img src={"/Images/HyderbadRunner.png"} />
               <img src={"/Images/HyderbadRunner.png"} />
               <img src={"/Images/HyderbadRunner.png"} />
