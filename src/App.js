@@ -16,6 +16,8 @@ import Reports from "./components/Reports";
 
 import Home from "./components/Home";
 
+import Popup from "./components/CSRPartners";
+
 function App() {
   return (
     <div className="App">
@@ -28,6 +30,7 @@ function App() {
         <Route exact path="/MediaCoverage" component={MediaCoverage} />
       </Switch>
       <Home />
+      <Popup />
     </div>
   );
 }
