@@ -1,36 +1,36 @@
-  import React, { useState } from "react";
-  import "./index.css";
-  import { Link, NavLink } from "react-router-dom";
-  // import { About, Contact, Home, Services } from "../../components";
-  const NavBar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
+import React, { useState } from "react";
+import "./index.css";
+import { Link } from "react-router-dom";
 
-    return (
-      <nav>
-        <Link to="/" className="title">
-          Website
-        </Link>
-        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul className={menuOpen ? "open" : ""}>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/JoinWithUs">Join with Us</NavLink>
-          </li>
-          <li>
-            <NavLink to="/MediaCoverage">Media Coverage</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Reports">Reports</NavLink>
-          </li>
-        </ul>
-      </nav>
-    );
-  };
+const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  export default NavBar;
+  return (
+    <nav>
+      <Link to="/" className="title">
+        Website
+      </Link>
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <Link to="/About">About</Link>
+        </li>
+        <li>
+          <Link to="/JoinWithUs">Join with Us</Link>
+        </li>
+        <li>
+          <Link to="/MediaCoverage">Media Coverage</Link>
+        </li>
+        <li>
+          <Link to="/Reports">Reports</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default NavBar;
