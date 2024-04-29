@@ -14,6 +14,8 @@ import MediaCoverage from "./components/MediaCoverage";
 
 import Reports from "./components/Reports";
 
+import Home from "./components/Home";
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,7 @@ function App() {
         <Route exact path="/MediaCoverage" component={MediaCoverage} />
         <Route exact path="/Reports" component={Reports} />
       </Switch>
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.OurProjects-container {
+  display: flex;
+  flex-direction: column;
+  padding: 83px 87px;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff3e3;
+  padding-top: 30px;
+}
+
+.OurProjects-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 44px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ourprojects-heading {
+  padding-bottom: 30px;
+}

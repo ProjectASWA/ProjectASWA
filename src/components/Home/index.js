@@ -1,8 +1,8 @@
-const Home = ()=>{
-    let c;
-    return(
-        <h1>Home Page</h1>
-    )
-}
+import OurProjects from "../OurProjects";
 
-export default Home
+const Home = () => {
+  let c;
+  return <OurProjects />;
+};
+
+export default Home;
