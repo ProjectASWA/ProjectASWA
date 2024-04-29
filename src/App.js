@@ -16,10 +16,6 @@ import Reports from "./components/Reports";
 
 import Home from "./components/Home";
 
-import Popup from "./components/CSRPartners";
-
-import Footer from "./components/Footer";
-
 function App() {
   return (
     <div className="App">
@@ -31,9 +27,6 @@ function App() {
         <Route exact path="/JoinWithUs" component={JoinWithUs} />
         <Route exact path="/MediaCoverage" component={MediaCoverage} />
       </Switch>
-      <Home />
-      <Popup />
-      <Footer />
     </div>
   );
 }
