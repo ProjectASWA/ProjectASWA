@@ -18,6 +18,8 @@ import Home from "./components/Home";
 
 import Popup from "./components/CSRPartners";
 
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div className="App">
@@ -31,6 +33,7 @@ function App() {
       </Switch>
       <Home />
       <Popup />
+      <Footer />
     </div>
   );
 }
