@@ -20,9 +20,6 @@ const NavBar = () => {
           </Link>
         
       </div>
-      
-      
-      {console.log(menuOpen)}
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         
         <span></span>
