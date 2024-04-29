@@ -5,17 +5,20 @@ import About from "./components/About";
 import JoinWithUs from "./components/JoinWithUs";
 import MediaCoverage from "./components/MediaCoverage";
 import Reports from "./components/Reports";
+import Home from "./components/Home";
 // import { About, Contact, Home, Services } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+
+      {/* <NavBar /> */}
       <Routes>
-        <Route path="/about" element={<About />} />
+        <Route path = "/" element = {<Home />} />
+        {/* <Route path="/about" element={<About />} />
         <Route path="/JoinWithUs" element={<JoinWithUs />} />
         <Route path="/MediaCoverage" element={<MediaCoverage />} />
-        <Route path="/Reports" element={<Reports />} />
+        <Route path="/Reports" element={<Reports />} /> */}
       </Routes>
     </div>
   );
