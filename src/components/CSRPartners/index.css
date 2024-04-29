@@ -47,10 +47,26 @@ body.active-modal {
   display: flex;
   padding-left: 87px;
   padding-right: 87px;
+  padding-top: 45px;
+  gap: 30px;
+  justify-content: center;
 }
 
 .modal-image-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  column-gap: 22px;
+  row-gap: 22px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.csr-image {
+  height: 120px;
+}
+
+.csr-image1 {
+  height: 80px;
+  padding-top: 30px;
 }

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
 
-import wiproImage from "../../Images/Wipro.png";
-
 export default function Modal() {
   const [modal, setModal] = useState(false);
 
@@ -26,7 +24,7 @@ export default function Modal() {
         <img src={"/Images/wipro.png"} />
       </div>
       <button onClick={toggleModal} className="btn-modal">
-        Open
+        Know More
       </button>
 
       {modal && (
@@ -35,16 +33,25 @@ export default function Modal() {
           <div className="modal-content">
             <h2>Hello Modal</h2>
             <div className="modal-image-container">
-              <img src={"/Images/Andraassociation.png"} />
-              <img src={"/Images/JoyOfReading.png"} />
-              <img src={"/Images/VishwakarmaInstitutes.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
-              <img src={"/Images/HyderbadRunner.png"} />
+              <img className="csr-image" src={"/Images/AndraWelfare.jpg"} />
+              <img className="csr-image" src={"/Images/JoyOfReading.png"} />
+              <img
+                className="csr-image"
+                src={"/Images/VishwakarmaInstitutes.png"}
+              />
+              <img
+                className="csr-image"
+                src={"/Images/MangalagriCottons.png"}
+              />
+              <img className="csr-image" src={"/Images/parag.png"} />
+              <img className="csr-image" src={"/Images/CBIT.jpg"} />
+              <img className="csr-image" src={"/Images/NitPatna.jpg"} />
+              <img className="csr-image" src={"/Images/BookWorm.png"} />
+              <img
+                className="csr-image"
+                src={"/Images/sphoortiFoundation.png"}
+              />
+              <img className="csr-image1" src={"/Images/ManchiPusthakam.png"} />
             </div>
             <button className="close-modal" onClick={toggleModal}>
               CLOSE
