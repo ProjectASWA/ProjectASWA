@@ -8,26 +8,47 @@ const NavBar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Website
-      </Link>
+          Website
+        </Link>
+
+      <div className="onMobileDevices">
+        <Link to="/" className="title titleMobile">
+          Website
+        </Link>
+          <Link className = "linkStyling" to = "/donate">
+            <button className="donateStyling donateMobile">Donate</button>
+          </Link>
+        
+      </div>
+      
+      
+      {console.log(menuOpen)}
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <ul className={menuOpen ? "open" : ""}>
+      <ul  className={menuOpen ? "open" : ""}>
         <li>
           <Link to="/About">About</Link>
         </li>
         <li>
-          <Link to="/JoinWithUs">Join with Us</Link>
+          <Link to="/Reports">Reports</Link>
         </li>
         <li>
           <Link to="/MediaCoverage">Media Coverage</Link>
         </li>
         <li>
-          <Link to="/Reports">Reports</Link>
+            <Link to = "/joinwithus">
+            <button className="joinWithUs">JOIN WITH US</button>
+            </Link>
         </li>
+        <li className = "mobileDonate">
+            <Link to = "/donate">
+            <button className="donateStyling">Donate</button>
+            </Link>
+        </li>        
       </ul>
     </nav>
   );

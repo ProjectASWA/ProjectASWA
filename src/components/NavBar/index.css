@@ -6,10 +6,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f172a;
+  background-color: #8690b3;
   color: white;
   position: sticky;
   top: 0;
+  padding: 15px;
+}
+
+.onMobileDevices{
+  display: none;
 }
 
 nav .title {
@@ -22,6 +27,9 @@ nav .title {
 
 nav ul {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
 }
 
 nav ul li {
@@ -37,9 +45,22 @@ nav ul li a {
   border-radius: 0.5rem;
 }
 
-nav ul li a:not(.active):hover {
+/* nav ul li a:not(.active):hover {
   background-color:#172554 ;
+} */
+
+.joinWithUs{
+  width: 120px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+ 
+  background-color: transparent;
+
 }
+
 
 nav .menu {
   display: none;
@@ -53,16 +74,30 @@ nav .menu {
 }
 
 nav .menu span {
-  height: 0.4rem;
-  width: 100%;
+  height: 0.2rem;
+  width: 90%;
   background-color: #fff;
-  border-radius: 0.2rem;
+  border-radius: 0.1rem;
+}
+
+.donateStyling{
+  background-color: #EF626C;
+  width: 120px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   nav .menu {
       display: flex;
+      margin-top: 15px;
   }
 
   nav {
@@ -77,8 +112,31 @@ nav .menu span {
       margin-bottom: 0.25rem;
   }
 
+  .title{
+    display: none;
+  }
+
+  .titleMobile{
+    display: block;
+  }
+
   nav ul.open {
       display: flex;
+      margin: auto;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-self: center;
+      margin-top: 10px;
+  }
+
+  .onMobileDevices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-between;
   }
 
   nav ul li {
@@ -88,5 +146,30 @@ nav .menu span {
 
   nav ul li a {
       margin: 0.2rem 0.5rem;
+  }
+
+  .donateStyling{
+    display: none;
+  }
+
+  .donateMobile{
+    display: block;
+    width: 100px;
+  }
+
+  .linkStyling{
+    text-decoration: none;
+  }
+
+  .joinWithUs{
+    width: 135px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .mobileDonate{
+    display: none;
   }
 }
