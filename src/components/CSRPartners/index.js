@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
 
-import wiproImage from "../../Images/Wipro.png";
-
 export default function Modal() {
   const [modal, setModal] = useState(false);
 
@@ -19,19 +17,11 @@ export default function Modal() {
   return (
     <>
       <div className="csr-partners-container">
-<<<<<<< HEAD
         <img src={"/Images/HyderbadRunner.png"} />
         <img src={"/Images/Atma.png"} />
         <img src={"/Images/CENT.png"} />
         <img src={"/Images/IIITHyderbad.png"} />
         <img src={"/Images/wipro.png"} />
-=======
-        <img src={wiproImage} />
-        <img src="" />
-        <img src="" />
-        <img src="" />
-        <img src="" />
->>>>>>> e745828b00e29f8453b71f90cb1d7d34c1824b99
       </div>
       <button onClick={toggleModal} className="btn-modal">
         Open
@@ -43,16 +33,16 @@ export default function Modal() {
           <div className="modal-content">
             <h2>Hello Modal</h2>
             <div className="modal-image-container">
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
-              <img src="" />
+              <img src={"/Images/Andraassociation.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
+              <img src={"/Images/HyderbadRunner.png"} />
             </div>
             <button className="close-modal" onClick={toggleModal}>
               CLOSE
