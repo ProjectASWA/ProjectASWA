@@ -1,13 +1,24 @@
+import { Route, Routes } from "react-router-dom";
 import "./styles.css";
 import NavBar from "./components/NavBar";
+import About from "./components/About";
+import JoinWithUs from "./components/JoinWithUs";
+import MediaCoverage from "./components/MediaCoverage";
+import Reports from "./components/Reports";
+// import { About, Contact, Home, Services } from "./components";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
       <NavBar />
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/JoinWithUs" element={<JoinWithUs />} />
+        <Route path="/MediaCoverage" element={<MediaCoverage />} />
+        <Route path="/Reports" element={<Reports />} />
+      </Routes>
     </div>
   );
 }
+
+export default App;
