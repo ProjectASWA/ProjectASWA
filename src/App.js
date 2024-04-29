@@ -5,6 +5,7 @@ import About from "./components/About";
 import JoinWithUs from "./components/JoinWithUs";
 import MediaCoverage from "./components/MediaCoverage";
 import Reports from "./components/Reports";
+import Home from "./components/Home";
 // import { About, Contact, Home, Services } from "./components";
 
 function App() {
