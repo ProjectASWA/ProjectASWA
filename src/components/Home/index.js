@@ -1,15 +1,17 @@
 import OurProjects from "../OurProjects";
-import CarouselImages from '../Carousel'
-import Impact from '../OurImpact'
+
+import CarouselImages from "../Carousel";
+
+import CSRPartners from "../CSRPartners";
 
 const Home = () => {
   let c;
   return (
-  <>
-    <CarouselImages/>
-    <Impact/>
-    <OurProjects />
-  </>
+    <>
+      <CarouselImages />
+      <OurProjects />
+      <CSRPartners />
+    </>
   );
 };
 
