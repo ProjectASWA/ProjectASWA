@@ -1,0 +1,63 @@
+.OurProjectsCard-container {
+  display: flex;
+  height: 450px;
+  padding: 19px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.ourprojectscard-image {
+  border-radius: 10px;
+  width: 100%;
+  height: 280px;
+  flex-shrink: 0;
+  object-fit: cover;
+  background: url("https://img.freepik.com/free-photo/portrait-little-smiley-boy-outdoor_23-2148852691.jpg")
+    lightgray 0px -4.633px / 100% 103.309% no-repeat;
+}
+
+.ourprojectscard-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  align-self: stretch;
+}
+
+.ourprjectscard-heading {
+  color: #11112d;
+  font-family: Outfit;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.2px; /* 140% */
+}
+
+.ourprojectscard-button-container {
+  display: flex;
+  width: 354px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 18px;
+  background: #ffcf4d;
+  cursor: pointer;
+}
+
+.ourprojectscard-button {
+  color: #11112d;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
