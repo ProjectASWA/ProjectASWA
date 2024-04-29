@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./index.css";
 
+import wiproImage from "../../Images/Wipro.png";
+
 export default function Modal() {
   const [modal, setModal] = useState(false);
 
