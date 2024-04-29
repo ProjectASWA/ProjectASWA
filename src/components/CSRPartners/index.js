@@ -20,10 +20,10 @@ export default function Modal() {
     <>
       <div className="csr-partners-container">
         <img src={"/Images/HyderbadRunner.png"} />
-        <img src="" />
-        <img src="" />
-        <img src="" />
-        <img src="" />
+        <img src={"/Images/Atma.png"} />
+        <img src={"/Images/CENT.png"} />
+        <img src={"/Images/IIITHyderbad.png"} />
+        <img src={"/Images/wipro.png"} />
       </div>
       <button onClick={toggleModal} className="btn-modal">
         Open
