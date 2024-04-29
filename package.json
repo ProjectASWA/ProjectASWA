@@ -7,15 +7,9 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-<<<<<<< HEAD
-    "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "5.2.0",
-    "react-scripts": "^5.0.0"
-=======
     "react-router-dom": "5.2.0",
     "react-scripts": "^5.0.0",
     "reactjs-popup": "^2.0.6"
->>>>>>> b6dda6e87a267fae9f2706ed7f28d0b3e954eee6
   },
   "devDependencies": {
     "@types/react": "18.2.38",
