@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
-import wiproImage from "../../Images/Wipro.png";
+// import HyderbadRunner from "../../../public/Images/HyderbadRunner.png";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -19,7 +19,7 @@ export default function Modal() {
   return (
     <>
       <div className="csr-partners-container">
-        <img src={wiproImage} />
+        <img src={"/Images/HyderbadRunner.png"} />
         <img src="" />
         <img src="" />
         <img src="" />
