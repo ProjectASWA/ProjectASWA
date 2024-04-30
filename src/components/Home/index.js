@@ -19,7 +19,6 @@ const Home = () => {
 
       <Impact/>
       <OurProjects />
-      <Impact />
       <CSRPartners />
       <Testimonials />
       <Footer />

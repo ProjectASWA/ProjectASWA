@@ -17,14 +17,7 @@ const AboutUsHomeSection = ()=>{
             </div>
             <div className='about-contents-container'>
                 <p className='about-heading'>Love all serve all</p>
-                <p className='about-para'>ASWA, the Amma Social Welfare Association, is a beacon of compassion and
-                change, dedicated to uplifting the lives of the marginalized and under-served
-                across various facets of society. Founded with a vision of holistic development,
-                ASWA has embarked on a transformative journey spanning over a decade,
-                leaving an indelible mark through its multifaceted initiatives. From educational
-                empowerment and environmental sustainability to healthcare accessibility and
-                emotional support, ASWAs diverse projects address pressing societal needs
-                with unwavering dedication and innovation.</p>
+                <p className='about-para'>ASWA, the Amma Social Welfare Association, shines as a compassionate force driving transformative change for the marginalized. For over a decade, ASWA has passionately pursued holistic development, touching lives across society. From education and environmental sustainability to healthcare and emotional support, ASWA's initiatives address diverse societal needs with innovation. Emphasizing education, ASWA partners with schools, conducts literacy programs, and guides students toward brighter futures. Additionally, through food distribution, healthcare assistance, and emotional support, ASWA fosters inclusivity and care. Through grassroots impact and tireless efforts, ASWA instills hope, empowers communities, and plants the seeds of positive change for a brighter future..</p>
             </div>
             <div className='button-container'>
                 <button className='button-about'>KNOW MORE</button>

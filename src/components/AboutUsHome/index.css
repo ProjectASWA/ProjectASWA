@@ -108,21 +108,39 @@
         flex-direction: row;
         padding: 30px;
         padding-left: 200px;
-        justify-content: space-between;
+        justify-content: space-around;
 
         text-align: center;
         
+    }
+
+    .large-screen-video{
+        display: block;
+        width: 100%;
+        margin-left: 75px;
     }
   }
 
   @media screen and (max-width: 1600px) and (min-width: 1200px) {
     .arrange-about-us{
-        padding-left: 120px;
+        padding-left: 50px;
+    }
+
+    .large-screen-video{
+        display: block;
+        width: 100%;
+        margin-left: 75px;
     }
   }
 
   @media screen and (max-width: 1200px) and (min-width: 768px) {
     .arrange-about-us{
         padding-left: 10px;
+    }
+
+    .large-screen-video{
+        display: block;
+        width: 100%;
+        margin-left: 75px;
     }
   }
