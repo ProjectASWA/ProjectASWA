@@ -11,6 +11,8 @@ import Testimonials from "../Testimonials";
 
 import AboutUsHomeSection from '../AboutUsHome'
 
+import AnimatedFlexCards from '../CardsAnimation'
+
 const Home = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const Home = () => {
       <OurProjects />
       <CSRPartners />
       <Testimonials />
+      <AnimatedFlexCards/>
       <Footer />
     </>
   );
