@@ -6,7 +6,8 @@ import CSRPartners from "../CSRPartners";
 
 import Footer from "../Footer";
 
-import Impact from '../OurImpact'
+import Impact from "../OurImpact";
+import Testimonials from "../Testimonials";
 
 import AboutUsHomeSection from '../AboutUsHome'
 
@@ -18,7 +19,9 @@ const Home = () => {
 
       <Impact/>
       <OurProjects />
+      <Impact />
       <CSRPartners />
+      <Testimonials />
       <Footer />
     </>
   );

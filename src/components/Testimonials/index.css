@@ -1,0 +1,15 @@
+.Testimonials-container {
+  padding: 80px;
+  background-color: #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.double-quotes-image {
+  height: 53px;
+  width: 83px;
+  object-fit: contain;
+}

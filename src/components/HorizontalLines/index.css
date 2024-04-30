@@ -1,0 +1,13 @@
+.hr-container {
+  text-align: center; /* Aligns items in the center horizontally */
+  width: 1420px;
+}
+
+.hr-line {
+  display: inline-block;
+  border: 0;
+  background-color: black;
+  margin: 0 30px; /* Adjust the margin to control space between the lines */
+  width: 530.171px;
+  height: 0.991px;
+}
