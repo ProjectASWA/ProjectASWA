@@ -1,0 +1,68 @@
+.TestimonialsCard-app-container {
+  display: flex;
+}
+
+.TestimonialsCard-container {
+  display: flex;
+  align-items: center;
+  width: 637.195px;
+  padding: 20px;
+  justify-content: space-between;
+  /* gap: 70px; */
+}
+
+@media only screen and (max-width: 768px) {
+  .TestimonialsCard-container {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start */
+    gap: 20px; /* Reduce the gap between items */
+  }
+}
+
+.TestimonialsCard-image {
+  width: 145.673px;
+  height: 152.61px;
+  flex-shrink: 0;
+}
+
+@media only screen and (max-width: 996px) {
+  .TestimonialsCard-image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.TestimonialsCard-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: start;
+}
+
+.TestimonialsCard-description {
+  color: #000;
+  font-family: Inika;
+  font-size: 17.837px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .TestimonialsCard-description {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+.TestimonialsCard-name {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24.774px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 307.201px;
+  height: 99.097px;
+}
