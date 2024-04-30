@@ -1,8 +1,8 @@
 .footer-container {
   display: flex;
-  /* flex-direction: column;
   align-items: flex-start;
-  gap: 22px; */
+  flex-direction: column;
+  gap: 22px;
   background: #dfe4f3;
   justify-content: center;
   align-items: center;
@@ -90,10 +90,10 @@
   margin-bottom: 22px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 720px) {
   .horizontal-line {
-    width: 0;
-    height: 100px; /* You can adjust the height as per your requirement */
+    width: 1.005px;
+    height: 213.031px;
     border-top: none;
     border-left: 1px solid #000; /* Now it's a vertical line */
     margin-top: 0;
@@ -143,12 +143,19 @@
 
 .follow-us-section-container {
   display: flex;
-  width: 350px;
+  width: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
   margin: auto;
+}
+
+@media screen and (min-width: 720px) {
+  .follow-us-section-container {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .follow-us-section {
@@ -172,4 +179,23 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.follow-us-section-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 720px) {
+  .follow-us-section-sub-container {
+    flex-direction: row;
+  }
+}
+
+.horizontal-line1 {
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #000; /* Represents the horizontal line */
+  margin-top: 22px;
+  margin-bottom: 22px;
 }

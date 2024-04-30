@@ -118,7 +118,7 @@ class CSRPartners extends Component {
           {/* Images for the second set */}
           <img
             className="csr-image"
-            src={"/Images/HyderbadRunner.png"}
+            src={"/Images/HyderbadRunner.jpg"}
             alt="Hyderabad Runner"
           />
           <img className="csr-image" src={"/Images/Atma.png"} alt="Atma" />

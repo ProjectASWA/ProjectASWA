@@ -52,40 +52,44 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="horizontal-line">
+      </div>
+      <div className="follow-us-section-container">
+        <div className="horizontal-line1">
           <hr />
         </div>
-        <div className="follow-us-section-container">
-          <div className="follow-us-section">
-            <img
-              src={"/Images/facebook.png"}
-              alt="facebook"
-              className="follow-us-icon"
-            />
-            <img
-              src={"/Images/instagram.png"}
-              alt="instagram"
-              className="instagram-icon"
-            />
-            <img
-              src={"/Images/twitter.png"}
-              alt="twitter"
-              className="twitter-icon"
-            />
-            <img
-              src={"/Images/youtube.png"}
-              alt="youtube"
-              className="youtube-icon"
-            />
-            <img
-              src={"/Images/whatsapp.png"}
-              alt="whatsapp"
-              className="whatsapp-icon"
-            />
+        <div>
+          <div className="follow-us-section-sub-container">
+            <div className="follow-us-section">
+              <img
+                src={"/Images/facebook.png"}
+                alt="facebook"
+                className="follow-us-icon"
+              />
+              <img
+                src={"/Images/instagram.png"}
+                alt="instagram"
+                className="instagram-icon"
+              />
+              <img
+                src={"/Images/twitter.png"}
+                alt="twitter"
+                className="twitter-icon"
+              />
+              <img
+                src={"/Images/youtube.png"}
+                alt="youtube"
+                className="youtube-icon"
+              />
+              <img
+                src={"/Images/whatsapp.png"}
+                alt="whatsapp"
+                className="whatsapp-icon"
+              />
+            </div>
+            <p className="follow-us-section-text">
+              All our efforts are made possible only because of your support.
+            </p>
           </div>
-          <p className="follow-us-section-text">
-            All our efforts are made possible only because of your support.
-          </p>
         </div>
       </div>
     </div>

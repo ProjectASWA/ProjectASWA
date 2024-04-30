@@ -70,9 +70,12 @@
 } */
 
 .marquee-container {
+  display: flex;
   overflow: hidden;
   padding: 80px;
-  background: #c4c4c4;
+  /* background: #c4c4c4; */
+  background-color: #ffffff;
+  justify-content: center;
 }
 
 .marquee {
