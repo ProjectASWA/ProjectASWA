@@ -1,4 +1,4 @@
-body.active-modal {
+/* body.active-modal {
   overflow-y: hidden;
 }
 
@@ -47,10 +47,55 @@ body.active-modal {
   display: flex;
   padding-left: 87px;
   padding-right: 87px;
+  padding-top: 45px;
+  gap: 30px;
+  justify-content: center;
 }
 
 .modal-image-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  column-gap: 22px;
+  row-gap: 22px;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+
+.csr-image1 {
+  height: 80px;
+  padding-top: 30px;
+} */
+
+.marquee-container {
+  display: flex;
+  overflow: hidden;
+  padding: 80px;
+  /* background: #c4c4c4; */
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee img {
+  margin-right: 59px; /* Adjust spacing between images */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.csr-image {
+  height: 120px;
 }

@@ -4,16 +4,18 @@ import CarouselImages from "../Carousel";
 
 import CSRPartners from "../CSRPartners";
 
+import Footer from "../Footer";
+
 import Impact from '../OurImpact'
 
 const Home = () => {
-  let c;
   return (
     <>
       <CarouselImages />
       <OurProjects />
       <Impact/>
       <CSRPartners />
+      <Footer />
     </>
   );
 };
