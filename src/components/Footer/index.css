@@ -25,8 +25,9 @@
   margin: auto;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 766px) {
   .footer-section-sub-container {
+    display: flex;
     width: 100%;
     flex-direction: row;
   }
