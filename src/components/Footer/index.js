@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-section-sub-container">
         <div className="footer-reachus-section">
-          <img src={"/Images/ASWALogo.png"} className="footer-logo" />
+          <img src={"/Images/ASWALogo.jpeg"} className="footer-logo" />
           <div className="footer-reachus-section-text">
             <p className="reachus-text">Reach Us</p>
             <div className="email-section">
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="follow-us-section-container">
-        <div className="horizontal-line">
+        <div className="horizontal-line1">
           <hr />
         </div>
         <div>
