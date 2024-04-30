@@ -28,7 +28,7 @@ const TestimonialsCard = (props) => {
           </h1>
         </div>
       </div>
-      <hr />
+      <hr className="horizontal-line2" />
       <div className="TestimonialsCard-container">
         <img
           src={"/Images/TanikellaBharani.png"}
