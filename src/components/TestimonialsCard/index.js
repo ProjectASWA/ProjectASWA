@@ -30,9 +30,11 @@ const TestimonialsCard = (props) => {
       </div>
       <hr />
       <div className="TestimonialsCard-container">
-        <div className="TestimonialsCard-image">
-          <img src={"/Images/TanikellaBharani.png"} alt="image" />
-        </div>
+        <img
+          src={"/Images/TanikellaBharani.png"}
+          alt="image"
+          className="TestimonialsCard-image"
+        />
         <div className="TestimonialsCard-text">
           <img
             className="double-quotes-image"

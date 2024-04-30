@@ -7,9 +7,3 @@
   align-items: center;
   gap: 40px;
 }
-
-.double-quotes-image {
-  height: 53px;
-  width: 83px;
-  object-fit: contain;
-}
