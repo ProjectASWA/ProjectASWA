@@ -1,0 +1,39 @@
+.backgroundStylingImage{
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionStyling{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .backgroundStylingImage{
+        width: 200px;
+        height: 200px;
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .backgroundStylingImage{
+        width: 150px;
+        height: 150px;
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .backgroundStylingImage{
+        width: 220px;
+        height: 220px;
+    }
+}
