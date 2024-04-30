@@ -62,11 +62,37 @@
   padding: 10px;
 }
 
-.csr-image {
-  height: 120px;
-}
+
 
 .csr-image1 {
   height: 80px;
   padding-top: 30px;
 } */
+
+.marquee-container {
+  overflow: hidden;
+  padding: 80px;
+  background: #c4c4c4;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee img {
+  margin-right: 59px; /* Adjust spacing between images */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.csr-image {
+  height: 120px;
+}

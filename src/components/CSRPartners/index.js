@@ -63,3 +63,76 @@
 //     </>
 //   );
 // }
+
+import { Component } from "react";
+import "./index.css";
+
+class CSRPartners extends Component {
+  render() {
+    return (
+      <div className="marquee-container">
+        <div className="marquee">
+          {/* Images for the first set */}
+          <img
+            className="csr-image"
+            src={"/Images/AndraWelfare.jpg"}
+            alt="Andra Welfare"
+          />
+          <img
+            className="csr-image"
+            src={"/Images/JoyOfReading.png"}
+            alt="Joy of Reading"
+          />
+          <img
+            className="csr-image"
+            src={"/Images/VishwakarmaInstitutes.png"}
+            alt="Vishwakarma Institutes"
+          />
+          <img
+            className="csr-image"
+            src={"/Images/MangalagriCottons.png"}
+            alt="Mangalagri Cottons"
+          />
+          <img className="csr-image" src={"/Images/parag.png"} alt="Parag" />
+          <img className="csr-image" src={"/Images/CBIT.jpg"} alt="CBIT" />
+          <img
+            className="csr-image"
+            src={"/Images/NitPatna.jpg"}
+            alt="NIT Patna"
+          />
+          <img
+            className="csr-image"
+            src={"/Images/BookWorm.png"}
+            alt="Book Worm"
+          />
+          <img
+            className="csr-image"
+            src={"/Images/sphoortiFoundation.png"}
+            alt="Sphoorti Foundation"
+          />
+          <img
+            className="csr-image1"
+            src={"/Images/ManchiPusthakam.png"}
+            alt="Manchi Pusthakam"
+          />
+          {/* Images for the second set */}
+          <img
+            className="csr-image"
+            src={"/Images/HyderbadRunner.png"}
+            alt="Hyderabad Runner"
+          />
+          <img className="csr-image" src={"/Images/Atma.png"} alt="Atma" />
+          <img className="csr-image" src={"/Images/CENT.png"} alt="CENT" />
+          <img
+            className="csr-image"
+            src={"/Images/IIITHyderbad.png"}
+            alt="IIIT Hyderabad"
+          />
+          <img className="csr-image" src={"/Images/wipro.png"} alt="Wipro" />
+        </div>
+      </div>
+    );
+  }
+}
+
+export default CSRPartners;
