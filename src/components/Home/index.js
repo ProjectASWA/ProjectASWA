@@ -8,12 +8,16 @@ import Footer from "../Footer";
 
 import Impact from '../OurImpact'
 
+import AboutUsHomeSection from '../AboutUsHome'
+
 const Home = () => {
   return (
     <>
       <CarouselImages />
-      <OurProjects />
+      <AboutUsHomeSection/>
+
       <Impact/>
+      <OurProjects />
       <CSRPartners />
       <Footer />
     </>
