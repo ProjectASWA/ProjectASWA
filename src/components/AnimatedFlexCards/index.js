@@ -25,6 +25,12 @@ class AnimatedFlexCards extends Component {
   };
 
   render() {
+    const EducationCard = "Education";
+    const EnvironmentCard = "Environment";
+    const BloodConnect = "Blood Connect";
+    const AnnamParabraham = "Annam Parabraham";
+    const HomeVisits = "Home Visits";
+
     const {firstCard, secondCard, thirdCard, fourthCard} = this.state
     console.log(firstCard, secondCard, thirdCard, fourthCard)
     return (
@@ -34,6 +40,8 @@ class AnimatedFlexCards extends Component {
           <label htmlFor="c1" className="card">
             <div className="row">
               <div className="icon">1</div>
+              <div>
+                <OurProjectsCard text={EducationCard} />
               <div className="description">
                 <h4>Winter</h4>
                 <p>Winter has so much to offer - creative activities</p>
@@ -45,6 +53,8 @@ class AnimatedFlexCards extends Component {
           <label htmlFor="c2" className="card">
             <div className="row">
               <div className="icon">2</div>
+              <div>
+                <OurProjectsCard text={EnvironmentCard} />
               <div className="description">
                 <h4>Digital Technology</h4>
                 <p>Gets better every day - stay tuned</p>
@@ -56,6 +66,8 @@ class AnimatedFlexCards extends Component {
           <label htmlFor="c3" className="card">
             <div className="row">
               <div className="icon">3</div>
+              <div>
+                <OurProjectsCard text={BloodConnect} />
               <div className="description">
                 <h4>Globalization</h4>
                 <p>Help people all over the world</p>
@@ -68,6 +80,18 @@ class AnimatedFlexCards extends Component {
           <label htmlFor="c4" className="card">
             <div className="row">
               <div className="icon">4</div>
+              <div>
+                <OurProjectsCard text={AnnamParabraham} />
+              </div>
+            </div>
+          </label>
+
+          <input type="radio" name="slide" id="c5" />
+          <label htmlFor="c5" className="card">
+            <div className="row">
+              <div className="icon">5</div>
+              <div>
+                <OurProjectsCard text={HomeVisits} />
               <div className="description">
                 <h4>New technologies</h4>
                 <p>Space engineering becomes more and more advanced</p>

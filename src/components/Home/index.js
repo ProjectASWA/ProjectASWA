@@ -9,24 +9,21 @@ import Footer from "../Footer";
 import Impact from "../OurImpact";
 import Testimonials from "../Testimonials";
 
-import AboutUsHomeSection from '../AboutUsHome'
+import AboutUsHomeSection from "../AboutUsHome";
 
-import AnimatedFlexCards from '../AnimatedFlexCards'
-
-import MobileTestimonials from '../MobileTestimonials'
+// import AnimatedFlexCards from "../AnimatedFlexCards";
 
 const Home = () => {
   return (
     <>
       <CarouselImages />
-      <AboutUsHomeSection/>
+      <AboutUsHomeSection />
 
-      <Impact/>
+      <Impact />
       <OurProjects />
       <CSRPartners />
       <Testimonials />
-      <MobileTestimonials/>
-      <AnimatedFlexCards/>
+      {/* <AnimatedFlexCards /> */}
       <Footer />
     </>
   );
