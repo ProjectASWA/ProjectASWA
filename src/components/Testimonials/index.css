@@ -1,6 +1,9 @@
 .Testimonials-container {
   padding: 80px;
   background-color: #c4c4c4;
+}
+
+.laptop-testimonials {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -8,9 +11,24 @@
   gap: 40px;
 }
 
-
-@media (max-width: 1000px) {
-  .Testimonials-container{
+@media (max-width: 992px) {
+  .laptop-testimonials {
     display: none;
   }
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-testimonials {
+    display: none;
+  }
+}
+
+.Testimonials-heading {
+  color: #000;
+  font-family: Inika;
+  font-size: 49.549px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
 }

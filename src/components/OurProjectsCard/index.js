@@ -11,7 +11,7 @@ const OurProjectsCard = (props) => {
       <div className="ourprojectscard-text-container">
         <h3 className="ourprjectscard-heading">{text}</h3>
         <div className="ourprojectscard-button-container">
-          <button className="ourprojectscard-button"></button>
+          <button className="ourprojectscard-button">Read More</button>
           <svg
             width="17"
             height="17"
