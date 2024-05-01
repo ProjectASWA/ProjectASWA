@@ -11,7 +11,7 @@ import Testimonials from "../Testimonials";
 
 import AboutUsHomeSection from '../AboutUsHome'
 
-import AnimatedFlexCards from '../CardsAnimation'
+import AnimatedFlexCards from '../AnimatedFlexCards'
 
 import MobileTestimonials from '../MobileTestimonials'
 

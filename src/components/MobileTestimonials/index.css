@@ -1,13 +1,83 @@
-.carouselImageStyling{
-    
+.customCarouselTestimonials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  height: 250px;
 }
 
-.customCarousel{
-   
+.image-mobile-testimonial{
+  margin-top: 10px;
 }
 
+.mobile-testimonials-card{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+ 
+}
 
-.TestimonialsCard-image-mobile {
-    width: 100px;
-    height: 152.61px;
+.mobile-quotes{
+  width: 50px;
+  height: 20px;
+  object-fit: contain;
+  padding-bottom: 20px;
+}
+
+.mobile-name-text{
+  text-align: right;
+  word-break: break-all;
+  width: 60%;
+  font-size: 18px;
+}
+
+.mobile-testimonials-name-container{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.image-mobile-testimonial{
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  border-radius: 100px;
+}
+
+.mobile-quotes{
+  height: 53px;
+  width: 83px;
+  object-fit: contain;
+  margin-right: 50px;
+  position: relative;
+  left: -5%;
+  margin-top: 1px;
+}
+
+.testimonials-heading-mobile{
+  margin-top: 50px;
+}
+
+.mobile-description{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 16px;
+  word-spacing: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2px;
+}
+
+.mobile-testimonials-contents-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .mobile-testimonials-container-main{
+    display: none;
   }
+}
