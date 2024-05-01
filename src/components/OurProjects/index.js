@@ -10,7 +10,7 @@ class OurProjects extends Component {
         <div className="ourprojects-heading">
           <h1>OurProjects</h1>
         </div>
-        <div className="OurProjects-card-container">
+        <div className="OurProjects-card-main-container">
           <OurProjectsCard />
           <OurProjectsCard />
           <OurProjectsCard />

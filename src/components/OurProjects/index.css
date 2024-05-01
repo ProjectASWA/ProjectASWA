@@ -8,7 +8,7 @@
   padding-top: 30px;
 }
 
-.OurProjects-card-container {
+.OurProjects-card-main-container {
   display: flex;
   flex-direction: row;
   align-items: center;
