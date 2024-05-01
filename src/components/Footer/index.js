@@ -22,9 +22,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="horizontal-line">
-          <hr />
-        </div>
+        <hr className="horizontal-line" />
         <div className="register-office-address">
           <h1 className="register-office-text">Register Office</h1>
           <div className="register-office-address-container">
@@ -39,9 +37,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="horizontal-line">
-          <hr />
-        </div>
+        <hr className="horizontal-line" />
         <div className="register-office-address">
           <h1 className="register-office-text">Admin Office</h1>
           <div className="register-office-address-container">

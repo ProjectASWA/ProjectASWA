@@ -9,21 +9,21 @@ import Footer from "../Footer";
 import Impact from "../OurImpact";
 import Testimonials from "../Testimonials";
 
-import AboutUsHomeSection from '../AboutUsHome'
+import AboutUsHomeSection from "../AboutUsHome";
 
-import AnimatedFlexCards from '../CardsAnimation'
+// import AnimatedFlexCards from "../AnimatedFlexCards";
 
 const Home = () => {
   return (
     <>
       <CarouselImages />
-      <AboutUsHomeSection/>
+      <AboutUsHomeSection />
 
-      <Impact/>
+      <Impact />
       <OurProjects />
       <CSRPartners />
       <Testimonials />
-      <AnimatedFlexCards/>
+      {/* <AnimatedFlexCards /> */}
       <Footer />
     </>
   );

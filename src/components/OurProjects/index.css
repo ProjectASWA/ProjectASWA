@@ -1,7 +1,7 @@
 .OurProjects-container {
   display: flex;
   flex-direction: column;
-  padding: 83px 87px;
+  /* padding: 83px 87px; */
   justify-content: flex-end;
   align-items: center;
   background: #fff3e3;
@@ -15,8 +15,21 @@
   gap: 44px;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .OurProjects-card-main-container {
+    display: none;
+  }
 }
 
 .ourprojects-heading {
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .animated-flex-cards {
+    display: none;
+  }
 }
