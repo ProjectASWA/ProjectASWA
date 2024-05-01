@@ -1,13 +1,17 @@
 import "./index.css";
 
-const OurProjectsCard = () => {
+import { Link } from "react-router-dom";
+
+const OurProjectsCard = (props) => {
+  const { text } = props;
+
   return (
     <div className="OurProjectsCard-container">
       <div className="ourprojectscard-image"></div>
       <div className="ourprojectscard-text-container">
-        <h3 className="ourprjectscard-heading">Education for all</h3>
+        <h3 className="ourprjectscard-heading">{text}</h3>
         <div className="ourprojectscard-button-container">
-          <button className="ourprojectscard-button">Read More</button>
+          <button className="ourprojectscard-button"></button>
           <svg
             width="17"
             height="17"

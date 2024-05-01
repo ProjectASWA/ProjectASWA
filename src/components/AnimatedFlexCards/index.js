@@ -9,6 +9,12 @@ class AnimatedFlexCards extends Component {
   };
 
   render() {
+    const EducationCard = "Education";
+    const EnvironmentCard = "Environment";
+    const BloodConnect = "Blood Connect";
+    const AnnamParabraham = "Annam Parabraham";
+    const HomeVisits = "Home Visits";
+
     return (
       <div className="wrapper">
         <div className="container">
@@ -17,7 +23,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">1</div>
               <div>
-                <OurProjectsCard />
+                <OurProjectsCard text={EducationCard} />
               </div>
             </div>
           </label>
@@ -27,7 +33,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">2</div>
               <div>
-                <OurProjectsCard />
+                <OurProjectsCard text={EnvironmentCard} />
               </div>
             </div>
           </label>
@@ -37,7 +43,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">3</div>
               <div>
-                <OurProjectsCard />
+                <OurProjectsCard text={BloodConnect} />
               </div>
             </div>
           </label>
@@ -47,7 +53,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">4</div>
               <div>
-                <OurProjectsCard />
+                <OurProjectsCard text={AnnamParabraham} />
               </div>
             </div>
           </label>
@@ -57,7 +63,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">5</div>
               <div>
-                <OurProjectsCard />
+                <OurProjectsCard text={HomeVisits} />
               </div>
             </div>
           </label>

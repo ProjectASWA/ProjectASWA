@@ -1,0 +1,13 @@
+.card-app-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+
+.card-image {
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  height: auto; /* Ensure the aspect ratio is maintained */
+}
