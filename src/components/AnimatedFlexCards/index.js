@@ -47,6 +47,7 @@ class AnimatedFlexCards extends Component {
                 <p>Winter has so much to offer - creative activities</p>
               </div>
             </div>
+            </div>
           </label>
 
           <input type="radio" name="slide" id="c2" />
@@ -59,6 +60,7 @@ class AnimatedFlexCards extends Component {
                 <h4>Digital Technology</h4>
                 <p>Gets better every day - stay tuned</p>
               </div>
+            </div>
             </div>
           </label>
 
@@ -73,7 +75,7 @@ class AnimatedFlexCards extends Component {
                 <p>Help people all over the world</p>
               </div>
             </div>
-            
+            </div>
           </label>
 
           <input type="radio" name="slide" id="c4" />
@@ -96,6 +98,7 @@ class AnimatedFlexCards extends Component {
                 <h4>New technologies</h4>
                 <p>Space engineering becomes more and more advanced</p>
               </div>
+            </div>
             </div>
           </label>
         </div>

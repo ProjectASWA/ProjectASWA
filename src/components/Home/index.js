@@ -8,6 +8,7 @@ import Footer from "../Footer";
 
 import Impact from "../OurImpact";
 import Testimonials from "../Testimonials";
+import MobileTestimonials from '../MobileTestimonials'
 
 import AboutUsHomeSection from "../AboutUsHome";
 
@@ -23,6 +24,7 @@ const Home = () => {
       <OurProjects />
       <CSRPartners />
       <Testimonials />
+      <MobileTestimonials/>
       {/* <AnimatedFlexCards /> */}
       <Footer />
     </>
