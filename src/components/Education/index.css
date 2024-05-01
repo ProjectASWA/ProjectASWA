@@ -2,11 +2,12 @@
   height: 100%;
 }
 
+.header-image-container {
+  width: 100%;
+}
+
 .header-image {
-  width: 100vw;
-  height: 418px;
-  flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
+  width: 100%;
 }
 
 .education-container {
@@ -47,6 +48,12 @@
   letter-spacing: 0.2px;
 }
 
+@media screen and (max-width: 992px) {
+  .education-text {
+    font-size: 30px;
+  }
+}
+
 .education-description {
   color: #000;
   text-align: justify;
@@ -56,6 +63,13 @@
   font-weight: 400;
   line-height: 40px; /* 125% */
   letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 992px) {
+  .education-description {
+    font-size: 16px;
+    line-height: 30px;
+  }
 }
 
 .education-cards-main-container {

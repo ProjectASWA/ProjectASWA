@@ -5,7 +5,11 @@ const EducationCards = () => {
     <>
       <div className="card-app-container">
         <div className="card-image">
-          <img src="/Images/schooleducation1.png" alt="Education" />
+          <img
+            src="/Images/schooleducation1.png"
+            alt="Education"
+            className="school-education-images"
+          />
         </div>
         <div className="card-description-container">
           <h1 className="card-description-heading">
@@ -23,7 +27,11 @@ const EducationCards = () => {
       </div>
       <div className="card-app-container">
         <div className="card-image">
-          <img src="Images/schooleducation2lg.png" alt="Education" />
+          <img
+            src="Images/schooleducation2lg.png"
+            alt="Education"
+            className="school-education-images"
+          />
         </div>
         <div className="card-description-container">
           <h1 className="card-description-heading">
@@ -46,7 +54,11 @@ const EducationCards = () => {
       </div>
       <div className="card-app-container">
         <div className="card-image">
-          <img src="/Images/schooleducation3lg.png" alt="Education" />
+          <img
+            src="/Images/schooleducation3lg.png"
+            alt="Education"
+            className="school-education-images"
+          />
         </div>
         <div className="card-description-container">
           <h1 className="card-description-heading">Children’s Library</h1>
@@ -63,7 +75,11 @@ const EducationCards = () => {
       </div>
       <div className="card-app-container">
         <div className="card-image">
-          <img src="/Images/schooleducation4lg.png" alt="Education" />
+          <img
+            src="/Images/schooleducation4lg.png"
+            alt="Education"
+            className="school-education-images"
+          />
         </div>
         <div className="card-description-container">
           <h1 className="card-description-heading">Career Guidance</h1>
@@ -79,7 +95,11 @@ const EducationCards = () => {
       </div>
       <div className="card-app-container">
         <div className="card-image">
-          <img src="/Images/schooleducation5lg.png" alt="Education" />
+          <img
+            src="/Images/schooleducation5lg.png"
+            alt="Education"
+            className="school-education-images"
+          />
         </div>
         <div className="card-description-container">
           <h1 className="card-description-heading">Project Cheyutha</h1>

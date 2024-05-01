@@ -8,8 +8,12 @@ class Education extends Component {
   render() {
     return (
       <div className="education-main-container">
-        <div className="header-image">
-          <img src="/Images/education.png" alt="Education" />
+        <div className="header-image-container">
+          <img
+            src="/Images/education.png"
+            alt="Education"
+            className="header-image"
+          />
         </div>
         <div className="education-container">
           <div className="education-buttons-container">
