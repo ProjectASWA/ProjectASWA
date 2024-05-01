@@ -10,4 +10,68 @@
 .card-image {
   max-width: 100%; /* Set maximum width to 100% of its container */
   height: auto; /* Ensure the aspect ratio is maintained */
+  order: 0; /* Set the order for the card image */
 }
+
+.image {
+  height: 402px;
+}
+
+.card-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.card-description-heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-description {
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  overflow: hidden;
+}
+
+/* Targeting the first container */
+.card-app-container:nth-child(1) {
+  flex-direction: row;
+  /* CSS styles for the first container */
+}
+
+/* Targeting the second container */
+.card-app-container:nth-child(2) {
+  flex-direction: row-reverse;
+  /* CSS styles for the second container */
+}
+
+/* Targeting the third container */
+.card-app-container:nth-child(3) {
+  flex-direction: row;
+  /* CSS styles for the third container */
+}
+
+/* Targeting the fourth container */
+.card-app-container:nth-child(4) {
+  flex-direction: row-reverse;
+  /* CSS styles for the fourth container */
+}
+
+/* Targeting the fifth container */
+.card-app-container:nth-child(5) {
+  flex-direction: row;
+  /* CSS styles for the fifth container */
+}
+
+/* Add more nth-child selectors as needed */
