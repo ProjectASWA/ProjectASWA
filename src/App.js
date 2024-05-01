@@ -23,13 +23,13 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        {/* <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Reports" component={Reports} />
         <Route exact path="/JoinWithUs" component={JoinWithUs} />
-        <Route exact path="/MediaCoverage" component={MediaCoverage} /> */}
+        <Route exact path="/MediaCoverage" component={MediaCoverage} />
+        <Route exact path="/Education" component={Education} />
       </Switch>
-      <Education />
     </div>
   );
 }
