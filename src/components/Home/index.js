@@ -13,6 +13,8 @@ import AboutUsHomeSection from '../AboutUsHome'
 
 import AnimatedFlexCards from '../CardsAnimation'
 
+import MobileTestimonials from '../MobileTestimonials'
+
 const Home = () => {
   return (
     <>
@@ -23,6 +25,7 @@ const Home = () => {
       <OurProjects />
       <CSRPartners />
       <Testimonials />
+      <MobileTestimonials/>
       <AnimatedFlexCards/>
       <Footer />
     </>
