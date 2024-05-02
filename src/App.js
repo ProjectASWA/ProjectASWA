@@ -18,6 +18,10 @@ import Home from "./components/Home";
 
 import Education from "./components/Education";
 
+import Environment from "./components/Environment";
+
+import AnnamParabrahmam from "./components/AnnamParabrahmam";
+
 function App() {
   return (
     <div className="App">
@@ -29,6 +33,8 @@ function App() {
         <Route exact path="/JoinWithUs" component={JoinWithUs} />
         <Route exact path="/MediaCoverage" component={MediaCoverage} />
         <Route exact path="/Education" component={Education} />
+        <Route exact path="/Environment" component={Environment} />
+        <Route exact path="/AnnamParabrahmam" component={AnnamParabrahmam} />
       </Switch>
     </div>
   );

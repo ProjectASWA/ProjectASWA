@@ -48,7 +48,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">2</div>
               <div>
-                <OurProjectsCard text={EnvironmentCard} link="/Enivironment" />
+                <OurProjectsCard text={EnvironmentCard} link="/Environment" />
               </div>
             </div>
           </label>
@@ -70,7 +70,7 @@ class AnimatedFlexCards extends Component {
               <div>
                 <OurProjectsCard
                   text={AnnamParabraham}
-                  link="/AnnamParabraham"
+                  link="/AnnamParabrahmam"
                 />
               </div>
             </div>
