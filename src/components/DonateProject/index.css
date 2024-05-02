@@ -1,0 +1,48 @@
+.number-section {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 100px;
+     /* Full viewport height for each section */
+    transition: background-color 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 {
+    background-color: white; /* Initial background color for Section 1 */
+}
+
+#section2 {
+    background-color: white; /* Initial background color for Section 2 */
+}
+
+#section3 {
+    background-color: white; /* Initial background color for Section 3 */
+}
+
+#section4 {
+    background-color: white; /* Initial background color for Section 4 */
+}
+
+.horizontalLine{
+    width: 5px; /* Set the width of the line */
+    height: 50vh; /* Set the height of the line */
+    background-color: #61F366; /* Set the color of the line */
+    transform: rotate(180deg); /* Rotate the line 90 degrees */
+    margin: 0 auto; 
+}
+
+
+.arrange-column-wise{
+    display: flex;
+    flex-direction: column;
+}
+.arrange-container-numbers{
+    display: flex;
+}
+.main-body-container{
+    padding: 20px;
+    background-color: #DFE4F3;
+}

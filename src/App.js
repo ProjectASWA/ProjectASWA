@@ -18,6 +18,8 @@ import Home from "./components/Home";
 
 import Education from "./components/Education";
 
+import ScrollingNumberTransition from './components/DonateProject'
+
 function App() {
   return (
     <div className="App">
@@ -30,6 +32,7 @@ function App() {
         <Route exact path="/MediaCoverage" component={MediaCoverage} /> */}
       </Switch>
       <Education />
+      <ScrollingNumberTransition/>
     </div>
   );
 }
