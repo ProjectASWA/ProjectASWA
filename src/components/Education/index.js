@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./index.css";
 import EducationNavBar from "../EducationNavBar";
 
-import EducationCards from "../EducationCards";
+import SchoolEducationCards from "../SchoolEducationCards";
 
 class Education extends Component {
   render() {
@@ -39,7 +39,7 @@ class Education extends Component {
             </p>
           </div>
           <div className="education-cards-main-container">
-            <EducationCards />
+            <SchoolEducationCards />
           </div>
         </div>
       </div>

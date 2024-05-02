@@ -1,8 +1,8 @@
 import "./index.css";
 
-const EducationCards = () => {
+const SchoolEducationCards = () => {
   return (
-    <>
+    <div className="cards-container">
       <div className="card-app-container">
         <div className="card-image">
           <img
@@ -114,8 +114,8 @@ const EducationCards = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default EducationCards;
+export default SchoolEducationCards;
