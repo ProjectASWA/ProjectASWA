@@ -19,7 +19,7 @@ class Education extends Component {
           <div className="education-buttons-container">
             <EducationNavBar />
           </div>
-          <div className="education-text-container">
+          {/* <div className="education-text-container">
             <h1 className="education-text">School Education</h1>
             <p className="education-description">
               At ASWA, we believe in the transformative power of education to
@@ -37,7 +37,7 @@ class Education extends Component {
               individuals alike. Join us in our journey towards a brighter, more
               equitable future.
             </p>
-          </div>
+          </div> */}
           <div className="education-cards-main-container">
             <SchoolEducationCards />
           </div>

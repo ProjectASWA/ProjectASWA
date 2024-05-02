@@ -3,6 +3,24 @@ import "./index.css";
 const SchoolEducationCards = () => {
   return (
     <div className="cards-container">
+      <div className="education-text-container">
+        <h1 className="education-text">School Education</h1>
+        <p className="education-description">
+          At ASWA, we believe in the transformative power of education to shape
+          a better society, where every child has the opportunity to thrive and
+          contribute positively. Through our collaborative efforts with
+          government schools in Andhra Pradesh & Telangana under the "VIKAS"
+          project, we aim to strengthen the educational system for all,
+          including the disadvantaged. Building on our past initiatives like
+          VIKAS PRIMARY, VIKAS SECONDARY, and VIKAS CAREER GUIDANCE, we have
+          expanded our focus to address the root causes of societal issues
+          through education. With support from the Wipro Foundation's fellowship
+          and CHDHC Project, we are committed to fostering systemic change by
+          enhancing literacy, language, and library interventions while
+          empowering educators, NGOs, and individuals alike. Join us in our
+          journey towards a brighter, more equitable future.
+        </p>
+      </div>
       <div className="card-app-container">
         <div className="card-image">
           <img
