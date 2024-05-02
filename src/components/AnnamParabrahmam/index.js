@@ -4,7 +4,7 @@ const AnnamParabrahmam = () => {
   return (
     <div className="annamparabrahmam-main-container">
       <img
-        src="/Images/annamParabrahmam.png"
+        src="/Images/annamParabrahamam.png"
         className="annamparabrahmam-image"
       />
     </div>
