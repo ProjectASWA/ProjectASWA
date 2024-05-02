@@ -19,16 +19,20 @@ const HigherEducation = () => {
       </p>
       <div className="higher-programs-container">
         <h2 className="higher-education-programs-heading">
-          We achieve this  through the following programs:
+          We achieve this through the following programs:
         </h2>
         <ul className="program-list">
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
-          <li classsName="program-item">Faculty Development Program (FDP)</li>
+          <li classsName="program-item">FACULTY DEVELOPMENT PROGRAM (FDP)</li>
+          <li classsName="program-item">STUDENT DEVELOPMENT PROGRAM (SDP)</li>
+          <li classsName="program-item">
+            TEACHER PROFESSIONAL DEVELOPMENT PROGRAM (TPP)
+          </li>
+          <li classsName="program-item">
+            JEEVAN VIDYA / UNIVERAL HUMAN VALUES WORKSHOPS
+          </li>
+          <li classsName="program-item">WEEKLY REFRESHER SESSIONS</li>
+          <li classsName="program-item">ISSUE-BASED SPECIAL SESSIONS</li>
+          <li classsName="program-item">WEEKLY REFRESHER SESSIONS:</li>
         </ul>
         <button className="know-more-button">know more</button>
       </div>

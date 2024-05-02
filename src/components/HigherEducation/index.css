@@ -40,7 +40,6 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px; /* 125% */
 }
 
 @media screen and (max-width: 768px) {
@@ -48,10 +47,10 @@
     color: #000;
     text-align: justify;
     font-family: Poppins;
-    font-size: 11px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px; /* 127.273% */
+    line-height: 25px;
   }
 }
 
@@ -62,6 +61,13 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 39px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .higher-programs-container {
+    gap: 15px;
+  }
 }
 
 .higher-education-programs-heading {
@@ -72,12 +78,12 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: -1px;
 }
 
 @media screen and (max-width: 768px) {
   .higher-education-programs-heading {
     font-size: 18px;
+    line-height: 32px;
   }
 }
 
@@ -87,6 +93,13 @@
   list-style-type: none;
   gap: 10px;
   font-size: 32px;
+  line-height: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .program-list {
+    gap: 0px;
+  }
 }
 
 /* .program-item {
@@ -106,12 +119,41 @@ li {
   font-style: normal;
   font-weight: 500;
   line-height: 60px; /* 187.5% */
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 768px) {
+  li {
+    font-size: 16px;
+    line-height: 35px;
+  }
 }
 
 .know-more-button {
+  display: flex;
+  width: 332px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   border-radius: 18px;
   background: #f2902f;
-  width: 133.406px;
-  padding: 15px 30px;
+  color: var(--color-semantic-white-100, #fff);
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
   text-transform: uppercase;
+  border-width: 0px;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .know-more-button {
+    font-size: 12px;
+    height: 35px;
+    width: 25%;
+  }
 }
