@@ -10,12 +10,12 @@
   border: 1px solid var(--Color-Border-neutral---Subtle, #cbd5e1);
   background: var(--Color-Action-neutral-subtle-normal, #f1f5f9);
 }
-/* 
+
 @media screen and (max-width: 768px) {
   .education-navbar-container {
     display: flex;
-    width: 400px;
-    height: 38px;
+    width: 90%;
+    height: 50px;
     padding: Spacing/3xs;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
     border: 1px solid var(--Color-Border-neutral---Subtle, #cbd5e1);
     background: var(--Color-Action-neutral-subtle-normal, #f1f5f9);
   }
-} */
+}
 
 .education-navbar-button {
   display: flex;
@@ -53,6 +53,8 @@
 
 @media screen and (max-width: 768px) {
   .education-navbar-button {
-    font-size: 12px;
+    font-size: small;
+    height: 35px;
+    width: 45%;
   }
 }

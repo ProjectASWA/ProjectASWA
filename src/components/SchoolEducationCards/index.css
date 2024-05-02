@@ -14,9 +14,66 @@
   flex-direction: row;
 }
 
+.card-app-container:nth-child(2) {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 756px) {
+  .card-app-container:nth-child(2) {
+    flex-direction: column;
+    align-items: center; /* This will center the items vertically */
+  }
+}
+
+.card-app-container:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 756px) {
+  .card-app-container:nth-child(3) {
+    flex-direction: column;
+    align-items: center; /* This will center the items vertically */
+  }
+}
+
+.card-app-container:nth-child(4) {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 756px) {
+  .card-app-container:nth-child(4) {
+    flex-direction: column;
+    align-items: center; /* This will center the items vertically */
+  }
+}
+
+.card-app-container:nth-child(5) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 756px) {
+  .card-app-container:nth-child(5) {
+    flex-direction: column;
+    align-items: center; /* This will center the items vertically */
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .card-app-container:nth-child(6) {
+    flex-direction: column;
+    align-items: center; /* This will center the items vertically */
+  }
+}
+
 .card-image {
   max-width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 756px) {
+  .card-image {
+    max-width: 100%;
+  }
 }
 
 .image {
@@ -31,9 +88,10 @@
   width: 50%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 756px) {
   .card-description-container {
     gap: 15px;
+    width: 100%;
   }
 }
 
@@ -69,22 +127,6 @@
     font-size: 14px;
     line-height: 1.5;
   }
-}
-
-.card-app-container:nth-child(2) {
-  flex-direction: row;
-}
-
-.card-app-container:nth-child(3) {
-  flex-direction: row-reverse;
-}
-
-.card-app-container:nth-child(4) {
-  flex-direction: row;
-}
-
-.card-app-container:nth-child(5) {
-  flex-direction: row-reverse;
 }
 
 .school-education-images {
