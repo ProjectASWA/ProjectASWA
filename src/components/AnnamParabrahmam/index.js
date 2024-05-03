@@ -43,8 +43,8 @@ class AnnamParabrahmam extends Component {
                   <p className="project">Project Leader</p>
                 </div>
                 <p className="leader-description">
-                  Mr. Parameswara Chari is handling the team with his 6 members’
-                  team.
+                  f Mr. Parameswara Chari is handling the team with his 6
+                  members’ team.
                 </p>
               </div>
             </div>

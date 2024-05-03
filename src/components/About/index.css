@@ -1,0 +1,81 @@
+.vision-and-mission-image-container {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  gap: 30px;
+}
+
+.vision-and-mission-image-container img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.vision-and-mission-text-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin-top: 50px;
+  width: 90%;
+}
+
+.vision-and-mission-heading {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .vision-and-mission-heading {
+    font-size: 25px;
+  }
+}
+
+.vision-and-mission-description {
+  color: #7a7a7a;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .vision-and-mission-description {
+    font-size: 12px;
+  }
+}
+
+.pledge-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.pledge-heading {
+  align-self: flex-start;
+  margin-bottom: 30px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .pledge-heading {
+    font-size: 25px;
+  }
+}
+
+.pledge-image {
+  width: 80%;
+  margin: auto;
+}
