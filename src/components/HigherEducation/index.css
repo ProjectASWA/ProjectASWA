@@ -13,7 +13,7 @@
 .higher-education-text {
   color: #000;
   text-align: center;
-  font-family: Inter;
+  font-family: "Satoshi";
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -24,7 +24,7 @@
   .higher-education-text {
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: "Satoshi";
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -35,7 +35,7 @@
 .higher-education-description {
   color: #000;
   text-align: justify;
-  font-family: Poppins;
+  font-family: "Satoshi";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -45,7 +45,7 @@
   .higher-education-description {
     color: #000;
     text-align: justify;
-    font-family: Poppins;
+    font-family: "Satoshi";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -72,7 +72,7 @@
 .higher-education-programs-heading {
   color: #000;
   text-align: justify;
-  font-family: Inter;
+  font-family: "Satoshi";
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -114,7 +114,7 @@
 li {
   color: #000;
   text-align: justify;
-  font-family: Inter;
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   line-height: 60px; /* 187.5% */
@@ -139,7 +139,7 @@ li {
   background: #f2902f;
   color: var(--color-semantic-white-100, #fff);
   text-align: center;
-  font-family: "Source Sans Pro";
+  font-family: "Satoshi";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;

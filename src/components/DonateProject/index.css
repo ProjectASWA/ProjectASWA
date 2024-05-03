@@ -1,447 +1,430 @@
-.bloodImage{
-    width: 98.5vw;
-    height: 300px;
-    object-fit: cover;
+.bloodImage {
+  width: 98.5vw;
+  height: 300px;
+  object-fit: cover;
 }
 
-.donateContainer{
-    padding-bottom: 150px;
+.donateContainer {
+  padding-bottom: 150px;
 }
 
-.bloodContainerText{
-    text-align: left;
-    padding: 25px;
-    
+.bloodContainerText {
+  text-align: left;
+  padding: 25px;
 }
 
-.main-sub-heading{
-    padding: 10px;
-    font-size: 24px;
-    padding-left: 8%;
+.main-sub-heading {
+  padding: 10px;
+  font-size: 24px;
+  padding-left: 8%;
 }
 
-.main-blood-heading{
-    padding: 10px;  
-    font-size: 48px;
-    padding-left: 8%;
-    text-align: left;
+.main-blood-heading {
+  padding: 10px;
+  font-size: 48px;
+  padding-left: 8%;
+  text-align: left;
 }
 
-.bloodDonateArrange{
-    display: flex;
-    margin: auto;
+.bloodDonateArrange {
+  display: flex;
+  margin: auto;
 }
 
-.imageBloodStyling{
-    width: 100%;
-    height: 350px;
-    border-radius: 10px;
-    border: 2px solid red;
-    
+.imageBloodStyling {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  border: 2px solid red;
 }
 
-.donateImageContainer{
-    flex-grow: 0;
-    align-self: center;
-    margin-right: 100px;
+.donateImageContainer {
+  flex-grow: 0;
+  align-self: center;
+  margin-right: 100px;
 }
 
-.bloodDonateContents{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 30px;
+.bloodDonateContents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
 }
 
-.donate-para{
-    width: 60%;
-    text-align: left;
-    margin-top: 40px;
-    font-size: 22px;
-    margin-left: 8vw;
+.donate-para {
+  width: 60%;
+  text-align: left;
+  margin-top: 40px;
+  font-size: 22px;
+  margin-left: 8vw;
 }
 
-.donate-heading-what{
-    text-align: left;
-    margin-left: 8vw;
+.donate-heading-what {
+  text-align: left;
+  margin-left: 8vw;
 }
 
-.how-do-blood-container{
-    text-align: left;
-    margin-left: 20px;
+.how-do-blood-container {
+  text-align: left;
+  margin-left: 20px;
 }
 
-.mobile-donate-para{
-    display: none;
+.mobile-donate-para {
+  display: none;
 }
 
 .scroll-div {
-    width: 3px;
-    height: 300px; /* Initial height */
-    background-color: #AF0B0B; /* Initial background color */
-    transition: 2s ease; /* Smooth transition for height change */
+  width: 3px;
+  height: 300px; /* Initial height */
+  background-color: #af0b0b; /* Initial background color */
+  transition: 2s ease; /* Smooth transition for height change */
 }
 
-.backgroundRedDonate{
-    background-color: #AF0B0B; 
-    transition: height 0.1s ease;
+.backgroundRedDonate {
+  background-color: #af0b0b;
+  transition: height 0.1s ease;
 }
 
-.main-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
 }
 
-
-
-.donateDetailsHowWeDoIt{
-    gap: 5px;
-    width: 70vw;
-    height: 250px;
-    border: 2px solid #991B1B;
-    border-radius: 16px;
-    margin-left: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 10px;
-    padding-left: 80px;
-    margin-top: 30px;
+.donateDetailsHowWeDoIt {
+  gap: 5px;
+  width: 70vw;
+  height: 250px;
+  border: 2px solid #991b1b;
+  border-radius: 16px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  padding-left: 80px;
+  margin-top: 30px;
 }
 
-.subHeadingDonate{
-    margin-bottom: 20px;
-    font-size: 42px;
+.subHeadingDonate {
+  margin-bottom: 20px;
+  font-size: 42px;
 }
 
-.donate-para-2{
-    font-size: 32px;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: left;
+.donate-para-2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
 }
 
-.sample-div{
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
+.sample-div {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
 }
 
-.border-1{
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    background: white;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.border-1 {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  background: white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.redBack{
-    background-color:#AF0B0B;
-    transition: 0.5s ease;
+.redBack {
+  background-color: #af0b0b;
+  transition: 0.5s ease;
 }
 
-.numberClass{
-    font-size: 36px;
+.numberClass {
+  font-size: 36px;
 }
 
-.arrange-in-row{
-    display: flex;
-    justify-content: flex-start;
+.arrange-in-row {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.finished-scroll{
-    background-color: #AF0B0B;
-    transition: 0.1s ease;
+.finished-scroll {
+  background-color: #af0b0b;
+  transition: 0.1s ease;
 }
 
-.howWeDoIt{
-    text-align: left;
-    margin-left: 10vw;
-    padding-bottom: 30px;
+.howWeDoIt {
+  text-align: left;
+  margin-left: 10vw;
+  padding-bottom: 30px;
 }
-.feedBackContents{
-    margin-left: 6.8vw;
-    padding: 50px;
-}
-
-.feedBackHeading{
-    color: #000;
-    margin-bottom: 20px;
-
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
+.feedBackContents {
+  margin-left: 6.8vw;
+  padding: 50px;
 }
 
-.feedBackPara{
-    color: #707070;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-width: 70%;
-}
-.FeedBackContainer{
-    display: flex;
-    text-align: left;
-    
-    padding: 10px;
+.feedBackHeading {
+  color: #000;
+  margin-bottom: 20px;
+
+  font-family: "Satoshi";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
-.feedBackOption{
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-self: center;
-    margin-right: 50px;
+.feedBackPara {
+  color: #707070;
+  font-family: "Satoshi";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 70%;
+}
+.FeedBackContainer {
+  display: flex;
+  text-align: left;
+
+  padding: 10px;
 }
 
-.feedBackParaOption{
-    color: #2F71F2;
-text-align: center;
-font-family: "Roboto Flex";
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 111.111% */
-text-decoration-line: underline;
-text-transform: capitalize;
-margin-right: 50px;
+.feedBackOption {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 50px;
 }
 
-.redBackgroundButton{
-    background-color: #D70020;
-    margin: 5px;
-    width: 40%;
-    
-    padding: 30px;
-    font-size: 20px;
-    color: white;
-    border-radius: 16px;
-    border: 3px solid #D70020;
-    margin-left: 50px;
-}
-.requestBloodButton{
-margin: 5px;
-width: 40%;
-padding: 2px;
-font-size: 20px;
-border-radius: 16px;
-border: 3px solid #D70020;
-color: #D70020;
+.feedBackParaOption {
+  color: #2f71f2;
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  margin-right: 50px;
 }
 
-.redBackgroundButton{
-    background-color: #D70020;
+.redBackgroundButton {
+  background-color: #d70020;
+  margin: 5px;
+  width: 40%;
+
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+  border-radius: 16px;
+  border: 3px solid #d70020;
+  margin-left: 50px;
+}
+.requestBloodButton {
+  margin: 5px;
+  width: 40%;
+  padding: 2px;
+  font-size: 20px;
+  border-radius: 16px;
+  border: 3px solid #d70020;
+  color: #d70020;
 }
 
-.feedBackButtonsContainer{
-    display: flex;
-    justify-content: center;
+.redBackgroundButton {
+  background-color: #d70020;
+}
+
+.feedBackButtonsContainer {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1750px) {
-    .bloodDonateArrange{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+  .bloodDonateArrange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    .main-blood-heading{
-        padding-left: 14%;
-    }
+  .main-blood-heading {
+    padding-left: 14%;
+  }
 
-    .main-sub-heading{
-        padding-left: 14%;
-    }
+  .main-sub-heading {
+    padding-left: 14%;
+  }
 
-    .donateImageContainer{
-        flex-grow: 0;
-    }
+  .donateImageContainer {
+    flex-grow: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .bloodDonateArrange{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .bloodDonateArrange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    
-    
+  .FeedBackContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
-    
+  .donateImageContainer {
+    margin-right: 0px;
+  }
 
-    .FeedBackContainer{
-        display: flex;
-        flex-direction: column;
-    }
+  .bloodDonateContents {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
 
-    .donateImageContainer{
-        margin-right: 0px;
-    }
+  .main-blood-heading {
+    padding: 0px;
+    font-size: 28px;
+    margin-top: 25px;
+  }
 
-    .bloodDonateContents{
-        text-align: center;
-        display: flex;
-        align-items: center;
-        padding: 20px;
-    }
+  .main-sub-heading {
+    font-size: 18px;
+  }
 
+  .donate-heading-what {
+    text-align: center;
+    font-size: 26px;
+    order: 1;
+  }
 
+  .border-1 {
+    width: 70px;
+    height: 70px;
+  }
 
-    .main-blood-heading{
-        padding: 0px;
-        font-size: 28px;
-        margin-top: 25px;
-    }
+  .numberClass {
+    font-size: 25px;
+  }
 
-    .main-sub-heading{
-        font-size: 18px;
-    }
+  .scroll-div {
+    height: 350px;
+  }
 
-    .donate-heading-what{
-        text-align: center;
-        font-size: 26px;
-        order: 1;
-    }
+  .donate-para {
+    text-align: center;
+    order: 5;
+    display: none;
+    width: 100%;
+  }
 
-    .border-1{
-        width: 70px;
-        height: 70px;
-    }
+  .mobile-donate-para {
+    display: block;
+    margin-top: 30px;
+    text-align: left;
+    margin: 0px;
+  }
+  .mobileParaDonate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+    margin-top: 25px;
+  }
 
-    .numberClass{
-        font-size: 25px;
-    }
+  .bloodContainerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 0px;
+  }
 
-    .scroll-div{
-        height: 350px;
-    }
+  .main-blood-heading {
+    text-align: center;
+  }
 
-    .donate-para{
-        text-align: center;
-        order: 5;
-        display: none;
-        width: 100%;
-    }
+  .main-sub-heading {
+    text-align: center;
+    margin-top: 5px;
+  }
 
-    .mobile-donate-para{
-        display: block;
-        margin-top: 30px;
-        text-align: left;
-        margin: 0px;
-     
-    }
-    .mobileParaDonate{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding-left: 50px;
-        margin-top: 25px;
-    }
-
-    .bloodContainerText{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 10px;
-        padding-left: 0px;
-    }
-
-    .main-blood-heading{
-        text-align: center;
-    }
-
-    .main-sub-heading{
-        text-align: center;
-        margin-top: 5px;
-    }
-
-    .imageBloodStyling{
-        margin-right: 0px;
-        width: 75%;
-        height: 50%;
-        order: 2;
-    }
-    
-    
+  .imageBloodStyling {
+    margin-right: 0px;
+    width: 75%;
+    height: 50%;
+    order: 2;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .subHeadingDonate{
-        font-size: 22px;
-        margin: 10px;
-    }
+  .subHeadingDonate {
+    font-size: 22px;
+    margin: 10px;
+  }
 
-    .donate-para-2{
-        font-size: 20px;
-        margin-left: 10px;
-    }
+  .donate-para-2 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
 
-    .donateDetailsHowWeDoIt{
-        padding-left: 10px;
-        margin-left: 8px;
-        height: 250px;
-        width: 60vw;
-    }
+  .donateDetailsHowWeDoIt {
+    padding-left: 10px;
+    margin-left: 8px;
+    height: 250px;
+    width: 60vw;
+  }
 
-    .feedBackButtonsContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  .feedBackButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .requestBloodButton {
+    width: 80%;
+    padding: 25px;
+  }
 
-    }
-    .requestBloodButton{
-        width: 80%;
-        padding: 25px;
-    }
+  .redBackgroundButton {
+    width: 80%;
+    margin-top: 16px;
+    margin-left: 0px;
+  }
 
-    .redBackgroundButton{
-        width: 80%;
-        margin-top: 16px;
-        margin-left: 0px;
-    }
+  .feedBackPara {
+    font-size: 16px;
+    width: 80%;
+  }
 
-    .feedBackPara{
-        font-size: 16px;
-        width: 80%;
-    }
+  .feedBackContents {
+    margin-left: 10px;
+  }
+  .feedBackOption {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .feedBackParaOption {
+    text-align: right;
+  }
 
-    .feedBackContents{
-        margin-left: 10px;
-    }
-    .feedBackOption{
-        width: 100%;
-        margin-bottom: 15px;
-    }
-    .feedBackParaOption{
-        text-align: right;
-    }
+  .subHeadingDonate {
+    text-align: left;
+  }
 
-
-    .subHeadingDonate{
-        text-align: left;
-    }
-
-    .howWeDoIt{
-        text-align: center;
-        margin-top: 50px;
-        margin-left: 0px;
-    }
-
+  .howWeDoIt {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
 }

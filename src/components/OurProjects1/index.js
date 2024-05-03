@@ -21,6 +21,7 @@ class OurProjects1 extends Component {
             style={{
               background:
                 'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourProjectsEducation.png")',
+              backgroundSize: "cover",
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -35,9 +36,9 @@ class OurProjects1 extends Component {
           <div
             className="our-projects-image"
             style={{
-              // backgroundImage: 'url("../Images/ourprojectsenvironment.png")',
               background:
                 'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectsenvironment.png")',
+              backgroundSize: "cover",
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -54,6 +55,7 @@ class OurProjects1 extends Component {
             style={{
               background:
                 'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectsblood.png")',
+              backgroundSize: "cover",
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -70,6 +72,7 @@ class OurProjects1 extends Component {
             style={{
               background:
                 'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectsannamparabrahmam.png")',
+              backgroundSize: "cover",
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -87,6 +90,7 @@ class OurProjects1 extends Component {
             style={{
               background:
                 'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectshomevisits.png")',
+              backgroundSize: "cover",
             }}
           >
             <div className="our-projects1-image-text-container">

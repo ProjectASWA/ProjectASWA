@@ -18,7 +18,7 @@
   margin-bottom: 30px;
   align-self: center;
   font-size: 42px;
-  font-family: "Roboto";
+  font-family: "Satoshi";
 }
 
 .OurProjects1-sub-container {
@@ -88,7 +88,7 @@
 
 .donate-card-text {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Shippori Mincho";
+  font-family: "Satoshi";
   font-size: 20.192px;
   font-style: normal;
   font-weight: 800;
@@ -104,7 +104,7 @@
 
 .what-we-did-heading {
   color: #1e9ab6;
-  font-family: Stoke;
+  font-family: "Satoshi";
   font-size: 23.557px;
   font-style: normal;
   font-weight: 400;
@@ -113,7 +113,7 @@
 
 .what-we-did-description {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Shippori Mincho";
+  font-family: "Satoshi";
   font-size: 26.922px;
   font-style: normal;
   font-weight: 800;
@@ -140,7 +140,7 @@
 
 .our-projects1-image-heading {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Roboto";
+  font-family: "Satoshi";
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -158,7 +158,7 @@
   border-width: 0px;
   cursor: pointer;
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Roboto";
+  font-family: "Satoshi";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
