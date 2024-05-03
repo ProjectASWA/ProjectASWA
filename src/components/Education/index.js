@@ -16,6 +16,10 @@ class Education extends Component {
     selectedEducationType: "school",
   };
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   onSelectedEducationType = (type) => {
     this.setState({ selectedEducationType: type });
   };

@@ -34,6 +34,10 @@ class Environment extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   handleCardClick = (card) => {
     this.setState({ selectedCard: card, clickedText: card });
   };

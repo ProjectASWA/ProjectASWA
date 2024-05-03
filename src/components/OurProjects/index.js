@@ -10,7 +10,7 @@ class OurProjects extends Component {
       { text: "Education", link: "/Education" },
       { text: "Environment", link: "/Environment" },
       { text: "Blood Connect", link: "/BloodConnect" },
-      { text: "Annam Parabraham", link: "/AnnamParabraham" },
+      { text: "Annam Parabraham", link: "/AnnamParabrahmam" },
       { text: "Home Visits", link: "/HomeVisits" },
     ];
 
