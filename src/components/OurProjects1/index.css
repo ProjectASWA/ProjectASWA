@@ -1,0 +1,86 @@
+.OurProjects1-card-container {
+  display: flex;
+  width: 100%;
+  padding: 87.993px 74.524px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.979px;
+}
+
+.OurProjects1-sub-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.what-we-did-card {
+  display: flex;
+  width: 50%;
+  height: 298.097px;
+  padding: 55.864px 69.325px 55.864px 68.652px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6.731px;
+  flex-shrink: 0;
+  background: #202d33;
+}
+
+/* .our-projects-education {
+  background: url("/Images/ourProjectsEducation.png");
+  height: 40%;
+} */
+.our-projects-image {
+  width: 25%; /* Each container takes up 25% of the container's width */
+  height: 298.097px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.donate-card-container {
+  width: 25%;
+  height: 298.097px;
+  flex-shrink: 0;
+  background: #1e9ab6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.donate-card-text {
+  color: var(--color-semantic-white-100, #fff);
+  font-family: "Shippori Mincho";
+  font-size: 20.192px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.what-we-did-card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.673px;
+}
+
+.what-we-did-heading {
+  color: #1e9ab6;
+  font-family: Stoke;
+  font-size: 23.557px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108.3%; /* 25.512px */
+}
+
+.what-we-did-description {
+  color: var(--color-semantic-white-100, #fff);
+  font-family: "Shippori Mincho";
+  font-size: 26.922px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 32.307px */
+}

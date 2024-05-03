@@ -8,24 +8,27 @@ import Footer from "../Footer";
 
 import Impact from "../OurImpact";
 import Testimonials from "../Testimonials";
-import MobileTestimonials from '../MobileTestimonials'
+import MobileTestimonials from "../MobileTestimonials";
 
 import AboutUsHomeSection from "../AboutUsHome";
+
+import OurProjects1 from "../OurProjects1";
 
 // import AnimatedFlexCards from "../AnimatedFlexCards";
 
 const Home = () => {
   return (
     <>
-      <CarouselImages />
+      {/* <CarouselImages />
       <AboutUsHomeSection />
       <Impact />
       <OurProjects />
       <CSRPartners />
       <Testimonials />
-      <MobileTestimonials/>
+      <MobileTestimonials/> */}
       {/* <AnimatedFlexCards /> */}
-      <Footer />
+      {/* <Footer /> */}
+      <OurProjects1 />
     </>
   );
 };
