@@ -10,6 +10,8 @@ import VisionAndMission from "../VisionAndMission";
 
 import AboutUsNavbar from "../AboutUsNavbar";
 
+// const headerImage = {};
+
 class About extends Component {
   state = { selectedComponent: "VisionAndMission" };
 

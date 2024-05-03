@@ -29,7 +29,6 @@ class AnimatedFlexCards extends Component {
     const HomeVisits = "Home Visits";
 
     const { firstCard, secondCard, thirdCard, fourthCard } = this.state;
-    console.log(firstCard, secondCard, thirdCard, fourthCard);
     return (
       <div className="wrapper">
         <div className="container">

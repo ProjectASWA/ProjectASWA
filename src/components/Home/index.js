@@ -7,10 +7,14 @@ import CSRPartners from "../CSRPartners";
 import Footer from "../Footer";
 
 import Impact from "../OurImpact";
+
 import Testimonials from "../Testimonials";
-import MobileTestimonials from '../MobileTestimonials'
+
+import MobileTestimonials from "../MobileTestimonials";
 
 import AboutUsHomeSection from "../AboutUsHome";
+
+import OurProjects1 from "../OurProjects1";
 
 // import AnimatedFlexCards from "../AnimatedFlexCards";
 
@@ -19,12 +23,11 @@ const Home = () => {
     <>
       <CarouselImages />
       <AboutUsHomeSection />
+      <OurProjects1 />
       <Impact />
-      <OurProjects />
       <CSRPartners />
       <Testimonials />
-      <MobileTestimonials/>
-      {/* <AnimatedFlexCards /> */}
+      <MobileTestimonials />
       <Footer />
     </>
   );
