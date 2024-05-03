@@ -55,7 +55,7 @@ const Testimonials = () => {
     
   }
   return (
-    <div className="slider-container-large-screen">
+    <div className="slider-container-large-screen hideContainerInMobile">
       <h1 className='testimonials-heading-large'>Testimonials</h1>
       <Slider style={{ width: '90%' }} {...settings}>
         <div className='arrangeResizeCardTestimonial'>
