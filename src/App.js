@@ -18,10 +18,6 @@ import Home from "./components/Home";
 
 import Education from "./components/Education";
 
-import ScrollingNumberTransition from './components/DonateProject'
-
-import VerticalLoadingBar from './components/DonateProject'
-
 function App() {
   return (
     <div className="App">
@@ -33,8 +29,7 @@ function App() {
         <Route exact path="/JoinWithUs" component={JoinWithUs} />
         <Route exact path="/MediaCoverage" component={MediaCoverage} />
         <Route exact path="/Education" component={Education} />
-      </Switch> */}
-      
+      </Switch>
     </div>
   );
 }
