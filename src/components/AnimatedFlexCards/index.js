@@ -51,7 +51,6 @@ class AnimatedFlexCards extends Component {
                 <OurProjectsCard text={EnvironmentCard} link="/Environment" />
               </div>
             </div>
-            
           </label>
 
           <input type="radio" name="slide" id="c3" />
@@ -59,7 +58,7 @@ class AnimatedFlexCards extends Component {
             <div className="row">
               <div className="icon">3</div>
               <div>
-                <OurProjectsCard text={BloodConnect} link="/BloodConnect" />
+                <OurProjectsCard text={BloodConnect} link="/DonateProject" />
               </div>
             </div>
           </label>

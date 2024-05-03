@@ -18,17 +18,28 @@ import Home from "./components/Home";
 
 import Education from "./components/Education";
 
+import Environment from "./components/Environment";
+
+import AnnamParabrahmam from "./components/AnnamParabrahmam";
+
+import DonateProject from "./components/DonateProject";
+
 function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <Switch>
+
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
-        <Route exact path="/Reports" component={Reports} />
         <Route exact path="/JoinWithUs" component={JoinWithUs} />
         <Route exact path="/MediaCoverage" component={MediaCoverage} />
+        <Route exact path="/Reports" component={Reports} />
         <Route exact path="/Education" component={Education} />
+        <Route exact path="/AnnamParabrahmam" component={AnnamParabrahmam} />
+        <Route exact path="/Environment" component={Environment} />
+        <Route exact path="/DonateProject" component={DonateProject} />
+        <Route />
       </Switch>
     </div>
   );
