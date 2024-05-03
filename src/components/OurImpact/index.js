@@ -1,3 +1,4 @@
+import React, {useRef, useEffect, useState} from 'react'
 import ImpactCard from "../ImpactCard";
 import "./index.css";
 
@@ -30,14 +31,52 @@ const imagesArr = [
 
 const Impact = () => {
   let c;
+
+  const targetRefs = [useRef(null)];
+  const [isIntersected, setisIntersected] = useState(false);
+  useEffect(() => {
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          let element = document.getElementById(entry.target.id);
+          setisIntersected(!isIntersected)
+          console.log("intersectinaksfjkj");
+          // Perform action when the target element is on screen
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, { threshold: 0.5 });
+
+    // Observe each target element
+    targetRefs.forEach((ref) => {
+      if (ref.current) {
+        observer.observe(ref.current);
+      }
+    });
+
+    return () => {
+      // Clean up by unobserving each target element
+      targetRefs.forEach((ref) => {
+        if (ref.current) {
+          observer.unobserve(ref.current);
+        }
+      });
+    };
+  }, []);
   return (
     <div className="arrangeCount">
       <h1 className="impact-heading">Our Impact</h1>
-      <div className="arrangeBgContainer">
-        {imagesArr.map((eachItem) => {
+      <div className="arrangeBgContainer" ref={targetRefs[0]}>
+        {isIntersected ? (
+          <>
+            {imagesArr.map((eachItem) => {
           let a;
-          return <ImpactCard key={eachItem.id} details={eachItem} />;
+          return <ImpactCard isIntersected = {isIntersected} key={eachItem.id} details={eachItem} />;
         })}
+          </>
+        ): null}
+        
       </div>
     </div>
   );

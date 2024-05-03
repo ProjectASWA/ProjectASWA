@@ -25,7 +25,7 @@ const AboutUsHomeSection = ()=>{
                 </p>
             </div>
             <div className='button-container'>
-                <button className='button-about'>KNOW MORE</button>
+                <button className='button-about aboutStyling'>KNOW MORE</button>
                 <button className='button-about'>DONATE</button>
             </div>
             </div>

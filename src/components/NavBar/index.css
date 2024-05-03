@@ -2,22 +2,27 @@
   background-color: #36B0B8;
 }
 
+.logoResizeHomePage{
+  width: 300px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #36B0B8;
-  color: white;
+  background-color: white;
   position: sticky;
   top: 0;
-  padding: 15px;
+  padding: 56px 110px;
   z-index: 1000;
+  height: 56px;
 }
 
 .listNav{
   font-size: 20px;
   align-self: center;
   padding-top: 10px;
+  color: #202d33;
 }
 
 .onMobileDevices{
@@ -29,7 +34,9 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  
+ color: #202d33;
+  
 }
 
 nav ul {
@@ -37,19 +44,25 @@ nav ul {
   flex-direction: row;
   align-items: center;
   justify-self: center;
+  
+ color: #202d33;
 }
 
 nav ul li {
  list-style: none; 
+ color: #202d33;
 }
 
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: white;
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
+}
+
+.linkStyling{
+  color: #202d33;
 }
 
 /* nav ul li a:not(.active):hover {
@@ -57,11 +70,13 @@ nav ul li a {
 } */
 
 .joinWithUs{
-  width: 120px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
+  width: 150px;
+  padding: 15px 10px;
+  gap: 10px;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 18px;
   border: 1px solid #000;
  
   background-color: transparent;
@@ -83,21 +98,21 @@ nav .menu {
 nav .menu span {
   height: 0.2rem;
   width: 90%;
-  background-color: #fff;
+  background-color: black;
   border-radius: 0.1rem;
 }
 
 .donateStyling{
-  background-color: #EF626C;
-  width: 120px;
-  padding: 5px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  border: none;
+  width: 150px;
+  padding: 15px 10px;
+  gap: 10px;
   color: white;
-  font-weight: bold;
-  padding: 10px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid #000;
+  background-color: #FE6711;
+
 }
 
 
@@ -105,11 +120,18 @@ nav .menu span {
   nav .menu {
       display: flex;
       margin-top: 15px;
+
   }
 
   nav {
       flex-direction: column;
       align-items: flex-start;
+      padding: 10px;
+      height: 90px;
+  }
+  .donateStyling{
+    background-color: #FE6711;
+    padding: 13px;
   }
 
   nav ul {
@@ -117,6 +139,10 @@ nav .menu span {
       flex-direction: column;
       width: 100%;
       margin-bottom: 0.25rem;
+  }
+
+  .mobileDeviceLogoResize{
+    width: 160px;
   }
 
   .title{
@@ -129,13 +155,16 @@ nav .menu span {
 
   nav ul.open {
       display: flex;
-      margin: auto;
+      /* margin: auto; */
       padding: 0px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-self: center;
-      margin-top: 10px;
+      background-color: white;
+      border-top: 10px solid white;
+      width: 100vw;
+      margin-right: 10x;
   }
 
   .onMobileDevices{

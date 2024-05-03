@@ -3,10 +3,12 @@ import "./index.css";
 
 const ImpactCard = (props) => {
   const { details } = props;
+  console.log(details)
   const { image } = details;
+
   return (
     <div
-      className="backgroundStylingImage"
+      className="backgroundStylingImageImpact"
       style={{ backgroundImage: `url(${image})` }}
     >
       <h1 className="countUpAnimationHeading">

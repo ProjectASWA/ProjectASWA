@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
 .Testimonials-container {
   padding: 80px;
-  background-color: #c4c4c4;
+  background-color: #D9DFF1;
 }
 
+.testimonials-heading-large{
+  padding-top: 100px;
+  font-family: "Roboto";
+  font-size: 50px;
+}
 .laptop-testimonials {
   display: flex;
   flex-direction: column;
@@ -37,4 +44,46 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
+}
+
+
+.slider-container-large-screen{
+  background-color: #D9DFF1;
+}
+
+
+.paraQuotesLarge{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 60px;
+  font-family: Inika;
+  line-height: 1.5;
+}
+
+.fontSizeQuotes{
+  width: 75px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.testimonialImageLarge{
+  width: 250px;
+  height: 250px;
+  border-radius: 32px;
+}
+
+.testimonials-title-large{
+  text-align: right;
+  margin-top: 50px;
+}
+.arrange-testimonial-large{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+
+.arrangeResizeCardTestimonial{
+  width: 80%;
 }

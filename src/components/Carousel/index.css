@@ -1,21 +1,77 @@
 .customCarousel1{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url("/public/Images/bookBanner.jpg");
 }
 
+.customCarousel4{
+    position: relative; /* Position relative to contain absolutely positioned pseudo-element */
+  width: 100%; /* Adjust according to your layout */
+  height: 100vh; /* Adjust according to your layout */
+  background-image: url('/public/Images/successStories.png'); /* Set your background image */
+  background-size: cover; 
+}
+
+.customCarousel4::before {
+    content: ''; /* Necessary for pseudo-elements */
+    position: absolute; /* Position absolutely within the container */
+    top: 0;
+    left: 0;
+    width: 80%; /* Same as container width */
+    height: 100vh; /* Same as container height */
+  
+    /* background: linear-gradient(to right, rgba(114, 151, 160, 0.5), rgba(201, 236, 244, 0.1)); */
+     background: linear-gradient(to right, rgba(114, 151, 160, 1), rgba(114, 151, 160, 0));
+    background-clip: content-box;
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); Adjust gradient colors and transparency */
+  }
+
+ 
+.bannerImageStylingBanner{
+    
+}
+
+.bannerImageCOntainer{
+    align-self: center;
+    
+}
+
+.carousel4SideHeading{
+    z-index: 2;
+}
+
+.buttonUpp{
+    z-index: 2;
+}
+
+
 .customCarousel2{
-    height: 90vh;
+    height:100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url("/public/Images/donateBanner.jpg");
 }
+.customCarousel5{
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/public/Images/celebrationsBanner.jpg");
+}
+
+.YearsImage{
+    height: 80vh;
+}
+
+.celebrationsContainer{
+    width: 50%;
+}
 
 .customCarousel3{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -36,7 +92,6 @@
     text-align: center;
     width: 250px;
     border-radius: 12px;
-
 }
 
 .carouselHeading{
@@ -76,6 +131,11 @@
     width: 30%;
     line-height: 1.3;
 }
+.carousel4Heading{
+    z-index: 2000;
+    width: 35%;
+    font-size: 72px;
+  }
 
 .carousel3SideHeading{
     width: 40%;
@@ -88,4 +148,73 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .customCarousel1{
+        background-image: url('/public/Images/educationBannerMobile.jpg');
+        height: 70vh;
+        width: 100%;
+        background-size: center;
+        background-size: cover;
+    } 
+
+    .customCarousel2{
+        background-image: url('/public/Images/bloodImageDonateMobile.jpg');
+        height: 70vh;
+        width: 100%;
+        background-size: center;
+        background-size: cover;
+    } 
+
+    .customCarousel5{
+        background-size: cover;
+        background-image: url('/public/Images/celebrationMobile.png');
+    }
+
+    .customCarousel4{
+        height: 70vh;
+        width: 100%;
+        
+        background-image: url("/public/Images/successStoriesMobileBanner.png");
+    }
+
+    .carousel4SideHeading{
+        font-weight: 500;
+        font-size: 26px;
+    }
+
+    .customCarousel3{
+        height: 70vh;
+        width: 100%;
+    }
+
+    .carouselHeading{
+        font-size: 32px;
+        width: 90%;
+        padding-left: 30px;
+        
+    }
+
+    .carouselDescription{
+        width: 90%;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    .knowMoreCarousel{
+        width: 150px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .customCarouselTextContainer{
+        padding-top: 100px;
+        justify-content: flex-start;
+    }
+
+    
+    
+    
 }

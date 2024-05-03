@@ -8,12 +8,12 @@ const NavBar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-          Website
+          <img className="logoResizeHomePage" src = "/Images/websiteLogo.jpg"/>
         </Link>
 
       <div className="onMobileDevices">
         <Link to="/" className="title titleMobile">
-          Website
+        <img className="logoResizeHomePage mobileDeviceLogoResize" src = "/Images/websiteLogo.jpg"/>
         </Link>
           <Link className = "linkStyling" to = "/donate">
             <button className="donateStyling donateMobile">Donate</button>
@@ -28,13 +28,13 @@ const NavBar = () => {
       </div>
       <ul  className={menuOpen ? "open" : ""}>
         <li className = "listNav">
-          <Link to="/About">About</Link>
+          <Link to="/About" className = "linkStyling">About</Link>
         </li>
         <li className = "listNav">
-          <Link to="/Reports">Reports</Link>
+          <Link to="/Reports" className = "linkStyling">Reports</Link>
         </li>
         <li className = "listNav">
-          <Link to="/MediaCoverage">Media Coverage</Link>
+          <Link to="/MediaCoverage" className = "linkStyling">Media Coverage</Link>
         </li>
         <li >
             <Link to = "/joinwithus">

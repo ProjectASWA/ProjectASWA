@@ -9,9 +9,11 @@ const CarouselImages = () => {
       
       interval={2000}
       infiniteLoop
-      dynamicHeight
+      dynamicHeight = {true}
       showStatus={false}
     >
+      <div className="customCarousel5">
+      </div>
       <div className="customCarousel1">
           <div className="customCarouselTextContainer">
           <h1 className="carouselHeading">Building Brighter Futures</h1>
@@ -34,11 +36,13 @@ const CarouselImages = () => {
           </div>
       </div>
       <div className="customCarousel4">
-        <h1>Image 4</h1>
+      <div className="customCarouselTextContainer">
+          <h1 className="carouselHeading carousel3Heading carousel4Heading">Spreading Joy & Compassion</h1>
+              <p className="carouselDescription carousel3SideHeading carousel4SideHeading">Bringing happiness to the doorsteps of the elderly and orphaned through regular home visits.</p>
+              <button className = "knowMoreCarousel buttonUpp">Know More</button>
+          </div>
       </div>
-      <div className="customCarousel">
-        <h1>Image 5</h1>
-      </div>
+      
       {/* Add more carousel items as needed */}
     </Carousel>
   );

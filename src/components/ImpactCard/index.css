@@ -1,13 +1,14 @@
-.backgroundStylingImage{
+.backgroundStylingImageImpact{
+    width: 220px;
+    height: 220px;
+    background-position: center;
     background-size: cover;
-    width: 150px;
-    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-
+    z-index: 200;
+    filter: saturate(100%);
 }
 
 .countUpAnimationHeading{
@@ -25,27 +26,26 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .backgroundStylingImage{
-        width: 200px;
-        height: 200px;
-        margin-left: 5px;
-        margin-bottom: 50px;
+@media screen and (max-width: 1000px) {
+    .countUpAnimationHeading{
+        font-size: 28px;
+    }
+
+    .backgroundStylingImageImpact{
+        width: 130px;
+        height: 130px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .backgroundStylingImage{
-        width: 150px;
-        height: 150px;
-        margin-left: 5px;
-        margin-bottom: 50px;
+    .countUpAnimationHeading{
+        font-size: 28px;
+    }
+
+    .backgroundStylingImageImpact{
+        width: 160px;
+        height: 160px;
     }
 }
 
-@media screen and (min-width: 1200px){
-    .backgroundStylingImage{
-        width: 220px;
-        height: 220px;
-    }
-}
+
