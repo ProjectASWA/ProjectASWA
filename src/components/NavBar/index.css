@@ -1,12 +1,12 @@
 .active{
-  background-color: #1d4ed8;
+  background-color: #36B0B8;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #8690b3;
+  background-color: #36B0B8;
   color: white;
   position: sticky;
   top: 0;
