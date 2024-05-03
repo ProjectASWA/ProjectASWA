@@ -37,7 +37,7 @@
 .vision-and-mission-description {
   color: #7a7a7a;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 768px) {
   .vision-and-mission-description {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
