@@ -9,7 +9,7 @@ const ImpactCard = (props) => {
       className="backgroundStylingImage"
       style={{ backgroundImage: `url(${image})` }}
     >
-      <h1>
+      <h1 className="countUpAnimationHeading">
         <CountUp start={500} end={details.count} duration={0.8} />
         K+
       </h1>

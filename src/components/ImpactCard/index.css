@@ -6,10 +6,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+
 }
+
+.countUpAnimationHeading{
+    color: white;
+    font-size: 72px;
+    font-weight: 600;
+}
+
 
 .descriptionStyling{
     margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
 }
 
 

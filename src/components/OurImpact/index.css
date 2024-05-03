@@ -1,5 +1,19 @@
 .arrangeCount{
-    background: #D3D9EE;
+    position: relative;
+}
+
+.arrangeCount::before {
+    background-image: url("/public/Images/EducationBannerChildren.jpg");
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-size: cover; /* Adjust as needed */
+    opacity: 0.90; /* Adjust the opacity value as desired */
+    z-index: -1;
 }
 
 .arrangeBgContainer{
@@ -11,8 +25,8 @@
 }
 
 .impact-heading{
-    text-align: left;
-    margin-left: 10vw;
+    text-align: center;
+    color: white;
     padding-top: 50px;
     font-size: 40px;
 }
