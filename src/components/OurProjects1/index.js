@@ -19,7 +19,8 @@ class OurProjects1 extends Component {
           <div
             className="our-projects-image"
             style={{
-              backgroundImage: 'url("../Images/ourProjectsEducation.png")',
+              background:
+                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourProjectsEducation.png")',
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -34,7 +35,9 @@ class OurProjects1 extends Component {
           <div
             className="our-projects-image"
             style={{
-              backgroundImage: 'url("../Images/ourprojectsenvironment.png")',
+              // backgroundImage: 'url("../Images/ourprojectsenvironment.png")',
+              background:
+                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectsenvironment.png")',
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -49,7 +52,8 @@ class OurProjects1 extends Component {
           <div
             className="our-projects-image"
             style={{
-              backgroundImage: 'url("../Images/ourprojectsblood.png")',
+              background:
+                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectsblood.png")',
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -64,8 +68,8 @@ class OurProjects1 extends Component {
           <div
             className="our-projects-image"
             style={{
-              backgroundImage:
-                'url("../Images/ourprojectsannamparabrahmam.png")',
+              background:
+                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectsannamparabrahmam.png")',
             }}
           >
             <div className="our-projects1-image-text-container">
@@ -81,7 +85,8 @@ class OurProjects1 extends Component {
           <div
             className="our-projects-image"
             style={{
-              backgroundImage: 'url("../Images/ourprojectshomevisits.png")',
+              background:
+                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourprojectshomevisits.png")',
             }}
           >
             <div className="our-projects1-image-text-container">
