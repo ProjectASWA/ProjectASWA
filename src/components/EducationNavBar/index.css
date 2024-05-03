@@ -1,6 +1,6 @@
 .education-navbar-container {
   display: flex;
-  width: 1150px;
+  width: 80%;
   height: 79px;
   padding: Spacing/3xs;
   justify-content: center;
@@ -10,10 +10,26 @@
   border: 1px solid var(--Color-Border-neutral---Subtle, #cbd5e1);
   background: var(--Color-Action-neutral-subtle-normal, #f1f5f9);
 }
+/* 
+@media screen and (max-width: 768px) {
+  .education-navbar-container {
+    display: flex;
+    width: 400px;
+    height: 38px;
+    padding: Spacing/3xs;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Radius-lg, 8px);
+    border: 1px solid var(--Color-Border-neutral---Subtle, #cbd5e1);
+    background: var(--Color-Action-neutral-subtle-normal, #f1f5f9);
+  }
+} */
 
 .education-navbar-button {
   display: flex;
-  width: 550px;
+  width: 48%;
   height: 50px;
   padding: var(--Spacing-2xs, 8px) var(--Spacing-xs, 12px);
   justify-content: center;
@@ -33,4 +49,10 @@
   letter-spacing: 0.2px;
   color: var(--Color-Text-neutral-subtle, #475569);
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .education-navbar-button {
+    font-size: 12px;
+  }
 }

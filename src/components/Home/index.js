@@ -19,7 +19,6 @@ const Home = () => {
     <>
       <CarouselImages />
       <AboutUsHomeSection />
-
       <Impact />
       <OurProjects />
       <CSRPartners />

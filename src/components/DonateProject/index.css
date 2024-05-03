@@ -1,48 +1,447 @@
-.number-section {
-    width: 50px;
-    height: 50px;
-    padding: 20px;
-    border-radius: 100px;
-     /* Full viewport height for each section */
-    transition: background-color 0.5s ease;
+.bloodImage{
+    width: 98.5vw;
+    height: 480px;
+    object-fit: cover;
+}
+
+.donateContainer{
+    padding-bottom: 150px;
+}
+
+.bloodContainerText{
+    text-align: left;
+    padding: 25px;
+    
+}
+
+.main-sub-heading{
+    padding: 10px;
+    font-size: 24px;
+    padding-left: 8%;
+}
+
+.main-blood-heading{
+    padding: 10px;  
+    font-size: 48px;
+    padding-left: 8%;
+    text-align: left;
+}
+
+.bloodDonateArrange{
     display: flex;
+    margin: auto;
+}
+
+.imageBloodStyling{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid red;
+    
+}
+
+.donateImageContainer{
+    flex-grow: 0;
+    align-self: center;
+    margin-right: 100px;
+}
+
+.bloodDonateContents{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.donate-para{
+    width: 60%;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 8vw;
+}
+
+.donate-heading-what{
+    text-align: left;
+    margin-left: 8vw;
+}
+
+.how-do-blood-container{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.mobile-donate-para{
+    display: none;
+}
+
+.scroll-div {
+    width: 3px;
+    height: 300px; /* Initial height */
+    background-color: #AF0B0B; /* Initial background color */
+    transition: 2s ease; /* Smooth transition for height change */
+}
+
+.backgroundRedDonate{
+    background-color: #AF0B0B; 
+    transition: height 0.1s ease;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+.donateDetailsHowWeDoIt{
+    gap: 5px;
+    width: 70vw;
+    height: 250px;
+    border: 2px solid #991B1B;
+    border-radius: 16px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+
+.subHeadingDonate{
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.donate-para-2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.sample-div{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.border-1{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#section1 {
-    background-color: white; /* Initial background color for Section 1 */
+.redBack{
+    background-color:#AF0B0B;
+    transition: 0.5s ease;
 }
 
-#section2 {
-    background-color: white; /* Initial background color for Section 2 */
+.numberClass{
+    font-size: 36px;
 }
 
-#section3 {
-    background-color: white; /* Initial background color for Section 3 */
-}
-
-#section4 {
-    background-color: white; /* Initial background color for Section 4 */
-}
-
-.horizontalLine{
-    width: 5px; /* Set the width of the line */
-    height: 50vh; /* Set the height of the line */
-    background-color: #61F366; /* Set the color of the line */
-    transform: rotate(180deg); /* Rotate the line 90 degrees */
-    margin: 0 auto; 
-}
-
-
-.arrange-column-wise{
+.arrange-in-row{
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
 }
-.arrange-container-numbers{
+
+.finished-scroll{
+    background-color: #AF0B0B;
+    transition: 0.1s ease;
+}
+
+.howWeDoIt{
+    text-align: left;
+    margin-left: 10vw;
+    padding-bottom: 30px;
+}
+.feedBackContents{
+    margin-left: 6.8vw;
+    padding: 50px;
+}
+
+.feedBackHeading{
+    color: #000;
+    margin-bottom: 20px;
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.feedBackPara{
+    color: #707070;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 70%;
+}
+.FeedBackContainer{
     display: flex;
+    text-align: left;
+    
+    padding: 10px;
 }
-.main-body-container{
-    padding: 20px;
-    background-color: #DFE4F3;
+
+.feedBackOption{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-right: 50px;
+}
+
+.feedBackParaOption{
+    color: #2F71F2;
+text-align: center;
+font-family: "Roboto Flex";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 111.111% */
+text-decoration-line: underline;
+text-transform: capitalize;
+margin-right: 50px;
+}
+
+.redBackgroundButton{
+    background-color: #D70020;
+    margin: 5px;
+    width: 40%;
+    
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 16px;
+    border: 3px solid #D70020;
+    margin-left: 50px;
+}
+.requestBloodButton{
+margin: 5px;
+width: 40%;
+padding: 2px;
+font-size: 20px;
+border-radius: 16px;
+border: 3px solid #D70020;
+color: #D70020;
+}
+
+.redBackgroundButton{
+    background-color: #D70020;
+}
+
+.feedBackButtonsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1750px) {
+    .bloodDonateArrange{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main-blood-heading{
+        padding-left: 14%;
+    }
+
+    .main-sub-heading{
+        padding-left: 14%;
+    }
+
+    .donateImageContainer{
+        flex-grow: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloodDonateArrange{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    
+
+    
+
+    .FeedBackContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .donateImageContainer{
+        margin-right: 0px;
+    }
+
+    .bloodDonateContents{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+
+    .main-blood-heading{
+        padding: 0px;
+        font-size: 28px;
+        margin-top: 25px;
+    }
+
+    .main-sub-heading{
+        font-size: 18px;
+    }
+
+    .donate-heading-what{
+        text-align: center;
+        font-size: 26px;
+        order: 1;
+    }
+
+    .border-1{
+        width: 70px;
+        height: 70px;
+    }
+
+    .numberClass{
+        font-size: 25px;
+    }
+
+    .scroll-div{
+        height: 350px;
+    }
+
+    .donate-para{
+        text-align: center;
+        order: 5;
+        display: none;
+        width: 100%;
+    }
+
+    .mobile-donate-para{
+        display: block;
+        margin-top: 30px;
+        text-align: left;
+        margin: 0px;
+     
+    }
+    .mobileParaDonate{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .bloodContainerText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        padding-left: 0px;
+    }
+
+    .main-blood-heading{
+        text-align: center;
+    }
+
+    .main-sub-heading{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .imageBloodStyling{
+        margin-right: 0px;
+        width: 75%;
+        height: 50%;
+        order: 2;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .subHeadingDonate{
+        font-size: 22px;
+        margin: 10px;
+    }
+
+    .donate-para-2{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .donateDetailsHowWeDoIt{
+        padding-left: 10px;
+        margin-left: 8px;
+        height: 250px;
+        width: 60vw;
+    }
+
+    .feedBackButtonsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .requestBloodButton{
+        width: 80%;
+        padding: 25px;
+    }
+
+    .redBackgroundButton{
+        width: 80%;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    .feedBackPara{
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .feedBackContents{
+        margin-left: 10px;
+    }
+    .feedBackOption{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .feedBackParaOption{
+        text-align: right;
+    }
+
+
+    .subHeadingDonate{
+        text-align: left;
+    }
+
+    .howWeDoIt{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
 }

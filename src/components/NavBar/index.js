@@ -27,16 +27,16 @@ const NavBar = () => {
         <span></span>
       </div>
       <ul  className={menuOpen ? "open" : ""}>
-        <li>
+        <li className = "listNav">
           <Link to="/About">About</Link>
         </li>
-        <li>
+        <li className = "listNav">
           <Link to="/Reports">Reports</Link>
         </li>
-        <li>
+        <li className = "listNav">
           <Link to="/MediaCoverage">Media Coverage</Link>
         </li>
-        <li>
+        <li >
             <Link to = "/joinwithus">
             <button className="joinWithUs">JOIN WITH US</button>
             </Link>

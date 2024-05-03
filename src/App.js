@@ -20,19 +20,21 @@ import Education from "./components/Education";
 
 import ScrollingNumberTransition from './components/DonateProject'
 
+import VerticalLoadingBar from './components/DonateProject'
+
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Switch>
-        {/* <Route exact path="/" component={Home} />
+      {/* <Switch>
+        <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Reports" component={Reports} />
         <Route exact path="/JoinWithUs" component={JoinWithUs} />
-        <Route exact path="/MediaCoverage" component={MediaCoverage} /> */}
-      </Switch>
-      <Education />
-      <ScrollingNumberTransition/>
+        <Route exact path="/MediaCoverage" component={MediaCoverage} />
+        <Route exact path="/Education" component={Education} />
+      </Switch> */}
+      
     </div>
   );
 }

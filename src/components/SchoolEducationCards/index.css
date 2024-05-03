@@ -1,0 +1,138 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-app-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.card-image {
+  max-width: 50%;
+  height: auto;
+}
+
+.image {
+  height: 402px;
+}
+
+.card-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .card-description-container {
+    gap: 15px;
+  }
+}
+
+.card-description-heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+}
+
+@media screen and (max-width: 992px) {
+  .card-description-heading {
+    font-size: 18px;
+  }
+}
+
+.card-description {
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  .card-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+.card-app-container:nth-child(2) {
+  flex-direction: row;
+}
+
+.card-app-container:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+.card-app-container:nth-child(4) {
+  flex-direction: row;
+}
+
+.card-app-container:nth-child(5) {
+  flex-direction: row-reverse;
+}
+
+.school-education-images {
+  width: 100%;
+}
+
+.education-text-container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+.education-text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 992px) {
+  .education-text {
+    font-size: 30px;
+  }
+}
+
+.education-description {
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 992px) {
+  .education-description {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
