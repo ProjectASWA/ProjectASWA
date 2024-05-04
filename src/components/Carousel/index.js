@@ -17,7 +17,7 @@ const CustomNextArrow = ({ onClick }) => (
 
 const CarouselImages = () => {
   return (
-    <Carousel
+    <Carousel  swipeable = {false}
     renderArrowPrev={(onClickHandler, hasPrev, label) =>
       hasPrev && <CustomPrevArrow onClick={onClickHandler} />
     }
