@@ -27,11 +27,13 @@
 }
 
 .impact-heading {
+  color: var(--color-semantic-white-100, #fff);
   text-align: center;
-  color: white;
-  padding-top: 50px;
+  font-family: Satoshi;
   font-size: 40px;
-  margin: 20px 0;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 @media screen and (max-width: 1000px) {
