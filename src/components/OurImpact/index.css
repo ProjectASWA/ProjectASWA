@@ -1,6 +1,7 @@
 .arrangeCount {
   position: relative;
   background-color: rgba(0, 0, 0, 0.6);
+  height: 500px;
 }
 
 .arrangeCount::before {
@@ -27,13 +28,12 @@
 }
 
 .impact-heading {
-  color: var(--color-semantic-white-100, #fff);
   text-align: center;
-  font-family: Satoshi;
+  color: white;
+  padding-top: 50px;
   font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  margin: 20px 0;
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 1000px) {

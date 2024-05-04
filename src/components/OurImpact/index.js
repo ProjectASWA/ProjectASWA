@@ -66,7 +66,9 @@ const Impact = () => {
   }, []);
   return (
     <div className="arrangeCount">
-      <h1 className="impact-heading">Our Impact</h1>
+      <h1 style={{ color: "white" }} className="impact-heading">
+        Our Impact
+      </h1>
       <div className="arrangeBgContainer" ref={targetRefs[0]}>
         {isIntersected ? (
           <>
