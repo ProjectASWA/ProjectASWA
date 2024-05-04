@@ -11,6 +11,12 @@
   right: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+  .arrangeTestimonialsRow {
+    width: 60%;
+  }
+}
+
 .testimonials-title-large {
   text-align: right;
 }
