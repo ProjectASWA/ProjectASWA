@@ -1,4 +1,4 @@
-import React, {useRef, useEffect, useState} from 'react'
+import React, { useRef, useEffect, useState } from "react";
 import ImpactCard from "../ImpactCard";
 import "./index.css";
 
@@ -39,7 +39,7 @@ const Impact = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           let element = document.getElementById(entry.target.id);
-          setisIntersected(!isIntersected)
+          setisIntersected(!isIntersected);
           console.log("intersectinaksfjkj");
           // Perform action when the target element is on screen
         }
@@ -71,12 +71,17 @@ const Impact = () => {
         {isIntersected ? (
           <>
             {imagesArr.map((eachItem) => {
-          let a;
-          return <ImpactCard isIntersected = {isIntersected} key={eachItem.id} details={eachItem} />;
-        })}
+              let a;
+              return (
+                <ImpactCard
+                  isIntersected={isIntersected}
+                  key={eachItem.id}
+                  details={eachItem}
+                />
+              );
+            })}
           </>
-        ): null}
-        
+        ) : null}
       </div>
     </div>
   );
