@@ -31,6 +31,8 @@
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
     .countUpAnimationHeading{
         font-size: 48px;
@@ -71,3 +73,14 @@
     }
 }
 
+
+@media screen and (max-width: 375px) {
+  .backgroundStylingImageImpact{
+    width: 100px;
+    height: 100px;
+  }
+
+  .countUpAnimationHeading{
+    font-size: 32px;
+  }
+}

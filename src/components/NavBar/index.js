@@ -36,7 +36,7 @@ const NavBar = () => {
         
         </li>
         <li className = "listNav borderLineNav">
-          <Link to="/MediaCoverage" className = "linkStyling specialLink">Media Coverage</Link>
+          <Link to="/MediaCoverage" className = "linkStyling specialLink">Volunteer</Link>
          
         </li>
         <li >

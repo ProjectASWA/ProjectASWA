@@ -8,6 +8,13 @@
   height: 200px; /* Adjust container height if necessary */
   position: relative;
 }
+.csrPartnersHeading{
+  color: black;
+  font-size: 24px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Satoshi";
+}
 
 .marquee {
   display: flex;
