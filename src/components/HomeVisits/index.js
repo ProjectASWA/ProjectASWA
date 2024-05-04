@@ -1,4 +1,8 @@
-import './index.css'
+import { Carousel } from "react-responsive-carousel";
+import MobileHomeVisitsCarousel from "../MobileHomeVistsCarousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import "./index.css";
 
 const HomeVisits = ()=>{
     let a;
@@ -45,10 +49,11 @@ const HomeVisits = ()=>{
             <div className='descriptionHomeVisitsContainer'>
                 <p className='descriptionHomeVisits'>Every visit is filled with emotions and sentiments. Each visit makes every volunteer very happy and makes them realize that sharing love with society is their duty. Share & Care is significant for us, as it’s the activity that led us to the formation of ASWA. In the past 10 years, we have visited more than 150 homes.</p>
             </div>
-        
-        
+            <div className = "CarouselHomeVisitsContainer">
+                <h1 className = "photoGalleryHeading">Photo Gallery</h1>
+                <MobileHomeVisitsCarousel/>
+            </div>
         </div>
-        
     )
 }
 

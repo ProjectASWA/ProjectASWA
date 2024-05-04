@@ -1,0 +1,31 @@
+.leftButtonHomeVisitsNext{
+    
+}
+.imageStylingHomeVisits{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageSrcHome{
+    border-radius: 50px;
+    background-position: center;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .imageStylingHomeVisits{
+        width: 30%;
+        max-width: 500px;
+    }
+    .homePreviousButton{
+        margin-left: 250px ;
+    }
+    .homeNextButton{
+        margin-right: 250px;
+    }
+}
