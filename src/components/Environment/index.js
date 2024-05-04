@@ -46,7 +46,7 @@ class Environment extends Component {
     const { selectedCard, clickedText } = this.state;
     return (
       <div className="Environment-main-container">
-        <img src="/Images/Environment.png" className="environment-image" />
+        <img src="/Images/environmentBannerBackground.avif" className="environment-image" />
         <div className="Environment-sub-container">
           <div className="environment-text-container">
             <h3 className="environment-heading">Environment</h3>
