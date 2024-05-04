@@ -28,6 +28,7 @@
   }
 
   .about-contents-container{
+    width: 100%;
     padding: 40px;
   }
 
@@ -64,7 +65,7 @@
     background: transparent;
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1000px) {
     .video-container{
         display: none;
     }
@@ -141,7 +142,7 @@
     }
   }
 
-  @media screen and (max-width: 1200px) and (min-width: 768px) {
+  @media screen and (max-width: 1200px) and (min-width: 1000px) {
     .arrange-about-us{
         padding-left: 10px;
     }
@@ -150,5 +151,11 @@
         display: block;
         width: 100%;
         margin-left: 75px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .button-container{
+      margin-left: 40px;
     }
   }

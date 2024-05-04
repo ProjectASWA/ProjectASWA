@@ -3,8 +3,11 @@
 }
 
 .logoResizeHomePage{
-  width: 300px;
+  width: 280px;
+  align-self: center;
 }
+
+
 
 nav {
   display: flex;
@@ -13,7 +16,7 @@ nav {
   background-color: white;
   position: sticky;
   top: 0;
-  padding: 56px 110px;
+  padding: 56px 60px;
   z-index: 1000;
   height: 56px;
 }
@@ -83,6 +86,10 @@ nav ul li a {
 
 }
 
+.horizontal-line-nav-bar{
+  border: 1px black solid;
+}
+
 
 nav .menu {
   display: none;
@@ -115,12 +122,42 @@ nav .menu span {
 
 }
 
+.specialLink{
+  font-size: 20px;
+  padding: 0;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
+    .donateStyling{
+      width: 120px;
+    }
+    .specialLink{
+      text-align: center;
+    }
+
+    .logoResizeHomePage{
+      width: 185px;
+    }
+}
+
+
+
+
+@media (max-width: 1005px) {
   nav .menu {
       display: flex;
       margin-top: 15px;
 
+  }
+  
+
+  .borderLineNav{
+    border-bottom: 2px solid rgb(126, 126, 126);
+    
+  }
+
+  .specialLink{
+    padding: 8px;
   }
 
   nav {
@@ -164,7 +201,7 @@ nav .menu span {
       background-color: white;
       border-top: 10px solid white;
       width: 100vw;
-      margin-right: 10x;
+      margin-bottom: 150px;
   }
 
   .onMobileDevices{
@@ -195,6 +232,7 @@ nav .menu span {
 
   .linkStyling{
     text-decoration: none;
+    padding: 6px;
   }
 
   .joinWithUs{

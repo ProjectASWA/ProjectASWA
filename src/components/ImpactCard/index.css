@@ -28,24 +28,41 @@
 
 @media screen and (max-width: 1000px) {
     .countUpAnimationHeading{
-        font-size: 28px;
+        font-size: 48px;
     }
 
     .backgroundStylingImageImpact{
-        width: 130px;
-        height: 130px;
+        width: 200px;
+        height: 200px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .countUpAnimationHeading{
-        font-size: 28px;
+        font-size: 60px;
     }
 
     .backgroundStylingImageImpact{
-        width: 160px;
-        height: 160px;
+        width: 120px;
+        height: 120px;
+        margin: 18px;
     }
 }
 
+
+@media screen and (max-width: 576px) {
+    .countUpAnimationHeading{
+        font-size: 36px;
+    }
+
+    .descriptionStyling{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .backgroundStylingImageImpact{
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+    }
+}
 

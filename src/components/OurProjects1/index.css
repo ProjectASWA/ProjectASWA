@@ -6,6 +6,7 @@
   align-items: flex-start;
   gap: 8.979px;
   background: #f1eeec;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 998px) {
@@ -17,8 +18,8 @@
 .OurProjects1-main-heading {
   margin-bottom: 30px;
   align-self: center;
-  font-size: 42px;
-  font-family: "Satoshi";
+  font-size: 60px;
+  font-family: "Roboto";
 }
 
 .OurProjects1-sub-container {

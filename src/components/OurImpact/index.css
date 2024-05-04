@@ -17,7 +17,7 @@
     height: 500px;  
     background-size: cover; /* Adjust as needed */
     opacity: 1; /* Adjust the opacity value as desired */
-   
+
 }
 
 .arrangeBgContainer{
@@ -36,12 +36,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .arrangeBgContainer{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         padding: 50px;
+        position: relative;
+        bottom: 60px;
     }
 
     

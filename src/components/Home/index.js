@@ -23,8 +23,9 @@ const Home = () => {
     <>
       <CarouselImages />
       <AboutUsHomeSection />
-      <OurProjects1 />
       <Impact />
+      <OurProjects1 />
+      
       <CSRPartners />
       <Testimonials />
       <MobileTestimonials />
