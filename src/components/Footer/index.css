@@ -6,7 +6,7 @@
   align-items: center;
   background: #23211f;
 }
-.aswa-logo{
+.aswa-logo {
   width: 320px;
 }
 @media screen and (max-width: 886px) {
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 886px) {
   .address-heading {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -138,7 +138,6 @@
     padding: 0px;
     gap: 20px;
   }
-  
 }
 
 .follow-us-icons {
@@ -174,29 +173,27 @@
 @media screen and (max-width: 886px) {
   .reach-us {
     text-align: left;
-    font-size: 29px;
-  }
-  .mail{
-    font-size: 24px;
-  }
-  .address-heading{
-    font-size: 24px;
-  }
-  .address-description{
     font-size: 22px;
   }
+  .mail {
+    font-size: 20px;
+  }
+  .address-heading {
+    font-size: 22px;
+  }
+  .address-description {
+    font-size: 20px;
+  }
 
-  .footer-main-container{
+  .footer-main-container {
     padding-top: 30px;
   }
-  .locationImageFooter{
+  .locationImageFooter {
     width: 35px;
   }
-  .address-container{
+  .address-container {
     gap: 10px;
   }
-
-
 }
 
 .reach-us-container {

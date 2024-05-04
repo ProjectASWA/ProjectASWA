@@ -16,6 +16,8 @@ import AboutUsHomeSection from "../AboutUsHome";
 
 import OurProjects1 from "../OurProjects1";
 
+import "./index.css";
+
 // import AnimatedFlexCards from "../AnimatedFlexCards";
 
 const Home = () => {
@@ -25,10 +27,14 @@ const Home = () => {
       <AboutUsHomeSection />
       <Impact />
       <OurProjects1 />
-      
+
       <CSRPartners />
-      <Testimonials />
-      <MobileTestimonials />
+      <div className="testimonials-large-devices">
+        <Testimonials />
+      </div>
+      <div className="testimonials-small-devices">
+        <MobileTestimonials />
+      </div>
       <Footer />
     </>
   );
