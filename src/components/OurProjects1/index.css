@@ -19,7 +19,8 @@
   margin-bottom: 30px;
   align-self: center;
   font-size: 60px;
-  font-family: "Roboto";
+  
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .OurProjects1-sub-container {
@@ -31,6 +32,7 @@
 }
 
 .what-we-did-card {
+  
   display: flex;
   width: 50%;
   height: 298.097px;
@@ -89,11 +91,13 @@
 
 .donate-card-text {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Satoshi";
   font-size: 20.192px;
+  
+  font-family: 'Sathoshi', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  line-height: 120%;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px;
 }
 
 .what-we-did-card-text-container {
@@ -105,7 +109,8 @@
 
 .what-we-did-heading {
   color: #1e9ab6;
-  font-family: "Satoshi";
+  
+  font-family: 'Sathoshi', sans-serif;
   font-size: 23.557px;
   font-style: normal;
   font-weight: 400;
@@ -113,11 +118,13 @@
 }
 
 .what-we-did-description {
+  
+  font-family: 'Sathoshi', sans-serif;
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Satoshi";
+  text-align: left;
   font-size: 26.922px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 120%; /* 32.307px */
 }
 
@@ -141,10 +148,12 @@
 
 .our-projects1-image-heading {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Satoshi";
+  
+  font-family: 'Sathoshi', sans-serif;
   font-size: 24px;
+  text-align: left;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 120%; /* 18.371px */
 }
 
