@@ -3,10 +3,27 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./index.css";
 
+const CustomPrevArrow = ({ onClick }) => (
+  <button className = "buttonStylingPrevious" onClick={onClick}>
+    <img src = "/Images/Vector.png"/>
+  </button>
+);
+
+const CustomNextArrow = ({ onClick }) => (
+  <button className = "buttonStylingNext" onClick={onClick}>
+    <img src = "/Images/RightArrow.png"/>
+  </button>
+);
+
 const CarouselImages = () => {
   return (
     <Carousel
-      
+    renderArrowPrev={(onClickHandler, hasPrev, label) =>
+      hasPrev && <CustomPrevArrow onClick={onClickHandler} />
+    }
+    renderArrowNext={(onClickHandler, hasNext, label) =>
+      hasNext && <CustomNextArrow onClick={onClickHandler} />
+    }
       interval={2000}
       infiniteLoop
       dynamicHeight = {true}

@@ -12,7 +12,7 @@ const ImpactCard = (props) => {
       style={{ backgroundImage: `url(${image})` }}
     >
       <h1 className="countUpAnimationHeading">
-        <CountUp start={500} end={details.count} duration={0.8} />
+        <CountUp start={500} end={details.count} duration={1.5} />
         K+
       </h1>
       <p className="descriptionStyling">{details.description}</p>

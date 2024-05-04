@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-sub-container">
         <div className="footer-section-first-container">
           <div className="logo-and-gmail-container">
-            <img src="/Images/aswalogo1.svg" className="aswa-logo" />
+            <img src="/Images/websiteLogoFooter.png" className="aswa-logo" />
             <div className="reach-us-container">
               <h5 className="reach-us">Reach us</h5>
               <div className="mail-container">

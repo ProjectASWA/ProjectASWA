@@ -27,14 +27,17 @@ const NavBar = () => {
         <span></span>
       </div>
       <ul  className={menuOpen ? "open" : ""}>
-        <li className = "listNav">
+        <li className = "listNav borderLineNav">
           <Link to="/About" className = "linkStyling">About</Link>
+          
         </li>
-        <li className = "listNav">
+        <li className = "listNav borderLineNav">
           <Link to="/Reports" className = "linkStyling">Reports</Link>
+        
         </li>
-        <li className = "listNav">
-          <Link to="/MediaCoverage" className = "linkStyling">Media Coverage</Link>
+        <li className = "listNav borderLineNav">
+          <Link to="/MediaCoverage" className = "linkStyling specialLink">Media Coverage</Link>
+         
         </li>
         <li >
             <Link to = "/joinwithus">
