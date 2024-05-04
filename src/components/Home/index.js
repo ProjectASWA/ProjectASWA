@@ -1,5 +1,3 @@
-import OurProjects from "../OurProjects";
-
 import CarouselImages from "../Carousel";
 
 import CSRPartners from "../CSRPartners";
