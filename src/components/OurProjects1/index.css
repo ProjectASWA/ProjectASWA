@@ -1,7 +1,6 @@
 .OurProjects1-card-container {
   display: flex;
   /* width: 100%; */
-  padding: 87.993px 74.524px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8.979px;

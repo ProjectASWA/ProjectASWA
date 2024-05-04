@@ -2,7 +2,7 @@
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
+  gap: 88px;
   margin-top: 50px;
   width: 90%;
 }
@@ -23,18 +23,103 @@
   }
 }
 
-.success-stories-description {
-  color: #7a7a7a;
-  font-family: "Satoshi";
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.success-stories-testimonials-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .success-stories-testimonials-container {
+    flex-direction: column;
+  }
+}
+
+.success-stories-testimonial-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+@media screen and (max-width: 992px) {
+  .success-stories-testimonial-image-container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .success-stories-description {
-    font-size: 18px;
-    line-height: 32px;
+  .success-stories-testimonial-image {
+    width: 173px;
   }
+}
+
+.success-stories-testimonial-text-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .success-stories-testimonial-text-container {
+    align-self: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+.success-stories-testimonial-description {
+  color: #000;
+  text-align: justify;
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .success-stories-testimonial-description {
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+.success-stories-testimonial-name {
+  color: #000;
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  width: 60%;
+  height: 125px;
+  flex-shrink: 0;
+  align-self: flex-end;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .success-stories-testimonial-name {
+    font-size: 24px;
+    line-height: 22px;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    line-height: normal;
+    /* height: 80px; */
+  }
+}
+
+.testimonials-container1 {
+  margin-bottom: 40px;
 }
