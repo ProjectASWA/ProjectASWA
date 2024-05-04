@@ -1,7 +1,7 @@
 .visionandmission-navbar-container {
   display: flex;
   width: 90%;
-  height: 79px;
+  height: 60px;
   padding: Spacing/3xs;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
   .visionandmission-navbar-container {
     display: flex;
     width: 90%;
-    height: 50px;
+    height: 45px;
     padding: Spacing/3xs;
     justify-content: center;
     align-items: center;
@@ -32,8 +32,8 @@
 
 .visionandmission-navbar-button {
   display: flex;
-  width: 31%;
-  height: 50px;
+  width: 30%;
+  height: 40px;
   padding: var(--Spacing-2xs, 8px) var(--Spacing-xs, 12px);
   justify-content: center;
   align-items: center;
@@ -45,13 +45,14 @@
   border-width: 0px;
   cursor: pointer;
   font-family: "Satoshi";
+  font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
   .visionandmission-navbar-button {
     font-size: 9px;
-    height: 35px;
-    width: 28%;
+    height: 28px;
+    width: 30%;
     padding: 0px;
   }
 }

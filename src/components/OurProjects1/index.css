@@ -1,7 +1,6 @@
 .OurProjects1-card-container {
   display: flex;
   /* width: 100%; */
-  padding: 87.993px 74.524px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8.979px;
@@ -90,6 +89,7 @@
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 80px;
+  display: flex;
 }
 
 @media screen and (max-width: 568px) {
@@ -107,15 +107,25 @@
 .donate-card-text {
   color: var(--color-semantic-white-100, #fff);
   font-size: 20.192px;
-
   font-family: "Sathoshi", sans-serif;
   font-style: normal;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   padding: 10px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
-.what-we-did-card-text-container {
+@media screen and (max-width: 998px) {
+  .donate-card-text {
+    font-size: 15px;
+    /* align-self: center; */
+    /* justify-content: center; */
+  }
+}
+
+With this .what-we-did-card-text-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -194,4 +204,9 @@
 .our-projects-image:hover .our-projects1-image-text-container {
   opacity: 1;
   transform: translateY(0);
+}
+
+.ourprojectscard-link {
+  text-decoration: none;
+  color: inherit;
 }

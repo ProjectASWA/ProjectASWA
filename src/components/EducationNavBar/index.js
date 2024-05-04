@@ -7,13 +7,13 @@ const EducationNavBar = (props) => {
   return (
     <div className="education-navbar-container">
       <button
-        className="education-navbar-button"
+        className={`education-navbar-button ${active === "school" ? "active" : ""}`}
         onClick={() => onSelectedEducationType("school")}
       >
         School Education
       </button>
       <button
-        className="education-navbar-button"
+        className={`education-navbar-button ${active === "higher" ? "active" : ""}`}
         onClick={() => onSelectedEducationType("higher")}
       >
         Higher Education
