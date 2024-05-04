@@ -19,8 +19,14 @@
   margin-bottom: 30px;
   align-self: center;
   font-size: 60px;
-  
-  font-family: 'Sathoshi', sans-serif;
+
+  font-family: "Sathoshi", sans-serif;
+}
+
+@media screen and (max-width: 998px) {
+  .OurProjects1-main-heading {
+    font-size: 30px;
+  }
 }
 
 .OurProjects1-sub-container {
@@ -32,7 +38,6 @@
 }
 
 .what-we-did-card {
-  
   display: flex;
   width: 50%;
   height: 298.097px;
@@ -65,7 +70,13 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 568px) {
+  .our-projects-image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 998px) {
   .our-projects-image {
     width: 50%;
   }
@@ -83,7 +94,13 @@
   padding-bottom: 80px;
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 568px) {
+  .donate-card-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 998px) {
   .donate-card-container {
     width: 50%;
   }
@@ -92,8 +109,8 @@
 .donate-card-text {
   color: var(--color-semantic-white-100, #fff);
   font-size: 20.192px;
-  
-  font-family: 'Sathoshi', sans-serif;
+
+  font-family: "Sathoshi", sans-serif;
   font-style: normal;
   font-weight: 600;
   text-align: left;
@@ -109,8 +126,8 @@
 
 .what-we-did-heading {
   color: #1e9ab6;
-  
-  font-family: 'Sathoshi', sans-serif;
+
+  font-family: "Sathoshi", sans-serif;
   font-size: 23.557px;
   font-style: normal;
   font-weight: 400;
@@ -118,8 +135,7 @@
 }
 
 .what-we-did-description {
-  
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   color: var(--color-semantic-white-100, #fff);
   text-align: left;
   font-size: 26.922px;
@@ -148,8 +164,8 @@
 
 .our-projects1-image-heading {
   color: var(--color-semantic-white-100, #fff);
-  
-  font-family: 'Sathoshi', sans-serif;
+
+  font-family: "Sathoshi", sans-serif;
   font-size: 24px;
   text-align: left;
   font-style: normal;
