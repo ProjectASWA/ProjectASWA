@@ -1,62 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
-.arrangeCount{
-    position: relative;
+.arrangeCount {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 500px;
 }
 
 .arrangeCount::before {
-    background-image: url("/public/Images/EducationBannerChildren.jpg");
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 500px;  
-    background-size: cover; /* Adjust as needed */
-    opacity: 1; /* Adjust the opacity value as desired */
-
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-image: url("/public/Images/EducationBannerChildren.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.45;
+  background-color: rgba(0, 0, 0, 0.6);
+  mix-blend-mode: multiply;
 }
 
-.arrangeBgContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 50px;
+.arrangeBgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
 }
 
 .impact-heading{
     text-align: center;
-    position: relative;
     color: white;
-    font-family: 'Sathoshi', sans-serif;
-    font-weight: 600;
-    z-index: 1;
     padding-top: 50px;
     font-size: 40px;
 }
 
-
 @media screen and (max-width: 1000px) {
-    .arrangeBgContainer{
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 50px;
-        position: relative;
-        bottom: 60px;
-    }
+  .arrangeBgContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    bottom: 60px;
+  }
 
-    
-
-    .impact-heading{
-        width: 100%;
-        text-align: center;
-        margin-bottom: 30px;
-        margin-left: 0px;
-    }
+  .impact-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
 }

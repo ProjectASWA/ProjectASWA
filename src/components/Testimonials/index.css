@@ -1,71 +1,63 @@
-.arrangeTestimonialsRow{
+.arrangeTestimonialsRow {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 50px;
 }
 
-.divQuotesContainer{
+.divQuotesContainer {
   width: 80px;
   position: relative;
   right: 15px;
 }
 
-.testimonials-title-large{
+.testimonials-title-large {
   text-align: right;
 }
 
-
-
-.contentsTestimonialLarge{
+.contentsTestimonialLarge {
   margin-left: 50px;
   width: 80%;
 }
 
-.paraQuotesLarge{
+.paraQuotesLarge {
   font-size: 28px;
 }
 
-.buttonStylingPreviousTestimonials{
+.buttonStylingPreviousTestimonials {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-.slider-container-large-screen{
-  background-color: #D9DFF1;
+.slider-container-large-screen {
+  background-color: #d9dff1;
   padding: 10px;
   padding-top: 50px;
   font-family: "Roboto";
 }
-.testimonials-heading-large{
+.testimonials-heading-large {
   font-size: 50px;
 }
 
-.buttonStylingNextTestimonials{
+.buttonStylingNextTestimonials {
   background-color: transparent;
   border: none;
   margin-right: 25px;
   cursor: pointer;
 }
 
-.testimonialImageLarge{
+.testimonialImageLarge {
   border-radius: 16px;
   height: 225px;
   width: 150px;
 }
 
-.testimonials-title-large{
+.testimonials-title-large {
   font-size: 26px;
 }
-.paraQuotesLarge{
+.paraQuotesLarge {
   text-align: left;
   line-height: 1.8;
   margin-top: 25px;
-}
-
-@media screen and (max-width: 1000px) {
-  .hideContainerInMobile{
-    display: none;
-  }
 }

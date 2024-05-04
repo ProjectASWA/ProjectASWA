@@ -1,13 +1,11 @@
-.active{
-  background-color: #36B0B8;
+.active {
+  background-color: #36b0b8;
 }
 
-.logoResizeHomePage{
+.logoResizeHomePage {
   width: 280px;
   align-self: center;
 }
-
-
 
 nav {
   display: flex;
@@ -21,14 +19,14 @@ nav {
   height: 56px;
 }
 
-.listNav{
+.listNav {
   font-size: 20px;
   align-self: center;
   padding-top: 10px;
   color: #202d33;
 }
 
-.onMobileDevices{
+.onMobileDevices {
   display: none;
 }
 
@@ -37,9 +35,8 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  
- color: #202d33;
-  
+
+  color: #202d33;
 }
 
 nav ul {
@@ -47,13 +44,13 @@ nav ul {
   flex-direction: row;
   align-items: center;
   justify-self: center;
-  
- color: #202d33;
+
+  color: #202d33;
 }
 
 nav ul li {
- list-style: none; 
- color: #202d33;
+  list-style: none;
+  color: #202d33;
 }
 
 nav ul li a {
@@ -64,7 +61,7 @@ nav ul li a {
   border-radius: 0.5rem;
 }
 
-.linkStyling{
+.linkStyling {
   color: #202d33;
 }
 
@@ -72,24 +69,23 @@ nav ul li a {
   background-color:#172554 ;
 } */
 
-.joinWithUs{
+.joinWithUs {
   width: 150px;
   padding: 15px 10px;
   gap: 10px;
   color: black;
   font-family: "Roboto";
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid #000;
- 
-  background-color: transparent;
 
+  background-color: transparent;
+  border-radius: 3px;
 }
 
-.horizontal-line-nav-bar{
+.horizontal-line-nav-bar {
   border: 1px black solid;
 }
-
 
 nav .menu {
   display: none;
@@ -109,102 +105,97 @@ nav .menu span {
   border-radius: 0.1rem;
 }
 
-.donateStyling{
+.donateStyling {
   width: 150px;
   padding: 15px 10px;
   gap: 10px;
   color: white;
   font-family: "Roboto";
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid #000;
-  background-color: #FE6711;
-
+  background-color: #fe6711;
+  border-width: 0px;
+  border-radius: 3px;
 }
 
-.specialLink{
+.specialLink {
   font-size: 20px;
   padding: 0;
 }
 
 @media (max-width: 1170px) {
-    .donateStyling{
-      width: 120px;
-    }
-    .specialLink{
-      text-align: center;
-    }
+  .donateStyling {
+    width: 120px;
+  }
+  .specialLink {
+    text-align: center;
+  }
 
-    .logoResizeHomePage{
-      width: 185px;
-    }
+  .logoResizeHomePage {
+    width: 185px;
+  }
 }
-
-
-
 
 @media (max-width: 1005px) {
   nav .menu {
-      display: flex;
-      margin-top: 15px;
-
+    display: flex;
+    margin-top: 15px;
   }
-  
 
-  .borderLineNav{
+  .borderLineNav {
     border-bottom: 2px solid rgb(126, 126, 126);
-    
   }
 
-  .specialLink{
+  .specialLink {
     padding: 8px;
   }
 
   nav {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 10px;
-      height: 90px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    height: 90px;
   }
-  .donateStyling{
-    background-color: #FE6711;
+  .donateStyling {
+    background-color: #fe6711;
     padding: 13px;
   }
 
   nav ul {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      margin-bottom: 0.25rem;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
   }
 
-  .mobileDeviceLogoResize{
+  .mobileDeviceLogoResize {
     width: 160px;
   }
 
-  .title{
+  .title {
     display: none;
   }
 
-  .titleMobile{
+  .titleMobile {
     display: block;
   }
 
   nav ul.open {
-      display: flex;
-      /* margin: auto; */
-      padding: 0px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-self: center;
-      background-color: white;
-      border-top: 10px solid white;
-      width: 100vw;
-      margin-bottom: 150px;
+    display: flex;
+    /* margin: auto; */
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: white;
+    border-top: 10px solid white;
+    width: 100vw;
+    margin-bottom: 150px;
   }
 
-  .onMobileDevices{
+  .onMobileDevices {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -213,29 +204,29 @@ nav .menu span {
   }
 
   nav ul li {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   nav ul li a {
-      margin: 0.2rem 0.5rem;
+    margin: 0.2rem 0.5rem;
   }
 
-  .donateStyling{
+  .donateStyling {
     display: none;
   }
 
-  .donateMobile{
+  .donateMobile {
     display: block;
     width: 100px;
   }
 
-  .linkStyling{
+  .linkStyling {
     text-decoration: none;
     padding: 6px;
   }
 
-  .joinWithUs{
+  .joinWithUs {
     width: 135px;
     font-size: 14px;
     font-weight: bold;
@@ -243,7 +234,7 @@ nav .menu span {
     margin-top: 15px;
   }
 
-  .mobileDonate{
+  .mobileDonate {
     display: none;
   }
 }
