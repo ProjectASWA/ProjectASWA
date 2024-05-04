@@ -19,7 +19,13 @@
   margin-bottom: 30px;
   align-self: center;
   font-size: 60px;
-  font-family: "Roboto";
+  font-family: Satoshi;
+}
+
+@media screen and (max-width: 998px) {
+  .OurProjects1-main-heading {
+    font-size: 30px;
+  }
 }
 
 .OurProjects1-sub-container {
@@ -63,7 +69,13 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 568px) {
+  .our-projects-image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 998px) {
   .our-projects-image {
     width: 50%;
   }
@@ -81,7 +93,13 @@
   padding-bottom: 80px;
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 568px) {
+  .donate-card-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 998px) {
   .donate-card-container {
     width: 50%;
   }
