@@ -4,9 +4,13 @@ import "./index.css";
 class CSRPartners extends Component {
   render() {
     return (
-      <div className="marquee-container">
+      <>
+        
+        <h1 className="csrPartnersHeading">CSR Partners</h1>
+        <div className="marquee-container">
         <div className="marquee">
           {/* Duplicate the set of images */}
+          
           {[...Array(2)].map((_, i) => (
             <React.Fragment key={i}>
               <img
@@ -84,6 +88,8 @@ class CSRPartners extends Component {
           ))}
         </div>
       </div>
+      </>
+      
     );
   }
 }

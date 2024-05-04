@@ -51,3 +51,14 @@
     margin-left: 0px;
   }
 }
+
+
+@media screen and (max-width: 375px){
+.impact-heading{
+    margin-bottom: 5px;
+}
+.arrangeBgContainer{
+  padding: 45px;
+  padding-top: 130px;
+}
+}
