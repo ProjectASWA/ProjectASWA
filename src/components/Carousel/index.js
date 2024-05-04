@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./index.css";
@@ -15,9 +15,9 @@ const CustomNextArrow = ({ onClick }) => (
   </button>
 );
 
-const CarouselImages = () => {
+const CarouselImages = () => {  
   return (
-    <Carousel  swipeable = {false}
+    <Carousel  swipeable = {true}
     renderArrowPrev={(onClickHandler, hasPrev, label) =>
       hasPrev && <CustomPrevArrow onClick={onClickHandler} />
     }
@@ -26,8 +26,8 @@ const CarouselImages = () => {
     }
       interval={2000}
       infiniteLoop
+      autoPlay
       
-      showStatus={false}
     >
       <div className="customCarousel5">
         <div className="arrangeDecoration">

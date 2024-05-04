@@ -14,7 +14,6 @@ nav {
   background-color: white;
   position: sticky;
   top: 0;
-  padding: 56px 60px;
   z-index: 1000;
   height: 56px;
 }
@@ -156,7 +155,7 @@ nav .menu span {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-    height: 90px;
+    height: 60px;
   }
   .donateStyling {
     background-color: #fe6711;
@@ -192,8 +191,9 @@ nav .menu span {
     justify-self: center;
     background-color: white;
     border-top: 10px solid white;
-    width: 100vw;
-    margin-bottom: 150px;
+    position: relative;
+    width: 100%;
+    bottom: 15px;
   }
 
   .onMobileDevices {
@@ -245,7 +245,7 @@ nav .menu span {
     width: 170px;
   }
   nav{
-    padding: 45px;
+    padding: 20px;
   }
 }
 
@@ -255,8 +255,3 @@ nav .menu span {
   }
 }
 
-@media (min-width: 980px){
-  .nav{
-    padding: 0px;
-  }
-}
