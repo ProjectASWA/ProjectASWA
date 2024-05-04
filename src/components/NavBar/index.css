@@ -124,6 +124,7 @@ nav .menu span {
   padding: 0;
 }
 
+
 @media (max-width: 1170px) {
   .donateStyling {
     width: 120px;
@@ -137,7 +138,7 @@ nav .menu span {
   }
 }
 
-@media (max-width: 1005px) {
+@media (max-width: 768px) {
   nav .menu {
     display: flex;
     margin-top: 15px;
@@ -236,5 +237,26 @@ nav .menu span {
 
   .mobileDonate {
     display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoResizeHomePage{
+    width: 170px;
+  }
+  nav{
+    padding: 45px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mobileDeviceLogoResize {
+    width: 100px;
+  }
+}
+
+@media (min-width: 980px){
+  .nav{
+    padding: 0px;
   }
 }

@@ -26,10 +26,37 @@ const CarouselImages = () => {
     }
       interval={2000}
       infiniteLoop
-      dynamicHeight = {true}
+      
       showStatus={false}
     >
       <div className="customCarousel5">
+        <div className="arrangeDecoration">
+          <div className="decorationContainer">
+              <img className = "decorationImage" src = "/Images/Decoration.png"/>
+          </div>
+          <div className="decorationContainer secondDecrotaion">
+            <img className = "decorationImage" src = "/Images/Decoration.png"/>
+        </div>
+        </div>
+        <div className="arrangeYearsBannerContainer">
+          <div className="years16Container">
+            <img className = "years16Image" src = "/Images/banner16Years.png"/>
+          </div>
+          <div className="childrenImageContainer">
+            <img className = "childrenImageBanner" src = "/Images/celebrationsBannerChildren.png"/>
+          </div>
+        </div>
+        <div className="arrangeCarouselContainerMobileBanner">
+        
+          <div className="years16ContainerMobile">
+            <img className = "years16ImageMobile" src = "/Images/banner16Years.png"/>
+          </div>
+          <div className="childrenImageContainerMobile">
+            <img className = "childrenImageBanner" src = "/Images/celebrationsBannerChildren.png"/>
+          </div>
+
+        </div>
+        
       </div>
       <div className="customCarousel1">
           <div className="customCarouselTextContainer">

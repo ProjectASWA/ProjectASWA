@@ -55,15 +55,51 @@
     background-image: url("/public/Images/donateBanner.jpg");
 }
 .customCarousel5{
-    height: 90%;
+    height: 100vh;
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url("/public/Images/celebrationsBanner.jpg");
+    background-color: #10275D;
+    display: flex;
+    flex-direction: column;
 }
 
 .YearsImage{
     height: 80vh;
+}
+
+.decorationImage{
+    width: 150px;
+    height: 100px;
+}
+
+.years16Container{
+    width: 20%;
+    padding-bottom: 70px;
+}
+
+
+
+
+.childrenImageContainer{
+    width: 50vw;
+}
+
+.arrangeYearsBannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+    height: 100%;
+}
+.years16Image{
+    width: 150px;
+}
+
+.arrangeDecoration{
+    display: flex;
+}
+
+.decorationContainer{
+    width: 50%;
 }
 
 .celebrationsContainer{
@@ -191,11 +227,15 @@
     justify-content: center;
 }
 
+.arrangeCarouselContainerMobileBanner{
+    display: none;
+}
+
 
 @media screen and (max-width: 1000px) {
     .customCarousel1{
         background-image: url('/public/Images/educationBannerMobile.jpg');
-        height: 70vh;
+        height: 100vh;
         width: 100%;
         background-size: center;
         background-size: cover;
@@ -203,19 +243,15 @@
 
     .customCarousel2{
         background-image: url('/public/Images/bloodImageDonateMobile.jpg');
-        height: 70vh;
+        height: 100vh;
         width: 100%;
         background-size: center;
         background-size: cover;
     } 
 
-    .customCarousel5{
-        background-size: cover;
-        background-image: url('/public/Images/celebrationMobile.png');
-    }
 
     .customCarousel4{
-        height: 70vh;
+        height: 100vh;
         width: 100%;
         
         background-image: url("/public/Images/successStoriesMobileBanner.png");
@@ -227,7 +263,7 @@
     }
 
     .customCarousel3{
-        height: 70vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -258,4 +294,44 @@
     
     
     
+}
+
+@media screen and (min-width: 1800px) {
+    .childrenImageContainer{
+        width: 60vw;
+    }
+
+    .years16Container{
+        width: 25%;
+    }
+
+    .arrangeDecoration{
+        display: none;
+    }
+    
+}  
+
+@media screen and (max-width: 700px) {
+    .arrangeYearsBannerContainer{
+        display: none;
+    }
+    .years16ContainerMobile{
+        width: 50%;
+    }
+    .arrangeCarouselContainerMobileBanner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .childrenImageContainerMobile{
+       width: 60%;
+    }
+    .secondDecoration{
+        display: none;
+    }
+
+    .arrangeCarouselContainerMobileBanner{
+        
+    }
 }
