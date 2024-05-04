@@ -1,342 +1,332 @@
-.customCarousel1{
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url("/public/Images/bookBanner.jpg");
+.customCarousel1 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/bookBanner.jpg");
 }
 
-.customCarousel4{
-    position: relative; /* Position relative to contain absolutely positioned pseudo-element */
+.customCarousel4 {
+  position: relative; /* Position relative to contain absolutely positioned pseudo-element */
   width: 100%; /* Adjust according to your layout */
   height: 100vh; /* Adjust according to your layout */
-  background-image: url('/public/Images/successStories.png'); /* Set your background image */
-  background-size: cover; 
+  background-image: url("/public/Images/successStories.png"); /* Set your background image */
+  background-size: cover;
 }
 
 .customCarousel4::before {
-    content: ''; /* Necessary for pseudo-elements */
-    position: absolute; /* Position absolutely within the container */
-    top: 0;
-    left: 0;
-    width: 80%; /* Same as container width */
-    height: 100vh; /* Same as container height */
-  
-    /* background: linear-gradient(to right, rgba(114, 151, 160, 0.5), rgba(201, 236, 244, 0.1)); */
-     background: linear-gradient(to right, rgba(114, 151, 160, 1), rgba(114, 151, 160, 0));
-    background-clip: content-box;
-    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); Adjust gradient colors and transparency */
-  }
+  content: ""; /* Necessary for pseudo-elements */
+  position: absolute; /* Position absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 80%; /* Same as container width */
+  height: 100vh; /* Same as container height */
 
- 
-.bannerImageStylingBanner{
-    
+  /* background: linear-gradient(to right, rgba(114, 151, 160, 0.5), rgba(201, 236, 244, 0.1)); */
+  background: linear-gradient(
+    to right,
+    rgba(114, 151, 160, 1),
+    rgba(114, 151, 160, 0)
+  );
+  background-clip: content-box;
+  /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); Adjust gradient colors and transparency */
 }
 
-.bannerImageCOntainer{
-    align-self: center;
-    
+.bannerImageStylingBanner {
 }
 
-.carousel4SideHeading{
-    z-index: 2;
+.bannerImageCOntainer {
+  align-self: center;
 }
 
-.buttonUpp{
-    z-index: 2;
+.carousel4SideHeading {
+  z-index: 2;
 }
 
-
-.customCarousel2{
-    height:100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url("/public/Images/donateBanner.jpg");
-}
-.customCarousel5{
-    height: 100vh;
-    width: 100%;
-    background-color: #10275D;
-    display: flex;
-    flex-direction: column;
+.buttonUpp {
+  z-index: 2;
 }
 
-.YearsImage{
-    height: 80vh;
+.customCarousel2 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/donateBanner.jpg");
+}
+.customCarousel5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #10275d;
+  display: flex;
+  flex-direction: column;
 }
 
-.decorationImage{
-    width: 150px;
-    height: 100px;
+.YearsImage {
+  height: 80vh;
 }
 
-.years16Container{
-    width: 20%;
-    padding-bottom: 70px;
+.decorationImage {
+  width: 150px;
+  height: 100px;
 }
 
-
-
-
-.childrenImageContainer{
-    width: 50vw;
+.years16Container {
+  width: 20%;
+  padding-bottom: 70px;
 }
 
-.arrangeYearsBannerContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    justify-self: center;
-    height: 100%;
-}
-.years16Image{
-    width: 150px;
+.childrenImageContainer {
+  width: 50vw;
 }
 
-.arrangeDecoration{
-    display: flex;
+.arrangeYearsBannerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: center;
+  height: 100%;
+}
+.years16Image {
+  width: 150px;
 }
 
-.decorationContainer{
-    width: 50%;
+.arrangeDecoration {
+  display: flex;
 }
 
-.celebrationsContainer{
-    width: 50%;
+.decorationContainer {
+  width: 50%;
+  display: none;
 }
 
-.customCarousel3{
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url("/public/Images/environmentBanner.jpg");
+.celebrationsContainer {
+  width: 50%;
 }
 
-.knowMoreCarousel{
-    background-color: #FFB800;
-    color: black;
-    border: none;
-    font-weight: bold;
-    font-size: 24px;
-    padding: 15px;
-    margin-left: 75px;
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    text-align: center;
-    width: 250px;
-    border-radius: 12px;
+.customCarousel3 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/environmentBanner.jpg");
 }
 
-.carouselHeading{
-    font-size: 74px;
-    color: white;
-    word-break: normal;
-    width: 50%;
-    text-align: left;
-    line-height: 1.5;
-    padding-left: 75px;
+.knowMoreCarousel {
+  background-color: #ffb800;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px;
+  margin-left: 75px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  text-align: center;
+  width: 250px;
+  border-radius: 12px;
 }
 
-.carouselDescription{
-    font-size: 24px;
-    color: white;
-    width: 50%;
-    text-align: left;
-    padding-left: 75px;
-    line-height: 1.5;
+.carouselHeading {
+  font-size: 74px;
+  color: white;
+  word-break: normal;
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 75px;
 }
 
-.secondBannerHeading{
-    width: 25%;
-    line-height: 1.2;
-    color: #FE3D33;
-    padding-bottom: 25px;
+.carouselDescription {
+  font-size: 24px;
+  color: white;
+  width: 50%;
+  text-align: left;
+  padding-left: 75px;
+  line-height: 1.5;
 }
 
-.secondBannerSideHeading{
-    color: black;
-    width: 45%;
-    font-size: 24px;
-    line-height: 1.2;
+.secondBannerHeading {
+  width: 25%;
+  line-height: 1.2;
+  color: #fe3d33;
+  padding-bottom: 25px;
 }
 
-.carousel3Heading{
-    width: 30%;
-    line-height: 1.3;
+.secondBannerSideHeading {
+  color: black;
+  width: 45%;
+  font-size: 24px;
+  line-height: 1.2;
 }
-.carousel4Heading{
-    z-index: 2000;
-    width: 35%;
-    font-size: 72px;
-  }
 
-.carousel3SideHeading{
-    width: 40%;
-    margin-top: 10px;
+.carousel3Heading {
+  width: 30%;
+  line-height: 1.3;
+}
+.carousel4Heading {
+  z-index: 2000;
+  width: 35%;
+  font-size: 72px;
+}
+
+.carousel3SideHeading {
+  width: 40%;
+  margin-top: 10px;
 }
 
 .carousel .control-arrow {
-   
-    /* Your custom styles here */
+  /* Your custom styles here */
 }
 
 .carousel .control-dots {
-    display: none;
-  }
-
-.buttonStylingPrevious{
-    background-color: transparent;
-    border: none;
-    position: absolute;
-     z-index: 1;
-     width: 30px; 
-     margin-left: 15px;
+  display: none;
 }
 
-.buttonStylingNext{
-    background-color: transparent;
-    border: none;
-    width: 30px;
-    right: 15px;
-    position: absolute;
-     z-index: 1;
-     margin-left: 96%;
+.buttonStylingPrevious {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  z-index: 1;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.buttonStylingNext {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  right: 15px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 96%;
 }
 
 /* Override styles for left arrow */
 .carousel .control-arrow.control-prev {
-    /* Your custom styles here */
-   
-
+  /* Your custom styles here */
 }
 
-.carousel-slider{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.carousel-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Override styles for right arrow */
 .carousel .control-arrow.control-next {
-    /* Your custom styles here */
+  /* Your custom styles here */
 }
 
-.customCarouselTextContainer{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+.customCarouselTextContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.arrangeCarouselContainerMobileBanner{
-    display: none;
+.arrangeCarouselContainerMobileBanner {
+  display: none;
 }
-
 
 @media screen and (max-width: 1000px) {
-    .customCarousel1{
-        background-image: url('/public/Images/educationBannerMobile.jpg');
-        height: 100vh;
-        width: 100%;
-        background-size: center;
-        background-size: cover;
-    } 
+  .customCarousel1 {
+    background-image: url("/public/Images/educationBannerMobile.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: center;
+    background-size: cover;
+  }
 
-    .customCarousel2{
-        background-image: url('/public/Images/bloodImageDonateMobile.jpg');
-        height: 100vh;
-        width: 100%;
-        background-size: center;
-        background-size: cover;
-    } 
+  .customCarousel2 {
+    background-image: url("/public/Images/bloodImageDonateMobile.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: center;
+    background-size: cover;
+  }
 
+  .customCarousel4 {
+    height: 100vh;
+    width: 100%;
 
-    .customCarousel4{
-        height: 100vh;
-        width: 100%;
-        
-        background-image: url("/public/Images/successStoriesMobileBanner.png");
-    }
+    background-image: url("/public/Images/successStoriesMobileBanner.png");
+  }
 
-    .carousel4SideHeading{
-        font-weight: 500;
-        font-size: 26px;
-    }
+  .carousel4SideHeading {
+    font-weight: 500;
+    font-size: 26px;
+  }
 
-    .customCarousel3{
-        height: 100vh;
-        width: 100%;
-    }
+  .customCarousel3 {
+    height: 100vh;
+    width: 100%;
+  }
 
-    .carouselHeading{
-        font-size: 32px;
-        width: 90%;
-        padding-left: 30px;
-        
-    }
+  .carouselHeading {
+    font-size: 32px;
+    width: 90%;
+    padding-left: 30px;
+  }
 
-    .carouselDescription{
-        width: 90%;
-        padding-left: 30px;
-        margin-top: 20px;
-    }
+  .carouselDescription {
+    width: 90%;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
 
-    .knowMoreCarousel{
-        width: 150px;
-        font-size: 20px;
-        margin-left: 30px;
-    }
+  .knowMoreCarousel {
+    width: 150px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
 
-    .customCarouselTextContainer{
-        padding-top: 100px;
-        justify-content: flex-start;
-    }
-
-    
-    
-    
+  .customCarouselTextContainer {
+    padding-top: 100px;
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (min-width: 1800px) {
-    .childrenImageContainer{
-        width: 60vw;
-    }
+  .childrenImageContainer {
+    width: 60vw;
+  }
 
-    .years16Container{
-        width: 25%;
-    }
+  .years16Container {
+    width: 25%;
+  }
 
-    .arrangeDecoration{
-        display: none;
-    }
-    
-}  
+  .arrangeDecoration {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 700px) {
-    .arrangeYearsBannerContainer{
-        display: none;
-    }
-    .years16ContainerMobile{
-        width: 50%;
-    }
-    .arrangeCarouselContainerMobileBanner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .childrenImageContainer{
-       width: 60vw;
-    }
-    .secondDecoration{
-        display: none;
-    }
+  .arrangeYearsBannerContainer {
+    display: none;
+  }
+  .years16ContainerMobile {
+    width: 50%;
+  }
+  .arrangeCarouselContainerMobileBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .childrenImageContainer {
+    width: 60vw;
+  }
+  .secondDecoration {
+    display: none;
+  }
 
-    .arrangeCarouselContainerMobileBanner{
-        
-    }
+  .arrangeCarouselContainerMobileBanner {
+  }
+}
+
+.arrow-button {
+  cursor: pointer;
 }
