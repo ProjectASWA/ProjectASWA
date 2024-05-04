@@ -1,6 +1,6 @@
 .footer-main-container {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   padding: var(--Spacing-none, 72px) var(--Spacing-none, 110px);
   justify-content: center;
   align-items: center;
