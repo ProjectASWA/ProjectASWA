@@ -10,14 +10,14 @@ const Footer = () => {
             <div className="reach-us-container">
               <h5 className="reach-us">Reach us</h5>
               <div className="mail-container">
-                <img src="/Images/email.svg" />
+                <img className="locationImageFooter" src="/Images/email.svg" />
                 <p className="mail">amma.aswa@gmail.com</p>
               </div>
             </div>
           </div>
           <div className="address-container">
             <div className="address-heading-container">
-              <img src="/Images/location.svg" />
+              <img className = "locationImageFooter" src="/Images/location.svg" />
               <p className="address-heading">Registered Office</p>
             </div>
             <p className="address-description">
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div className="address-container">
             <div className="address-heading-container">
-              <img src="/Images/location.svg" />
+              <img className = "locationImageFooter" src="/Images/location.svg" />
               <p className="address-heading">ADMIN OFFICE</p>
             </div>
             <p className="address-description">
@@ -41,11 +41,11 @@ const Footer = () => {
         </div>
         <div className="follow-us-section-container">
           <div className="follow-us-icons">
-            <img src="/Images/facebook.svg" />
-            <img src="/Images/instagram.svg" />
-            <img src="/Images/twitter.svg" />
-            <img src="/Images/linkedin.svg" />
-            <img src="/Images/youtube.svg" />
+            <img className = "locationImageFooter" src="/Images/facebook.svg" />
+            <img className = "locationImageFooter" src="/Images/instagram.svg" />
+            <img className = "locationImageFooter" src="/Images/twitter.svg" />
+            <img className = "locationImageFooter" src="/Images/linkedin.svg" />
+            <img className = "locationImageFooter" src="/Images/youtube.svg" />
           </div>
           <div>
             <p className="quotation">
