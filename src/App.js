@@ -24,6 +24,8 @@ import AnnamParabrahmam from "./components/AnnamParabrahmam";
 
 import DonateProject from "./components/DonateProject";
 
+import HomeVisits from './components/HomeVisits'
+
 function App() {
   return (
     <div className="App">
@@ -39,6 +41,7 @@ function App() {
         <Route exact path="/AnnamParabrahmam" component={AnnamParabrahmam} />
         <Route exact path="/Environment" component={Environment} />
         <Route exact path="/DonateProject" component={DonateProject} />
+        <Route exact path = "/HomeVisits" component = {HomeVisits}/>
         <Route />
       </Switch>
     </div>
