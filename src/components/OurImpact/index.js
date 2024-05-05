@@ -12,7 +12,7 @@ const imagesArr = [
   },
   {
     id: 2,
-    image: "/Images/greenbackground.png",
+    image: "/Images/greenbackgroun.png",
     count: 12,
     description: "Lives Saved",
   },
