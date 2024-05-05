@@ -143,6 +143,7 @@ Carousel {
   text-align: left;
   line-height: 1.5;
   padding-left: 75px;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .carouselDescription {
@@ -152,6 +153,7 @@ Carousel {
   text-align: left;
   padding-left: 75px;
   line-height: 1.5;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .secondBannerHeading {
@@ -181,6 +183,10 @@ Carousel {
 .carousel3SideHeading {
   width: 40%;
   margin-top: 10px;
+}
+
+.carousel-status {
+  display: none !important;
 }
 
 .carousel .control-arrow {

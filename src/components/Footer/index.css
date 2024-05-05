@@ -55,7 +55,7 @@
 
 .mail {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Poppins";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -83,12 +83,12 @@
   display: flex;
   gap: 22px;
   font-size: 24px;
-  font-family: "Inter";
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .address-heading {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -103,7 +103,7 @@
 
 .address-description {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Poppins";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -148,7 +148,7 @@
 
 .quotation {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Sathoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -164,7 +164,7 @@
 
 .reach-us {
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;

@@ -2,7 +2,7 @@
 .marquee-container {
   display: flex;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #F1EEEC;
   justify-content: center;
   align-items: center;
   height: 200px; /* Adjust container height if necessary */
@@ -10,10 +10,11 @@
 }
 .csrPartnersHeading{
   color: black;
+  background-color: #F1EEEC;
   font-size: 48px;
-  margin-top: 25px;
+  padding-top: 25px;
   text-align: center;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .marquee {

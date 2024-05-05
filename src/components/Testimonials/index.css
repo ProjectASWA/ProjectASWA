@@ -32,6 +32,7 @@
 .testimonials-title-large {
   text-align: right;
   font-size: 26px;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,6 +48,8 @@
 
 .paraQuotesLarge {
   font-size: 28px;
+  font-family: 'Sathoshi', sans-serif;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -62,13 +65,15 @@
 }
 
 .slider-container-large-screen {
-  background-color: #d9dff1;
+  background-color: #DAD6D3
+  ;
   padding: 10px;
   padding-top: 50px;
   font-family: "Roboto";
 }
 .testimonials-heading-large {
   font-size: 50px;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
