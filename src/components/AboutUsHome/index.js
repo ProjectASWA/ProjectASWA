@@ -28,12 +28,7 @@ const AboutUsHomeSection = () => {
           <div className="about-contents-container">
             <p className="about-heading">Love all serve all</p>
             <p className="about-para">
-              ASWA, the Amma Social Welfare Association, is a beacon of
-              compassion, driving impactful change for the marginalized. Over a
-              decade, ASWA has pursued holistic development, spanning education,
-              healthcare, and environmental sustainability. Through grassroots
-              efforts, it fosters inclusivity, empowers communities, and seeds
-              hope for a brighter future.
+            ASWA, the Amma Social Welfare Association, established on April 24, 2007, is a beacon of compassion, driving impactful change for the marginalized. Over the past decade, ASWA has pursued holistic development spanning education, healthcare, and environmental sustainability. Through grassroots efforts, it fosters inclusivity, empowers communities, and seeds hope for a brighter future.
             </p>
           </div>
           <div className="button-container">
