@@ -12,6 +12,9 @@
   margin: auto;
   margin-top: 38px;
   margin-bottom: 38px;
+  background: #f0ece9;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .environment-text-container {
