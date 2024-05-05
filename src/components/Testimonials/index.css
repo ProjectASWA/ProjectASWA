@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 50px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -66,13 +66,15 @@
 .slider-container-large-screen {
   background-color: #dad6d3;
   padding: 10px;
-  padding-top: 50px;
+  margin-top: 10px;
+  padding-top: 30px;
   font-family: "Roboto";
 }
 .testimonials-heading-large {
   font-size: 50px;
   text-align: center;
   font-family: "Sathoshi", sans-serif;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {

@@ -5,7 +5,8 @@
   align-items: flex-start;
   gap: 45px;
   background: #f1eeec;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
+
   /* height: 100vh; */
 }
 

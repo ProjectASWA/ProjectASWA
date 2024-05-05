@@ -35,6 +35,16 @@
   opacity: 0.9;
 }
 
+.countUpAnimationHeading{
+  font-size: 60px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.descriptionStyling{
+  margin: 5px;
+}
+
 @media screen and (max-width: 1000px) {
   .arrangeBgContainer {
     flex-direction: row;
@@ -112,10 +122,40 @@
   gap: 60px;
 }
 
+.impact-heading{
+  font-family: 'Sathoshi', sans-serif;
+}
+
 /* Example CSS adjustment */
 @media (min-width: 992px) {
   .impact-button-container {
     /* Remove any styles that might be disabling the button */
-    pointer-events: auto; /* Reset pointer-events to default */
+    pointer-events: auto;
+     /* Reset pointer-events to default */
+  }
+}
+
+@media (max-width: 400px){
+  .countUpAnimationHeading{
+    font-size: 34px;
+  }
+  .backgroundStylingImageImpact{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px){
+  .backgroundStylingImageImpact{
+    width: 105px;
+    height: 100px;
+  }
+
+  .impact-button-container{
+    justify-content: center;
+  }
+
+  .countUpAnimationHeading{
+    font-size: 30px;
   }
 }
