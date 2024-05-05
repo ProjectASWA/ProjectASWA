@@ -1,6 +1,5 @@
 import "./index.css";
-
-import { Component } from "react";
+import React, { Component } from "react";
 
 const cardImages = {
   environmentAwarness: {
@@ -28,25 +27,27 @@ const cardImages = {
 class Environment extends Component {
   constructor(props) {
     super(props);
+    this.imageRef = React.createRef();
     this.state = {
       selectedCard: "environmentAwarness",
       clickedText: "environmentAwarness",
     };
   }
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
   handleCardClick = (card) => {
     this.setState({ selectedCard: card, clickedText: card });
+    // Scroll to the image
+    this.imageRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   };
 
   render() {
     const { selectedCard, clickedText } = this.state;
     return (
       <div className="Environment-main-container">
-        <img src="/Images/environmentBannerBackground.avif" className="environment-image" />
+        <img src="/Images/environment11.png" className="environment-image" />
         <div className="Environment-sub-container">
           <div className="environment-text-container">
             <h3 className="environment-heading">Environment</h3>
@@ -71,7 +72,10 @@ class Environment extends Component {
                 ))}
               </ul>
 
-              <div className="environment-cards-image-container">
+              <div
+                className="environment-cards-image-container"
+                ref={this.imageRef}
+              >
                 <img
                   src={cardImages[selectedCard].image}
                   alt="Environment Awareness"

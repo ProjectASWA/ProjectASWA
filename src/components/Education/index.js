@@ -8,7 +8,7 @@ import HigherEducation from "../HigherEducation";
 
 const edcuataionImages = {
   school: "/Images/schoolEducation.png",
-  higher: "/Images/HigherEdcuation.png",
+  higher: "/Images/higherEducation1.png",
 };
 
 class Education extends Component {

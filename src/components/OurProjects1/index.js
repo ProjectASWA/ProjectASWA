@@ -8,7 +8,9 @@ class OurProjects1 extends Component {
   render() {
     return (
       <div className="OurProjects1-card-container">
-        <h1 className="OurProjects1-main-heading">Our Projects</h1>
+        <div className="heading-container">
+          <h1 className="OurProjects1-main-heading">Our Projects</h1>
+        </div>
         <div className="OurProjects1-sub-container">
           <div className="what-we-did-card">
             <div className="what-we-did-card-text-container">
@@ -20,7 +22,7 @@ class OurProjects1 extends Component {
             className="our-projects-image"
             style={{
               background:
-                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/ourProjectsEducation.png")',
+                'linear-gradient(358deg, #000 -5.19%, rgba(0, 0, 0, 0.46) 61.12%, rgba(0, 0, 0, 0) 98.42%), url("../Images/education2.png")',
               backgroundSize: "cover",
             }}
           >

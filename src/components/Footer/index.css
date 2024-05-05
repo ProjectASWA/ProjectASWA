@@ -9,7 +9,7 @@
 .aswa-logo {
   width: 320px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .footer-main-container {
     padding: var(--Spacing-none, 72px) var(--Spacing-none, 30px);
   }
@@ -32,7 +32,7 @@
   gap: inherit;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .footer-section-first-container {
     flex-direction: column;
     align-items: flex-start;
@@ -72,7 +72,7 @@
   gap: var(--Spacing-none, 20px);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .address-container {
     width: 100%;
     gap: 20px;
@@ -95,7 +95,7 @@
   line-height: 24px; /* 100% */
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .address-heading {
     font-size: 16px;
   }
@@ -124,13 +124,14 @@
   display: flex;
   padding: var(--Spacing-none, 0px) var(--Spacing-none, 0.394px)
     var(--Spacing-none, 38.869px) var(--Spacing-none, 0px);
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
   gap: var(--Spacing-none, 256.2px);
   flex-shrink: 0;
+  width: 100%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .follow-us-section-container {
     flex-direction: column;
     align-items: flex-start;
@@ -155,7 +156,7 @@
   margin-top: 0; /* Remove margin top */
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .quotation {
     text-align: left;
   }
@@ -170,7 +171,7 @@
   line-height: 28px; /* 155.556% */
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .reach-us {
     text-align: left;
     font-size: 22px;

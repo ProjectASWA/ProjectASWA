@@ -27,11 +27,12 @@
   padding: 50px;
 }
 
-.impact-heading{
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-size: 40px;
+.impact-heading {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-size: 40px;
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 1000px) {
@@ -52,13 +53,12 @@
   }
 }
 
-
-@media screen and (max-width: 375px){
-.impact-heading{
+@media screen and (max-width: 375px) {
+  .impact-heading {
     margin-bottom: 5px;
-}
-.arrangeBgContainer{
-  padding: 45px;
-  padding-top: 130px;
-}
+  }
+  .arrangeBgContainer {
+    padding: 45px;
+    padding-top: 130px;
+  }
 }

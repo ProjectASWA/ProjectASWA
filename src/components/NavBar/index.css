@@ -11,10 +11,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background: rgba(0, 0, 0, 0.26);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1;
   height: 56px;
 }
 
@@ -22,7 +22,8 @@ nav {
   font-size: 20px;
   align-self: center;
   padding-top: 10px;
-  color: #202d33;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .onMobileDevices {
@@ -50,7 +51,6 @@ nav ul {
 nav ul li {
   list-style: none;
   color: #202d33;
-  
 }
 
 nav ul li a {
@@ -63,6 +63,7 @@ nav ul li a {
 
 .linkStyling {
   color: #202d33;
+  color: var(--color-semantic-white-100, #fff);
 }
 
 /* nav ul li a:not(.active):hover {
@@ -77,10 +78,10 @@ nav ul li a {
   font-family: Sathoshi;
   font-weight: 600;
   font-size: 13px;
-  border: 1px solid #000;
-
+  border: 1px solid #fff;
   background-color: transparent;
   border-radius: 3px;
+  color: var(--color-semantic-white-100, #fff);
 }
 
 .horizontal-line-nav-bar {
@@ -96,6 +97,7 @@ nav .menu {
   justify-content: space-between;
   width: 2.25rem;
   height: 2rem;
+  cursor: pointer;
 }
 
 nav .menu span {
@@ -124,7 +126,6 @@ nav .menu span {
   padding: 0;
 }
 
-
 @media (max-width: 1170px) {
   .donateStyling {
     width: 120px;
@@ -138,10 +139,11 @@ nav .menu span {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   nav .menu {
     display: flex;
     margin-top: 15px;
+    align-items: center;
   }
 
   .borderLineNav {
@@ -155,6 +157,7 @@ nav .menu span {
   nav {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     padding: 10px;
     height: 60px;
   }
@@ -226,6 +229,7 @@ nav .menu span {
   .linkStyling {
     text-decoration: none;
     padding: 6px;
+    color: var(--color-semantic-white-100, #fff);
   }
 
   .joinWithUs {
@@ -241,11 +245,11 @@ nav .menu span {
   }
 }
 
-@media (min-width: 768px) {
-  .logoResizeHomePage{
+@media (min-width: 992px) {
+  .logoResizeHomePage {
     width: 170px;
   }
-  nav{
+  nav {
     padding: 20px;
   }
 }
@@ -255,4 +259,3 @@ nav .menu span {
     width: 100px;
   }
 }
-

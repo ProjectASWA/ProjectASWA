@@ -4,6 +4,13 @@
   background-size: cover;
   background-position: center;
   background-image: url("/public/Images/bookBanner.jpg");
+  position: relative;
+  z-index: 1001;
+}
+
+Carousel {
+  position: relative;
+  z-index: 1001; /* Higher z-index for the carousel */
 }
 
 .customCarousel4 {
@@ -329,4 +336,14 @@
 
 .arrow-button {
   cursor: pointer;
+}
+
+.carousel-container {
+  /* Adjust positioning and dimensions of the carousel */
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+  height: 100%;
+  bottom: 5%;
 }
