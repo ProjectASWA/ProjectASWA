@@ -4,7 +4,6 @@ const OurTeam = () => {
   return (
     <div className="our-team-container">
       <h1 className="our-team-heading">Our Team</h1>
-
       <div className="our-team-cards-container">
         <div className="our-team-card-container">
           <img src="/Images/ourTeam1.png" className="our-team-image" />

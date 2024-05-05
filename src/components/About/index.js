@@ -56,7 +56,7 @@ import AboutUsNavbar from "../AboutUsNavbar";
 
 const headerImages = {
   SuccessStories: "/Images/success1.png",
-  OurTeam: "/Images/ourteam1.png",
+  OurTeam: "/Images/ourteam.png",
   VisionAndMission: "/Images/visionandmission1.png",
 };
 

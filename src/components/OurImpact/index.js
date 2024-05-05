@@ -1,17 +1,18 @@
-import React, {useRef, useEffect, useState} from 'react'
+import React, { useRef, useEffect, useState } from "react";
 import ImpactCard from "../ImpactCard";
 import "./index.css";
+import { Link } from "react-router-dom";
 
 const imagesArr = [
   {
     id: 1,
     image: "/Images/pinkbackground.png",
     count: 150,
-    description: "Students Benifited",
+    description: "Students Benefited",
   },
   {
     id: 2,
-    image: "/Images/greenbackgroun.png",
+    image: "/Images/greenbackground.png",
     count: 12,
     description: "Lives Saved",
   },
@@ -19,7 +20,7 @@ const imagesArr = [
     id: 3,
     image: "/Images/brownbackground.png",
     count: 25,
-    description: "Hungers fulfilled",
+    description: "Hunger Fulfilled",
   },
   {
     id: 4,
@@ -30,53 +31,54 @@ const imagesArr = [
 ];
 
 const Impact = () => {
-  let c;
+  const targetRef = useRef(null);
+  const [isIntersected, setIsIntersected] = useState(false);
 
-  const targetRefs = [useRef(null)];
-  const [isIntersected, setisIntersected] = useState(false);
   useEffect(() => {
     const callback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          let element = document.getElementById(entry.target.id);
-          setisIntersected(!isIntersected)
-          console.log("intersectinaksfjkj");
-          // Perform action when the target element is on screen
+          setIsIntersected(true);
+          console.log("intersecting");
         }
       });
     };
 
     const observer = new IntersectionObserver(callback, { threshold: 0.5 });
 
-    // Observe each target element
-    targetRefs.forEach((ref) => {
-      if (ref.current) {
-        observer.observe(ref.current);
-      }
-    });
+    if (targetRef.current) {
+      observer.observe(targetRef.current);
+    }
 
     return () => {
-      // Clean up by unobserving each target element
-      targetRefs.forEach((ref) => {
-        if (ref.current) {
-          observer.unobserve(ref.current);
-        }
-      });
+      if (targetRef.current) {
+        observer.unobserve(targetRef.current);
+      }
     };
   }, []);
+
   return (
     <div className="arrangeCount">
       <h1 className="impact-heading">Our Impact</h1>
-      <div className="arrangeBgContainer" ref={targetRefs[0]}>
-        {isIntersected ? (
-          <>
-            {imagesArr.map((eachItem) => {
-          let a;
-          return <ImpactCard isIntersected = {isIntersected} key={eachItem.id} details={eachItem} />;
-        })}
-          </>
-        ): null}
-        
+      <div className="column-container">
+        <div className="arrangeBgContainer" ref={targetRef}>
+          {isIntersected &&
+            imagesArr.map((eachItem) => (
+              <ImpactCard key={eachItem.id} details={eachItem} />
+            ))}
+          <div className="impact-button-container">
+            <Link to="/ImpactReports">
+              <button
+                className="impact-button"
+                onClick={() => {
+                  console.log("hello");
+                }}
+              >
+                KNOW MORE
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

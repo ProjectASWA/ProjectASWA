@@ -1,0 +1,82 @@
+.impact-reports-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.impact-reports-text-container {
+  margin-top: 40px;
+}
+
+.impact-reports-image {
+  width: 100vw;
+  height: 40vh;
+}
+
+.impact-reports-heading {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.impact-reports-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.impact-reports-card-count {
+  display: flex;
+  width: 127px;
+  height: 96px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #a9afe4;
+}
+
+.impact-reports-card-text {
+  display: flex;
+  width: 40%;
+  height: 96px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: var(--Color-Action-neutral-subtle-normal, #f1f5f9);
+}
+
+.impact-reports-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 61px;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.impact-reports-cards-sub-container {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .impact-reports-cards-sub-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .impact-reports-heading {
+    font-size: 30px;
+  }
+}
