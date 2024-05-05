@@ -113,8 +113,14 @@
   text-align: center;
   padding: 10px;
   display: flex;
+  text-align: left;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+}
+.donate-card-author{
+  color: white;
+  text-align: right;
+  width: 80%;
 }
 
 @media screen and (max-width: 998px) {

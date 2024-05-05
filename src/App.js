@@ -28,6 +28,8 @@ import HomeVisits from './components/HomeVisits'
 
 import Volunteer from './components/Volunteer'
 
+import PdfComponent from "./components/PdfComponent";
+
 function App() {
   return (
     <div className="App">
@@ -45,7 +47,7 @@ function App() {
         <Route exact path="/DonateProject" component={DonateProject} />
         <Route exact path = "/HomeVisits" component = {HomeVisits}/>
         <Route exact path = "/volunteer" component = {Volunteer}/>
-        <Route />
+        <Route exact path = "/pdf" component = {PdfComponent}/>
       </Switch>
     </div>
   );
