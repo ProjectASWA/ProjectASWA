@@ -1,86 +1,81 @@
-.backgroundStylingImageImpact{
-    width: 220px;
-    height: 220px;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 200;
-    filter: saturate(100%);
+.backgroundStylingImageImpact {
+  width: 220px;
+  height: 220px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  filter: saturate(100%);
+  text-align: center;
 }
 
-.countUpAnimationHeading{
-    color: white;
-    font-size: 60px;
-    font-weight: 600;
-    
-    font-family: 'Sathoshi', sans-serif;
+.countUpAnimationHeading {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+
+  font-family: "Sathoshi", sans-serif;
 }
 
+.descriptionStyling {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
 
-.descriptionStyling{
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: 500;
-    color: white;
-    
-    font-family: 'Sathoshi', sans-serif;
-
+  font-family: "Sathoshi", sans-serif;
 }
-
-
-
 
 @media screen and (max-width: 1000px) {
-    .countUpAnimationHeading{
-        font-size: 48px;
-    }
+  .countUpAnimationHeading {
+    font-size: 48px;
+  }
 
-    .backgroundStylingImageImpact{
-        width: 200px;
-        height: 200px;
-    }
+  .backgroundStylingImageImpact {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .countUpAnimationHeading{
-        font-size: 60px;
-    }
+  .countUpAnimationHeading {
+    font-size: 60px;
+  }
 
-    .backgroundStylingImageImpact{
-        width: 120px;
-        height: 120px;
-        margin: 18px;
-    }
+  .backgroundStylingImageImpact {
+    width: 120px;
+    height: 120px;
+    margin: 18px;
+  }
 }
-
 
 @media screen and (max-width: 576px) {
-    .countUpAnimationHeading{
-        font-size: 36px;
-    }
+  .countUpAnimationHeading {
+    font-size: 36px;
+  }
 
-    .descriptionStyling{
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .backgroundStylingImageImpact{
-        width: 130px;
-        height: 130px;
-        margin: 5px;
-    }
+  .descriptionStyling {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .backgroundStylingImageImpact {
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+  }
 }
-
 
 @media screen and (max-width: 375px) {
-  .backgroundStylingImageImpact{
+  .backgroundStylingImageImpact {
     width: 100px;
     height: 100px;
   }
 
-  .countUpAnimationHeading{
+  .countUpAnimationHeading {
     font-size: 32px;
   }
 }

@@ -1,20 +1,19 @@
-/* Styles for large screens */
 .marquee-container {
-  display: flex;
   overflow: hidden;
-  background-color: #F1EEEC;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px; /* Adjust container height if necessary */
-  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.csrPartnersHeading{
+
+.csrPartnersHeading {
   color: black;
-  background-color: #F1EEEC;
   font-size: 48px;
-  padding-top: 25px;
   text-align: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
+  align-self: center;
 }
 
 .marquee {

@@ -28,11 +28,12 @@
   align-items: center;
   gap: 10px;
   margin-top: 30px;
+  width: 80%;
 }
 
 .impact-reports-card-count {
   display: flex;
-  width: 127px;
+  width: 20%;
   height: 96px;
   padding: 10px;
   justify-content: center;
@@ -44,7 +45,7 @@
 
 .impact-reports-card-text {
   display: flex;
-  width: 40%;
+  width: 60%;
   height: 96px;
   padding: 10px;
   justify-content: center;
@@ -62,6 +63,7 @@
   width: 90%;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .impact-reports-cards-sub-container {

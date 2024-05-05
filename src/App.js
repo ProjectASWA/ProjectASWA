@@ -11,8 +11,11 @@ import Environment from "./components/Environment";
 import AnnamParabrahmam from "./components/AnnamParabrahmam";
 import DonateProject from "./components/DonateProject";
 import HomeVisits from "./components/HomeVisits";
+
 import Volunteer from "./components/Volunteer";
+
 import PdfComponent from "./components/PdfComponent";
+
 import ImpactReports from "./components/ImpactReports";
 
 function App() {
@@ -33,7 +36,7 @@ function App() {
           <Route exact path="/HomeVisits" component={HomeVisits} />
           <Route exact path="/volunteer" component={Volunteer} />
           <Route exact path="/pdf" component={PdfComponent} />
-          <Route path="/ImpactReports" component={ImpactReports} />
+          <Route path="/impactReports" component={ImpactReports} />
         </Switch>
       </div>
     </Router>

@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="address-container">
             <div className="address-heading-container">
-              <img className = "locationImageFooter" src="/Images/location.svg" />
+              <img className="locationImageFooter" src="/Images/location.svg" />
               <p className="address-heading">Registered Office</p>
             </div>
             <p className="address-description">
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div className="address-container">
             <div className="address-heading-container">
-              <img className = "locationImageFooter" src="/Images/location.svg" />
+              <img className="locationImageFooter" src="/Images/location.svg" />
               <p className="address-heading">ADMIN OFFICE</p>
             </div>
             <p className="address-description">
@@ -36,16 +36,14 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="horizontal-line-container">
-          <hr />
-        </div>
+        <div className="horizontal-line-container">{/* <hr /> */}</div>
         <div className="follow-us-section-container">
           <div className="follow-us-icons">
-            <img className = "locationImageFooter" src="/Images/facebook.svg" />
-            <img className = "locationImageFooter" src="/Images/instagram.svg" />
-            <img className = "locationImageFooter" src="/Images/twitter.svg" />
-            <img className = "locationImageFooter" src="/Images/linkedin.svg" />
-            <img className = "locationImageFooter" src="/Images/youtube.svg" />
+            <img className="locationImageFooter" src="/Images/facebook.svg" />
+            <img className="locationImageFooter" src="/Images/instagram.svg" />
+            <img className="locationImageFooter" src="/Images/twitter.svg" />
+            <img className="locationImageFooter" src="/Images/linkedin.svg" />
+            <img className="locationImageFooter" src="/Images/youtube.svg" />
           </div>
           <div>
             <p className="quotation">
