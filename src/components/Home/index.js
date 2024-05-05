@@ -25,14 +25,15 @@ const Home = () => {
       <AboutUsHomeSection />
       <Impact />
       <OurProjects1 />
-
-      <CSRPartners />
+      
       <div className="testimonials-large-devices">
         <Testimonials />
       </div>
       <div className="testimonials-small-devices">
         <MobileTestimonials />
       </div>
+
+      <CSRPartners />
       <Footer />
     </>
   );

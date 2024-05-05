@@ -98,6 +98,7 @@ font-weight: 700;
     .reportsButtonContainer{
         width: 90%;
         border-radius: 6px;
+        padding: 10px;
     }
     .buttonReportsContainer{
         width: 25%;

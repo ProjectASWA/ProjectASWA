@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4bafd23.css",
-    "main.js": "/static/js/main.0eff092a.js",
+    "main.css": "/static/css/main.01d682d7.css",
+    "main.js": "/static/js/main.39e1d5c9.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.dc866867.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.4bcf9971.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.794a7f52.chunk.js",
@@ -21,18 +21,16 @@
     "static/media/environmentBanner.jpg": "/static/media/environmentBanner.36881b046bcf11ee7918.jpg",
     "static/media/bloodImageDonateMobile.jpg": "/static/media/bloodImageDonateMobile.daf165a78ad56f060e76.jpg",
     "static/media/donateBanner.jpg": "/static/media/donateBanner.daf165a78ad56f060e76.jpg",
-    "static/media/celebrationsBanner.jpg": "/static/media/celebrationsBanner.60ba49c307ceaa7d256f.jpg",
     "static/media/bookBanner.jpg": "/static/media/bookBanner.af9196f9a9af8453fcf8.jpg",
     "static/media/educationBannerMobile.jpg": "/static/media/educationBannerMobile.af9196f9a9af8453fcf8.jpg",
     "static/media/successStoriesMobileBanner.png": "/static/media/successStoriesMobileBanner.37c29fa931fe4ab55e99.png",
-    "static/media/celebrationMobile.png": "/static/media/celebrationMobile.4a7ae5eb18030fbccdda.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.e4bafd23.css.map": "/static/css/main.e4bafd23.css.map",
-    "main.0eff092a.js.map": "/static/js/main.0eff092a.js.map",
+    "main.01d682d7.css.map": "/static/css/main.01d682d7.css.map",
+    "main.39e1d5c9.js.map": "/static/js/main.39e1d5c9.js.map",
     "reactPlayerYouTube.dc866867.chunk.js.map": "/static/js/reactPlayerYouTube.dc866867.chunk.js.map",
     "reactPlayerSoundCloud.4bcf9971.chunk.js.map": "/static/js/reactPlayerSoundCloud.4bcf9971.chunk.js.map",
     "reactPlayerVimeo.794a7f52.chunk.js.map": "/static/js/reactPlayerVimeo.794a7f52.chunk.js.map",
@@ -49,7 +47,7 @@
     "reactPlayerPreview.b4b598b6.chunk.js.map": "/static/js/reactPlayerPreview.b4b598b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4bafd23.css",
-    "static/js/main.0eff092a.js"
+    "static/css/main.01d682d7.css",
+    "static/js/main.39e1d5c9.js"
   ]
 }
