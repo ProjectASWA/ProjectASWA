@@ -1,7 +1,3 @@
-*{
-    font-family: 'Sathoshi', sans-serif;
-}
-
 .homeVisits-image{
     height: 60vh;
     width: 100vw;
@@ -331,6 +327,7 @@ text-align: left;
         font-size: 18px;
         margin-top: 25px;
         margin-bottom: 25px;
+        text-align: center;
     }
     .volunteerContainerHomeVisits{
         display: flex;
@@ -353,13 +350,17 @@ text-align: left;
         width: 90px;
     }
     .volunteerHomeVisitsImage{
-        width: 95px;
-        height: 95px;
+        width: 150px;
+        height: 150px;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 650px){
     .volunteerContainerHomeVisits{
         width: 80%;
+    }
+    .volunteerHomeVisitsImage{
+        height: 200px;
+        width: 200px;
     }
 }
