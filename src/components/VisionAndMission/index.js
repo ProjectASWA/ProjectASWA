@@ -5,22 +5,16 @@ import "./index.css";
 const VisionAndMission = () => {
   return (
     <div className="vision-and-mission-container">
-      <div className="vision-and-mission-image-container"></div>
-
-      <div className="vision-and-mission-text-container">
-        <h1 className="vision-and-mission-heading">Our Vision and Mission</h1>
-        <p className="vision-and-mission-description">
-          ASWA aspires for a society characterized by happiness and wellness,
-          where each person plays a role in cultivating a sustainable social
-          fabric. Our mission revolves around fostering individuals who are
-          active, productive, compassionate, and socially aware through
-          comprehensive human education.
-        </p>
+      <div className="our-vision-and-mission-container-boxes">
+        <div className="our-vision-container">
+          <h1 className="our-vision-heading">Our Vision</h1>
+        </div>
+        <div className="our-vision-container">
+          <h1 className="our-vision-heading">Our Mission</h1>
+        </div>
       </div>
-
       <div className="pledge-container">
-        <h1 className="pledge-heading">Pledge</h1>
-        <img src="/Images/pledge.png" className="pledge-image" />
+        <img className="pledge-image" src="/Images/pledge.png" />
       </div>
     </div>
   );

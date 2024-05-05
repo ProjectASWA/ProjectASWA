@@ -1,7 +1,6 @@
 .environment-image {
-  height: 45vh;
-  width: 100vw;
-  
+  height: 40vh;
+  width: 100%;
 }
 
 .Environment-sub-container {
@@ -137,11 +136,14 @@
 }
 
 .clicked {
-  color: #134fa7;
+  color: #36b0b8;
   font-family: "Satoshi";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 50px;
   text-transform: capitalize;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 8px;
 }

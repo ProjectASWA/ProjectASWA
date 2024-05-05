@@ -9,10 +9,7 @@ class AnnamParabrahmam extends Component {
   render() {
     return (
       <div className="annamparabrahmam-main-container">
-        <img
-          src="/Images/annamParabrahamam.png"
-          className="annamparabrahmam-image"
-        />
+        <img src="/Images/food1.png" className="annamparabrahmam-image" />
         <div className="annamparabrahmam-text-container">
           <h2 className="annamparabrahmam-heading">Annam Parabrahmam</h2>
           <p className="annamparabrahmam-description">

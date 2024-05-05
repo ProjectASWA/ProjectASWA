@@ -2,9 +2,15 @@ import { Carousel } from "react-responsive-carousel";
 import MobileHomeVisitsCarousel from "../MobileHomeVistsCarousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import React, { useEffect } from "react";
+
 import "./index.css";
 
 const HomeVisits = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="annamparabrahmam-main-container">
       <div>
