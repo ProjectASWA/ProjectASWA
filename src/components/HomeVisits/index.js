@@ -14,7 +14,7 @@ const HomeVisits = () => {
   return (
     <div className="annamparabrahmam-main-container">
       <div>
-        <img src="/Images/homeVisits.jpg" className="homeVisits-image" />
+        <img src="/Images/homeVisitsBanner.png" className="homeVisits-image" />
       </div>
       <div className="homeVisitsContainerContents">
         <h1 className="homeVisitsHeading">Home Visits</h1>
@@ -82,10 +82,65 @@ const HomeVisits = () => {
           years, we have visited more than 150 homes.
         </p>
       </div>
+      <div className="projectLeaderContainerHomeVisits">
+          <div className="projectLeaderHomeVisits">
+              <h1 className="leaderHeadingHomeVisits">Project Leader</h1>
+              <div className="mainLeaderContainer">
+                    <img className = "leaderHomeVisitsImage" src = "/Images/leaderHomeVisits.jpg"/>
+                    <div className="leaderHomeVisitsTextContents">
+                        <h1 className="nameLeaderHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                        <p className="roleLeaderHomeVisits">Project Leader</p>
+                        <p className="descriptionLeaderHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+                    </div>
+              </div>
+          </div>
+          <hr className="horizontalLineHomeVisits"></hr>
+          <div className="volunteerHomeVisitsMainContainer">
+            <div>
+              <h1 className="regularVolunteerHeading">Regularly Participating Volunteers</h1>
+            </div>
+            <div className="arrangeHomeVisitsVolunteer">
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            </div>
+            
+          </div>
+      </div>
       <div className="CarouselHomeVisitsContainer">
         <h1 className="photoGalleryHeading">Photo Gallery</h1>
         <MobileHomeVisitsCarousel />
       </div>
+
     </div>
   );
 };
