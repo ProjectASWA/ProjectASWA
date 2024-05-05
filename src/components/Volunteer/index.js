@@ -69,7 +69,7 @@ const Volunteer = ()=>{
             </div>
             <div className='quoteContainer'>
                 <p className='quoteVolunteer'>“A Volunteer can be anybody. There is no age limit to begin a volunteer, no preferred categories, no salary specification, no special degree or work experience. All that is required is a dedication to the cause, sincerity about the work that one in doing and commitment to a regular and sustained efforts with the organisation.” </p>
-                <h1 className='nameQuote'>– MAHATAMA GANDHI</h1>
+                <h1 className='nameQuote'>–MAHATMA GANDHI</h1>
             </div>
             <div className='instructionsContainer'>
                 <p className='instructionsVolunteer'>Here are some wonderful opportunities to spread love and make a difference through volunteering :</p>
