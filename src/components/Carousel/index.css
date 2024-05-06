@@ -136,7 +136,6 @@ Carousel {
   cursor: pointer;
 }
 
-
 .carouselHeading {
   font-size: 74px;
   color: white;
@@ -248,7 +247,7 @@ Carousel {
   display: none;
 }
 
-.customCarousel5Container{
+.customCarousel5Container {
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -323,8 +322,6 @@ Carousel {
   .arrangeDecoration {
     display: none;
   }
-
-  
 }
 
 @media screen and (max-width: 700px) {
@@ -343,11 +340,11 @@ Carousel {
   .childrenImageContainer {
     width: 60vw;
   }
-  
+
   .secondDecoration {
     display: none;
   }
-  .childrenImageContainerMobile{
+  .childrenImageContainerMobile {
     width: 75%;
     margin-top: 50px;
   }
@@ -368,4 +365,5 @@ Carousel {
   overflow: hidden;
   height: 100%;
   bottom: 5%;
+  height: 100vh;
 }

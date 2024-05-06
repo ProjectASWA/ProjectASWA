@@ -56,7 +56,7 @@
   font-size: 32px;
   padding-bottom: 0px;
   font-family: "Sathoshi", sans-serif;
-  
+
   margin: 0px;
 }
 
@@ -69,7 +69,7 @@
   background: transparent;
 }
 
-.about-main-section-heading{
+.about-main-section-heading {
   padding: 0px;
 }
 @media screen and (min-width: 1000px) {
@@ -118,7 +118,6 @@
     padding: 10px;
     margin-left: 10px;
     padding-top: 0px;
-
   }
 
   .arrange-about-us {
@@ -131,6 +130,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-top: 52px;
   }
 
   .large-screen-video {
@@ -177,7 +177,11 @@
   .about-para {
     font-size: 18px;
   }
-  .about-main-heading{
+  .about-main-heading {
     text-align: center;
   }
+}
+
+.about-us-home {
+  background-color: #fffcf7;
 }

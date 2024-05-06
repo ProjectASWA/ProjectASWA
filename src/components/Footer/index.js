@@ -21,7 +21,8 @@ const Footer = () => {
               <p className="address-heading">Registered Office</p>
             </div>
             <p className="address-description">
-            #13-104, P & T Colony,Gaddi Annaram, Dilsukh Nagar,Hyderabad-500060 Telangana, India.
+              #13-104, P & T Colony,Gaddi Annaram,Dilsukh
+              Nagar,Hyderabad-500060Telangana, India.
             </p>
           </div>
           <div className="address-container">
