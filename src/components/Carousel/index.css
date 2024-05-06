@@ -133,7 +133,9 @@ Carousel {
   text-align: center;
   width: 250px;
   border-radius: 12px;
+  cursor: pointer;
 }
+
 
 .carouselHeading {
   font-size: 74px;
@@ -246,6 +248,11 @@ Carousel {
   display: none;
 }
 
+.customCarousel5Container{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 @media screen and (max-width: 1000px) {
   .customCarousel1 {
     background-image: url("/public/Images/educationBannerMobile.jpg");
@@ -316,6 +323,8 @@ Carousel {
   .arrangeDecoration {
     display: none;
   }
+
+  
 }
 
 @media screen and (max-width: 700px) {
@@ -334,8 +343,13 @@ Carousel {
   .childrenImageContainer {
     width: 60vw;
   }
+  
   .secondDecoration {
     display: none;
+  }
+  .childrenImageContainerMobile{
+    width: 75%;
+    margin-top: 50px;
   }
 
   .arrangeCarouselContainerMobileBanner {

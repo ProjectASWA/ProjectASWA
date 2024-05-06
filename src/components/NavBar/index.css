@@ -61,7 +61,6 @@ nav ul {
   flex-direction: row;
   align-items: center;
   justify-self: center;
-
   color: #202d33;
 }
 
@@ -100,8 +99,15 @@ nav ul li a {
   background-color: transparent;
   border-radius: 3px;
   color: var(--color-semantic-white-100, #fff);
+  font-family: 'Sathoshi', sans-serif;
 }
 
+
+.joinWithUs:hover{
+  background-color: grey;
+  border: 1px solid grey;
+  cursor: pointer;
+}
 .horizontal-line-nav-bar {
   border: 1px black solid;
 }
@@ -137,6 +143,8 @@ nav .menu span {
   background-color: #fe6711;
   border-width: 0px;
   border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .specialLink {

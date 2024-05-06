@@ -24,7 +24,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 50px;
+  padding: 35px;
 }
 
 .impact-heading {
@@ -93,6 +93,7 @@
   line-height: 20px; /* 142.857% */
   text-transform: uppercase;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .impact-button-container {
