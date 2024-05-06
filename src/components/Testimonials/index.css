@@ -66,7 +66,6 @@
 .slider-container-large-screen {
   background-color: #dad6d3;
   padding: 10px;
-  margin-top: 10px;
   padding-top: 30px;
   font-family: "Roboto";
 }
@@ -78,10 +77,10 @@
   margin-bottom: 0px;
 }
 
-.thumbs-wrapper{
+.thumbs-wrapper {
   margin: 0px;
 }
- .axis-vertical{
+.axis-vertical {
   margin: 0px;
 }
 
