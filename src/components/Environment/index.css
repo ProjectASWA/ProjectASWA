@@ -30,7 +30,7 @@
   font-family: "Satoshi";
   font-size: 32px;
   font-style: normal;
-  font-weight: 500;
+  /* font-weight: 500; */
   line-height: 50px; /* 156.25% */
   text-transform: capitalize;
 }

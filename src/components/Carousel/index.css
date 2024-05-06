@@ -133,6 +133,7 @@ Carousel {
   text-align: center;
   width: 250px;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .carouselHeading {
@@ -143,7 +144,7 @@ Carousel {
   text-align: left;
   line-height: 1.5;
   padding-left: 75px;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -154,7 +155,7 @@ Carousel {
   text-align: left;
   padding-left: 75px;
   line-height: 1.5;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   margin-top: 0px;
 }
 

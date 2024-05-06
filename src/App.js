@@ -11,12 +11,15 @@ import Environment from "./components/Environment";
 import AnnamParabrahmam from "./components/AnnamParabrahmam";
 import DonateProject from "./components/DonateProject";
 import HomeVisits from "./components/HomeVisits";
+// import "../public/fonts/Satoshi_Complete/Fonts/WEB/css/satoshi.css";
 
 import Volunteer from "./components/Volunteer";
 
 import PdfComponent from "./components/PdfComponent";
 
 import ImpactReports from "./components/ImpactReports";
+
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -36,8 +39,10 @@ function App() {
           <Route exact path="/HomeVisits" component={HomeVisits} />
           <Route exact path="/volunteer" component={Volunteer} />
           <Route exact path="/pdf" component={PdfComponent} />
-          <Route path="/impactReports" component={ImpactReports} />
+          <Route exact path="/impactReports" component={ImpactReports} />
+          <Route exact path="Volunteer" component={Volunteer} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

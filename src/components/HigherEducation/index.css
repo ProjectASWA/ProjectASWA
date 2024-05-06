@@ -36,7 +36,7 @@
   color: #000;
   text-align: justify;
   font-family: "Satoshi";
-  font-size: 32px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
 }
@@ -136,7 +136,7 @@ li {
   align-items: center;
   gap: 10px;
   border-radius: 18px;
-  background: #f2902f;
+  background: #36b0b8;
   color: var(--color-semantic-white-100, #fff);
   text-align: center;
   font-family: "Satoshi";
@@ -155,4 +155,10 @@ li {
     height: 35px;
     width: 25%;
   }
+}
+
+.higher-education-text-container {
+  background-color: #f1eeec;
+  padding: 30px;
+  border-radius: 8px;
 }

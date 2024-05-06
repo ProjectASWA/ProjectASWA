@@ -142,6 +142,9 @@
   gap: 39px;
   padding-bottom: 30px;
   margin: auto;
+  background: #f1eeec;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .education-text {
@@ -165,7 +168,7 @@
   color: #000;
   text-align: justify;
   font-family: "Satoshi";
-  font-size: 32px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;

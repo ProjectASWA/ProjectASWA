@@ -50,7 +50,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/joinwithus">
+          <Link to="/Volunteer">
             <button className="joinWithUs">JOIN WITH US</button>
           </Link>
         </li>
