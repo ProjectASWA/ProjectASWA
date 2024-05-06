@@ -28,7 +28,7 @@
   line-height: normal;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .vision-and-mission-heading {
     font-size: 25px;
   }
@@ -43,7 +43,7 @@
   line-height: normal;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .vision-and-mission-description {
     font-size: 16px;
   }
@@ -69,13 +69,20 @@
   line-height: normal;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .pledge-heading {
     font-size: 25px;
   }
 }
 
 .pledge-image {
-  width: 80%;
+  width: 93%;
   margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .pledge-image {
+    width: 80%;
+    padding: 30px;
+  }
 }

@@ -15,12 +15,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 48px;
 }
 
 @media screen and (max-width: 768px) {
   .success-stories-heading {
     font-size: 22px;
     line-height: 32px;
+    margin-top: 30px;
   }
 }
 
@@ -34,7 +36,8 @@
   margin: auto;
   background: #f0ece9;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 16px;
+  margin-bottom: 45px;
 }
 
 @media screen and (max-width: 992px) {

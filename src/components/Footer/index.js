@@ -41,7 +41,11 @@ const Footer = () => {
           <div className="follow-us-icons">
             <img className="locationImageFooter" src="/Images/facebook.svg" />
             <img className="locationImageFooter" src="/Images/instagram.svg" />
-            <img className="locationImageFooter" src="/Images/twitter.svg" />
+            <img
+              style={{ objectFit: "contain" }}
+              className="locationImageFooter"
+              src="/Images/x1.png"
+            />
             <img className="locationImageFooter" src="/Images/linkedin.svg" />
             <img className="locationImageFooter" src="/Images/youtube.svg" />
           </div>

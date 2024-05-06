@@ -2,6 +2,8 @@
   display: flex;
   /* width: 100%; */
   padding: var(--Spacing-none, 72px) var(--Spacing-none, 110px);
+  padding-left: 0;
+  padding-right: 0px;
   justify-content: center;
   align-items: center;
   background: #23211f;
@@ -17,7 +19,7 @@
 
 .footer-sub-container {
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -64,9 +66,9 @@
 
 .address-container {
   display: flex;
-  width: 40%;
-  padding: var(--Spacing-none, 0px) var(--Spacing-none, 0.33px)
-    var(--Spacing-none, 9px) var(--Spacing-none, 0px);
+  width: 30%;
+  /* padding: var(--Spacing-none, 0px) var(--Spacing-none, 0.33px)
+    var(--Spacing-none, 9px) var(--Spacing-none, 0px); */
   flex-direction: column;
   align-items: flex-start;
   gap: var(--Spacing-none, 20px);
@@ -109,7 +111,8 @@
   font-weight: 400;
   line-height: 1.5; /* 125.608% */
   text-align: left;
-  padding-left: 52px;
+  /* padding-left: 52px; */
+  width: 100%;
 }
 
 .horizontal-line-container {
