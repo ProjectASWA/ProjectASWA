@@ -37,7 +37,7 @@ const CarouselImages = () => {
 
   return (
     <div className="carousel-container">
-      <Carousel showIndicators={false}
+      <Carousel showIndicators={false} preventMovementUntilSwipeScrollTolerance={true} swipeScrollTolerance={50}
         swipeable={true}
         renderArrowPrev={(onClickHandler, hasPrev, label) =>
           hasPrev && <CustomPrevArrow onClick={onClickHandler} />
