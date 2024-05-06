@@ -24,6 +24,23 @@ nav {
   padding-top: 10px;
   color: #ffffff;
   cursor: pointer;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.listNav:hover{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.aboutUsButtonNav{
+  width: 110px;
+  text-align: center;
+  font-family: 'Sathoshi', sans-serif;
+  padding-top: 5px;
 }
 
 .onMobileDevices {
@@ -44,7 +61,6 @@ nav ul {
   flex-direction: row;
   align-items: center;
   justify-self: center;
-
   color: #202d33;
 }
 
@@ -63,6 +79,7 @@ nav ul li a {
 
 .linkStyling {
   color: #202d33;
+  font-family: 'Sathoshi', sans-serif;
   color: var(--color-semantic-white-100, #fff);
 }
 
@@ -82,8 +99,15 @@ nav ul li a {
   background-color: transparent;
   border-radius: 3px;
   color: var(--color-semantic-white-100, #fff);
+  font-family: 'Sathoshi', sans-serif;
 }
 
+
+.joinWithUs:hover{
+  background-color: grey;
+  border: 1px solid grey;
+  cursor: pointer;
+}
 .horizontal-line-nav-bar {
   border: 1px black solid;
 }
@@ -119,6 +143,8 @@ nav .menu span {
   background-color: #fe6711;
   border-width: 0px;
   border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 .specialLink {
@@ -139,12 +165,18 @@ nav .menu span {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1082px) {
   nav .menu {
     display: flex;
-    margin-top: 15px;
     align-items: center;
+    z-index: 1;
+    margin-right: 15px;
+    margin-top: 10px;
   }
+
+ 
+
+
 
   .borderLineNav {
     border-bottom: 2px solid rgb(126, 126, 126);
@@ -159,11 +191,11 @@ nav .menu span {
     align-items: flex-start;
     justify-content: center;
     padding: 10px;
-    height: 60px;
   }
   .donateStyling {
     background-color: #fe6711;
     padding: 13px;
+    z-index: 20;
   }
 
   nav ul {
@@ -171,6 +203,10 @@ nav .menu span {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
+  }
+  .listNav{
+    justify-content: center;
+    color: black;
   }
 
   .mobileDeviceLogoResize {
@@ -188,7 +224,7 @@ nav .menu span {
   nav ul.open {
     display: flex;
     /* margin: auto; */
-    padding: 0px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,6 +234,7 @@ nav .menu span {
     position: relative;
     width: 100%;
     bottom: 15px;
+    margin-top: 150px;
   }
 
   .onMobileDevices {
@@ -229,7 +266,7 @@ nav .menu span {
   .linkStyling {
     text-decoration: none;
     padding: 6px;
-    color: var(--color-semantic-white-100, #fff);
+    color: black;
   }
 
   .joinWithUs {
@@ -238,6 +275,8 @@ nav .menu span {
     font-weight: bold;
     padding: 10px;
     margin-top: 15px;
+    color: black;
+    border: 2px solid black;
   }
 
   .mobileDonate {
@@ -252,10 +291,23 @@ nav .menu span {
   nav {
     padding: 20px;
   }
+  
+}
+@media screen and (max-width: 768px) {
+    nav ul.open{
+      margin-top: 140px;
+    }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .mobileDeviceLogoResize {
-    width: 100px;
+    width: 90px;
+  }
+  
+  .mobileDevicesNavConatainer{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
   }
 }

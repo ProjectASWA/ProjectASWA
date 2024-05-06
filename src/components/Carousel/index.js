@@ -37,7 +37,7 @@ const CarouselImages = () => {
 
   return (
     <div className="carousel-container">
-      <Carousel showIndicators={false}
+      <Carousel showIndicators={false} preventMovementUntilSwipeScrollTolerance={true} swipeScrollTolerance={50}
         swipeable={true}
         renderArrowPrev={(onClickHandler, hasPrev, label) =>
           hasPrev && <CustomPrevArrow onClick={onClickHandler} />
@@ -50,6 +50,7 @@ const CarouselImages = () => {
         autoPlay
       >
         <div className="customCarousel5">
+          <div className="customCarousel5Container">
           <div className="arrangeDecoration">
             <div className="decorationContainer">
               <img className="decorationImage" src="/Images/Decoration.png" />
@@ -82,6 +83,7 @@ const CarouselImages = () => {
                 src="/Images/celebrationsBannerChildren.png"
               />
             </div>
+          </div>
           </div>
         </div>
         <div className="customCarousel1">

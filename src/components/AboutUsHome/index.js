@@ -7,7 +7,7 @@ const AboutUsHomeSection = () => {
   return (
     <div id="about" className="arrange-about-us">
       <div className="arrange-video-large-screen">
-        <div>
+        <div className="about-main-section-heading">
           <h1 className="about-main-heading">ASWA Organisation</h1>
         </div>
         <div className="video-container">

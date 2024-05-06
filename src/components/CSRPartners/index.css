@@ -40,10 +40,6 @@
 }
 
 @media (max-width: 768px) {
-  .marquee-container {
-    height: 120px;
-  }
-
   .csr-image {
     height: 60px;
     margin-right: 10px;
