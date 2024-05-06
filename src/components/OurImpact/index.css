@@ -35,13 +35,13 @@
   opacity: 0.9;
 }
 
-.countUpAnimationHeading{
+.countUpAnimationHeading {
   font-size: 60px;
   margin: 10px;
   margin-bottom: 0px;
 }
 
-.descriptionStyling{
+.descriptionStyling {
   margin: 5px;
 }
 
@@ -53,6 +53,7 @@
     padding: 50px;
     position: relative;
     bottom: 60px;
+    gap: 40px;
   }
 
   .impact-heading {
@@ -123,8 +124,8 @@
   gap: 60px;
 }
 
-.impact-heading{
-  font-family: 'Sathoshi', sans-serif;
+.impact-heading {
+  font-family: "Sathoshi", sans-serif;
 }
 
 /* Example CSS adjustment */
@@ -132,31 +133,31 @@
   .impact-button-container {
     /* Remove any styles that might be disabling the button */
     pointer-events: auto;
-     /* Reset pointer-events to default */
+    /* Reset pointer-events to default */
   }
 }
 
-@media (max-width: 400px){
-  .countUpAnimationHeading{
+@media (max-width: 400px) {
+  .countUpAnimationHeading {
     font-size: 34px;
   }
-  .backgroundStylingImageImpact{
+  .backgroundStylingImageImpact {
     width: 150px;
     height: 150px;
   }
 }
 
-@media (max-width: 576px){
-  .backgroundStylingImageImpact{
+@media (max-width: 576px) {
+  .backgroundStylingImageImpact {
     width: 105px;
     height: 100px;
   }
 
-  .impact-button-container{
+  .impact-button-container {
     justify-content: center;
   }
 
-  .countUpAnimationHeading{
+  .countUpAnimationHeading {
     font-size: 30px;
   }
 }

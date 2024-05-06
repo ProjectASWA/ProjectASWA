@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  
   useEffect(() => {
     const closeMenu = () => {
       if (menuOpen) {
@@ -33,9 +32,9 @@ const NavBar = () => {
     setMenuOpen(false); // Close the menu after clicking on a link
   };
 
-  const closeTheNavBar = ()=>{
-    setMenuOpen(false)
-  }
+  const closeTheNavBar = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <nav>
@@ -51,16 +50,15 @@ const NavBar = () => {
           />
         </Link>
         <div className="mobileDevicesNavConatainer">
-        <Link className="linkStyling" to="/donate">
-          <button className="donateStyling donateMobile">Donate</button>
-        </Link>
-        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+          <Link className="linkStyling" to="/donate">
+            <button className="donateStyling donateMobile">Donate</button>
+          </Link>
+          <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-        
       </div>
       {/* <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -70,21 +68,26 @@ const NavBar = () => {
       <ul className={menuOpen ? "open" : ""}>
         <li className="listNav borderLineNav" onClick={handleAboutClick}>
           <p className="aboutUsButtonNav">About US</p>
-          
         </li>
         <li className="listNav borderLineNav">
-          <Link to="/Reports" onClick = {closeTheNavBar} className="linkStyling">
+          <Link to="/Reports" onClick={closeTheNavBar} className="linkStyling">
             Reports
           </Link>
         </li>
         <li className="listNav borderLineNav">
-          <Link to="/MediaCoverage" onClick={handleAboutClick} className="linkStyling specialLink">
+          <Link
+            to="/MediaCoverage"
+            onClick={handleAboutClick}
+            className="linkStyling specialLink"
+          >
             Media Coverage
           </Link>
         </li>
         <li>
           <Link to="/volunteer">
-            <button className="joinWithUs" onClick={handleAboutClick}>JOIN WITH US</button>
+            <button className="joinWithUs" onClick={handleAboutClick}>
+              JOIN WITH US
+            </button>
           </Link>
         </li>
         <li className="mobileDonate">
@@ -165,7 +168,6 @@ export default NavBar;
 // };
 
 // export default NavBar;
-
 
 // import React, { useState } from "react";
 // import { NavLink } from "react-router-dom";

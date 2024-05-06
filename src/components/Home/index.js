@@ -2,8 +2,6 @@ import CarouselImages from "../Carousel";
 
 import CSRPartners from "../CSRPartners";
 
-import Footer from "../Footer";
-
 import Impact from "../OurImpact";
 
 import Testimonials from "../Testimonials";
@@ -33,7 +31,6 @@ const Home = () => {
         <MobileTestimonials />
       </div>
       <CSRPartners />
-      <Footer />
     </>
   );
 };

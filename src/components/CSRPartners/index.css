@@ -16,6 +16,12 @@
   align-self: center;
 }
 
+@media screen and (max-width: 992px) {
+  .csrPartnersHeading {
+    font-size: 30px;
+  }
+}
+
 .marquee {
   display: flex;
   white-space: nowrap; /* Ensures images stay in a single line */

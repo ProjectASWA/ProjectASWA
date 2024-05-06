@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./index.css";
 
@@ -17,27 +17,29 @@ const CustomNextArrow = ({ onClick }) => (
 );
 
 const CarouselImages = () => {
-  
   const history = useHistory();
-  const handleClick = ()=>{
-    history.push('/Education');
-  }
+  const handleClick = () => {
+    history.push("/Education");
+  };
 
-  const handleClickDonate = ()=>{
-    history.push('/DonateProject');
-  }
+  const handleClickDonate = () => {
+    history.push("/DonateProject");
+  };
 
-  const handleClickEnvironment = ()=>{
-    history.push('/environment');
-  }
+  const handleClickEnvironment = () => {
+    history.push("/environment");
+  };
 
-  const handleClickHomeVisits = ()=>{
+  const handleClickHomeVisits = () => {
     history.push("/HomeVisits");
-  }
+  };
 
   return (
     <div className="carousel-container">
-      <Carousel showIndicators={false} preventMovementUntilSwipeScrollTolerance={true} swipeScrollTolerance={50}
+      <Carousel
+        showIndicators={false}
+        preventMovementUntilSwipeScrollTolerance={true}
+        swipeScrollTolerance={50}
         swipeable={true}
         renderArrowPrev={(onClickHandler, hasPrev, label) =>
           hasPrev && <CustomPrevArrow onClick={onClickHandler} />
@@ -51,39 +53,39 @@ const CarouselImages = () => {
       >
         <div className="customCarousel5">
           <div className="customCarousel5Container">
-          <div className="arrangeDecoration">
-            <div className="decorationContainer">
-              <img className="decorationImage" src="/Images/Decoration.png" />
+            <div className="arrangeDecoration">
+              <div className="decorationContainer">
+                <img className="decorationImage" src="/Images/Decoration.png" />
+              </div>
+              <div className="decorationContainer secondDecrotaion">
+                <img className="decorationImage" src="/Images/Decoration.png" />
+              </div>
             </div>
-            <div className="decorationContainer secondDecrotaion">
-              <img className="decorationImage" src="/Images/Decoration.png" />
+            <div className="arrangeYearsBannerContainer">
+              <div className="years16Container">
+                <img className="years16Image" src="/Images/banner16Years.png" />
+              </div>
+              <div className="childrenImageContainer">
+                <img
+                  className="childrenImageBanner"
+                  src="/Images/celebrationsBannerChildren.png"
+                />
+              </div>
             </div>
-          </div>
-          <div className="arrangeYearsBannerContainer">
-            <div className="years16Container">
-              <img className="years16Image" src="/Images/banner16Years.png" />
+            <div className="arrangeCarouselContainerMobileBanner">
+              <div className="years16ContainerMobile">
+                <img
+                  className="years16ImageMobile"
+                  src="/Images/banner16Years.png"
+                />
+              </div>
+              <div className="childrenImageContainerMobile">
+                <img
+                  className="childrenImageBanner"
+                  src="/Images/celebrationsBannerChildren.png"
+                />
+              </div>
             </div>
-            <div className="childrenImageContainer">
-              <img
-                className="childrenImageBanner"
-                src="/Images/celebrationsBannerChildren.png"
-              />
-            </div>
-          </div>
-          <div className="arrangeCarouselContainerMobileBanner">
-            <div className="years16ContainerMobile">
-              <img
-                className="years16ImageMobile"
-                src="/Images/banner16Years.png"
-              />
-            </div>
-            <div className="childrenImageContainerMobile">
-              <img
-                className="childrenImageBanner"
-                src="/Images/celebrationsBannerChildren.png"
-              />
-            </div>
-          </div>
           </div>
         </div>
         <div className="customCarousel1">
@@ -93,7 +95,9 @@ const CarouselImages = () => {
               Providing quality education and career guidance to unlock
               potential and create opportunities.
             </p>
-            <button onClick = {handleClick} className="knowMoreCarousel">Know More</button>
+            <button onClick={handleClick} className="knowMoreCarousel">
+              Know More
+            </button>
           </div>
         </div>
         <div className="customCarousel2">
@@ -105,7 +109,9 @@ const CarouselImages = () => {
               Join our blood donation program and help ensure vital blood
               supplies for those in need.
             </p>
-            <button onClick = {handleClickDonate} className="knowMoreCarousel">Know More</button>
+            <button onClick={handleClickDonate} className="knowMoreCarousel">
+              Know More
+            </button>
           </div>
         </div>
         <div className="customCarousel3">
@@ -117,7 +123,12 @@ const CarouselImages = () => {
               Promoting environmental stewardship and conservation for a
               healthier, more sustainable world.
             </p>
-            <button className="knowMoreCarousel" onClick={handleClickEnvironment}>Know More</button>
+            <button
+              className="knowMoreCarousel"
+              onClick={handleClickEnvironment}
+            >
+              Know More
+            </button>
           </div>
         </div>
         <div className="customCarousel4">
@@ -129,7 +140,12 @@ const CarouselImages = () => {
               Bringing happiness to the doorsteps of the elderly and orphaned
               through regular home visits.
             </p>
-            <button onClick = {handleClickHomeVisits} className="knowMoreCarousel buttonUpp">Know More</button>
+            <button
+              onClick={handleClickHomeVisits}
+              className="knowMoreCarousel buttonUpp"
+            >
+              Know More
+            </button>
           </div>
         </div>
 

@@ -12,10 +12,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.26);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1;
-  height: 56px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 91px;
 }
 
 .listNav {
@@ -30,16 +35,16 @@ nav {
   align-items: center;
 }
 
-.listNav:hover{
+.listNav:hover {
   background-color: grey;
   border-radius: 10px;
   padding: 0px;
 }
 
-.aboutUsButtonNav{
+.aboutUsButtonNav {
   width: 110px;
   text-align: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   padding-top: 5px;
 }
 
@@ -79,13 +84,9 @@ nav ul li a {
 
 .linkStyling {
   color: #202d33;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   color: var(--color-semantic-white-100, #fff);
 }
-
-/* nav ul li a:not(.active):hover {
-  background-color:#172554 ;
-} */
 
 .joinWithUs {
   width: 150px;
@@ -99,11 +100,10 @@ nav ul li a {
   background-color: transparent;
   border-radius: 3px;
   color: var(--color-semantic-white-100, #fff);
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
 }
 
-
-.joinWithUs:hover{
+.joinWithUs:hover {
   background-color: grey;
   border: 1px solid grey;
   cursor: pointer;
@@ -144,7 +144,7 @@ nav .menu span {
   border-width: 0px;
   border-radius: 3px;
   cursor: pointer;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
 }
 
 .specialLink {
@@ -171,12 +171,8 @@ nav .menu span {
     align-items: center;
     z-index: 1;
     margin-right: 15px;
-    margin-top: 10px;
+    margin-top: 25px;
   }
-
- 
-
-
 
   .borderLineNav {
     border-bottom: 2px solid rgb(126, 126, 126);
@@ -204,7 +200,7 @@ nav .menu span {
     width: 100%;
     margin-bottom: 0.25rem;
   }
-  .listNav{
+  .listNav {
     justify-content: center;
     color: black;
   }
@@ -223,7 +219,7 @@ nav .menu span {
 
   nav ul.open {
     display: flex;
-    /* margin: auto; */
+
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -234,7 +230,7 @@ nav .menu span {
     position: relative;
     width: 100%;
     bottom: 15px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
   }
 
   .onMobileDevices {
@@ -290,21 +286,22 @@ nav .menu span {
   }
   nav {
     padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
-  
 }
 @media screen and (max-width: 768px) {
-    nav ul.open{
-      margin-top: 140px;
-    }
+  nav ul.open {
+    /* margin-top: 140px; */
+  }
 }
 
 @media (max-width: 400px) {
   .mobileDeviceLogoResize {
     width: 90px;
   }
-  
-  .mobileDevicesNavConatainer{
+
+  .mobileDevicesNavConatainer {
     padding: 15px;
     display: flex;
     align-items: center;

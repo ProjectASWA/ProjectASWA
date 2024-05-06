@@ -5,7 +5,7 @@
   align-items: flex-start;
   gap: 45px;
   background: #f1eeec;
-  padding-bottom: 10px;
+  padding-bottom: 83px;
 
   /* height: 100vh; */
 }
@@ -129,7 +129,7 @@
   text-align: right;
   width: 80%;
   font-size: 18px;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-weight: bold;
   margin-top: 0px;
 }
@@ -150,7 +150,7 @@ With this .what-we-did-card-text-container {
   margin-left: 30px;
 }
 
-.what-we-did-card-text-container{
+.what-we-did-card-text-container {
   margin-left: 30px;
 }
 
@@ -199,8 +199,9 @@ With this .what-we-did-card-text-container {
   font-size: 24px;
   text-align: left;
   font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 120%;
+  margin-bottom: 0px;
 }
 
 .our-projects1-image-button {
@@ -210,11 +211,11 @@ With this .what-we-did-card-text-container {
   align-items: center;
   gap: 6.808px;
   border-radius: 23.146px;
-  background: #ff6d6d;
+  background: #fe6711;
   border-width: 0px;
   cursor: pointer;
   color: var(--color-semantic-white-100, #fff);
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;

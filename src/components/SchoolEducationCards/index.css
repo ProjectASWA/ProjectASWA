@@ -144,10 +144,9 @@
   align-items: center;
   padding-bottom: 30px;
   margin: auto;
-  background-color: #F1EEEC;
-  border-radius: 20px;
-  padding: 15px;
-
+  background: #f1eeec;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .education-text {
@@ -171,8 +170,8 @@
 .education-description {
   color: #000;
   text-align: justify;
-  font-family: 'Sathoshi', sans-serif;
-  font-size: 28px;
+  font-family: "Satoshi";
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;

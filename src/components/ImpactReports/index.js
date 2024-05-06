@@ -1,6 +1,12 @@
 import "./index.css";
 
+import { useEffect } from "react";
+
 const ImpactReports = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="impact-reports-container">
       <div className="impact-reports-image-container">

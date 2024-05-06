@@ -43,6 +43,10 @@ class Environment extends Component {
     });
   };
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { selectedCard, clickedText } = this.state;
     return (

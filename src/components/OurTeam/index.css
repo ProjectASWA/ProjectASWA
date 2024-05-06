@@ -1,13 +1,14 @@
 .our-team-container {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 54px;
+  margin: auto;
   margin-top: 30px;
   width: 90%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .our-team-container {
     width: 98%;
   }
@@ -26,11 +27,10 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 30px;
   flex-wrap: wrap;
-  margin-bottom: 130px;
-  margin-left: 130px;
+  margin: auto;
 }
 
 .our-team-card-container {
@@ -39,10 +39,10 @@
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  gap: 30px;
+  gap: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .our-team-card-container {
     width: 45%;
     gap: 15px;
@@ -53,11 +53,10 @@
   height: 512px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .our-team-image {
     height: 300px;
-    width: 206px;
-    object-fit: contain;
+    width: 100%;
   }
 }
 
@@ -66,7 +65,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 13px;
   align-self: stretch;
 }
 
@@ -79,7 +77,7 @@
   line-height: 120%; /* 24px */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .our-team-text-heading {
     font-size: 16px;
     text-align: left;
@@ -96,7 +94,7 @@
   line-height: normal;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .our-team-text-description {
     font-size: 10px;
   }
