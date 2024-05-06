@@ -50,6 +50,7 @@ const NavBar = () => {
             src="/Images/websiteLogo.jpg"
           />
         </Link>
+        <div className="mobileDevicesNavConatainer">
         <Link className="linkStyling" to="/donate">
           <button className="donateStyling donateMobile">Donate</button>
         </Link>
@@ -58,6 +59,8 @@ const NavBar = () => {
         <span></span>
         <span></span>
       </div>
+        </div>
+        
       </div>
       {/* <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>

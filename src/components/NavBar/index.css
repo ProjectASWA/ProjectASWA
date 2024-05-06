@@ -145,7 +145,10 @@ nav .menu span {
     align-items: center;
     z-index: 1;
     margin-right: 15px;
+    margin-top: 10px;
   }
+
+ 
 
 
 
@@ -269,8 +272,14 @@ nav .menu span {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .mobileDeviceLogoResize {
-    width: 100px;
+    width: 140px;
+  }
+  
+  .mobileDevicesNavConatainer{
+    padding: 15px;
+    display: flex;
+    align-items: center;
   }
 }
