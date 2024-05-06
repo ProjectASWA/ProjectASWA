@@ -24,6 +24,22 @@ nav {
   padding-top: 10px;
   color: #ffffff;
   cursor: pointer;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.listNav:hover{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 0px;
+  width: auto;
+}
+
+.aboutUsButtonNav{
+  width: 110px;
+  text-align: center;
 }
 
 .onMobileDevices {
@@ -179,6 +195,7 @@ nav .menu span {
     margin-bottom: 0.25rem;
   }
   .listNav{
+    justify-content: center;
     color: black;
   }
 

@@ -69,7 +69,8 @@ const NavBar = () => {
       </div> */}
       <ul className={menuOpen ? "open" : ""}>
         <li className="listNav borderLineNav" onClick={handleAboutClick}>
-          About US
+          <p className="aboutUsButtonNav">About US</p>
+          
         </li>
         <li className="listNav borderLineNav">
           <Link to="/Reports" onClick = {closeTheNavBar} className="linkStyling">
