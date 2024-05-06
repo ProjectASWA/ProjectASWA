@@ -4,7 +4,32 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import React, { useEffect } from "react";
 
+
 import "./index.css";
+import HomeVisitsOurActiviteis from "../HomeVisitsOurActiviites";
+
+const Homedescription = [
+  {
+    id: 1,
+    description: "Conducting monthly visits to orphanages, old age homes, and centers for differently abled individuals."
+  },
+  {
+    id: 2,
+    description: "Engaging in meaningful interactions and spending quality time with residents."
+  },
+  {
+    id: 3,
+    description: "Empowering both residents and home founders with essential skills and best practices."
+  },
+  {
+    id: 4,
+    description: "Providing financial and in-kind support to foster a nurturing environment."
+  },
+  {
+    id: 5,
+    description: "Inspiring volunteerism and community involvement among individuals."
+  }
+]
 
 const HomeVisits = () => {
   useEffect(() => {
@@ -36,41 +61,12 @@ const HomeVisits = () => {
           <h1 className="ourActivitiesHeading">Our activities</h1>
         </div>
         <div className="arrangeInCenter">
-          <div className="listStyleItemHomeVisits">
-            <img src="/Images/arrowIndicate.png" />
-            <p className="subHeadingHomeVisits">
-              Conducting monthly visits to orphanages, old age homes, and
-              centers for differently abled individuals.
-            </p>
-          </div>
-          <div className="listStyleItemHomeVisits">
-            <img src="/Images/arrowIndicate.png" />
-            <p className="subHeadingHomeVisits">
-              Engaging in meaningful interactions and spending quality time with
-              residents.
-            </p>
-          </div>
-          <div className="listStyleItemHomeVisits">
-            <img src="/Images/arrowIndicate.png" />
-            <p className="subHeadingHomeVisits">
-              Empowering both residents and home founders with essential skills
-              and best practices.
-            </p>
-          </div>
-          <div className="listStyleItemHomeVisits">
-            <img src="/Images/arrowIndicate.png" />
-            <p className="subHeadingHomeVisits">
-              Providing financial and in-kind support to foster a nurturing
-              environment.
-            </p>
-          </div>
-          <div className="listStyleItemHomeVisits">
-            <img src="/Images/arrowIndicate.png" />
-            <p className="subHeadingHomeVisits">
-              Inspiring volunteerism and community involvement among
-              individuals.
-            </p>
-          </div>
+          {Homedescription.map((eachItem)=>{
+            let a;
+            return(
+              <HomeVisitsOurActiviteis key = {eachItem.id} details = {eachItem} />
+            )
+          })}
         </div>
       </div>
       <div className="descriptionHomeVisitsContainer">
@@ -101,7 +97,7 @@ const HomeVisits = () => {
             </div>
             <div className="arrangeHomeVisitsVolunteer">
             <div className="volunteerContainerHomeVisits">
-              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
               <div className="volunteerTextContentsHomeVisits">
                 <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
                 <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
@@ -109,7 +105,7 @@ const HomeVisits = () => {
               </div>
             </div>
             <div className="volunteerContainerHomeVisits">
-              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
               <div className="volunteerTextContentsHomeVisits">
                 <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
                 <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
@@ -117,7 +113,7 @@ const HomeVisits = () => {
               </div>
             </div>
             <div className="volunteerContainerHomeVisits">
-              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
               <div className="volunteerTextContentsHomeVisits">
                 <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
                 <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
@@ -125,7 +121,7 @@ const HomeVisits = () => {
               </div>
             </div>
             <div className="volunteerContainerHomeVisits">
-              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
               <div className="volunteerTextContentsHomeVisits">
                 <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
                 <p className="volunteerSubHeadingHomeVisits">Project Leader</p>

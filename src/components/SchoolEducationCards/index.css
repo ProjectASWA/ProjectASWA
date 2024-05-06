@@ -84,7 +84,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  align-self: center;
   width: 50%;
 }
 
@@ -97,12 +97,14 @@
 
 .card-description-heading {
   color: #000;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: start;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 992px) {
@@ -114,12 +116,12 @@
 .card-description {
   color: #000;
   text-align: justify;
-  font-family: "Satoshi";
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
   overflow: hidden;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 @media screen and (max-width: 992px) {
@@ -131,6 +133,7 @@
 
 .school-education-images {
   width: 100%;
+  border-radius: 10px;
 }
 
 .education-text-container {
@@ -139,20 +142,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 39px;
   padding-bottom: 30px;
   margin: auto;
+  background-color: #F1EEEC;
+  border-radius: 20px;
+  padding: 15px;
+
 }
 
 .education-text {
   color: #000;
   text-align: center;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.2px;
+  padding-top: 40px;
 }
 
 @media screen and (max-width: 992px) {
@@ -164,12 +171,13 @@
 .education-description {
   color: #000;
   text-align: justify;
-  font-family: "Satoshi";
-  font-size: 32px;
+  font-family: 'Sathoshi', sans-serif;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0.2px;
+  width: 95%;
 }
 
 @media screen and (max-width: 992px) {

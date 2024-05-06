@@ -34,12 +34,9 @@ const SchoolEducationCards = () => {
             Foundational Literacy and Numeracy (FLN)
           </h1>
           <p className="card-description">
-            Foundational literacy and numeracy(FLN): Aims to strengthen and
-            improve under-resourced schools and underprivileged communities with
-            a specific focus on literacy and numeracy competencies in children
-            using innovative teaching and learning methods. To achieve higher
-            levels of efficiency in FLN delivery we are using Maxine Bernstein's
-            "Balanced Approach".
+          Our goal is to enhance underprivileged schools and communities, emphasizing literacy and numeracy skills in children
+           through innovative teaching methods. Adopting Maxine Bernstein's "balanced approach" ensures efficient FLN delivery, 
+           focusing on classroom strategies, library programs, and teacher practices. We integrate individual factors like culture, socioeconomics, and behavior, fostering a safe and playful learning environment. Our education efforts directly engage six teachers and 219 primary grade students in literacy and numeracy instruction.
           </p>
         </div>
       </div>
@@ -56,17 +53,8 @@ const SchoolEducationCards = () => {
             Children Learning Center (CLC)
           </h1>
           <p className="card-description">
-            CLC started as a pandemic pet project in October 2020, for the
-            children of the Ram Nagar Slum of Shadnagar. It served the purpose
-            of an after-school learning center so that children did not lose the
-            flow of schooling & education post-pandemic. Presently, CLC helps in
-            engaging children even when school is not running, prevents
-            dropouts, generates curiosity in children, and facilitates their
-            learning process. At CLC, we encourage them to express their ideas
-            and thoughts and learn the language using stories, rhymes, games,
-            drawing, and other activities. We teach them language and literacy
-            using their day-to-day life experiences. Around60+ children are
-            benefiting from this.
+          Established in October 2020 as a pandemic initiative, CLC serves children from Ram Nagar Slum, Shadnagar,ensuring continuous learning post-pandemic. It prevents dropouts, fosters curiosity, and engages children through various activities like storytelling, 
+          games, and drawing. CLC teaches language and literacy using everyday experiences, benefiting over 150 children.
           </p>
         </div>
       </div>
@@ -81,13 +69,7 @@ const SchoolEducationCards = () => {
         <div className="card-description-container">
           <h1 className="card-description-heading">Children’s Library</h1>
           <p className="card-description">
-            Libraries and Children's literature (LCL) commenced with the motive
-            to inculcate the value of storytelling in first-generation learners.
-            The objective of the Children's Library is to create a love for book
-            reading and to introduce creative & critical thinking, expression,
-            narration, visualization, and reading, questioning, and improving
-            communication skills, and providing exposure to varied perspectives
-            to children coming from marginalized communities.
+            The Libraries and Children's Literature (LCL) project aims to instill storytelling appreciation in first-generation learners. Its Children's Library fosters a love for reading, nurturing creativity, critical thinking, and communication skills among marginalized children. With 1200+ curated books in Telugu, English, and bilingual, activities engage 60+ children, borrowing 1500+ storybooks in 6–9 months. Along with the above, we also have other initiatives, like Storytime in Schools Children's Story Time: Online Storytelling
           </p>
         </div>
       </div>

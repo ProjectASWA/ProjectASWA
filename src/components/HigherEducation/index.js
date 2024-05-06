@@ -3,6 +3,7 @@ import "./index.css";
 const HigherEducation = () => {
   return (
     <div className="higher-education-main-container">
+      <div className="backgroundHigherEducation">
       <h1 className="higher-education-text">Higher and Adult Education</h1>
       <p className="higher-education-description">
         Amidst the complexities of modern life, we confront myriad challenges
@@ -17,22 +18,49 @@ const HigherEducation = () => {
         of background, culture, or status, CHDHC aims to cultivate a deeper
         sense of fulfillment and unity within both individuals and society.
       </p>
+      </div>
+      
       <div className="higher-programs-container">
         <h2 className="higher-education-programs-heading">
           We achieve this through the following programs:
         </h2>
         <ul className="program-list">
-          <li classsName="program-item">FACULTY DEVELOPMENT PROGRAM (FDP)</li>
-          <li classsName="program-item">STUDENT DEVELOPMENT PROGRAM (SDP)</li>
           <li classsName="program-item">
-            TEACHER PROFESSIONAL DEVELOPMENT PROGRAM (TPP)
+            <div>
+            <img src = "/Images/arrowIndicate.png"/>
+            </div>
+            <p className="program-item-description-education">FACULTY DEVELOPMENT PROGRAM (FDP)</p>
           </li>
           <li classsName="program-item">
-            JEEVAN VIDYA / UNIVERAL HUMAN VALUES WORKSHOPS
+            <div>
+            <img src = "/Images/arrowIndicate.png"/>
+            </div>
+            <p className="program-item-description-education">Student Development Program (SDP)</p>
           </li>
-          <li classsName="program-item">WEEKLY REFRESHER SESSIONS</li>
-          <li classsName="program-item">ISSUE-BASED SPECIAL SESSIONS</li>
-          <li classsName="program-item">WEEKLY REFRESHER SESSIONS:</li>
+          <li classsName="program-item">
+            <div>
+            <img src = "/Images/arrowIndicate.png"/>
+            </div>
+            <p className="program-item-description-education">Teacher Professional Development Program (TPDP)</p>
+          </li>
+          <li classsName="program-item">
+            <div>
+            <img src = "/Images/arrowIndicate.png"/>
+            </div>
+            <p className="program-item-description-education">JEEVAN VIDYA / UNIVERSAL HUMAN VALUES WORKSHOPS</p>
+          </li>
+          <li classsName="program-item">
+            <div>
+            <img src = "/Images/arrowIndicate.png"/>
+            </div>
+            <p className="program-item-description-education">Faculty Devolopment Program(FDP)</p>
+          </li>
+          <li classsName="program-item">
+            <div>
+            <img src = "/Images/arrowIndicate.png"/>
+            </div>
+            <p className="program-item-description-education">Faculty Devolopment Program(FDP)</p>
+          </li>
         </ul>
         <button className="know-more-button">know more</button>
       </div>

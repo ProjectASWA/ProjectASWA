@@ -1,110 +1,144 @@
+*{
+    font-family: 'Sathoshi', sans-serif;
+}
+
 .homeVisits-image{
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     background-size: contain;
 
 }
 
 .homeVisitsContainerContents{
     font-family: 'Sathoshi', sans-serif;
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    background-color: #F0ECE9;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
 
 }
 
 .ourActivitiesHeading{
     text-align: left;
-    padding-left: 50px;
-    font-size: 56px;
-
+    padding-left: 10px;
+    font-size: 48px;
+    font-family: 'Sathoshi', sans-serif;
+    margin-bottom: 0px;
 }
 
 .listStyleItemHomeVisits{
     display: flex;
-    padding: 25px;
+    padding: 10px;
     align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
 
-    width: 100%;
+.arrowImageHomeVisits{
+    align-self: center;
+}
+.arrowImageContainer{
+    align-self: flex-start;
+    margin-top: 35px;
 }
 
 .arrangeHomeVistsArrange{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subHeadingHomeVisits{
-    font-size: 30px;
+    font-size: 24px;
     text-align: left;
     padding-left: 20px;
     letter-spacing: 1px;
     line-height: 1.5;
     width: 90%;
+    font-family: 'Sathoshi', sans-serif;
 }
 
 .homeVisitsHeading{
     color: #000;
-text-align: left;
-font-family: 'Sathoshi', sans-serif;
+    font-family: 'Sathoshi', sans-serif;
+    text-align: center;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
-line-height: 52px; /* 92.857% */
+line-height: normal;
 letter-spacing: 0.1px;
-padding-left: 50px;
-margin-top: 65px;
 }
 
 .homeVisitsPara{
     text-align: left;
-    
 font-family: 'Sathoshi', sans-serif;
     padding: 25px;
     padding-left: 50px;
     font-size: 26px;
-    margin-top: 50px;
+    margin-top: 0px;
     letter-spacing: 1px;
-    
-    line-height: 1.4;
-    width: 95%;
+    padding-top: 0px;
+    line-height: 1.6;
+    width: 90%;
+    align-self: center;
+    /* color: #000;
+text-align: justify;
+font-family: Satoshi;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+/* letter-spacing: 2px;
+width: 80%;
+margin-left: auto;
+margin-right: auto; */
 }
+
 
 .descriptionHomeVisits{
     color: #000;
     
 font-family: 'Sathoshi', sans-serif;
 font-size: 30px;
-padding-left: 25px;
-
 font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 133.333% */
 letter-spacing: 1px;
 text-align: left;
-
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 
 }
 .descriptionHomeVisitsContainer{
-    margin-top: 100px;
+    margin-top: 15px;
     padding: 15px;
 }
 
 .arrangeInCenter{
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
-    margin-top: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 
 .CarouselHomeVisitsContainer{
     margin-top: 50px;
     padding-bottom: 50px;
-    background: #BFC8E7;
+    background: white;
     padding: 24px;
 }
 
 .photoGalleryHeading{
+    text-align: center;
     font-size: 16px;
 }
 
@@ -263,7 +297,6 @@ text-align: left;
         flex-direction: column;
         justify-content: center;
         margin-top: 20px;
-        padding-left: 50px;
     }
 
     .descriptionHomeVisitsContainer{
@@ -271,7 +304,6 @@ text-align: left;
         flex-direction: row;
         justify-content: center;
         padding-left: 0px;
-        width: 99%;
     }
 
     .descriptionHomeVisits{
@@ -283,7 +315,7 @@ text-align: left;
         font-size: 32px;
     }
     .descriptionHomeVisitsContainer{
-        margin-top: 50px;
+        margin-top: 10px;
     }
     .homeVisitsHeading{
         font-size: 32px;

@@ -35,6 +35,7 @@
   display: flex;
   justify-content: flex-start;
   margin-bottom: 15px;
+  width: 90%;
 }
 
 .button-about {
@@ -85,7 +86,7 @@
   }
 
   .button-container {
-    width: 95%;
+    width: 98%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +126,7 @@
     display: flex;
     flex-direction: row;
     padding: 30px;
-    width: 80%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
@@ -167,12 +168,15 @@
 
 @media screen and (max-width: 1000px) {
   .button-container {
-    width: 90%;
     display: flex;
     justify-content: flex-start;
     margin-left: 0px;
     margin-right: auto;
     margin-left: auto;
+  }
+  .about-contents-container {
+    padding-bottom: 0px;
+    width: 90%;
   }
   .about-para {
     font-size: 18px;

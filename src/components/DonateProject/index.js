@@ -76,35 +76,18 @@ const DonateProject = () => {
         />
       </div>
       <div className="bloodContainerText">
-        <h1 className="main-blood-heading">Blood Connect</h1>
+        <h1 className="main-blood-heading-donate">Blood Connect</h1>
         <p className="main-sub-heading">
           An initiative of Amma Social Welfare Association
         </p>
         <p className="main-sub-heading">Making emergency connections</p>
       </div>
-      <div className="bloodDonateArrange">
-        <div className="bloodDonateContents">
-          <h1 className="donate-heading-what">What does Blood Connect do?</h1>
-          <p className="donate-para">
-            When there is a patient in emergency need of blood, Blood connect
-            tries to find a donor.
-          </p>
+      <div className="donateImageContainerMain">
+        <h1 className="WhatDoesBloodConnect">What does Blood Connect do?</h1>
+        <div className="donateImageContainerDescription">
+          <p className="donate-para-text">When there is a patient in emergency need of blood, Blood connect tries to find a donor.</p>
+          <img className = "bloodImageProject" src = "/Images/bloodImage2.jpg"/>
         </div>
-        <div className="donateImageContainer">
-          <img
-            className="imageBloodStyling"
-            src="/Images/bloodImage2.jpg"
-            alt="donate Image"
-          />
-        </div>
-        {showElement && (
-          <div class="mobileParaDonate">
-            <p className="donate-para mobile-donate-para">
-              When there is a patient in emergency need of blood, Blood connect
-              tries to find a donor.
-            </p>
-          </div>
-        )}
       </div>
       <div className="how-do-blood-container">
         <h1 className="howWeDoIt">How we do it?</h1>
@@ -174,7 +157,8 @@ const DonateProject = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="colorDonateContainer">
+        <div className="donateProjectContainerFeebback">
         <div className="FeedBackContainer">
           <div className="feedBackContents">
             <h1 className="feedBackHeading">Blood Connect</h1>
@@ -192,6 +176,8 @@ const DonateProject = () => {
           <button className="redBackgroundButton">Donate Blood</button>
         </div>
       </div>
+        </div>
+       
     </div>
   );
 };

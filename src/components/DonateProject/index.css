@@ -1,29 +1,36 @@
 .bloodImage {
-  width: 98.5vw;
-  height: 300px;
+  width: 100%;
+  height: 50vh;
   object-fit: cover;
 }
 
 .donateContainer {
-  padding-bottom: 150px;
+  padding-bottom: 15px;
 }
 
 .bloodContainerText {
-  text-align: left;
+  text-align: center;
   padding: 25px;
+  font-size: 32px;
+
+}
+
+.main-blood-heading-donate{
+  font-size: 48px;
 }
 
 .main-sub-heading {
   padding: 10px;
-  font-size: 24px;
-  padding-left: 8%;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .main-blood-heading {
   padding: 10px;
   font-size: 48px;
-  padding-left: 8%;
-  text-align: left;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .bloodDonateArrange {
@@ -42,6 +49,17 @@
   flex-grow: 0;
   align-self: center;
   margin-right: 100px;
+}
+
+.donateImageContainerDescription{
+  display: flex;
+  justify-content: space-around;
+}
+
+.donateImageContainerMain{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .bloodDonateContents {
@@ -162,19 +180,16 @@
 
 .howWeDoIt {
   text-align: left;
-  margin-left: 10vw;
+  width: 90%;
+  margin: auto;
   padding-bottom: 30px;
 }
-.feedBackContents {
-  margin-left: 6.8vw;
-  padding: 50px;
-}
+
 
 .feedBackHeading {
   color: #000;
   margin-bottom: 20px;
-
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -184,26 +199,60 @@
 
 .feedBackPara {
   color: #707070;
-  font-family: "Satoshi";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 70%;
+  width: 80%;
+  font-family: 'Sathoshi', sans-serif;
 }
 .FeedBackContainer {
   display: flex;
   text-align: left;
-
+  width: 90%;
+  margin: auto;
   padding: 10px;
+}
+
+.colorDonateContainer{
+  border-radius: 20px;
+background: #E8E8E8;
+
+padding: 25px;
+}
+
+.donateProjectContainerFeebback{
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.bloodImageProject{
+  width: 350px;
+  border-radius: 16px;
+  border: #d70020 solid 2px;
+  margin-left: 150px;
+}
+.WhatDoesBloodConnect{
+  text-align: center;
+}
+
+.donate-para-text{
+  font-size: 32px;
+  width: 40%;
+  line-height: 1.4;
 }
 
 .feedBackOption {
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
-  align-self: center;
-  margin-right: 50px;
+  margin-top: 20px;
 }
 
 .feedBackParaOption {
@@ -216,7 +265,6 @@
   line-height: 20px; /* 111.111% */
   text-decoration-line: underline;
   text-transform: capitalize;
-  margin-right: 50px;
 }
 
 .redBackgroundButton {
@@ -233,21 +281,23 @@
 }
 .requestBloodButton {
   margin: 5px;
-  width: 40%;
-  padding: 2px;
+  width: 45%;
   font-size: 20px;
   border-radius: 16px;
   border: 3px solid #d70020;
   color: #d70020;
+  height: 80px;
 }
 
 .redBackgroundButton {
   background-color: #d70020;
+  height: 80px;
 }
 
 .feedBackButtonsContainer {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 @media screen and (min-width: 1750px) {
@@ -257,13 +307,7 @@
     justify-content: space-around;
   }
 
-  .main-blood-heading {
-    padding-left: 14%;
-  }
 
-  .main-sub-heading {
-    padding-left: 14%;
-  }
 
   .donateImageContainer {
     flex-grow: 0;
@@ -283,7 +327,7 @@
   }
 
   .donateImageContainer {
-    margin-right: 0px;
+    align-self: center;
   }
 
   .bloodDonateContents {
@@ -300,7 +344,7 @@
   }
 
   .main-sub-heading {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .donate-heading-what {
@@ -353,6 +397,7 @@
 
   .main-blood-heading {
     text-align: center;
+    
   }
 
   .main-sub-heading {
@@ -373,6 +418,30 @@
     font-size: 22px;
     margin: 10px;
   }
+  .WhatDoesBloodConnect{
+    font-size: 24px;
+  }
+  .feedBackHeading{
+    font-size: 24px;
+  }
+  .donateImageContainerDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bloodImageProject{
+    margin-left: 0px;
+  }
+
+  .donate-para-text{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    order: 3;
+  }
+  .WhatDoesBloodConnec{
+    font-size: 24px;
+  }
 
   .donate-para-2 {
     font-size: 20px;
@@ -392,19 +461,18 @@
     align-items: center;
   }
   .requestBloodButton {
-    width: 80%;
-    padding: 25px;
+    width: 100%;
   }
 
   .redBackgroundButton {
-    width: 80%;
+    width: 100%;
     margin-top: 16px;
     margin-left: 0px;
   }
 
   .feedBackPara {
     font-size: 16px;
-    width: 80%;
+    width: 100%;
   }
 
   .feedBackContents {
@@ -413,6 +481,7 @@
   .feedBackOption {
     width: 100%;
     margin-bottom: 15px;
+    text-align: left;
   }
   .feedBackParaOption {
     text-align: right;
@@ -424,7 +493,7 @@
 
   .howWeDoIt {
     text-align: center;
-    margin-top: 50px;
-    margin-left: 0px;
+    margin-top: 40px;
+    padding-bottom: 0px;
   }
 }

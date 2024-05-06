@@ -2,7 +2,7 @@
     
 }
 .imageStylingHomeVisits{
-    width: 50%;
+    width: 60%;
     margin: auto;
     margin-top: 50px;
     display: flex;
@@ -11,7 +11,7 @@
 }
 
 .imageSrcHome{
-    border-radius: 50px;
+    border-radius: 30px;
     background-position: center;
 }
 

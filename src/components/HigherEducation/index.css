@@ -1,19 +1,27 @@
 .higher-education-main-container {
   display: flex;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 39px;
   margin-bottom: 20px;
-  width: 90%;
+  width: 95%;
   margin: auto;
+}
+
+.backgroundHigherEducation{
+  border-radius: 16px;
+background: #F1EEEC;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
 }
 
 .higher-education-text {
   color: #000;
   text-align: center;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -24,7 +32,7 @@
   .higher-education-text {
     color: #000;
     text-align: center;
-    font-family: "Satoshi";
+    font-family: 'Sathoshi', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -35,17 +43,18 @@
 .higher-education-description {
   color: #000;
   text-align: justify;
-  font-family: "Satoshi";
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
+  width: 90%;
+  line-height: 1.4;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
   .higher-education-description {
     color: #000;
     text-align: justify;
-    font-family: "Satoshi";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +68,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 39px;
   margin-bottom: 30px;
 }
 
@@ -72,11 +80,12 @@
 .higher-education-programs-heading {
   color: #000;
   text-align: justify;
-  font-family: "Satoshi";
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  font-family: 'Sathoshi', sans-serif;
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -116,9 +125,17 @@ li {
   text-align: justify;
   font-family: "Satoshi";
   font-style: normal;
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 60px; /* 187.5% */
   letter-spacing: 0.2px;
+}
+
+.program-item-description-education{
+  padding: 0px;
+  margin: 10px;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -139,7 +156,6 @@ li {
   background: #f2902f;
   color: var(--color-semantic-white-100, #fff);
   text-align: center;
-  font-family: "Satoshi";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -147,6 +163,7 @@ li {
   text-transform: uppercase;
   border-width: 0px;
   align-self: center;
+  font-family: 'Sathoshi', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
