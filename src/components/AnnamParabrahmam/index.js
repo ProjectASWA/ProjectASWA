@@ -26,27 +26,61 @@ class AnnamParabrahmam extends Component {
             valuable feedback gathered from our visits.
           </p>
         </div>
-        <div className="annamparabrahmam-leader-container">
-          <h1 className="annamparabrahmam-heading">Our Leader</h1>
-          <div className="leader-card-container">
-            <div className="leader-image-and-text">
-              <img
-                src="/Images/annamparabrahmamleader.png"
-                className="leader-image"
-              />
-              <div className="leader-text-container">
-                <div>
-                  <h5 className="leader-name">Mr. Parameswara Chari</h5>
-                  <p className="project">Project Leader</p>
-                </div>
-                <p className="leader-description">
-                  f Mr. Parameswara Chari is handling the team with his 6
-                  members’ team.
-                </p>
+        <div className="projectLeaderContainerHomeVisits">
+          <div className="projectLeaderHomeVisits">
+              <h1 className="leaderHeadingHomeVisits">Project Leader</h1>
+              <div className="mainLeaderContainer">
+                    <img className = "leaderHomeVisitsImage" src = "/Images/leaderHomeVisits.jpg"/>
+                    <div className="leaderHomeVisitsTextContents">
+                        <h1 className="nameLeaderHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                        <p className="roleLeaderHomeVisits">Project Leader</p>
+                        <p className="descriptionLeaderHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+                    </div>
+              </div>
+          </div>
+          <hr className="horizontalLineHomeVisits"></hr>
+          <div className="volunteerHomeVisitsMainContainer">
+            <div className="RegularVolunteerParticipantsHeading">
+              <h1 className="regularVolunteerHeading">Regularly Participating Volunteers</h1>
+            </div>
+            <div className="arrangeHomeVisitsVolunteer">
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
               </div>
             </div>
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            <div className="volunteerContainerHomeVisits">
+              <img src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
+              <div className="volunteerTextContentsHomeVisits">
+                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
+                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+              </div>
+            </div>
+            </div>
+            
           </div>
-        </div>
+      </div>
+        
       </div>
     );
   }

@@ -1,7 +1,11 @@
+import './index.css'
+
 const MediaCoverage = ()=>{
     let a;
     return(
-        <h1>Media Coverage Page</h1>
+        <div>
+            <img src = "/Images/mediaCoverageBanner.png" className='mediaCoverageImageBanner'/>
+        </div>
     )
 }
 

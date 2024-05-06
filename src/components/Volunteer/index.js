@@ -61,10 +61,10 @@ const Volunteer = ()=>{
 
     return(
         <div className='arrangeBgVolunteer'>
-            
-            <img className = "volunteerBg" src = "/Images/volunteerImage.jpg"/>
+            <img className = "volunteerBg mobileBannerVolunteer" src = "/Images/mobileBannerVolunteer.png"/>
+            <img className = "volunteerBg laptopBannerVolunteer" src = "/Images/volunteerImage.png"/>
             <div className = "arrangeVolunteerContainer">
-                <h1>BE A VOLUNTEER</h1>
+                <h1 className='beAVolunteerHeading'>BE A VOLUNTEER</h1>
                 <p className='volunteerPara'>"Unlock the power within you to make a meaningful impact by joining ASWA as a volunteer. Embrace the opportunity to spread positivity and foster development, becoming a beacon of peace in our world. Together, let's weave a tapestry of change, enriching countless lives and leaving a legacy of compassion and progress. Join us in the journey to make a difference that resonates far and wide."</p>
             </div>
             <div className='quoteContainer'>
@@ -87,7 +87,9 @@ const Volunteer = ()=>{
                     
                 })
             }
+            <div className='knowMoreVolunteerContainer'>
             {!clicked ? <button onClick={handleClickEvent} className='knowMoreVolunteer'>Know More</button>: null}
+            </div>
         </div>
     )
 }

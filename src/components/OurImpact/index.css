@@ -142,21 +142,10 @@
   }
 }
 
-@media (max-width: 400px) {
-  .countUpAnimationHeading {
-    font-size: 34px;
-  }
-  .backgroundStylingImageImpact {
-    width: 150px;
-    height: 150px;
-  }
-}
+
 
 @media (max-width: 576px) {
-  .backgroundStylingImageImpact {
-    width: 105px;
-    height: 100px;
-  }
+  
 
   .impact-button-container {
     justify-content: center;
@@ -164,5 +153,15 @@
 
   .countUpAnimationHeading {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .countUpAnimationHeading {
+    font-size: 34px;
+  }
+  .backgroundStylingImageImpact {
+    width: 150px;
+    height: 150px;
   }
 }

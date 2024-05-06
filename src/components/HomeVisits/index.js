@@ -7,6 +7,7 @@ import React, { useEffect } from "react";
 
 import "./index.css";
 import HomeVisitsOurActiviteis from "../HomeVisitsOurActiviites";
+import VolunteerCardItem from "../VolunteerCard";
 
 const Homedescription = [
   {
@@ -28,6 +29,34 @@ const Homedescription = [
   {
     id: 5,
     description: "Inspiring volunteerism and community involvement among individuals."
+  }
+]
+
+const VolunteerDetails = [
+  {
+    id: 1,
+    name: "Mr. Parameswara Chari",
+    role: "Project Leader",
+    description: "Mr. Parameswara Chari is handling the team with his 6 members’ team.",
+    imageUrl: "/Images"
+  },
+  {
+    id: 2,
+    name: "Mr. Parameswara Chari",
+    role: "Project Leader",
+    description: "Mr. Parameswara Chari is handling the team with his 6 members’ team."
+  },
+  {
+    id: 3,
+    name: "Mr. Parameswara Chari",
+    role: "Project Leader",
+    description: "Mr. Parameswara Chari is handling the team with his 6 members’ team."
+  },
+  {
+    id: 4,
+    name: "Mr. Parameswara Chari",
+    role: "Project Leader",
+    description: "Mr. Parameswara Chari is handling the team with his 6 members’ team."
   }
 ]
 
@@ -92,42 +121,15 @@ const HomeVisits = () => {
           </div>
           <hr className="horizontalLineHomeVisits"></hr>
           <div className="volunteerHomeVisitsMainContainer">
-            <div>
+            <div className="RegularVolunteerParticipantsHeading">
               <h1 className="regularVolunteerHeading">Regularly Participating Volunteers</h1>
             </div>
             <div className="arrangeHomeVisitsVolunteer">
-            <div className="volunteerContainerHomeVisits">
-              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
-              <div className="volunteerTextContentsHomeVisits">
-                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
-                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
-                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
-              </div>
-            </div>
-            <div className="volunteerContainerHomeVisits">
-              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
-              <div className="volunteerTextContentsHomeVisits">
-                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
-                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
-                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
-              </div>
-            </div>
-            <div className="volunteerContainerHomeVisits">
-              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
-              <div className="volunteerTextContentsHomeVisits">
-                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
-                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
-                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
-              </div>
-            </div>
-            <div className="volunteerContainerHomeVisits">
-              <img className = "arrowImageHomeVisits" src = "/Images/leaderHomeVisits.jpg" className="volunteerHomeVisitsImage"/>
-              <div className="volunteerTextContentsHomeVisits">
-                <h1 className="volunteerMainHeadingHomeVisits">Mr. Parameswara Chari</h1>
-                <p className="volunteerSubHeadingHomeVisits">Project Leader</p>
-                <p className="volunteerDescriptionHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
-              </div>
-            </div>
+                {VolunteerDetails.map((eachItem)=>{
+                  return(
+                    <VolunteerCardItem key = {eachItem.key} details = {eachItem}/>
+                  )
+                })}
             </div>
             
           </div>

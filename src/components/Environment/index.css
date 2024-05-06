@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 98px;
+  gap: 25px;
   width: 90%;
   margin: auto;
   margin-top: 38px;
@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
   background: #f0ece9;
   padding: 30px;
   border-radius: 16px;
@@ -29,7 +28,7 @@
 .environment-heading {
   color: #222;
   text-align: center;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 32px;
   font-style: normal;
   /* font-weight: 500; */
@@ -40,7 +39,7 @@
 .environment-description {
   color: #7a7a7a;
   text-align: center;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -51,14 +50,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 0px;
   align-self: stretch;
 }
 
 .environment-card-heading {
   color: #222;
   text-align: center;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -104,7 +103,7 @@
 
 .environment-cards-text {
   color: #222;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -142,7 +141,7 @@
 
 .clicked {
   color: #36b0b8;
-  font-family: "Satoshi";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
