@@ -45,7 +45,7 @@ const financialReportsObj = [
   },
   {
     id: 3,
-    image: "/Images/FinancialReports2022.jpg",
+    image: "/Images/financialReports2020.jpg",
     description: "2020 Financial Reports",
     pdfLink: "/Images/financialReport2020.pdf",
   },

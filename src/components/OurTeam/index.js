@@ -8,6 +8,16 @@ const OurTeam = () => {
         <div className="our-team-card-container">
           <img src="/Images/ourTeam1.png" className="our-team-image" />
           <div className="our-team-text-container">
+            <h4 className="our-team-text-heading">Sreenivasa Prasad Sarvaraju</h4>
+            <p className="our-team-text-description">
+            Founder & President Master's Degree In Financial Management (MFM) Worked in S&P Capital IQ
+            </p>
+          </div>
+        </div>
+        
+        <div className="our-team-card-container">
+          <img src="/Images/Rectangle 296.png" className="our-team-image" />
+          <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Dr T Sundara Raj Perumall</h4>
             <p className="our-team-text-description">
               Vice President MD Ayurveda, MSc Psychology Chief Physician and
@@ -22,16 +32,6 @@ const OurTeam = () => {
             <p className="our-team-text-description">
               Secretary Technical Lead, TCS, Hyderabad MS (Mechanical Eng.),
               Tennessee Technological University, USA
-            </p>
-          </div>
-        </div>
-        <div className="our-team-card-container">
-          <img src="/Images/Rectangle 296.png" className="our-team-image" />
-          <div className="our-team-text-container">
-            <h4 className="our-team-text-heading">Dr T Sundara Raj Perumall</h4>
-            <p className="our-team-text-description">
-              Vice President MD Ayurveda, MSc Psychology Chief Physician and
-              Director of Arogyadhatri Ayurveda Chikitsalayam
             </p>
           </div>
         </div>

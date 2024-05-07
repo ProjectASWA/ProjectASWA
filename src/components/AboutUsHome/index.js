@@ -48,7 +48,7 @@ const AboutUsHomeSection = () => {
             </div>
             <div className="button-container">
               <Link to="/About">
-                <button className="button-about aboutStyling">KNOW</button>
+                <button className="button-about aboutStyling">KNOW MORE</button>
               </Link>
               <button onClick={handleDonateClick} className="button-about">
                 Donate
