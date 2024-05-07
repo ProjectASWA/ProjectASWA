@@ -1,128 +1,128 @@
-.reportsContainerBg{
-
-    padding-bottom: 50px;
+.reportsContainerBg {
+  padding-bottom: 50px;
+  background-color: #fffcf7;
 }
 
-.reportsImageBackground{
-    width: 100%;
-    height: 50vh;
+.reportsImageBackground {
+  width: 100%;
+  height: 387px;
 }
 
-.reportsButtonContainer{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    background-color: #CBD5E1;
+.reportsButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  background-color: #cbd5e1;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border: 1px solid var(--Color-Border-neutral---Subtle, #cbd5e1);
+  border-radius: 12px;
+}
+
+.buttonReportsContainer {
+  width: 24%;
+}
+
+.buttonReports {
+  display: flex;
+  width: 95%;
+  height: 45px;
+  padding: var(--Spacing-2xs, 8px) var(--Spacing-xs, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Spacing-2xs, 8px);
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.reportsPoster {
+  height: 466px;
+  width: 344px;
+}
+
+.reportsPosterArrange {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reportsKnowMoreButton {
+  border-radius: 6px;
+  background: #f2902f;
+  display: flex;
+  width: 150px;
+  border: none;
+  height: 30px;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reportsPosterContainer {
+  padding: 50px;
+}
+
+.yearNumberReports {
+  font-size: 22px;
+  text-align: left;
+  font-family: "Sathoshi", sans-serif;
+  margin-bottom: 10px;
+}
+
+.activeButtonReports {
+  background-color: #36b0b8;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .buttonReports {
+    height: 30px;
+    font-size: 9px;
+    padding: 5px;
+  }
+  .reportsButtonContainer {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    border: 1px solid var(--Color-Border-neutral---Subtle, #CBD5E1);
-    border-radius: 12px;
-}
-
-.buttonReportsContainer{
-    width: 24%;
-}
-
-.buttonReports{
-    display: flex;
-    width: 95%;
-    height: 45px;
-padding: var(--Spacing-2xs, 8px) var(--Spacing-xs, 12px);
-justify-content: center;
-align-items: center;
-gap: var(--Spacing-2xs, 8px);
-flex-shrink: 0;
-border-radius: 10px;
-border: none;
-padding: 10px;
-font-size: 16px;
-}
-
-.reportsPoster{
-    height: 466px;
-    width: 344px;
-
-}
-
-.reportsPosterArrange{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.reportsKnowMoreButton{
     border-radius: 6px;
-background: #F2902F;
-display: flex;
-width: 150px;
-border: none;
-height: 30px;
-padding: 20px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-color: white;
-font-size: 14px;
-font-weight: 700;
-}
+    padding: 10px;
+  }
+  .buttonReportsContainer {
+    width: 25%;
+    border-radius: 6px;
+  }
 
-.reportsPosterContainer{
-    padding: 50px;
-}
+  .reportsPosterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
 
-.yearNumberReports{
-    font-size: 22px;
-    text-align: left;
-    font-family: 'Sathoshi', sans-serif;
-    margin-bottom: 10px;
-}
+  .yearNumberReports {
+    font-size: 14px;
+    font-family: "Sathoshi", sans-serif;
+    margin-top: 18px;
+  }
+  .reportsKnowMoreButton {
+    padding: 10px;
+  }
 
-.activeButtonReports{
-    background-color: #36B0B8;
-    color: white;
-}
-
-@media (max-width: 768px){
-    .buttonReports{
-        height: 30px;
-        font-size: 9px;
-        padding: 5px;
-    }
-    .reportsButtonContainer{
-        width: 90%;
-        border-radius: 6px;
-        padding: 10px;
-    }
-    .buttonReportsContainer{
-        width: 25%;
-        border-radius: 6px;
-    }
-
-    .reportsPosterContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 30px;
-    }
-
-    .yearNumberReports{
-        font-size: 14px;
-        font-family: 'Sathoshi', sans-serif;
-        margin-top: 18px;
-    }
-    .reportsKnowMoreButton{
-        padding: 10px;
-    }
-
-    .reportsPoster{
-        width: 126px;
-        height: 170px;
-    }
+  .reportsPoster {
+    width: 126px;
+    height: 170px;
+  }
 }

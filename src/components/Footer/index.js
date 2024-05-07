@@ -9,10 +9,15 @@ const Footer = () => {
             <img src="/Images/logoAswa.png" className="aswa-logo" />
             <div className="reach-us-container">
               <h5 className="reach-us">Reach us</h5>
-              <div className="mail-container">
-                <img className="locationImageFooter" src="/Images/email.svg" />
-                <p className="mail">amma.aswa@gmail.com</p>
-              </div>
+              <a href="mailto:info@aswa4u.org">
+                <div className="mail-container">
+                  <img
+                    className="locationImageFooter"
+                    src="/Images/email.svg"
+                  />
+                  <p className="mail">amma.aswa@gmail.com</p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="address-container">
@@ -39,15 +44,33 @@ const Footer = () => {
         <div className="horizontal-line-container">{/* <hr /> */}</div>
         <div className="follow-us-section-container">
           <div className="follow-us-icons">
-            <img className="locationImageFooter" src="/Images/facebook.svg" />
-            <img className="locationImageFooter" src="/Images/instagram.svg" />
-            <img
-              style={{ objectFit: "contain" }}
-              className="locationImageFooter"
-              src="/Images/x1.png"
-            />
-            <img className="locationImageFooter" src="/Images/linkedin.svg" />
-            <img className="locationImageFooter" src="/Images/youtube.svg" />
+            <a href="https://www.facebook.com/AMMAASWA">
+              <img className="locationImageFooter" src="/Images/facebook.svg" />
+            </a>
+            <a href="https://www.instagram.com/ammaaswa/">
+              <img
+                className="locationImageFooter"
+                src="/Images/instagram.svg"
+              />
+            </a>
+
+            <a href="https://twitter.com/ammaaswa">
+              {" "}
+              <img
+                style={{ objectFit: "contain" }}
+                className="locationImageFooter"
+                src="/Images/X1.png"
+              />
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=919948885111&text&type=phone_number&app_absent=0">
+              {" "}
+              <img className="locationImageFooter" src="" />
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCi3-LOqxkkyrIAxKv8WtGoA">
+              {" "}
+              <img className="locationImageFooter" src="/Images/youtube.svg" />
+            </a>
           </div>
           <div>
             <p className="quotation">

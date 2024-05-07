@@ -1,161 +1,182 @@
-.volunteerBg{
-    height: 60vh;
+.volunteerBg {
+  height: 387px;
   width: 100%;
   background-size: contain;
-  
 }
 
-.mobileBannerVolunteer{
-    display: none;
+.mobileBannerVolunteer {
+  display: none;
 }
 
-.arrangeVolunteerContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
+.arrangeVolunteerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.volunteerPara{
-    color: #7A7A7A;
-text-align: justify;
-font-family: 'Sathoshi', sans-serif;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-align: left;
-line-height: 1.2;
-width: 90%;
-margin-top: 30px;
+.volunteerPara {
+  color: #7a7a7a;
+  text-align: justify;
+  font-family: "Sathoshi", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  line-height: 1.2;
+  width: 90%;
+  margin-top: 30px;
 }
 
-.quoteContainer{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-    border: 1px solid black;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.quoteContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border: 1px solid black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.arrangeBgVolunteer{
-    padding-bottom: 100px;
+.arrangeBgVolunteer {
+  padding-bottom: 100px;
 }
 
-.nameQuote{
-    font-size: 32px;
-    align-self: flex-end;
-    margin-top: 50px;
-    margin-right: 25px;
+.nameQuote {
+  font-size: 32px;
+  align-self: flex-end;
+  margin-top: 50px;
+  margin-right: 25px;
 }
-.quoteVolunteer{
-    font-size: 28px;
-    width: 100%;
-    color: black;
-    text-align: left;
-    line-height: 1.4;
-    font-family: 'Sathoshi', sans-serif;
-}
-
-.instructionsVolunteer{
-    text-align: left;
-    font-size: 28px;
-    font-family: 'Sathoshi', sans-serif;
+.quoteVolunteer {
+  font-size: 28px;
+  width: 100%;
+  color: black;
+  text-align: left;
+  line-height: 1.4;
+  font-family: "Sathoshi", sans-serif;
 }
 
-.instructionsContainer{
-    padding: 25px;
-    margin: auto;
-    width: 92%;
+.instructionsVolunteer {
+  text-align: left;
+  font-size: 28px;
+  font-family: "Sathoshi", sans-serif;
 }
 
-.arrangeInstructionContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 92%;
-    margin-bottom: 25px;
+.instructionsContainer {
+  padding: 25px;
+  margin: auto;
+  width: 92%;
 }
 
-.beAVolunteerHeading{
-    margin-bottom: 0px;
+.arrangeInstructionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 92%;
+  margin-bottom: 25px;
 }
 
-.knowMoreVolunteer{
-    border: none;
-    border-radius: 6px;
-background: #F2902F;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 24px;
-    justify-self: center;
+.beAVolunteerHeading {
+  margin-bottom: 0px;
 }
 
-.numberContainer{
-    background-color: #E0DDDD;
-    color: #617BE3;
-    font-size: 28px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 90px;
-    padding: 5px;
+.knowMoreVolunteer {
+  border: none;
+  border-radius: 6px;
+  background: #f2902f;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 24px;
+  justify-self: center;
+  font-family: "Sathoshi", sans-serif;
 }
 
-.numberParaElement{
-    color: #000;
-    text-align: left;
-    padding-left: 50px;
-font-family: Roboto;
-font-size: 30px;
-font-style: normal;
-font-family: 'Sathoshi', sans-serif;;
-font-weight: 400;
-line-height: 1.4; /* 133.333% */
+.numberContainer {
+  background-color: #e0dddd;
+  color: #617be3;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90px;
+  padding: 5px;
 }
 
-.knowMoreVolunteerContainer{
-    display: flex;
-    justify-content: center;
+.numberParaElement {
+  color: #000;
+  text-align: left;
+  padding-left: 50px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Sathoshi", sans-serif;
+  font-weight: 400;
+  line-height: 1.4; /* 133.333% */
 }
 
-.numberParaEleContainer{
-    width: 100%;
+.knowMoreVolunteerContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.numberParaEleContainer {
+  width: 100%;
 }
 
 @media screen and (max-width: 996px) {
-    .volunteerPara{
-        font-size: 14px;
-    }
-    .quoteVolunteer{
-        font-size: 14px;
-    }
-    .instructionsVolunteer{
-        font-size: 18px;
-        margin-bottom: 0px;
-    }
-    .numberParaElement{
-        font-size: 16px;
-    }
-    .arrangeInstructionContainer{
-        margin-bottom: 12px;
-    }
-    .nameQuote{
-        font-size: 12px;
-        margin-top: 10px;
-    }
-    .volunteerBg{
-        height: 45vh;
-        display: none;
-    }
-    .mobileBannerVolunteer{
-        display: block;
-        height: 40vh;
-    }
+  .volunteerPara {
+    font-size: 14px;
+  }
+  .quoteVolunteer {
+    font-size: 14px;
+  }
+  .instructionsVolunteer {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .numberParaElement {
+    font-size: 16px;
+  }
+  .arrangeInstructionContainer {
+    margin-bottom: 12px;
+  }
+  .nameQuote {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .volunteerBg {
+    height: 45vh;
+    display: none;
+  }
+  .mobileBannerVolunteer {
+    display: block;
+    height: 40vh;
+  }
+}
+
+.knowMoreVolunteerbtn1 {
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  text-align: center;
+  font-family: "Satoshi", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+  cursor: pointer;
 }

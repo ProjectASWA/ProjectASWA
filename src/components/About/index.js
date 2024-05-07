@@ -55,9 +55,9 @@ import VisionAndMission from "../VisionAndMission";
 import AboutUsNavbar from "../AboutUsNavbar";
 
 const headerImages = {
-  SuccessStories: "/Images/success1.png",
+  SuccessStories: "/Images/Success Stories (1).png",
   OurTeam: "/Images/ourteam.png",
-  VisionAndMission: "/Images/visionandmission1.png",
+  VisionAndMission: "/Images/Vision And Mission.png",
 };
 
 class About extends Component {
