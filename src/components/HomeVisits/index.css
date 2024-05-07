@@ -130,10 +130,10 @@ margin-right: auto; */
 }
 
 .CarouselHomeVisitsContainer {
-  margin-top: 50px;
   padding-bottom: 50px;
   background: white;
   padding: 24px;
+  padding-top: 0px;
 }
 
 .photoGalleryHeading {
@@ -267,6 +267,13 @@ margin-right: auto; */
   margin: auto;
 }
 
+.leftButtonHomeVisitsNext{
+  margin-top: 25px;
+}
+.rightButtonHomeVisitsNext{
+  margin-top: 50px;
+}
+
 @media screen and (min-width: 786px) {
   .photoGalleryHeading {
     font-size: 42px;
@@ -276,6 +283,12 @@ margin-right: auto; */
   .homeVisitsHeading {
     text-align: center;
     margin-top: 20px;
+  }
+  .rightButtonHomeVisitsNext{
+    width: 20px;
+  }
+  .leftButtonHomeVisitsNext{
+    width: 20px;
   }
   .arrangeHomeVistsArrange {
     margin-top: 5px;
@@ -292,6 +305,9 @@ margin-right: auto; */
   .homeVisitsContainerContents {
     margin-top: 40px;
   }
+  .arrangeHomeVisitsVolunteer{
+    margin-top: 15px;
+  }
   .ourActivitiesHeading {
     text-align: center;
     padding-left: 0px;
@@ -300,6 +316,9 @@ margin-right: auto; */
     justify-content: center;
     padding-left: 0px;
     width: 100%;
+  }
+  .descriptionLeaderHomeVisits{
+    font-size: 12px;
   }
   .subHeadingHomeVisits {
     font-size: 16px;
@@ -317,11 +336,16 @@ margin-right: auto; */
     flex-direction: row;
     justify-content: center;
     padding-left: 0px;
+    width: 100%;
   }
 
   .descriptionHomeVisits {
     width: 85%;
     font-size: 16px;
+  }
+
+  .roleLeaderHomeVisits{
+    font-size: 12px;
   }
 
   .ourActivitiesHeading {
@@ -352,8 +376,9 @@ margin-right: auto; */
   }
   .mainLeaderContainer {
     /* border: 2px solid black; */
+    margin: 0px;
     margin-top: 24px;
-    gap: 30px;
+  
   }
   .volunteerContainerHomeVisits {
     /* border: 2px solid black; */
@@ -377,7 +402,7 @@ margin-right: auto; */
   .regularVolunteerHeading {
     font-size: 20px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     text-align: center;
   }
   .volunteerContainerHomeVisits {
