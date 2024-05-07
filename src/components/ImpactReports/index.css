@@ -5,6 +5,10 @@
 
 .impact-reports-text-container {
   margin-top: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .impact-reports-image {
@@ -15,7 +19,7 @@
 .impact-reports-heading {
   color: #000;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Sathoshi", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -33,7 +37,7 @@
 
 .impact-reports-card-count {
   display: flex;
-  width: 20%;
+  width: 127px;
   height: 96px;
   padding: 10px;
   justify-content: center;
@@ -41,6 +45,12 @@
   gap: 10px;
   flex-shrink: 0;
   background: #a9afe4;
+}
+
+@media screen and (max-width: 992px) {
+  .impact-reports-card-count {
+    width: 20%;
+  }
 }
 
 .impact-reports-card-text {
@@ -59,11 +69,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 61px;
+  gap: 22px;
   width: 90%;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .impact-reports-cards-container {
+    align-items: center;
+  }
 }
 
 .impact-reports-cards-sub-container {
@@ -74,6 +90,7 @@
 @media screen and (max-width: 992px) {
   .impact-reports-cards-sub-container {
     flex-direction: column;
+    align-items: center;
   }
 }
 

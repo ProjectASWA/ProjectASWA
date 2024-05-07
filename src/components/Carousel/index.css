@@ -124,14 +124,14 @@ Carousel {
   color: black;
   border: none;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   padding: 15px;
   margin-left: 75px;
   display: flex;
   justify-content: center;
   margin-top: 25px;
   text-align: center;
-  width: 250px;
+  width: 220px;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -207,6 +207,7 @@ Carousel {
   z-index: 1;
   width: 30px;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .buttonStylingNext {
@@ -217,6 +218,7 @@ Carousel {
   position: absolute;
   z-index: 1;
   margin-left: 96%;
+  cursor: pointer;
 }
 
 /* Override styles for left arrow */
@@ -299,8 +301,8 @@ Carousel {
   }
 
   .knowMoreCarousel {
-    width: 150px;
-    font-size: 20px;
+    width: 130px;
+    font-size: 15px;
     margin-left: 30px;
   }
 
@@ -324,7 +326,7 @@ Carousel {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .arrangeYearsBannerContainer {
     display: none;
   }
