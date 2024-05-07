@@ -39,14 +39,14 @@ const NavBar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        <img className="logoResizeHomePage" src="/Images/websiteLogo.jpg" />
+        <img className="logoResizeHomePage" src="/Images/logoAswa.png" />
       </Link>
 
       <div className="onMobileDevices">
         <Link to="/" className="title titleMobile">
           <img
             className="logoResizeHomePage mobileDeviceLogoResize"
-            src="/Images/websiteLogo.jpg"
+            src="/Images/logoAswa.png"
           />
         </Link>
         <div className="mobileDevicesNavConatainer">

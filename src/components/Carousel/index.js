@@ -63,7 +63,7 @@ const CarouselImages = () => {
             </div>
             <div className="arrangeYearsBannerContainer">
               <div className="years16Container">
-                <img className="years16Image" src="/Images/banner16Years.png" />
+                <img className="years16Image" src="/Images/banner16YearsChange.png" />
               </div>
               <div className="childrenImageContainer">
                 <img
@@ -76,7 +76,7 @@ const CarouselImages = () => {
               <div className="years16ContainerMobile">
                 <img
                   className="years16ImageMobile"
-                  src="/Images/banner16Years.png"
+                  src="/Images/banner16YearsChange.png"
                 />
               </div>
               <div className="childrenImageContainerMobile">
