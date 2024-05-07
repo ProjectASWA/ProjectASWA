@@ -11,6 +11,12 @@
   height: 387px;
 }
 
+@media screen and (max-width: 768px) {
+  .header-image {
+    height: 236px;
+  }
+}
+
 .education-container {
   display: flex;
   width: 100%;
@@ -35,4 +41,10 @@
   gap: 72px;
   background-color: #ffffff;
   padding-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .education-cards-main-container {
+    padding-top: 0px;
+  }
 }
