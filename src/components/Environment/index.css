@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .environment-image {
+    height: 237px;
+  }
+}
+
 .Environment-sub-container {
   display: flex;
   flex-direction: column;
@@ -28,7 +34,7 @@
 .environment-heading {
   color: #222;
   text-align: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-size: 32px;
   font-style: normal;
   /* font-weight: 500; */
@@ -39,7 +45,7 @@
 .environment-description {
   color: #7a7a7a;
   text-align: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -57,7 +63,7 @@
 .environment-card-heading {
   color: #222;
   text-align: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -103,7 +109,7 @@
 
 .environment-cards-text {
   color: #222;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -141,7 +147,7 @@
 
 .clicked {
   color: #36b0b8;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;

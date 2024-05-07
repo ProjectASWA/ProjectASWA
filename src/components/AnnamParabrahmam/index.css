@@ -4,6 +4,12 @@
   background-size: contain;
 }
 
+@media screen and (max-width: 768px) {
+  .annamparabrahmam-image {
+    height: 237px;
+  }
+}
+
 .annamparabrahmam-text-container {
   display: flex;
   flex-direction: column;

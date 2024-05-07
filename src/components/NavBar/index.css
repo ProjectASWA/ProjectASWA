@@ -117,6 +117,7 @@ nav ul li a {
   background-color: grey;
   border: 1px solid grey;
   transform: scale(1.1);
+  color: #ffffff;
 }
 .horizontal-line-nav-bar {
   border: 1px black solid;
@@ -289,8 +290,8 @@ nav .menu span {
     font-weight: bold;
     padding: 10px;
     margin-top: 15px;
-    color: black;
-    border: 2px solid black;
+    color: #ffffff;
+    border: 2px solid #ffffff;
   }
 
   .mobileDonate {
@@ -317,13 +318,14 @@ nav .menu span {
 
 @media (max-width: 400px) {
   .mobileDeviceLogoResize {
-    width: 120px;
+    width: 98px;
+    height: 43px;
   }
 
   .mobileDevicesNavConatainer {
     padding: 15px;
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 }
