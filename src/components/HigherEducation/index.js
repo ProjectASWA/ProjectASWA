@@ -74,9 +74,9 @@ const HigherEducation = () => {
             </p>
           </li>
         </ul>
-        <button className="know-more-button">
-          <a href="https://www.chdhc.org/our-work-1">know more</a>
-        </button>
+          <a className = "knowMoreEducationLink" href="https://www.chdhc.org/our-work-1">
+            <button className="know-more-button">KNOW MORE</button>
+          </a>
       </div>
     </div>
   );

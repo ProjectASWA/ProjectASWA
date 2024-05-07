@@ -299,6 +299,8 @@
   height: 65px;
   cursor: pointer;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .redBackgroundButton {
@@ -314,6 +316,14 @@
 .feedBackButtonsContainer {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+.buttonFeedBackLink{
+  width: 100%;
+}
+
+.requestButtonLink{
   width: 100%;
 }
 
@@ -472,7 +482,7 @@
     width: 60vw;
   }
   .sample-div {
-    height: 270px;
+    height: 300px;
   }
 
   .feedBackButtonsContainer {

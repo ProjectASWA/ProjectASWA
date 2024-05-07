@@ -98,4 +98,10 @@
   .impact-reports-heading {
     font-size: 30px;
   }
+  .paraImpactReports{
+    font-size: 14px;
+  }
+  .impact-reports-card-text{
+    height: auto;
+  }
 }

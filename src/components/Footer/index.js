@@ -57,12 +57,12 @@ const Footer = () => {
               />
             </a>
 
-            <a href="https://api.whatsapp.com/send/?phone=919948885111&text&type=phone_number&app_absent=0">
+            <a href="https://twitter.com/ammaaswa">
               {" "}
               <img className="locationImageFooter1" src="/Images/xLogo.svg" />
             </a>
 
-            <a href="https://twitter.com/ammaaswa">
+            <a href="https://api.whatsapp.com/send/?phone=919948885111&text&type=phone_number&app_absent=0">
               {" "}
               <img
                 style={{ objectFit: "contain" }}

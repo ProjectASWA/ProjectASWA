@@ -79,7 +79,7 @@ const ImpactReports = () => {
             <div className="impact-reports-card-count">25000+</div>
             <div className="impact-reports-card-text">
               <p>
-              We reached 25,000+ people through our well-being/Jeevan Vidya workshops, both online and offline. Notably, this workshop is recognized as a curriculum by AICTE colleges.
+              Our well-being/Jeevan Vidya workshops, reaching over 25,000 participants, are officially recognized as a curriculum by AICTE colleges, bridging online and offline engagement for holistic education.
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ const ImpactReports = () => {
           <div className="impact-reports-card">
             <div className="impact-reports-card-count">25000+</div>
             <div className="impact-reports-card-text">
-              <p>
+              <p className="paraImpactReports">
               Reached 25,000+ people through food distribution drives
               </p>
             </div>
