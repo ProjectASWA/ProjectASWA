@@ -36,7 +36,7 @@
 
 .vision-and-mission-description {
   color: #7a7a7a;
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -62,7 +62,7 @@
   align-self: flex-start;
   margin-bottom: 30px;
   color: #000;
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -85,4 +85,8 @@
     width: 80%;
     padding: 30px;
   }
+}
+
+.about-main-container {
+  background: #fffcf7;
 }

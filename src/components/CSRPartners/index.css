@@ -6,6 +6,7 @@
   align-items: center;
   margin-top: 10px;
   margin-bottom: 40px;
+  background-color: #fffcf7;
 }
 
 .csrPartnersHeading {
@@ -62,7 +63,7 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
 }
 
 @media screen and (max-width: 768px) {

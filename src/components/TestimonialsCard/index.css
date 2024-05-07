@@ -41,7 +41,7 @@
 .TestimonialsCard-description {
   display: flex;
   color: #000;
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
   font-size: 17.837px;
   font-style: normal;
   font-weight: 400;
@@ -57,7 +57,7 @@
 
 .TestimonialsCard-name {
   color: #000;
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
   font-size: 24.774px;
   font-style: normal;
   font-weight: 700;

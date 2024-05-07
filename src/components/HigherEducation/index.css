@@ -9,19 +9,19 @@
   margin: auto;
 }
 
-.backgroundHigherEducation{
+.backgroundHigherEducation {
   border-radius: 16px;
-background: #F1EEEC;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 10px;
+  background: #f1eeec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
 .higher-education-text {
   color: #000;
   text-align: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -32,7 +32,7 @@ padding: 10px;
   .higher-education-text {
     color: #000;
     text-align: center;
-    font-family: 'Sathoshi', sans-serif;
+    font-family: "Sathoshi", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -48,7 +48,7 @@ padding: 10px;
   font-weight: 400;
   width: 90%;
   line-height: 1.4;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   margin: auto;
 }
 
@@ -85,7 +85,7 @@ padding: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   margin-bottom: 0px;
 }
 
@@ -124,7 +124,7 @@ padding: 10px;
 li {
   color: #000;
   text-align: justify;
-  font-family: "Satoshi";
+  font-family: "Satoshi, sans-serif";
   font-style: normal;
   display: flex;
   align-items: center;
@@ -133,7 +133,7 @@ li {
   letter-spacing: 0.2px;
 }
 
-.program-item-description-education{
+.program-item-description-education {
   padding: 0px;
   margin: 10px;
   padding-left: 20px;
@@ -164,7 +164,7 @@ li {
   text-transform: uppercase;
   border-width: 0px;
   align-self: center;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
 }
 
 @media screen and (max-width: 768px) {

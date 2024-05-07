@@ -44,7 +44,7 @@ const Footer = () => {
             <img
               style={{ objectFit: "contain" }}
               className="locationImageFooter"
-              src="/Images/x1.png"
+              src="/Images/X1.png"
             />
             <img className="locationImageFooter" src="/Images/linkedin.svg" />
             <img className="locationImageFooter" src="/Images/youtube.svg" />
