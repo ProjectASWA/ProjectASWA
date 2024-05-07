@@ -127,7 +127,7 @@ class Reports extends Component{
             <div className='reportsContainerBg'>
                 {annualButton ? <img className='reportsImageBackground' src = "/Images/AnnualReportsImage.png"/>: null}
                 {financialButton ? <img className='reportsImageBackground' src = "/Images/financialReportsBg.jpg"/>: null}
-                {statuoryButton ? <img className='reportsImageBackground' src = "/Images/statutoryBg.png"/>: null}
+                {statuoryButton ? <img className='reportsImageBackground' src = "/Images/reportsBanner3.png"/>: null}
                 {carrierGuidanceButton ? <img className='reportsImageBackground' src = "/Images/careerGuidanceBg.png"/>: null}
                 
                 <div className='reportsButtonContainer'>
