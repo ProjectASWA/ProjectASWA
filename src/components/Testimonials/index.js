@@ -65,7 +65,6 @@ const Testimonials = () => {
                 src="/Images/double-quotes-l.1024x786.png"
               />
             </div>
-
             <p className="paraQuotesLarge">
               ASWA is doing a great service by motivating govt. school children
               to have affection and love towards arts, education, life and
