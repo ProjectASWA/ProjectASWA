@@ -292,6 +292,9 @@ margin-right: auto; */
   .homeVisitsContainerContents {
     margin-top: 40px;
   }
+  .arrangeHomeVisitsVolunteer{
+    margin-top: 15px;
+  }
   .ourActivitiesHeading {
     text-align: center;
     padding-left: 0px;
@@ -385,7 +388,7 @@ margin-right: auto; */
   .regularVolunteerHeading {
     font-size: 20px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     text-align: center;
   }
   .volunteerContainerHomeVisits {
