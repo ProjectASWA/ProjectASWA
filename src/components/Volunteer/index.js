@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import VolunteerCardItem from "../VolunteerCardItem";
 import "./index.css";
 
@@ -76,6 +76,10 @@ const Volunteer = () => {
     setClicked(!clicked);
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="arrangeBgVolunteer">
       <img
@@ -124,7 +128,9 @@ const Volunteer = () => {
         <button onClick={handleClickEvent} className="knowMoreVolunteerbtn1">
           {clicked ? "Show Less" : "Show More"}
         </button>
-        <button className="knowMoreVolunteer">Join with us</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmJUJhJ8k5Oi-0yNmasSIIBKBS0Vg1azjzue3OZiCrl97X6Q/viewform">
+          <button className="knowMoreVolunteer">Join with us</button>
+        </a>
       </div>
     </div>
   );
