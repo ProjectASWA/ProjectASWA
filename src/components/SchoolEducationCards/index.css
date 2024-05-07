@@ -14,6 +14,12 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 756px) {
+  .card-app-container {
+    gap: 5px;
+  }
+}
+
 .card-app-container:nth-child(2) {
   flex-direction: row;
 }
@@ -22,6 +28,7 @@
   .card-app-container:nth-child(2) {
     flex-direction: column;
     align-items: center; /* This will center the items vertically */
+    gap: 10;
   }
 }
 
@@ -33,6 +40,7 @@
   .card-app-container:nth-child(3) {
     flex-direction: column;
     align-items: center; /* This will center the items vertically */
+    gap: 10;
   }
 }
 
@@ -44,6 +52,7 @@
   .card-app-container:nth-child(4) {
     flex-direction: column;
     align-items: center; /* This will center the items vertically */
+    gap: 10;
   }
 }
 
@@ -55,6 +64,7 @@
   .card-app-container:nth-child(5) {
     flex-direction: column;
     align-items: center; /* This will center the items vertically */
+    gap: 10;
   }
 }
 
@@ -62,6 +72,7 @@
   .card-app-container:nth-child(6) {
     flex-direction: column;
     align-items: center; /* This will center the items vertically */
+    gap: 10;
   }
 }
 
@@ -90,7 +101,6 @@
 
 @media screen and (max-width: 756px) {
   .card-description-container {
-    gap: 15px;
     width: 100%;
   }
 }
@@ -109,7 +119,7 @@
 
 @media screen and (max-width: 992px) {
   .card-description-heading {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -126,7 +136,7 @@
 
 @media screen and (max-width: 992px) {
   .card-description {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
   }
 }
@@ -164,12 +174,13 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.2px;
-  padding-top: 40px;
+  padding-top: 15px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 992px) {
   .education-text {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
@@ -177,7 +188,7 @@
   color: #000;
   text-align: justify;
   font-family: "Satoshi, sans-serif";
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
@@ -187,7 +198,7 @@
 
 @media screen and (max-width: 992px) {
   .education-description {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 30px;
   }
 }

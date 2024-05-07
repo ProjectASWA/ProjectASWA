@@ -30,7 +30,7 @@
   width: 70%;
   margin-right: 25px;
   font-size: 18px;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
 }
 
 .mobile-testimonials-name-container {
@@ -57,7 +57,7 @@
 }
 
 .testimonials-heading-mobile {
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   margin-top: 50px;
   text-align: center;
 }
@@ -67,14 +67,14 @@
   margin-left: 10px;
   font-size: 16px;
   word-spacing: 5px;
-  
-  font-family: 'Sathoshi', sans-serif;
+
+  font-family: "Sathoshi", sans-serif;
   line-height: 1.5;
   margin-top: 2px;
 }
 
 .mobile-testimonials-contents-container {
-  padding: 20px;
+  padding: 4px;
   display: flex;
   flex-direction: column;
   width: 100%;

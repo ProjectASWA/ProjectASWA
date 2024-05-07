@@ -31,6 +31,7 @@ const VisionAndMission = () => {
         </div>
       </div>
       <div className="pledge-container">
+        <p className="pledge-heading">Pledge</p>
         <img className="pledge-image" src="/Images/Pledge-ASWA.jpg" />
       </div>
     </div>

@@ -17,8 +17,7 @@
 }
 
 .main-blood-heading-donate {
-  font-size: 40px;
-  margin-bottom:15px ;
+  font-size: 48px;
 }
 
 .main-sub-heading {
@@ -27,6 +26,7 @@
   margin-bottom: 10px;
   padding-bottom: 0px;
   margin-top: 10px;
+  padding-top: 0px;
 }
 
 .main-blood-heading {
@@ -116,8 +116,8 @@
 
 .donateDetailsHowWeDoIt {
   gap: 5px;
-  width: 70vw;
-  height: 250px;
+  width: 39vw;
+  height: 175px;
   border: 2px solid #991b1b;
   border-radius: 16px;
   margin-left: 60px;
@@ -126,13 +126,12 @@
   justify-content: center;
   align-items: flex-start;
   padding: 10px;
-  padding-left: 80px;
-  margin-top: 30px;
+  padding-left: 40px;
 }
 
 .subHeadingDonate {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 42px;
 }
 
 .donate-para-2 {
@@ -140,6 +139,8 @@
   margin-bottom: 20px;
   width: 100%;
   text-align: left;
+  margin-top: 11px;
+  line-height: 33px;
 }
 
 .sample-div {
@@ -244,10 +245,11 @@
 .WhatDoesBloodConnect {
   font-size: 32px;
   text-align: center;
+  font-size: 30px;
 }
 
 .donate-para-text {
-  font-size: 32px;
+  font-size: 26px;
   width: 40%;
   line-height: 1.4;
 }
@@ -427,8 +429,9 @@
 
 @media screen and (max-width: 1000px) {
   .subHeadingDonate {
-    font-size: 22px;
+    font-size: 18px;
     margin: 10px;
+    margin-left: 8px;
   }
   .WhatDoesBloodConnect {
     font-size: 20px;
@@ -451,21 +454,21 @@
     text-align: center;
     font-size: 16px;
     order: 3;
-    margin-top:20px;
+    margin-top: 20px;
   }
   .WhatDoesBloodConnec {
     font-size: 24px;
   }
 
   .donate-para-2 {
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 10px;
   }
 
   .donateDetailsHowWeDoIt {
     padding-left: 10px;
     margin-left: 8px;
-    height: 200px;
+    height: 250px;
     width: 60vw;
   }
   .sample-div {

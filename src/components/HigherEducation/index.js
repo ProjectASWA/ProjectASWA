@@ -27,42 +27,56 @@ const HigherEducation = () => {
         <ul className="program-list">
           <li classsName="program-item">
             <div>
-            <img src = "/Images/arrowIndicate.png"/>
+              <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
-            <p className="program-item-description-education">FACULTY DEVELOPMENT PROGRAM (FDP)</p>
+            <p className="program-item-description-education">
+              FACULTY DEVELOPMENT PROGRAM (FDP)
+            </p>
           </li>
           <li classsName="program-item">
             <div>
-            <img src = "/Images/arrowIndicate.png"/>
+              <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
-            <p className="program-item-description-education">Student Development Program (SDP)</p>
+            <p className="program-item-description-education">
+              Student Development Program (SDP)
+            </p>
           </li>
           <li classsName="program-item">
             <div>
-            <img src = "/Images/arrowIndicate.png"/>
+              <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
-            <p className="program-item-description-education">Teacher Professional Development Program (TPDP)</p>
+            <p className="program-item-description-education">
+              Teacher Professional Development Program (TPDP)
+            </p>
           </li>
           <li classsName="program-item">
             <div>
-            <img src = "/Images/arrowIndicate.png"/>
+              <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
-            <p className="program-item-description-education">JEEVAN VIDYA / UNIVERSAL HUMAN VALUES WORKSHOPS</p>
+            <p className="program-item-description-education">
+              JEEVAN VIDYA / UNIVERSAL HUMAN VALUES WORKSHOPS
+            </p>
           </li>
           <li classsName="program-item">
             <div>
-            <img src = "/Images/arrowIndicate.png"/>
+              <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
-            <p className="program-item-description-education">Faculty Devolopment Program(FDP)</p>
+            <p className="program-item-description-education">
+              Faculty Devolopment Program(FDP)
+            </p>
           </li>
           <li classsName="program-item">
             <div>
-            <img src = "/Images/arrowIndicate.png"/>
+              <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
-            <p className="program-item-description-education">Faculty Devolopment Program(FDP)</p>
+            <p className="program-item-description-education">
+              Faculty Devolopment Program(FDP)
+            </p>
           </li>
         </ul>
-        <button className="know-more-button">know more</button>
+        <button className="know-more-button">
+          <a href="https://www.chdhc.org/our-work-1">know more</a>
+        </button>
       </div>
     </div>
   );

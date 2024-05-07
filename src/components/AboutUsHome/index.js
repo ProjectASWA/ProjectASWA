@@ -4,6 +4,14 @@ import ReactPlayer from "react-player";
 import "./index.css";
 
 const AboutUsHomeSection = () => {
+  const handleDonateClick = () => {
+    const confirmDonate = window.confirm(
+      "You will be redirecting to the designated ASWA Rayzorpay Payment Page (Gateway). Upon successful donation you will be redirected back to aswa4u.org."
+    );
+    if (confirmDonate) {
+      window.location.href = "https://pages.razorpay.com/aswa";
+    }
+  };
   return (
     <div className="about-us-home">
       <div id="about" className="arrange-about-us">
@@ -40,9 +48,11 @@ const AboutUsHomeSection = () => {
             </div>
             <div className="button-container">
               <Link to="/About">
-                <button className="button-about aboutStyling">KNOW MORE</button>
+                <button className="button-about aboutStyling">KNOW</button>
               </Link>
-              <button className="button-about">DONATE</button>
+              <button onClick={handleDonateClick} className="button-about">
+                Donate
+              </button>
             </div>
           </div>
         </div>

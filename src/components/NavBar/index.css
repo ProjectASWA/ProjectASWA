@@ -2,10 +2,10 @@
   background-color: #36b0b8;
 }
 
-.logoResizeHomePage {
+/* .logoResizeHomePage {
   width: 280px;
   align-self: center;
-}
+} */
 
 nav {
   display: flex;
@@ -301,8 +301,8 @@ nav .menu span {
 
 @media (min-width: 992px) {
   .logoResizeHomePage {
-    width: 250px;
-    padding-top: 20px;
+    width: 200px;
+    padding-top: 3px;
   }
   nav {
     padding: 20px;

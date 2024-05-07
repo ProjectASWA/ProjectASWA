@@ -45,11 +45,14 @@ const Footer = () => {
         <div className="follow-us-section-container">
           <div className="follow-us-icons">
             <a href="https://www.facebook.com/AMMAASWA">
-              <img className="locationImageFooter" src="/Images/facebook.svg" />
+              <img
+                className="locationImageFooter1"
+                src="/Images/facebook.svg"
+              />
             </a>
             <a href="https://www.instagram.com/ammaaswa/">
               <img
-                className="locationImageFooter"
+                className="locationImageFooter1"
                 src="/Images/instagram.svg"
               />
             </a>
@@ -58,8 +61,8 @@ const Footer = () => {
               {" "}
               <img
                 style={{ objectFit: "contain" }}
-                className="locationImageFooter"
-                src="/Images/X1.png"
+                src="/Images/whatsapp.svg"
+                className="locationImageFooter1"
               />
             </a>
             <a href="https://api.whatsapp.com/send/?phone=919948885111&text&type=phone_number&app_absent=0">
@@ -69,7 +72,7 @@ const Footer = () => {
 
             <a href="https://www.youtube.com/channel/UCi3-LOqxkkyrIAxKv8WtGoA">
               {" "}
-              <img className="locationImageFooter" src="/Images/youtube.svg" />
+              <img className="locationImageFooter1" src="/Images/youtube.svg" />
             </a>
           </div>
           <div>
