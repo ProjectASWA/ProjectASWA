@@ -50,7 +50,7 @@ const NavBar = () => {
       <Link to="/" className="title">
         <img
           className="logoResizeHomePage"
-          src="/Images/websiteLogo.jpg"
+          src="/Images/logoAswa.png"
           alt="Logo"
         />
       </Link>
@@ -59,7 +59,7 @@ const NavBar = () => {
         <Link to="/" className="title titleMobile">
           <img
             className="logoResizeHomePage mobileDeviceLogoResize"
-            src="/Images/websiteLogo.jpg"
+            src="/Images/logoAswa.png"
             alt="Mobile Logo"
           />
         </Link>
