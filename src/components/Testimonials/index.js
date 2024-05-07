@@ -73,7 +73,7 @@ const Testimonials = () => {
               turn into a river & spreads out vastly.
             </p>
             <h1 className="testimonials-title-large">
-              - Shri Tanikella Bharani Actor, Poet & Director
+              - Shri Tanikella Bharani <br></br>Actor, Poet & Director
             </h1>
           </div>
         </div>
@@ -100,7 +100,7 @@ const Testimonials = () => {
               to bring change in education system and make it stress free.
             </p>
             <h1 className="testimonials-title-large">
-              - Shri Tammareddy Bharadwaj Producer & Director.
+              - Shri Tammareddy Bharadwaj<br></br> Producer & Director.
             </h1>
           </div>
         </div>
@@ -128,7 +128,7 @@ const Testimonials = () => {
               fix them for better society.
             </p>
             <h1 className="testimonials-title-large">
-              - Padma Shri Sirivennela Seetharama Sastry Lyricist & Poet
+              - Padma Shri Sirivennela Seetharama Sastry<br></br> Lyricist & Poet
             </h1>
           </div>
         </div>
@@ -156,7 +156,7 @@ const Testimonials = () => {
               the best.
             </p>
             <h1 className="testimonials-title-large">
-              - Shri V V Lakshmi Narayana Ex. JD CBI
+              - Shri V V Lakshmi Narayana<br></br> Ex. JD CBI
             </h1>
           </div>
         </div>

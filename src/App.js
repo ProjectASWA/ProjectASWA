@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, {useEffect} from "react";
+import { BrowserRouter as Router, Route, Switch, useLocation} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import JoinWithUs from "./components/JoinWithUs";
@@ -25,7 +25,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+      <Route
+        render={({ location }) => {
+          if (location.pathname !== "/pdf") return <NavBar />;
+        }}
+      />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/About" component={About} />
@@ -42,7 +46,11 @@ function App() {
           <Route exact path="/impactReports" component={ImpactReports} />
           <Route exact path="Volunteer" component={Volunteer} />
         </Switch>
-        <Footer />
+        <Route
+        render={({ location }) => {
+          if (location.pathname !== "/pdf") return <Footer />;
+        }}
+      />
       </div>
     </Router>
   );

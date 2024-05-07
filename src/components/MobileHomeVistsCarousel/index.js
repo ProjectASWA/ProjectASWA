@@ -8,8 +8,8 @@ const CustomPrevArrow = ({ onClick }) => (
   );
   
   const CustomNextArrow = ({ onClick }) => (
-    <button className = "buttonStylingNext homeNextButton rightButtonHomeVisitsNext" onClick={onClick}>
-      <img src = "/Images/RightArrowTestimonial.png"/>
+    <button className = "buttonStylingNext homePreviousButton homeNextButton rightButtonHomeVisitsNext" onClick={onClick}>
+      <img className = "leftButtonHomeVisitsNext" src = "/Images/RightArrowTestimonial.png"/>
     </button>
   );
 

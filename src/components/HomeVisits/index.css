@@ -268,10 +268,10 @@ margin-right: auto; */
 }
 
 .leftButtonHomeVisitsNext{
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .rightButtonHomeVisitsNext{
-  margin-top: 50px;
+  margin-top: 24px;
 }
 
 @media screen and (min-width: 786px) {

@@ -111,11 +111,11 @@ const HomeVisits = () => {
           <div className="projectLeaderHomeVisits">
               <h1 className="leaderHeadingHomeVisits">Project Leader</h1>
               <div className="mainLeaderContainer">
-                    <img className = "leaderHomeVisitsImage" src = "/Images/leaderHomeVisits.jpg"/>
+                    <img className = "leaderHomeVisitsImage" src = "/Images/projectLeaderHomeVisits.jpg"/>
                     <div className="leaderHomeVisitsTextContents">
-                        <h1 className="nameLeaderHeadingHomeVisits">Mr. Parameswara Chari</h1>
+                        <h1 className="nameLeaderHeadingHomeVisits">Mr. Mani Kumar</h1>
                         <p className="roleLeaderHomeVisits">Project Leader</p>
-                        <p className="descriptionLeaderHomeVisits">Mr. Parameswara Chari is handling the team with his 6 members’ team.</p>
+                        <p className="descriptionLeaderHomeVisits">Mr. Mani Kumar is Leading the Project with his 6 members team.</p>
                     </div>
               </div>
           </div>

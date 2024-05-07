@@ -11,7 +11,7 @@ const AboutUsHomeSection = () => {
           <div className="about-main-section-heading">
             <h1 className="about-main-heading">ASWA Organisation</h1>
           </div>
-          <div className="video-container">
+          <div className="video-container mobileDevicesVideoContainer">
             <ReactPlayer
               width="80%"
               height="225px"

@@ -56,9 +56,7 @@ class Environment extends Component {
           <div className="environment-text-container">
             <h3 className="environment-heading">Environment</h3>
             <p className="environment-description">
-              Our "SAVE EARTH" project is dedicated to combating global warming
-              and preserving our planet. Through awareness campaigns, plantation
-              drives, We strive to address rising pollution and temperatures.
+            Our "SAVE EARTH" project is dedicated to combating global warming and preserving our planet. Through awareness campaigns and plantation drives, we strive to address rising pollution and temperatures.
             </p>
           </div>
           <div className="environment-cards-container">

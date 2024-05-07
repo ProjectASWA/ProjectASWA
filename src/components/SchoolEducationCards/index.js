@@ -53,8 +53,7 @@ const SchoolEducationCards = () => {
             Children Learning Center (CLC)
           </h1>
           <p className="card-description">
-          Established in October 2020 as a pandemic initiative, CLC serves children from Ram Nagar Slum, Shadnagar,ensuring continuous learning post-pandemic. It prevents dropouts, fosters curiosity, and engages children through various activities like storytelling, 
-          games, and drawing. CLC teaches language and literacy using everyday experiences, benefiting over 150 children.
+          The Libraries and Children's Literature (LCL) project aims to instill storytelling appreciation in first-generation learners. Its Children's Library fosters a love for reading, nurturing creativity, critical thinking, and communication skills among marginalised children. With 1200+ curated books in Telugu, English, and bilingual, activities engage 60+ children, borrowing 1500+ storybooks in 6–9 months. Along with the above, we also have other initiatives, like Storytime in Schools. Children's Story Time: Online Storytelling
           </p>
         </div>
       </div>
@@ -84,12 +83,7 @@ const SchoolEducationCards = () => {
         <div className="card-description-container">
           <h1 className="card-description-heading">Career Guidance</h1>
           <p className="card-description">
-            Our Career Guidance program was launched to spread awareness about
-            the career options available after class 10th to secondary school
-            students. Volunteers conduct sessions on personality, goal setting,
-            and career options available after the 10th class. Post the
-            sessions, every attendee gets a unique guide designed by ASWA that
-            offers clarity on choosing a career path for the next 6-7 years. 
+          Our Career Guidance program was launched to spread awareness about the career options available after 10th grade to secondary school students. Volunteers conduct sessions on personality, goal setting, and career options available after the 10th grade. Post-sessions, every attendee gets a unique guide designed by ASWA that offers clarity on choosing a career path for the next 6–7 years. 
           </p>
         </div>
       </div>
@@ -104,13 +98,7 @@ const SchoolEducationCards = () => {
         <div className="card-description-container">
           <h1 className="card-description-heading">Project Cheyutha</h1>
           <p className="card-description">
-            Financial Support and Guidance to Meritorious Students: Project
-            Cheyutha was launched to offer scholarships to meritorious students
-            coming from economically deprived families. Students who aim to
-            pursue higher education (beyond Grade 10) are eligible for the
-            scholarship. Through Project Cheyutha, we generally extend support
-            for hostel, mess, tuition & stationery fees. Till now we have
-            extended support to over 65+ students. 
+          Financial Support and Guidance to Meritorious Students: Project Cheyutha was launched to offer scholarships to meritorious students coming from economically deprived families. Students who aim to pursue higher education (beyond Grade 10) are eligible for the scholarship. Through Project Cheyutha, we generally extend support for hostel, mess, tuition, and stationery fees. Till now, we have extended support to over 65+ students.
           </p>
         </div>
       </div>

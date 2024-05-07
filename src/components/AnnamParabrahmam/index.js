@@ -13,17 +13,7 @@ class AnnamParabrahmam extends Component {
         <div className="annamparabrahmam-text-container">
           <h2 className="annamparabrahmam-heading">Annam Parabrahmam</h2>
           <p className="annamparabrahmam-description">
-            Over the past decade, our organization has been actively involved in
-            food distribution to those in need. Inspired by a volunteer's
-            regular food distribution to destitute individuals, we launched the
-            "Annam Parabrahmam" project in 2011, aiming to feed mentally
-            challenged individuals and support elderly or differently-abled
-            individuals in care homes. By bridging the gap between excessive
-            food production and distribution. On to those in need, we strive to
-            create a balanced and compassionate society. Since 2013, we have
-            expanded our efforts to include providing food and fruits to
-            patients and their attendees in government hospitals, based on
-            valuable feedback gathered from our visits.
+          Over the past decade, our organisation has been actively involved in food distribution to those in need. Inspired by a volunteer's regular food distribution to destitute individuals, we launched the "Annam Parabrahmam" project in 2011, aiming to feed mentally challenged individuals and support elderly or differently-abled individuals in care homes. By bridging the gap between excessive food production and distribution. On behalf of those in need, we strive to create a balanced and compassionate society. Since 2013, we have expanded our efforts to include providing food and fruits to patients and their attendees in government hospitals, based on valuable feedback gathered from our visits.
           </p>
         </div>
         <div className="projectLeaderContainerHomeVisits">

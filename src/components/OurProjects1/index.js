@@ -124,7 +124,7 @@ class OurProjects1 extends Component {
             }}
           >
             <div className="our-projects1-image-text-container">
-              <p className="our-projects1-image-heading">Annam Parabraham</p>
+              <p className="our-projects1-image-heading">Annam Parabrahmam</p>
               <Link className="ourprojectscard-link" to={"/AnnamParabrahmam"}>
                 {" "}
                 <button className="our-projects1-image-button">

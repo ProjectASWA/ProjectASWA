@@ -9,6 +9,7 @@
   background: #23211f;
   padding-bottom: 0px;
 }
+
 .aswa-logo {
   width: 320px;
 }
@@ -166,7 +167,7 @@
 
 .follow-us-icons {
   display: flex;
-  gap: 24px; /* Remove gap */
+  gap: 40px; /* Remove gap */
 }
 
 .quotation {
