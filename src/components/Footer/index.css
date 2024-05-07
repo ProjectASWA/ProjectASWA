@@ -10,7 +10,7 @@
   padding-bottom: 0px;
 }
 .aswa-logo {
-  width: 320px;
+  width: 200px;
 }
 
 @media screen and (max-width: 992px) {
@@ -33,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: var(--Spacing-none, 48px);
+  gap: 20px;
   flex-shrink: 0;
 }
 
@@ -42,19 +42,21 @@
   flex-shrink: 0;
   display: flex;
   /* gap: inherit; */
-  gap: 9px;
+  gap: 20px;
 }
 
 @media screen and (max-width: 992px) {
   .footer-section-first-container {
     flex-direction: column;
     align-items: flex-start;
+    column-gap: 10px;
+    row-gap: 0px;
   }
 }
 
 .logo-and-gmail-container {
   display: flex;
-  width: 40%;
+  width: 30%;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--Spacing-none, 68px);
@@ -63,7 +65,7 @@
 @media screen and (max-width: 992px) {
   .logo-and-gmail-container {
     width: 100%;
-    gap: 10px;
+    gap: 30px;
   }
 }
 
@@ -73,10 +75,16 @@
   gap: 22px;
 }
 
+@media screen and (max-width: 772px) {
+  .mail-container {
+    gap: 4px;
+  }
+}
+
 .mail {
   color: var(--color-semantic-white-100, #fff);
   font-family: "Sathoshi", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 5.024px;
@@ -89,19 +97,19 @@
     var(--Spacing-none, 9px) var(--Spacing-none, 0px); */
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--Spacing-none, 20px);
+  /* gap: var(--Spacing-none, 20px); */
 }
 
 @media screen and (max-width: 992px) {
   .address-container {
     width: 100%;
-    gap: 1px;
+    /* gap: 1px; */
   }
 }
 
 .address-heading-container {
   display: flex;
-  gap: 22px;
+  gap: 4px;
   font-size: 24px;
   font-family: "Sathoshi", sans-serif;
 }
@@ -117,7 +125,7 @@
 
 @media screen and (max-width: 992px) {
   .address-heading {
-    font-size: 16px;
+    font-size: 19px;
     margin-bottom: 0px;
   }
 }
@@ -125,13 +133,21 @@
 .address-description {
   color: var(--color-semantic-white-100, #fff);
   font-family: "Sathoshi", sans-serif;
-  font-size: 22px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 125.608% */
   text-align: left;
-  /* padding-left: 52px; */
+  padding-left: 36px;
   width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .address-description {
+    font-size: 16px;
+  }
 }
 
 .horizontal-line-container {
@@ -166,13 +182,13 @@
 
 .follow-us-icons {
   display: flex;
-  gap: 24px; /* Remove gap */
+  gap: 27px; /* Remove gap */
 }
 
 .quotation {
   color: var(--color-semantic-white-100, #fff);
   font-family: "Sathoshi", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -182,6 +198,7 @@
 @media screen and (max-width: 992px) {
   .quotation {
     text-align: left;
+    font-size: 16px;
   }
 }
 
@@ -191,8 +208,10 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   line-height: 28px; /* 155.556% */
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 992px) {
@@ -202,24 +221,12 @@
     margin-bottom: 0px;
   }
   .mail {
-    font-size: 20px;
-  }
-  .address-heading {
-    font-size: 22px;
-  }
-  .address-description {
-    font-size: 20px;
-    margin-top: 0px;
+    font-size: 16px;
   }
 
   .footer-main-container {
     padding-top: 30px;
-  }
-  .locationImageFooter {
-    width: 35px;
-  }
-  .address-container {
-    gap: 10px;
+    padding-left: 0px;
   }
 }
 
@@ -230,12 +237,17 @@
 }
 
 .locationImageFooter {
-  width: 38px;
+  width: 30px;
   height: 68px;
 }
 
 @media screen and (max-width: 380px) {
-    .aswa-logo{
-      width: 280px;
-    }
+  .aswa-logo {
+    width: 280px;
+  }
+}
+
+.locationImageFooter1 {
+  height: 30px;
+  width: 30px;
 }

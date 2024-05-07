@@ -18,7 +18,7 @@ import "./index.css";
 
 const Home = () => {
   return (
-    <>
+    <div className="home-container">
       <CarouselImages />
       <AboutUsHomeSection />
       <Impact />
@@ -31,7 +31,7 @@ const Home = () => {
         <MobileTestimonials />
       </div>
       <CSRPartners />
-    </>
+    </div>
   );
 };
 
