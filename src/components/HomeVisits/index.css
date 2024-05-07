@@ -301,6 +301,9 @@ margin-right: auto; */
     padding-left: 0px;
     width: 100%;
   }
+  .descriptionLeaderHomeVisits{
+    font-size: 12px;
+  }
   .subHeadingHomeVisits {
     font-size: 16px;
   }
@@ -322,6 +325,10 @@ margin-right: auto; */
   .descriptionHomeVisits {
     width: 85%;
     font-size: 16px;
+  }
+
+  .roleLeaderHomeVisits{
+    font-size: 12px;
   }
 
   .ourActivitiesHeading {
@@ -352,8 +359,9 @@ margin-right: auto; */
   }
   .mainLeaderContainer {
     /* border: 2px solid black; */
+    margin: 0px;
     margin-top: 24px;
-    gap: 30px;
+  
   }
   .volunteerContainerHomeVisits {
     /* border: 2px solid black; */
