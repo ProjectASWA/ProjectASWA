@@ -30,7 +30,7 @@
 }
 
 .csr-image {
-  height: 130px;
+  height: 105px;
   margin-right: 30px;
   flex-shrink: 0;
   transition: transform 0.3s ease;

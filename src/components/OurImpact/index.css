@@ -87,7 +87,7 @@
   background-color: transparent;
   color: var(--color-semantic-white-100, #fff);
   text-align: center;
-  font-family: Roboto;
+  font-family: "Sathoshi", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -95,11 +95,14 @@
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 30px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
 }
 
 .impact-button:hover {
   background-color: var(--color-semantic-white-100, #fff);
   color: var(--color-semantic-black-100, #000);
+  transform: scale(1.1);
 }
 
 .impact-button-container {
@@ -142,11 +145,7 @@
   }
 }
 
-
-
 @media (max-width: 576px) {
-  
-
   .impact-button-container {
     justify-content: center;
   }

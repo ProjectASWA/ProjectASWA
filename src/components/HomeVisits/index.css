@@ -17,7 +17,7 @@
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 10px;
+  border-radius: 16px;
 }
 
 .ourActivitiesHeading {
@@ -37,10 +37,15 @@
   padding-left: 30px;
 }
 
-
 .arrowImageContainer {
   align-self: flex-start;
   margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .arrowImageContainer {
+    margin-top: 21px;
+  }
 }
 
 .arrangeHomeVistsArrange {
@@ -66,7 +71,7 @@
   color: #000;
   font-family: "Sathoshi", sans-serif;
   text-align: center;
-  font-size: 56px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -78,7 +83,7 @@
   font-family: "Sathoshi", sans-serif;
   padding: 25px;
   padding-left: 50px;
-  font-size: 26px;
+  font-size: 24px;
   margin-top: 0px;
   letter-spacing: 1px;
   padding-top: 0px;
@@ -102,7 +107,7 @@ margin-right: auto; */
   color: #000;
 
   font-family: "Sathoshi", sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 133.333% */
@@ -137,11 +142,12 @@ margin-right: auto; */
 }
 
 .projectLeaderContainerHomeVisits {
-  width: 95%;
+  width: 92%;
   background-color: #f0ece9;
   display: flex;
   margin: auto;
   padding: 30px;
+  border-radius: 16px;
 }
 
 .leaderHomeVisitsImage {
@@ -154,7 +160,7 @@ margin-right: auto; */
 .mainLeaderContainer {
   display: flex;
   background-color: #f1f5f9;
-  border: 1px black solid;
+  /* border: 1px black solid; */
   border-radius: 10px;
   padding: 15px;
   margin: 15px;
@@ -220,6 +226,8 @@ margin-right: auto; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 38px;
+  padding-bottom: 32px;
 }
 
 .volunteerHomeVisitsMainContainer {
@@ -251,11 +259,10 @@ margin-right: auto; */
   font-size: 14px;
 }
 
-.regularVolunteerHeading{
-  
+.regularVolunteerHeading {
 }
 
-.RegularVolunteerParticipantsHeading{
+.RegularVolunteerParticipantsHeading {
   width: 85%;
   margin: auto;
 }
@@ -328,7 +335,7 @@ margin-right: auto; */
   }
 
   .homeVisitsContainerContents {
-    margin-top: 0px;
+    margin-top: 30px;
   }
 }
 
@@ -336,15 +343,20 @@ margin-right: auto; */
   .projectLeaderContainerHomeVisits {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   .horizontalLineHomeVisits {
     display: none;
   }
   .mainLeaderContainer {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin-top: 24px;
+    gap: 30px;
   }
   .volunteerContainerHomeVisits {
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
   .projectLeaderHomeVisits {
     width: 95%;
@@ -358,12 +370,12 @@ margin-right: auto; */
   }
   .leaderHeadingHomeVisits {
     text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 23px;
+    margin-top: 24px;
     margin-left: 0px;
   }
   .regularVolunteerHeading {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
@@ -385,8 +397,9 @@ margin-right: auto; */
     padding: 20px;
   }
   .leaderHomeVisitsImage {
-    height: 120px;
-    width: 90px;
+    height: 132px;
+    width: 110px;
+    margin-left: 27px;
   }
   .volunteerHomeVisitsImage {
     width: 150px;
