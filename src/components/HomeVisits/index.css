@@ -130,10 +130,10 @@ margin-right: auto; */
 }
 
 .CarouselHomeVisitsContainer {
-  margin-top: 50px;
   padding-bottom: 50px;
   background: white;
   padding: 24px;
+  padding-top: 0px;
 }
 
 .photoGalleryHeading {
@@ -267,6 +267,13 @@ margin-right: auto; */
   margin: auto;
 }
 
+.leftButtonHomeVisitsNext{
+  margin-top: 25px;
+}
+.rightButtonHomeVisitsNext{
+  margin-top: 50px;
+}
+
 @media screen and (min-width: 786px) {
   .photoGalleryHeading {
     font-size: 42px;
@@ -276,6 +283,12 @@ margin-right: auto; */
   .homeVisitsHeading {
     text-align: center;
     margin-top: 20px;
+  }
+  .rightButtonHomeVisitsNext{
+    width: 20px;
+  }
+  .leftButtonHomeVisitsNext{
+    width: 20px;
   }
   .arrangeHomeVistsArrange {
     margin-top: 5px;

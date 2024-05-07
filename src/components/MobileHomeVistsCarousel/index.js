@@ -2,7 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import './index.css'
 
 const CustomPrevArrow = ({ onClick }) => (
-    <button className = "buttonStylingPrevious homePreviousButton" onClick={onClick}>
+    <button className = "buttonStylingPrevious homePreviousButton leftButtonHomeVisitsNext" onClick={onClick}>
       <img className = "leftButtonHomeVisitsNext" style={{ transform: 'rotate(180deg)' }} src = "/Images/RightArrowTestimonial.png"/>
     </button>
   );
@@ -29,13 +29,16 @@ const MobileHomeVisitsCarousel = ()=>{
       showThumbs={false}
     >
         <div className="imageStylingHomeVisits">
-            <img className = "imageSrcHome" src = "/Images/homeVisitsMobile1.png"/>
+            <img className = "imageSrcHome" src = "/Images/homeVisitsGallery1.png"/>
         </div>
         <div className="imageStylingHomeVisits adjustSecondImageHome">
-        <img className = "imageSrcHome" src = "/Images/homeVisitsMobile1.png"/>
+        <img className = "imageSrcHome" src = "/Images/homeVisitsGallery2.png"/>
         </div>
         <div className="imageStylingHomeVisits adjustSecondImageHome">
-        <img className = "imageSrcHome" src = "/Images/homeVisitsMobile1.png"/>
+        <img className = "imageSrcHome" src = "/Images/homeVisitsGallery3.png"/>
+        </div>
+        <div className="imageStylingHomeVisits adjustSecondImageHome">
+        <img className = "imageSrcHome" src = "/Images/homeVisitsGallery4.png"/>
         </div>
     </Carousel>
     )
