@@ -172,7 +172,7 @@ const DonateProject = () => {
             </div>
             <div className="feedBackOption">
               <button className="feedBackParaOption">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepDnKi-YSfdrG-Y-Jx-zeA-3n8h07jD06sb_8YbabrJFIkLw/viewform?embedded=true">
+                <a className = "buttonFeedBackLink" href="https://docs.google.com/forms/d/e/1FAIpQLSepDnKi-YSfdrG-Y-Jx-zeA-3n8h07jD06sb_8YbabrJFIkLw/viewform?embedded=true">
                   Your Feedback
                 </a>
               </button>
@@ -181,12 +181,12 @@ const DonateProject = () => {
 
           <div className="feedBackButtonsContainer">
             <button className="requestBloodButton">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOCmV3LhIQTfUKWg4SZkkRFniDW5rjYVP0cFcTCt-TjACrOw/viewform?embedded=true">
+              <a className="requestButtonLink" href="https://docs.google.com/forms/d/e/1FAIpQLSfOCmV3LhIQTfUKWg4SZkkRFniDW5rjYVP0cFcTCt-TjACrOw/viewform?embedded=true">
                 Request Blood
               </a>
             </button>
             <button className="redBackgroundButton">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_FhVp6QM_WNzd1-4trXXL5oCX7h_C6IH_twhgUwNmB-XJOQ/viewform?embedded=true">
+              <a className="requestButtonLink" href="https://docs.google.com/forms/d/e/1FAIpQLSd_FhVp6QM_WNzd1-4trXXL5oCX7h_C6IH_twhgUwNmB-XJOQ/viewform?embedded=true">
                 Donate Blood
               </a>
             </button>
