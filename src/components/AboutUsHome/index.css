@@ -190,3 +190,10 @@
 .about-us-home {
   background-color: #fffcf7;
 }
+
+.about-link {
+  text-decoration: none;
+  color: inherit;
+  width: 140px;
+  margin-right: 30px;
+}
