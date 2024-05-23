@@ -1,6 +1,9 @@
+import React from "react";
+
 import { Link } from "react-router-dom";
 
 import ReactPlayer from "react-player";
+
 import "./index.css";
 
 const AboutUsHomeSection = () => {
@@ -12,6 +15,7 @@ const AboutUsHomeSection = () => {
       window.location.href = "https://pages.razorpay.com/aswa";
     }
   };
+
   return (
     <div className="about-us-home">
       <div id="about" className="arrange-about-us">
@@ -47,12 +51,21 @@ const AboutUsHomeSection = () => {
               </p>
             </div>
             <div className="button-container">
-              <Link to="/About" className="about-link">
-                <button className="button-about aboutStyling">KNOW MORE</button>
+              <Link to="/about/VisionAndMission" className="about-link">
+                <button className="button-about button-vision">
+                  OUR VISION
+                </button>
               </Link>
-              <button onClick={handleDonateClick} className="button-about">
-                Donate
-              </button>
+              <Link to="/about/OurTeam" className="about-link">
+                <button className="button-about button-our-team">
+                  OUR TEAM
+                </button>
+              </Link>
+              <Link to="/about/SuccessStories" className="about-link">
+                <button className="button-about button-success-stories">
+                  SUCCESS STORIES
+                </button>
+              </Link>
             </div>
           </div>
         </div>

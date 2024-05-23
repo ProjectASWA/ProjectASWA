@@ -1,53 +1,5 @@
-// import React, { Component } from "react";
-
-// import "./index.css";
-
-// import SuccessStories from "../SuccessStories";
-
-// import OurTeam from "../OurTeam";
-
-// import VisionAndMission from "../VisionAndMission";
-
-// import AboutUsNavbar from "../AboutUsNavbar";
-
-// const headerImage = {
-//   successStories: "/Images/success1.png",
-//   ourTeam: "/Images/ourteam1.png",
-//   visionAndMission: "/Images/visionandmission1.png",
-// };
-
-// class About extends Component {
-//   state = { selectedComponent: "VisionAndMission" };
-
-//   handleComponentSelection = (componentName) => {
-//     this.setState({ selectedComponent: componentName });
-//   };
-
-//   renderComponent = () => {
-//     const { selectedComponent } = this.state;
-//     switch (selectedComponent) {
-//       case "OurTeam":
-//         return <OurTeam />;
-//       case "VisionAndMission":
-//         return <VisionAndMission />;
-//       default:
-//         return <SuccessStories />;
-//     }
-//   };
-
-//   render() {
-//     return (
-//       <div className="about-main-container">
-//         <AboutUsNavbar onSelectedComponent={this.handleComponentSelection} />
-//         {this.renderComponent()}
-//       </div>
-//     );
-//   }
-// }
-
-// export default About;
-
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 import "./index.css";
 import SuccessStories from "../SuccessStories";
 import OurTeam from "../OurTeam";
@@ -66,7 +18,33 @@ class About extends Component {
     selectedHeaderImage: headerImages["VisionAndMission"],
   };
 
+  componentDidMount() {
+    const { section } = this.props.match.params;
+    if (section) {
+      this.setState({
+        selectedComponent: section,
+        selectedHeaderImage: headerImages[section],
+      });
+    }
+    this.unlisten = this.props.history.listen((location) => {
+      const newSection = location.pathname.split("/")[2];
+      if (newSection) {
+        this.setState({
+          selectedComponent: newSection,
+          selectedHeaderImage: headerImages[newSection],
+        });
+      }
+    });
+  }
+
+  componentWillUnmount() {
+    if (this.unlisten) {
+      this.unlisten();
+    }
+  }
+
   handleComponentSelection = (componentName) => {
+    this.props.history.push(`/about/${componentName}`);
     this.setState({
       selectedComponent: componentName,
       selectedHeaderImage: headerImages[componentName],
@@ -86,15 +64,18 @@ class About extends Component {
   };
 
   render() {
-    const { selectedHeaderImage } = this.state;
+    const { selectedHeaderImage, selectedComponent } = this.state;
     return (
       <div className="about-main-container">
         <img src={selectedHeaderImage} alt="Header" className="header-image" />
-        <AboutUsNavbar onSelectedComponent={this.handleComponentSelection} />
+        <AboutUsNavbar
+          onSelectedComponent={this.handleComponentSelection}
+          activeComponent={selectedComponent}
+        />
         {this.renderComponent()}
       </div>
     );
   }
 }
 
-export default About;
+export default withRouter(About);
