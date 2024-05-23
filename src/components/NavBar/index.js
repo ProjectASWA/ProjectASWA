@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 import "./index.css";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-
   // Update the pathname state when the location changes
-  
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -17,8 +16,7 @@ const NavBar = () => {
       }
     };
 
-  // Access the pathname from the location object
-  
+    // Access the pathname from the location object
 
     document.body.addEventListener("click", closeMenu);
 
@@ -26,8 +24,6 @@ const NavBar = () => {
       document.body.removeEventListener("click", closeMenu);
     };
   }, [menuOpen]);
-
-  
 
   const handleMenuClick = (e) => {
     e.stopPropagation(); // Prevent the body click event from firing when clicking the menu button
@@ -92,7 +88,9 @@ const NavBar = () => {
 
       <ul className={menuOpen ? "open" : ""}>
         <li className="listNav borderLineNav" onClick={handleAboutClick}>
-          <p className="aboutUsButtonNav">About US</p>
+          <Link to="/">
+            <p className="aboutUsButtonNav">About US</p>
+          </Link>
         </li>
         <li className="listNav borderLineNav">
           <Link to="/Reports" onClick={closeTheNavBar} className="linkStyling">
