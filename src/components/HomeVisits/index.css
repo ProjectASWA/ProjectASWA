@@ -134,6 +134,7 @@ margin-right: auto; */
   background: white;
   padding: 24px;
   padding-top: 0px;
+  display: none;
 }
 
 .photoGalleryHeading {
@@ -439,5 +440,11 @@ margin-right: auto; */
   .volunteerHomeVisitsImage {
     height: 200px;
     width: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .CarouselHomeVisitsContainer{
+    display: block;
   }
 }
