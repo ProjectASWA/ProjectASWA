@@ -4,6 +4,7 @@
 .AppHomeVisits {
   width: 70%;
   margin: 10rem auto;
+  margin-bottom: 0px;
   height: 570px;
 }
 
@@ -52,4 +53,16 @@
 .homeVisitsLargeScreenImage{
     
   border-radius: 50px;
+}
+
+@media (max-width: 1024px){
+  .AppHomeVisits{
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px){
+  .AppHomeVisits{
+    width: 90%;
+  }
 }
