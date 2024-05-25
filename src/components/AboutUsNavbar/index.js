@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
+
 import "./index.css";
 
-const AboutUsNavbar = ({ onSelectedComponent }) => {
-  const [active, setActive] = useState("VisionAndMission");
-
+const AboutUsNavbar = ({ onSelectedComponent, activeComponent }) => {
   const handleButtonClick = (componentName) => {
-    setActive(componentName);
     onSelectedComponent(componentName);
   };
 
@@ -13,7 +11,7 @@ const AboutUsNavbar = ({ onSelectedComponent }) => {
     <div className="visionandmission-navbar-container">
       <button
         className={`visionandmission-navbar-button ${
-          active === "VisionAndMission" ? "active" : ""
+          activeComponent === "VisionAndMission" ? "active" : ""
         }`}
         onClick={() => handleButtonClick("VisionAndMission")}
       >
@@ -21,7 +19,7 @@ const AboutUsNavbar = ({ onSelectedComponent }) => {
       </button>
       <button
         className={`visionandmission-navbar-button ${
-          active === "OurTeam" ? "active" : ""
+          activeComponent === "OurTeam" ? "active" : ""
         }`}
         onClick={() => handleButtonClick("OurTeam")}
       >
@@ -29,7 +27,7 @@ const AboutUsNavbar = ({ onSelectedComponent }) => {
       </button>
       <button
         className={`visionandmission-navbar-button ${
-          active === "SuccessStories" ? "active" : ""
+          activeComponent === "SuccessStories" ? "active" : ""
         }`}
         onClick={() => handleButtonClick("SuccessStories")}
       >

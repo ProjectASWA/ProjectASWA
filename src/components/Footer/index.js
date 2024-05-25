@@ -70,7 +70,6 @@ const Footer = () => {
                 className="locationImageFooter1"
               />
             </a>
-            
 
             <a href="https://www.youtube.com/channel/UCi3-LOqxkkyrIAxKv8WtGoA">
               {" "}

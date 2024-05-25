@@ -310,16 +310,11 @@ nav .menu span {
     padding-bottom: 0px;
   }
 }
-@media screen and (max-width: 768px) {
-  nav ul.open {
-    /* margin-top: 140px; */
-  }
-}
 
 @media (max-width: 400px) {
   .mobileDeviceLogoResize {
-    width: 98px;
-    height: 43px;
+    /* width: 98px;
+    height: 43px; */
   }
 
   .mobileDevicesNavConatainer {
