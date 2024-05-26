@@ -57,6 +57,7 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 0px;
+  text-align: left;
 }
 
 @media screen and (max-width: 992px) {
