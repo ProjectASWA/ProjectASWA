@@ -40,6 +40,12 @@ const MobileHomeVisitsCarousel = ()=>{
         <div className="imageStylingHomeVisits adjustSecondImageHome">
         <img className = "imageSrcHome" src = "/Images/homeVisitsGallery4.png"/>
         </div>
+        <div className="imageStylingHomeVisits adjustSecondImageHome">
+        <img className = "imageSrcHome" src = "/Images/homeVisitsGallery7.png"/>
+        </div>
+        <div className="imageStylingHomeVisits adjustSecondImageHome">
+        <img className = "imageSrcHome" src = "/Images/homeVisitsGallery8.png"/>
+        </div>
     </Carousel>
     )
 }

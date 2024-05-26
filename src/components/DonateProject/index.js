@@ -92,10 +92,10 @@ const DonateProject = () => {
           <img className="bloodImageProject" src="/Images/bloodImage2.jpg" />
         </div>
       </div>
-      <div className="how-do-blood-container">
+      {/* <div className="how-do-blood-container">
         <h1 className="howWeDoIt">How we do it?</h1>
-      </div>
-      <div class="main-div">
+      </div> */}
+      {/* <div class="main-div">
         <div class="arrange-in-row">
           <div class="sample-div">
             <div id="border1" class="border-1 redBack">
@@ -159,7 +159,43 @@ const DonateProject = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+       <div class="backgroundBloodStepsContainer">
+        <h1 className="howWeDoItHeading">How we do it?</h1>
+        <div class="mainContainerDonateStyling">
+
+            <div class="BloodcardContainerMain">
+                <h1 class="donateHeadingMain">Cross-Check Request</h1>
+                <p class="donateParaMain">Call patient attendees to confirm details.</p>
+                <div class="step1">
+                    Step 1
+                </div>
+            </div>
+            <div class="BloodcardContainerMain">
+                <h1 class="donateHeadingMain">Call Potential Donors</h1>
+                <p class="donateParaMain">Filter potential donors by location and blood group, then contact them</p>
+                <div class="step1">
+                    Step 2
+                </div>
+            </div>
+            <div class="BloodcardContainerMain">
+                <h1 class="donateHeadingMain">Connect Patient and Donor</h1>
+                <p class="donateParaMain">Share contact information between patient and donor.</p>
+                <div class="step1">
+                    Step 3
+                </div>
+            </div>
+            <div class="BloodcardContainerMain">
+                <h1 class="donateHeadingMain">Take Feedback after 10 Days</h1>
+                <p class="donateParaMain">Follow up after 10 days to ensure everything went smoothly and gather feedback. Request further support if needed.</p>
+                <div class="step1">
+                    Step 4
+                </div>
+            </div>
+
+        </div>
+    </div>
+      
       <div className="colorDonateContainer">
         <div className="donateProjectContainerFeebback">
           <div className="FeedBackContainer">

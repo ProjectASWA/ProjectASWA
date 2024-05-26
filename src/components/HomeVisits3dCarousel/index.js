@@ -7,7 +7,7 @@ import leaderHomeVisits from '../assets/leaderHomeVisits.jpg'
 // import homeVisitsMobile1 from '../../public/Images/schooleducation5lg.png'
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const images = [ "/Images/homeVisitsGallery1.png","/Images/homeVisitsGallery2.png","/Images/homeVisitsGallery3.png","/Images/homeVisitsGallery4.png" ];
+const images = [ "/Images/homeVisitsGallery1.png","/Images/homeVisitsGallery2.png","/Images/homeVisitsGallery3.png","/Images/homeVisitsGallery4.png", "/Images/homeVisitsGallery7.png", "/Images/homeVisitsGallery8.png" ];
 
 function HomeVisitsLaptopCarousel() {
   const NextArrow = ({ onClick }) => {

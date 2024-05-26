@@ -1,5 +1,18 @@
 import "./index.css";
 
+const quotationsArr = [
+  "Be the change you wish to see.",
+  "No act of kindness is ever wasted.",
+  "Together, we can do so much",
+  "Small acts, when multiplied, can change the world.",
+  "Service to others is the rent we pay for living",
+  "The power of one is infinite.",
+  "Lift others, lift yourself.",
+  "Kindness creates endless ripples"
+]
+
+const randomIndex = Math.floor(Math.random() * quotationsArr.length);
+
 const Footer = () => {
   return (
     <div className="footer-main-container">
@@ -78,7 +91,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="quotation">
-              All our efforts are made possible only because of your support.
+              {quotationsArr[randomIndex]}
             </p>
           </div>
         </div>
