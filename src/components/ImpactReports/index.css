@@ -1,107 +1,154 @@
-.impact-reports-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.impact-reports-text-container {
-  margin-top: 40px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.impact-reports-image {
-  width: 100vw;
+.impact-reports-image-container {
+  width: 100%;
   height: 40vh;
 }
 
-.impact-reports-heading {
-  color: #000;
-  text-align: center;
-  font-family: "Sathoshi", sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.impact-reports-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 30px;
-  width: 80%;
-}
-
-.impact-reports-card-count {
-  display: flex;
-  width: 127px;
-  height: 96px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  background: #a9afe4;
-}
-
-@media screen and (max-width: 992px) {
-  .impact-reports-card-count {
-    width: 20%;
-  }
-}
-
-.impact-reports-card-text {
-  display: flex;
-  width: 60%;
-  height: 96px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  background: var(--Color-Action-neutral-subtle-normal, #f1f5f9);
+.impact-reports-image {
+  width: 100%;
+  height: 100%;
 }
 
 .impact-reports-cards-container {
   display: flex;
+  padding: 16px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 22px;
+  gap: 48px;
   width: 90%;
   margin: auto;
-  margin-top: 40px;
-  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 992px) {
   .impact-reports-cards-container {
-    align-items: center;
+    width: 98%;
+    padding: 0px;
   }
 }
 
-.impact-reports-cards-sub-container {
+.impact-reports-first-card-container {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.impact-reports-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.impact-reports-card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.impact-reports-card-heading {
+  color: #000;
+  font-family: "Sathoshi", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 992px) {
-  .impact-reports-cards-sub-container {
-    flex-direction: column;
-    align-items: center;
+  .impact-reports-card-heading {
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
   }
 }
 
+.impact-reports-card-description-container1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.impact-reports-card-description-container {
+  display: flex;
+  width: 30%;
+  padding: 11px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid #d9dade;
+  background: #fff;
+}
+
 @media screen and (max-width: 992px) {
-  .impact-reports-heading {
-    font-size: 30px;
+  .impact-reports-card-description-container {
+    width: 100%;
   }
-  .paraImpactReports{
+}
+
+.impact-reports-count {
+  color: #4f4f4f;
+  font-family: "Sathoshi", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .impact-reports-count {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
+.impact-reports-card-description {
+  color: #787474;
+  font-family: "Sathoshi", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .impact-reports-card-description {
     font-size: 14px;
+    padding: 5px;
   }
-  .impact-reports-card-text{
-    height: auto;
+}
+
+.environment-description-card {
+  display: flex;
+  width: 400px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid #d9dade;
+  background: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .environment-description-card {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .environment-impact-reports-card {
+    width: 100%;
   }
 }
