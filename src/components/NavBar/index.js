@@ -363,9 +363,11 @@ const NavBar = () => {
           className={`listNav borderLineNav ${projectsActive ? "active" : ""}`} // Add active class conditionally
           onClick={handleProjectsClick}
         >
-          <p className="ourProjectsButtonNav" style={{ color: textColor }}>
-            Our Projects
-          </p>
+          <Link to="/">
+            <p className="ourProjectsButtonNav" style={{ color: textColor }}>
+              Our Projects
+            </p>
+          </Link>
         </li>
         <li className="listNav borderLineNav">
           <Link to="/Reports" onClick={closeTheNavBar} className="linkStyling">
