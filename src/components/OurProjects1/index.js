@@ -76,7 +76,7 @@ class OurProjects1 extends Component {
               <p className="our-projects1-image-heading">Education</p>
               <Link className="ourprojectscard-link" to={"/Education"}>
                 <button className="our-projects1-image-button">
-                  KNOW MORE
+                  Know More
                 </button>
               </Link>
             </div>
@@ -93,7 +93,7 @@ class OurProjects1 extends Component {
               <p className="our-projects1-image-heading">Environment</p>
               <Link className="ourprojectscard-link" to={"/Environment"}>
                 <button className="our-projects1-image-button">
-                  KNOW MORE
+                  Know More
                 </button>
               </Link>
             </div>
@@ -110,7 +110,7 @@ class OurProjects1 extends Component {
               <p className="our-projects1-image-heading">Blood Connect</p>
               <Link className="ourprojectscard-link" to={"/DonateProject"}>
                 <button className="our-projects1-image-button">
-                  KNOW MORE
+                  Know More
                 </button>
               </Link>
             </div>
@@ -128,7 +128,7 @@ class OurProjects1 extends Component {
               <Link className="ourprojectscard-link" to={"/AnnamParabrahmam"}>
                 {" "}
                 <button className="our-projects1-image-button">
-                  KNOW MORE
+                  Know More
                 </button>
               </Link>
             </div>
@@ -145,7 +145,7 @@ class OurProjects1 extends Component {
               <p className="our-projects1-image-heading">Home Visits</p>
               <Link className="ourprojectscard-link" to={"/HomeVisits"}>
                 <button className="our-projects1-image-button">
-                  KNOW MORE
+                  Know More
                 </button>
               </Link>
             </div>

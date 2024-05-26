@@ -49,45 +49,6 @@
   }
 }
 
-.pledge-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-  margin: auto;
-  margin-top: 80px;
-}
-
-.pledge-heading {
-  align-self: flex-start;
-  margin-bottom: 30px;
-  color: #000;
-  font-family: "Satoshi, sans-serif";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-@media screen and (max-width: 992px) {
-  .pledge-heading {
-    font-size: 25px;
-  }
-}
-
-.pledge-image {
-  width: 93%;
-  margin: auto;
-}
-
-@media screen and (max-width: 992px) {
-  .pledge-image {
-    width: 92%;
-    padding: 30px;
-    padding-top: 0px;
-  }
-}
-
 .about-main-container {
   background: #fffcf7;
 }

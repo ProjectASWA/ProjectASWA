@@ -1,5 +1,5 @@
 .vision-and-mission-container {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,96 +13,104 @@
 @media screen and (max-width: 992px) {
   .vision-and-mission-container {
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
   }
 }
 
-.our-vision-and-mission-container-boxes {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 67px;
-  width: 50%;
-}
-
-@media screen and (max-width: 992px) {
-  .our-vision-and-mission-container-boxes {
-    width: 100%;
-    padding: 0px;
-    gap: 20px;
-  }
-}
-
-.our-vision-container {
-  width: 100%;
-  border: 1.088px solid #000;
-  border-radius: 5px;
-  display: flex;
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media screen and (max-width: 992px) {
-  .our-vision-container {
-    width: 100%;
-    padding: 8px;
-    padding-top: 0px;
-  }
-}
-
-.our-vision-heading {
-  color: #222;
-  text-align: center;
-  font-family: "Satoshi", sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 50px; /* 156.25% */
-  text-transform: capitalize;
-  align-self: flex-start;
-}
-
-@media screen and (max-width: 992px) {
-  .our-vision-heading {
-    font-size: 22px;
-  }
-}
-
 .pledge-container {
   display: flex;
-  padding: 11.966px 26.107px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 26.107px;
-  border: 1.088px solid #000;
-  border-radius: 5px;
-  width: 40%;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 16px;
+  border: 1px solid #e9e7e7;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.14);
+  width: 28%;
   margin: 0px;
 }
 
 @media screen and (max-width: 992px) {
   .pledge-container {
-    width: 100%;
+    width: 85%;
     padding: 0px;
   }
 }
 
-.our-vision-para {
-  color: #000;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 24px */
+.our-vision-and-mission-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  width: 50%;
 }
 
 @media screen and (max-width: 992px) {
-  .our-vision-para {
-    font-size: 14px;
+  .our-vision-and-mission-cards-container {
+    width: 85%;
+  }
+}
+
+.our-vision-and-mission-card-container {
+  display: flex;
+  padding: 16px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid #e9e7e7;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.14);
+}
+
+.our-vision-and-mission-card-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.our-vision-and-mission-card-heading {
+  color: #000;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 38.4px */
+  font-family: "Sathoshi", sans-serif;
+  margin-bottom: 0px;
+}
+
+.our-vision-and-mission-card-image {
+  width: 41.6px;
+  height: 39px;
+}
+
+.our-vision-and-mission-card-description {
+  color: #535353;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Sathoshi", sans-serif;
+  margin-top: 0px;
+}
+
+.pledge-image {
+  width: 92%;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .pledge-image {
+    width: 92%;
+    padding: 30px;
   }
 }

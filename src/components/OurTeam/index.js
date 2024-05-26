@@ -7,14 +7,19 @@ const OurTeam = () => {
       <div className="our-team-cards-container">
         <div className="our-team-card-container">
           <img src="/Images/ourTeam1.png" className="our-team-image" />
+
+          {/* <img src="/Images/Rectangle 296.png" className="our-team-image" /> */}
           <div className="our-team-text-container">
-            <h4 className="our-team-text-heading">Sreenivasa Prasad Sarvaraju</h4>
+            <h4 className="our-team-text-heading">
+              Sreenivasa Prasad Sarvaraju
+            </h4>
             <p className="our-team-text-description">
-            Founder & President Master's Degree In Financial Management (MFM) Worked in S&P Capital IQ
+              Founder & President Master's Degree In Financial Management (MFM)
+              Worked in S&P Capital IQ
             </p>
           </div>
         </div>
-        
+
         <div className="our-team-card-container">
           <img src="/Images/Rectangle 296.png" className="our-team-image" />
           <div className="our-team-text-container">

@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 992px) {
   .our-team-image {
-    height: 180px;
+    height: 275px;
     width: 100%;
   }
 }
@@ -69,16 +69,17 @@
   justify-content: center;
   align-items: flex-start;
   align-self: stretch;
+  gap: 11px;
 }
 
 .our-team-text-heading {
   color: #2e4049;
   font-family: "Satoshi, sans-serif";
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 120%; /* 24px */
-  margin-bottom: 11px;
+  font-weight: 900;
+  line-height: 120%; /* 28.8px */
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 992px) {
@@ -90,17 +91,17 @@
 
 .our-team-text-description {
   color: #2e4049;
-  text-align: justify;
   font-family: "Satoshi, sans-serif";
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 992px) {
   .our-team-text-description {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 0px;
   }
 }
