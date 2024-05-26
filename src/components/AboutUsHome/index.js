@@ -25,7 +25,8 @@ const AboutUsHomeSection = () => {
           </div>
           <div className="video-container mobileDevicesVideoContainer">
             <ReactPlayer
-              width="90%"
+              width="80%"
+              height="300px"
               style={{
                 borderRadius: "8px",
                 border: "3px solid black",
