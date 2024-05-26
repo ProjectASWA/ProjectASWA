@@ -349,9 +349,9 @@ Carousel {
     display: none;
   }
   .childrenImageContainerMobile {
-    width: 60%;
+    width: 80%;
     margin-top: 50px;
-    max-width: 350px;
+    max-width: 450px;
   }
 
   .customCarousel5Container{
@@ -377,7 +377,7 @@ Carousel {
 
 @media  screen and (max-width: 500px) {
   .years16ContainerMobile{
-    width: 45%;
+    width: 60%;
     max-width: 500px;
   }
 }
