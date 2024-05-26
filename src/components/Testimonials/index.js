@@ -54,7 +54,7 @@ const Testimonials = () => {
           <div>
             <img
               className="testimonialImageLarge"
-              src="/Images/TanikellaBharani.png"
+              src="/Images/tanikella-bharani.avif"
               alt="Image 1"
             />
           </div>
@@ -81,7 +81,7 @@ const Testimonials = () => {
           <div>
             <img
               className="testimonialImageLarge"
-              src="/Images/Tammareddy.png"
+              src="/Images/tammareddy.avif"
               alt="Image 1"
             />
           </div>
@@ -136,7 +136,7 @@ const Testimonials = () => {
           <div>
             <img
               className="testimonialImageLarge"
-              src="/Images/LakshmiNarayana.png"
+              src="/Images/jd.jpg"
               alt="Image 1"
             />
           </div>
