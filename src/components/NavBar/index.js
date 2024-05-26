@@ -1,13 +1,11 @@
 // import React, { useState, useEffect } from "react";
-
-// import { useLocation } from "react-router-dom";
+// import { useLocation, Link } from "react-router-dom";
 // import "./index.css";
-// import { Link } from "react-router-dom";
 
 // const NavBar = () => {
-//   // Update the pathname state when the location changes
-
 //   const [menuOpen, setMenuOpen] = useState(false);
+//   const [scrollToAbout, setScrollToAbout] = useState(false);
+//   const location = useLocation();
 
 //   useEffect(() => {
 //     const closeMenu = () => {
@@ -16,8 +14,6 @@
 //       }
 //     };
 
-//     // Access the pathname from the location object
-
 //     document.body.addEventListener("click", closeMenu);
 
 //     return () => {
@@ -25,19 +21,28 @@
 //     };
 //   }, [menuOpen]);
 
+//   useEffect(() => {
+//     if (scrollToAbout) {
+//       const aboutSection = document.getElementById("about");
+//       if (aboutSection) {
+//         const yOffset = -142;
+//         const y =
+//           aboutSection.getBoundingClientRect().top +
+//           window.pageYOffset +
+//           yOffset;
+//         window.scrollTo({ top: y, behavior: "smooth" });
+//       }
+//       setScrollToAbout(false);
+//     }
+//   }, [scrollToAbout]);
+
 //   const handleMenuClick = (e) => {
 //     e.stopPropagation();
 //     setMenuOpen(!menuOpen);
 //   };
 
 //   const handleAboutClick = () => {
-//     const aboutSection = document.getElementById("about");
-//     if (aboutSection) {
-//       const yOffset = -150;
-//       const y =
-//         aboutSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-//       window.scrollTo({ top: y, behavior: "smooth" });
-//     }
+//     setScrollToAbout(true);
 //     setMenuOpen(false);
 //   };
 
@@ -47,7 +52,7 @@
 
 //   const handleDonateClick = () => {
 //     const confirmDonate = window.confirm(
-//       "You will be redirecting to the designated ASWA Rayzorpay Payment Page (Gateway). Upon successful donation you will be redirected back to aswa4u.org."
+//       "You will be redirected to the designated ASWA Rayzorpay Payment Page (Gateway). Upon successful donation, you will be redirected back to aswa4u.org."
 //     );
 //     if (confirmDonate) {
 //       window.location.href = "https://pages.razorpay.com/aswa";
@@ -85,16 +90,18 @@
 //             <span></span>
 //             <span></span>
 //             <span></span>
+//             <span></span>
 //           </div>
 //         </div>
 //       </div>
 
 //       <ul className={menuOpen ? "open" : ""}>
 //         <li className="listNav borderLineNav" onClick={handleAboutClick}>
-//           <Link to={{ pathname: "/", state: { scrollToAbout: true } }}>
+//           <Link to="/">
 //             <p className="aboutUsButtonNav">About US</p>
 //           </Link>
 //         </li>
+//         <li className="listNav borderLineNav">Our Projects</li>
 //         <li className="listNav borderLineNav">
 //           <Link to="/Reports" onClick={closeTheNavBar} className="linkStyling">
 //             Reports
@@ -117,8 +124,6 @@
 //           </Link>
 //         </li>
 //         <li className="mobileDonate">
-//           {/* <a href="https://pages.razorpay.com/aswa">
-//           </a> */}
 //           <button onClick={handleDonateClick} className="donateStyling">
 //             Donate
 //           </button>
@@ -137,6 +142,7 @@ import "./index.css";
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrollToAbout, setScrollToAbout] = useState(false);
+  const [scrollToProjects, setScrollToProjects] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -168,6 +174,21 @@ const NavBar = () => {
     }
   }, [scrollToAbout]);
 
+  useEffect(() => {
+    if (scrollToProjects) {
+      const projectsSection = document.getElementById("ourProjects1");
+      if (projectsSection) {
+        const yOffset = -142;
+        const y =
+          projectsSection.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+      setScrollToProjects(false);
+    }
+  }, [scrollToProjects]);
+
   const handleMenuClick = (e) => {
     e.stopPropagation();
     setMenuOpen(!menuOpen);
@@ -175,6 +196,11 @@ const NavBar = () => {
 
   const handleAboutClick = () => {
     setScrollToAbout(true);
+    setMenuOpen(false);
+  };
+
+  const handleProjectsClick = () => {
+    setScrollToProjects(true);
     setMenuOpen(false);
   };
 
@@ -230,6 +256,11 @@ const NavBar = () => {
         <li className="listNav borderLineNav" onClick={handleAboutClick}>
           <Link to="/">
             <p className="aboutUsButtonNav">About US</p>
+          </Link>
+        </li>
+        <li className="listNav borderLineNav" onClick={handleProjectsClick}>
+          <Link to="/">
+            <p className="ourProjectsButtonNav">Our Projects</p>
           </Link>
         </li>
         <li className="listNav borderLineNav">
