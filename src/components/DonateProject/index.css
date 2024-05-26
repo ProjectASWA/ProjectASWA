@@ -57,6 +57,7 @@
 .donateImageContainerDescription {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .donateImageContainerMain {
@@ -209,6 +210,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: left;
+  margin-top: 25px;
 }
 
 .step1 {
@@ -236,6 +239,7 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 25px;
+  text-align: left;
 }
 
 .mainContainerDonateStyling {
@@ -258,6 +262,7 @@
 .backgroundBloodStepsContainer {
   background-color: #FFE6E6;
   padding: 25px;
+  margin-top: 25px;
 }
 
 .feedBackHeading {
@@ -322,6 +327,8 @@
   font-size: 26px;
   width: 40%;
   line-height: 1.4;
+  text-align: left;
+  margin-top: 15px;
 }
 
 .feedBackOption {
