@@ -6,6 +6,11 @@
   margin: 10rem auto;
   margin-bottom: 0px;
   height: 570px;
+  margin-top: 30px;
+}
+
+.photoGalleryHeadingLaptop{
+  margin-bottom: 50px;
 }
 
 .slideHomeVisits img {

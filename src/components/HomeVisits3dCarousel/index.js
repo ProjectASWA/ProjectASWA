@@ -45,6 +45,7 @@ function HomeVisitsLaptopCarousel() {
 
   return (
     <div className="AppHomeVisits">
+      <h1 className="photoGalleryHeadingLaptop">Photo Gallery</h1>
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slideHomeVisits activeSlideHomeVisits" : "slideHomeVisits"}>
