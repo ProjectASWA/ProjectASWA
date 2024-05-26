@@ -23,7 +23,7 @@ function MobileTestimonials() {
         <Slider {...settings}  style = {{height: "max-content", paddingBottom: "10px"}}>
         <div style = {{height: '100%'}}>
             <div className='mobile-testimonials-card'>
-                <img src="/Images/TanikellaBharani.png" className = "image-mobile-testimonial" alt="Image 1" />
+                <img src="/Images/tanikella-bharani.avif" className = "image-mobile-testimonial" alt="Image 1" />
                 <div className='mobile-testimonials-contents-container'>
                     <img
                     className="double-quotes-image mobile-quotes"
@@ -44,7 +44,7 @@ function MobileTestimonials() {
       </div>
       <div style = {{height: '100%'}}>
             <div className='mobile-testimonials-card'>
-                <img src="/Images/Tammareddy.png" className = "image-mobile-testimonial" alt="Image 1" />
+                <img src="/Images/tammareddy.avif" className = "image-mobile-testimonial" alt="Image 1" />
                 <div className='mobile-testimonials-contents-container'>
                     <img
                     className="double-quotes-image mobile-quotes"
@@ -64,7 +64,7 @@ function MobileTestimonials() {
       </div>
       <div style = {{height: '100%'}}>
             <div className='mobile-testimonials-card'>
-                <img src="/Images/ShriSirivennela.png" className = "image-mobile-testimonial" alt="Image 1" />
+                <img src="/Images/ShriSirivennela.jpg" className = "image-mobile-testimonial" alt="Image 1" />
                 <div className='mobile-testimonials-contents-container'>
                     <img
                     className="double-quotes-image mobile-quotes"
@@ -83,7 +83,7 @@ function MobileTestimonials() {
       </div>
       <div style = {{height: '100%'}}>
             <div className='mobile-testimonials-card'>
-                <img src="/Images/LakshmiNarayana.png" className = "image-mobile-testimonial" alt="Image 1" />
+                <img src="/Images/jd.jpg" className = "image-mobile-testimonial" alt="Image 1" />
                 <div className='mobile-testimonials-contents-container'>
                     <img
                     className="double-quotes-image mobile-quotes"
