@@ -277,7 +277,6 @@ const NavBar = () => {
 
   const handleProjectsClick = () => {
     setScrollToProjects(true);
-    setProjectsActive(true); // Set "Our Projects" as active
     setMenuOpen(false);
   };
 
