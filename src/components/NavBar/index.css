@@ -7,7 +7,7 @@
   align-self: center;
 } */
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,6 +21,23 @@ nav {
   box-sizing: border-box;
   overflow-x: hidden;
   height: 91px;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.26); /* Initial transparent background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 91px;
+  transition: background-color 0.5s; /* Smooth transition */
 }
 
 @media screen and (max-width: 1082px) {
@@ -30,7 +47,7 @@ nav {
 }
 
 .listNav {
-  font-size: 20px;
+  font-size: 17px;
   align-self: center;
   padding-top: 10px;
   color: #ffffff;
@@ -74,6 +91,7 @@ nav ul {
   align-items: center;
   justify-self: center;
   color: #202d33;
+  padding-left: 0px;
 }
 
 nav ul li {
@@ -166,7 +184,7 @@ nav .menu span {
 }
 
 .specialLink {
-  font-size: 20px;
+  font-size: 17px;
   padding: 0;
 }
 
@@ -323,4 +341,9 @@ nav .menu span {
     align-items: center;
     /* flex-grow: 1; */
   }
+}
+
+.crossIcon {
+  cursor: pointer;
+  color: #ffff;
 }

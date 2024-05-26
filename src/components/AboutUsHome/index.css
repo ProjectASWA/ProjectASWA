@@ -13,7 +13,7 @@
   left: 0;
 }
 
-.arrange-about-us{
+.arrange-about-us {
   width: 85%;
 }
 
@@ -31,7 +31,6 @@
 }
 
 .about-contents-container {
-
   padding: 40px;
 }
 
@@ -110,6 +109,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 36px;
   }
 
   .about-main-heading {
@@ -118,7 +118,7 @@
   }
 
   .about-para {
-    width: 100%;
+    width: 80%;
   }
 
   .about-heading {
@@ -147,6 +147,8 @@
     align-items: center;
     text-align: center;
     margin-top: 52px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .large-screen-video {
@@ -181,8 +183,6 @@
   }
 }
 
-
-
 .about-us-home {
   background-color: #fffcf7;
 }
@@ -207,13 +207,13 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .arrange-about-us{
+  .arrange-about-us {
     width: 95%;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .arrange-about-us{
+  .arrange-about-us {
     width: 100%;
   }
 
