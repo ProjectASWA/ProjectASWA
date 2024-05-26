@@ -13,6 +13,10 @@
   left: 0;
 }
 
+.arrange-about-us{
+  width: 85%;
+}
+
 .about-para {
   text-align: left;
   line-height: 1.6;
@@ -27,7 +31,7 @@
 }
 
 .about-contents-container {
-  width: 80%;
+
   padding: 40px;
 }
 
@@ -106,7 +110,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 20px;
   }
 
   .about-main-heading {
@@ -178,26 +181,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .button-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .about-contents-container {
-    padding-bottom: 0px;
-    width: 90%;
-  }
-  .about-para {
-    font-size: 18px;
-  }
-  .about-main-heading {
-    text-align: center;
-    margin-top: 50px;
-  }
-}
+
 
 .about-us-home {
   background-color: #fffcf7;
@@ -220,4 +204,36 @@
 
 .button-success-stories {
   background: #36b0b8;
+}
+
+@media screen and (max-width: 1440px) {
+  .arrange-about-us{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .arrange-about-us{
+    width: 100%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .about-contents-container {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+  }
+  .about-para {
+    font-size: 18px;
+  }
+  .about-main-heading {
+    text-align: center;
+    margin-top: 50px;
+  }
 }

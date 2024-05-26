@@ -48,8 +48,8 @@ const CarouselImages = () => {
           hasNext && <CustomNextArrow onClick={onClickHandler} />
         }
         interval={2000}
-        infiniteLoop
-        autoPlay
+        // infiniteLoop
+        // autoPlay
       >
         <div className="customCarousel5">
           <div className="customCarousel5Container">

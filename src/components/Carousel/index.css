@@ -80,11 +80,11 @@ Carousel {
 
 .years16Container {
   width: 20%;
-  padding-bottom: 70px;
 }
 
 .childrenImageContainer {
   width: 50vw;
+  margin-top: 50px;
 }
 
 .arrangeYearsBannerContainer {
@@ -331,7 +331,9 @@ Carousel {
     display: none;
   }
   .years16ContainerMobile {
-    width: 50%;
+    width: 30%;
+    max-width: 200px;
+    height: auto;
   }
   .arrangeCarouselContainerMobileBanner {
     display: flex;
@@ -347,11 +349,14 @@ Carousel {
     display: none;
   }
   .childrenImageContainerMobile {
-    width: 75%;
+    width: 60%;
     margin-top: 50px;
+    max-width: 350px;
   }
 
-  .arrangeCarouselContainerMobileBanner {
+  .customCarousel5Container{
+    margin-top: auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -368,4 +373,12 @@ Carousel {
   height: 100%;
   bottom: 5%;
   height: 100vh;
+}
+
+
+@media  screen and (max-width: 500px) {
+  .years16ContainerMobile{
+    width: 45%;
+    max-width: 500px;
+  }
 }

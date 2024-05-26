@@ -4,42 +4,42 @@ import "./index.css";
 
 const obj = [
   {
-    number: 1,
+    number: "01",
     description:
       "Participate in our own initiations like Children's Learning Center (CLC) and Children's Library at Shadnagar either on weekends or on weekdays.",
   },
   {
-    number: 2,
+    number: "02",
     description:
       "Participate in our Weekly / Fortnight volunteer activities/interventions (in Govt. Schools; Orphanages and Old age homes; Conducting blood donation Camps and Awareness; and Relief activities in Natural Calamities).",
   },
   {
-    number: 3,
+    number: "03",
     description:
       "Participate in our own initiations like Children's Learning Center (CLC) and Children's Library at Shadnagar either on weekends or on weekdays.",
   },
   {
-    number: 4,
+    number: "04",
     description: "Help us in Administration",
   },
   {
-    number: 5,
+    number: "05",
     description: "Prepare Activity Updates - Documentation",
   },
   {
-    number: 6,
+    number: "06",
     description: "Act as admins for Online Zoom Meetings",
   },
   {
-    number: 7,
+    number: "07",
     description: "New Volunteers mobilization",
   },
   {
-    number: 8,
+    number: "08",
     description: "Design Whatsapp Flyers and Social Media Posters",
   },
   {
-    number: 9,
+    number: "09",
     description: "Manage Whatsapp Groups and Communication among groups",
   },
   {
@@ -103,17 +103,6 @@ const Volunteer = () => {
           make a difference that resonates far and wide."
         </p>
       </div>
-      <div className="quoteContainer">
-        <p className="quoteVolunteer">
-          “A Volunteer can be anybody. There is no age limit to begin a
-          volunteer, no preferred categories, no salary specification, no
-          special degree or work experience. All that is required is a
-          dedication to the cause, sincerity about the work that one in doing
-          and commitment to a regular and sustained efforts with the
-          organisation.”
-        </p>
-        <h1 className="nameQuote">–MAHATMA GANDHI</h1>
-      </div>
       <div className="instructionsContainer">
         <p className="instructionsVolunteer">
           Here are some wonderful opportunities to spread love and make a
@@ -131,6 +120,17 @@ const Volunteer = () => {
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmJUJhJ8k5Oi-0yNmasSIIBKBS0Vg1azjzue3OZiCrl97X6Q/viewform">
           <button className="knowMoreVolunteer">Join with us</button>
         </a>
+      </div>
+      <div className="quoteContainer">
+        <p className="quoteVolunteer">
+          “A Volunteer can be anybody. There is no age limit to begin a
+          volunteer, no preferred categories, no salary specification, no
+          special degree or work experience. All that is required is a
+          dedication to the cause, sincerity about the work that one in doing
+          and commitment to a regular and sustained efforts with the
+          organisation.”
+        </p>
+        <h1 className="nameQuote">–MAHATMA GANDHI</h1>
       </div>
     </div>
   );

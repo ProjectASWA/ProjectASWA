@@ -131,7 +131,7 @@
 
 .subHeadingDonate {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .donate-para-2 {
@@ -480,6 +480,7 @@
     margin-left: 8px;
     height: max-content;
     width: 60vw;
+    background-color: #FBF3F3;
   }
   .sample-div {
     height: 300px;
