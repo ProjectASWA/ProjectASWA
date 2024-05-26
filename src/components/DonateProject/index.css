@@ -11,6 +11,9 @@
 }
 
 .bloodContainerText {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   text-align: center;
   padding: 25px;
   font-size: 32px;
@@ -312,7 +315,7 @@
 }
 
 .bloodImageProject {
-  width: 350px;
+  width: 450px;
   border-radius: 16px;
   border: #d70020 solid 2px;
   margin-left: 150px;
@@ -417,6 +420,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .bloodImage{
+    height: 200px;
+  }
   .bloodDonateArrange {
     display: flex;
     flex-direction: column;

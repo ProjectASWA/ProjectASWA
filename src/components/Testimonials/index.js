@@ -108,7 +108,7 @@ const Testimonials = () => {
           <div>
             <img
               className="testimonialImageLarge"
-              src="/Images/ShriSirivennela.png"
+              src="/Images/ShriSirivennela.jpg"
               alt="Image 1"
             />
           </div>

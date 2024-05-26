@@ -46,6 +46,9 @@
   .arrowImageContainer {
     margin-top: 21px;
   }
+  .homeVisits-image{
+    height: 200px;
+  }
 }
 
 .arrangeHomeVistsArrange {

@@ -89,7 +89,7 @@ const DonateProject = () => {
             When there is a patient in emergency need of blood, Blood connect
             tries to find a donor.
           </p>
-          <img className="bloodImageProject" src="/Images/bloodImage2.jpg" />
+          <img className="bloodImageProject" src="/Images/bloodConnectImage.png" />
         </div>
       </div>
       {/* <div className="how-do-blood-container">
