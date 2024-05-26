@@ -178,7 +178,7 @@ const NavBar = () => {
     if (scrollToProjects) {
       const projectsSection = document.getElementById("ourProjects1");
       if (projectsSection) {
-        const yOffset = -142;
+        const yOffset = -10;
         const y =
           projectsSection.getBoundingClientRect().top +
           window.pageYOffset +
