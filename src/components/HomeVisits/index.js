@@ -7,6 +7,7 @@ import React, { useEffect } from "react";
 
 import "./index.css";
 import HomeVisitsOurActiviteis from "../HomeVisitsOurActiviites";
+import HomeVisitsLaptopCarousel from '../HomeVisits3dCarousel'
 import VolunteerCardItem from "../VolunteerCard";
 
 const Homedescription = [
@@ -138,6 +139,8 @@ const HomeVisits = () => {
         <h1 className="photoGalleryHeading">Photo Gallery</h1>
         <MobileHomeVisitsCarousel />
       </div>
+      <HomeVisitsLaptopCarousel/>
+      {/* Carousel For Laptop Devices */}
 
     </div>
   );
