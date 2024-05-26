@@ -53,7 +53,7 @@ const randomQuote = quotesObj[randomIndex];
 class OurProjects1 extends Component {
   render() {
     return (
-      <div className="OurProjects1-card-container">
+      <div className="OurProjects1-card-container" id="ourProjects1">
         <div className="heading-container">
           <h1 className="OurProjects1-main-heading">Our Projects</h1>
         </div>

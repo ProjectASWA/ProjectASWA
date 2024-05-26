@@ -37,11 +37,11 @@
 
 .our-team-card-container {
   display: flex;
-  width: 30%;
+  width: 26%;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  /* gap: 18px; */
+  gap: 18px;
 }
 
 @media screen and (max-width: 992px) {
@@ -70,6 +70,7 @@
   align-items: flex-start;
   align-self: stretch;
   gap: 11px;
+  text-align: left;
 }
 
 .our-team-text-heading {
