@@ -48,7 +48,7 @@ const MediaCoverage = () => {
   return (
     <div className="mediaCoverageContainer">
       <img
-        src="/Images/mediaCoverageBanner.png"
+        src="/Images/BannerMediaCoverage.png"
         className="mediaCoverageImageBanner"
       />
       <div className="mediaCoverageImageContainer">

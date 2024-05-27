@@ -89,7 +89,7 @@ const Volunteer = () => {
       />
       <img
         className="volunteerBg laptopBannerVolunteer"
-        src="/Images/volunteerImage.png"
+        src="/Images/JoinWithUs.png"
         alt="Laptop Banner"
       />
       <div className="arrangeVolunteerContainer">

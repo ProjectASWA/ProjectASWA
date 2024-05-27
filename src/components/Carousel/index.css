@@ -207,6 +207,7 @@ Carousel {
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .buttonStylingNext {
