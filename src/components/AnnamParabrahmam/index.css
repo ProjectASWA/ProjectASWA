@@ -16,6 +16,7 @@
   align-items: center;
   width: 90%;
   margin: auto;
+  gap: 30px;
 }
 
 .annamparabrahmam-heading {
@@ -42,6 +43,7 @@
   /* line-height: 117.3%; */
   font-family: "Sathoshi", sans-serif;
   margin-top: 0px;
+  line-height: 33px;
 }
 
 @media screen and (max-width: 768px) {
