@@ -157,11 +157,13 @@
   background: #f1eeec;
   padding: 30px;
   border-radius: 8px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 992px) {
   .education-text-container {
     padding-top: 0px;
+    gap: 20px;
   }
 }
 

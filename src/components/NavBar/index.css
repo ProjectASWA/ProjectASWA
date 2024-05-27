@@ -207,7 +207,7 @@ nav .menu span {
     align-items: center;
     z-index: 1;
     margin-right: 15px;
-    margin-top: 25px;
+    margin-top: 16px;
   }
 
   .borderLineNav {
@@ -222,7 +222,6 @@ nav .menu span {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 10px;
   }
   .donateStyling {
     background-color: #fe6711;
@@ -346,4 +345,8 @@ nav .menu span {
 .crossIcon {
   cursor: pointer;
   color: #ffff;
+}
+
+nav ul li a:hover {
+  color: #fbf3ec; /* Hover color */
 }
