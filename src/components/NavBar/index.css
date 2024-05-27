@@ -59,9 +59,10 @@ nav {
 }
 
 .listNav:hover {
-  background-color: grey;
-  border: 1px solid grey;
+  background-color: #f7e5d7;
+  border: 1px solid #f7e5d7;
   border-radius: 5px;
+  color: #202d33;
 }
 
 .aboutUsButtonNav {
