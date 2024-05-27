@@ -170,7 +170,7 @@
 @media (max-width: 380px) {
   .impact-card-container{
     gap: 10px;
-    row-gap: 25px;
+    row-gap: 50px;
   }
   .arrangeBgContainer{
     gap: 0px;

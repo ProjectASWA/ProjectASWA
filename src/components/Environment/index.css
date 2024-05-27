@@ -1,11 +1,11 @@
 .environment-image {
-  height: 40vh;
+  height: 300px;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .environment-image {
-    height: 237px;
+    height: 200px;
   }
 }
 
