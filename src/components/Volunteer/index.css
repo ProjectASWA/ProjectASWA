@@ -1,5 +1,5 @@
 .volunteerBg {
-  height: 387px;
+  height: 300px;
   width: 100%;
   background-size: contain;
 }
@@ -176,7 +176,7 @@
   }
   .mobileBannerVolunteer {
     display: block;
-    height: 40vh;
+    height: 200px;
   }
 }
 

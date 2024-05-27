@@ -3,23 +3,23 @@ import React, { Component } from "react";
 
 const cardImages = {
   environmentAwarness: {
-    image: "/Images/Environment1.png",
+    image: "/Images/environmentImage1.png",
     text: "Environmental awareness sessions/classes/visits in schools, colleges,",
   },
   homesAndColonies: {
-    image: "/Images/Environment2.png",
+    image: "/Images/environmentImage2.png",
     text: "Homes, and Colonies Etc.,",
   },
   plantationDrives: {
-    image: "/Images/Environment3.png",
+    image: "/Images/environmentImage3.png",
     text: "Plantation Drives.",
   },
   renovation: {
-    image: "/Images/Environment4.png",
+    image: "/Images/environmentImage4.png",
     text: "Renovation of (Old) Municipal Parks",
   },
   plasticAwarness: {
-    image: "/Images/Environment5.png",
+    image: "/Images/environmentImage5.png",
     text: "Plastic Awareness sessions",
   },
 };
