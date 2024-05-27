@@ -12,8 +12,7 @@
 
 .homeVisits-image {
   height: 300px;
-  width: 100%;
-  background-size: contain;
+  width: 100vw;
 }
 
 .homeVisitsContainerContents {
