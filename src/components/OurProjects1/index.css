@@ -78,7 +78,7 @@
   }
 }
 
-.donate-card-container {
+.donate-card-container-home {
   width: 25%;
   flex-shrink: 0;
   background: #1e9ab6;
@@ -86,21 +86,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 @media screen and (max-width: 568px) {
-  .donate-card-container {
+  .donate-card-container-home {
     width: 100%;
+    padding-bottom: 20px;
   }
 }
 
 @media screen and (min-width: 569px) and (max-width: 998px) {
-  .donate-card-container {
+  .donate-card-container-home {
     width: 50%;
   }
 }
 
-.donate-card-text {
+.donate-card-text-home {
   color: var(--color-semantic-white-100, #fff);
   font-size: 16px;
   font-family: "Sathoshi", sans-serif;
@@ -116,7 +118,7 @@
   align-items: center;
 }
 
-.donate-card-author {
+.donate-card-author-home {
   color: white;
   text-align: right;
   width: 80%;
@@ -127,7 +129,7 @@
 }
 
 @media screen and (max-width: 998px) {
-  .donate-card-text {
+  .donate-card-text-home {
     font-size: 15px;
     padding-top: 30px;
   }

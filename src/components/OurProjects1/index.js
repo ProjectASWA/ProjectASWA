@@ -150,9 +150,9 @@ class OurProjects1 extends Component {
               </Link>
             </div>
           </div>
-          <div className="donate-card-container">
-            <h4 className="donate-card-text">{randomQuote.text} </h4>
-            <p className="donate-card-author">-{randomQuote.author}</p>
+          <div className="donate-card-container-home">
+            <h4 className="donate-card-text-home">{randomQuote.text} </h4>
+            <p className="donate-card-author-home">-{randomQuote.author}</p>
           </div>
         </div>
       </div>
