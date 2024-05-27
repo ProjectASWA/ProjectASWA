@@ -110,7 +110,8 @@
 
 @media screen and (max-width: 992px) {
   .pledge-image {
-    width: 92%;
-    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
   }
 }
