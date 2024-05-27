@@ -35,12 +35,18 @@
   color: #222;
   text-align: center;
   font-family: "Sathoshi", sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   font-style: normal;
   /* font-weight: 500; */
   line-height: 50px; /* 156.25% */
   text-transform: capitalize;
   margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .environment-heading {
+    font-size: 28px;
+  }
 }
 
 .environment-description {
@@ -52,6 +58,12 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .environment-description {
+    font-size: 16px;
+  }
 }
 
 .environment-cards-container {

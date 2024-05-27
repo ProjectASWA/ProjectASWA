@@ -1,3 +1,9 @@
 .arrowImageHomeVisits {
-  padding-top: inherit;
+  padding-top: 6px;
+}
+
+@media screen and (max-width: 992px) {
+  .arrowImageHomeVisits {
+    padding-top: 0px;
+  }
 }
