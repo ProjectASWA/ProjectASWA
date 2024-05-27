@@ -71,16 +71,16 @@ const DonateProject = () => {
       <div>
         <img
           className="bloodImage"
-          src="/Images/bloodImage.jpg"
+          src="/Images/bloodDonateBannerImage.jpg"
           alt="donate Image"
         />
       </div>
       <div className="bloodContainerText">
         <h1 className="main-blood-heading-donate">Blood Connect</h1>
         <p className="main-sub-heading">
-          An initiative of Amma Social Welfare Association
+          An initiative of Amma Social Welfare Association Making emergency connections
         </p>
-        <p className="main-sub-heading">Making emergency connections</p>
+       
       </div>
       <div className="donateImageContainerMain">
         <h1 className="WhatDoesBloodConnect">What does Blood Connect do?</h1>
