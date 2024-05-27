@@ -129,6 +129,7 @@
 @media screen and (max-width: 998px) {
   .donate-card-text {
     font-size: 15px;
+    padding-top: 30px;
   }
 }
 
