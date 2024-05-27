@@ -62,7 +62,7 @@ const NavBar = () => {
         // Adjust this value as needed
         setBackgroundColor("#FAF5F1"); // New background color
         setTextColor("#000000"); // New text color
-        setBorderColor("#000000"); // New border color
+        setBorderColor("#F7E5D7"); // New border color
       } else {
         setBackgroundColor("rgba(0, 0, 0, 0.26)"); // Initial transparent background
         setTextColor("#ffffff"); // Initial text color

@@ -79,7 +79,7 @@ nav {
 
 nav .title {
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 0px;
   font-weight: bold;
   text-decoration: none;
 
@@ -133,8 +133,8 @@ nav ul li a {
 }
 
 .joinWithUs:hover {
-  background-color: grey;
-  border: 1px solid grey;
+  background-color: #f7e5d7;
+  border: 1px solid #f7e5d7;
   transform: scale(1.1);
   color: #ffffff;
 }

@@ -47,7 +47,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
-  font-family: 'Sathoshi', sans-serif;
+  font-family: "Sathoshi", sans-serif;
   margin: auto;
 }
 
@@ -66,26 +66,26 @@
 
 .higher-programs-container {
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 30px;
-  padding-left: 66px;
+  /* padding-left: 20px; */
   gap: 30px;
 }
 
 @media screen and (max-width: 768px) {
   .higher-programs-container {
     /* gap: 15px; */
-    padding-left: 56px;
+    /* padding-left: 56px; */
   }
 }
 
 .higher-education-programs-heading {
   color: #000;
-  text-align: justify;
-  font-size: 38px;
+  text-align: left;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

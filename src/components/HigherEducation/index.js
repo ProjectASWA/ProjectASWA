@@ -30,7 +30,7 @@ const HigherEducation = () => {
               <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
             <p className="program-item-description-education">
-              FACULTY DEVELOPMENT PROGRAM (FDP)
+              Faculty Devolopment Program(FDP)
             </p>
           </li>
           <li classsName="program-item">
@@ -46,7 +46,7 @@ const HigherEducation = () => {
               <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
             <p className="program-item-description-education">
-              Teacher Professional Development Program (TPDP)
+              Teacher Professional Development Program (TPDP){" "}
             </p>
           </li>
           <li classsName="program-item">
@@ -54,7 +54,7 @@ const HigherEducation = () => {
               <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
             <p className="program-item-description-education">
-              JEEVAN VIDYA / UNIVERSAL HUMAN VALUES WORKSHOPS
+              Jeevan Vidya / Universal Human Values Workshops{" "}
             </p>
           </li>
           <li classsName="program-item">
@@ -62,7 +62,7 @@ const HigherEducation = () => {
               <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
             <p className="program-item-description-education">
-              Faculty Devolopment Program(FDP)
+              Faculty Devolopment Program(FDP){" "}
             </p>
           </li>
           <li classsName="program-item">
@@ -70,13 +70,16 @@ const HigherEducation = () => {
               <img className="arrow-image1" src="/Images/arrowIndicate.png" />
             </div>
             <p className="program-item-description-education">
-              Faculty Devolopment Program(FDP)
+              Faculty Development Program(FDP){" "}
             </p>
           </li>
         </ul>
-          <a className = "knowMoreEducationLink" href="https://www.chdhc.org/our-work-1">
-            <button className="know-more-button">KNOW MORE</button>
-          </a>
+        <a
+          className="knowMoreEducationLink"
+          href="https://www.chdhc.org/our-work-1"
+        >
+          <button className="know-more-button">KNOW MORE</button>
+        </a>
       </div>
     </div>
   );
