@@ -150,6 +150,7 @@ li {
   .program-item-description-education {
     font-size: 14px;
     padding-left: 3px;
+    line-height: 24px;
   }
 }
 
@@ -211,5 +212,6 @@ li {
 @media screen and (max-width: 768px) {
   .arrow-image1 {
     height: 12px;
+    padding-bottom: 20px;
   }
 }

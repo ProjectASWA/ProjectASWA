@@ -85,11 +85,11 @@
   color: #000;
   text-align: justify;
   font-family: "Satoshi, sans-serif";
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-align: left;
 }
 
@@ -107,13 +107,14 @@
   font-family: "Satoshi, sans-serif";
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
   width: 60%;
   height: 125px;
   flex-shrink: 0;
   align-self: flex-end;
   text-align: left;
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 992px) {
