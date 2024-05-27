@@ -9,6 +9,7 @@ const VolunteerCardItem = (props)=>{
                 <div className='numberContainer'>{number}.</div>
                 <div className = "numberParaEleContainer">
                     <p className='numberParaElement'>{description}</p>
+                    <hr className='joinWithUsBorder'/>
                 </div>
             </div>
     )

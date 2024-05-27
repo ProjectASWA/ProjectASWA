@@ -149,6 +149,14 @@
   width: 100%;
 }
 
+.joinWithUsBorder{
+  border: 1.8px solid #E0DDDD;
+  width: 95%;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 996px) {
   .volunteerPara {
     font-size: 14px;
