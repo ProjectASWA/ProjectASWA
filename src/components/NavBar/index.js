@@ -127,7 +127,7 @@ const NavBar = () => {
       <Link to="/" className="title">
         <img
           className="logoResizeHomePage"
-          src="/Images/logoAswa.png"
+          src="/Images/AswaLogo.png"
           alt="Logo"
         />
       </Link>
@@ -136,7 +136,7 @@ const NavBar = () => {
         <Link to="/" className="title titleMobile">
           <img
             className="logoResizeHomePage mobileDeviceLogoResize"
-            src="/Images/logoAswa.png"
+            src="/Images/footerLogo.png"
             alt="Mobile Logo"
           />
         </Link>

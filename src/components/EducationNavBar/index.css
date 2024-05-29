@@ -28,6 +28,7 @@
 }
 
 .education-navbar-button {
+  font-family: 'Sathoshi', sans-serif;
   display: flex;
   width: 48%;
   height: 50px;
@@ -41,7 +42,7 @@
   border-width: 0px;
   /* Shadow/sm */
   box-shadow: 0px 1px 3px 0px rgba(15, 23, 42, 0.12);
-  font-family: "Satoshi, sans-serif";
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
