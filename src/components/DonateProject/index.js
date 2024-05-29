@@ -83,14 +83,19 @@ const DonateProject = () => {
        
       </div>
       <div className="donateImageContainerMain">
+      <div class="containerBloodImage">
+        <img src="/Images/bloodConnectQuestion.png" className="questionImageStyling" alt="Image"/>
+        <div class="text-overlay-blood-connect">Question</div>
+    </div>
+        <div className = "contentsBloodConnectQuestion">
         <h1 className="WhatDoesBloodConnect">What does Blood Connect do?</h1>
-        <div className="donateImageContainerDescription">
           <p className="donate-para-text">
             When there is a patient in emergency need of blood, Blood connect
             tries to find a donor.
           </p>
-          <img className="bloodImageProject" src="/Images/bloodConnectImage.png" />
+      
         </div>
+        
       </div>
       {/* <div className="how-do-blood-container">
         <h1 className="howWeDoIt">How we do it?</h1>
