@@ -10,7 +10,7 @@
 
 .success-stories-heading {
   color: #000;
-  font-family: "Satoshi, sans-serif";
+  font-family: "Sathoshi, sans-serif";
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -84,7 +84,7 @@
 .success-stories-testimonial-description {
   color: #000;
   text-align: justify;
-  font-family: "Satoshi, sans-serif";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -104,7 +104,7 @@
 
 .success-stories-testimonial-name {
   color: #000;
-  font-family: "Satoshi, sans-serif";
+  font-family: 'Sathoshi', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
