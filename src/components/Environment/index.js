@@ -34,12 +34,27 @@ class Environment extends Component {
     };
   }
 
+  // handleCardClick = (card) => {
+  //   this.setState({ selectedCard: card, clickedText: card });
+  //   // Scroll to the image
+  //   this.imageRef.current.scrollIntoView({
+  //     behavior: "smooth",
+  //     block: "start",
+  //   });
+  // };
+
   handleCardClick = (card) => {
-    this.setState({ selectedCard: card, clickedText: card });
-    // Scroll to the image
-    this.imageRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
+    this.setState({ selectedCard: card, clickedText: card }, () => {
+      // Scroll to the image
+      const offset = -100; // Adjust this value as needed
+      const elementPosition =
+        this.imageRef.current.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition + offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
     });
   };
 
@@ -56,7 +71,10 @@ class Environment extends Component {
           <div className="environment-text-container">
             <h3 className="environment-heading">Environment</h3>
             <p className="environment-description">
-            Our "SAVE EARTH" project is dedicated to combating global warming and preserving our planet. Through awareness campaigns and plantation drives, we strive to address rising pollution and temperatures.
+              Our "SAVE EARTH" project is dedicated to combating global warming
+              and preserving our planet. Through awareness campaigns and
+              plantation drives, we strive to address rising pollution and
+              temperatures.
             </p>
           </div>
           <div className="environment-cards-container">

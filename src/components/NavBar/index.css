@@ -43,6 +43,7 @@ nav {
 @media screen and (max-width: 1082px) {
   nav {
     height: auto;
+    background-color: rgb(250, 245, 241) !important;
   }
 }
 
@@ -60,6 +61,12 @@ nav {
   transition: transform 0.3s ease;
 }
 
+@media (min-width: 1082px) and (max-width: 1300px) {
+  .listNav {
+    padding: 0px;
+  }
+}
+
 .listNav:hover {
   background-color: #f7e5d7;
   border: 1px solid #f7e5d7;
@@ -71,11 +78,17 @@ nav {
 }
 
 .aboutUsButtonNav {
-  width: 110px;
+  width: 142px;
   text-align: center;
   font-family: "Sathoshi", sans-serif;
   padding-top: 5px;
   color: #ffffff;
+}
+
+@media (max-width: 1082px) {
+  .aboutUsButtonNav {
+    color: black !important;
+  }
 }
 
 .onMobileDevices {
@@ -109,7 +122,7 @@ nav ul li a {
   display: block;
   text-decoration: none;
   padding: 0.5rem;
-  margin: 0 0.5rem;
+  margin: 0;
   border-radius: 0.5rem;
 }
 
@@ -164,6 +177,12 @@ nav .menu span {
   width: 90%;
   background-color: white;
   border-radius: 0.1rem;
+}
+
+@media (max-width: 1082px) {
+  nav .menu span {
+    background-color: black;
+  }
 }
 
 .donateStyling {
@@ -324,7 +343,7 @@ nav .menu span {
 
 @media (min-width: 992px) {
   .logoResizeHomePage {
-    width: 200px;
+    width: 165px;
     padding-top: 3px;
   }
   nav {
@@ -354,4 +373,10 @@ nav .menu span {
 
 nav ul li a:hover {
   color: #fbf3ec; /* Hover color */
+}
+
+@media (max-width: 1082px) {
+  .crossIcon path {
+    fill: black;
+  }
 }
