@@ -140,6 +140,7 @@
 @media screen and (max-width: 992px) {
   .environment-cards-text {
     font-size: 18px;
+    line-height: 24px;
   }
 }
 
@@ -169,7 +170,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 24px;
   text-transform: capitalize;
   border: 1px solid #000;
   padding: 10px;

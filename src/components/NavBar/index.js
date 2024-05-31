@@ -154,9 +154,9 @@ const NavBar = () => {
               crossIcon
             ) : (
               <>
-                <span style={{ backgroundColor: textColor }}></span>
-                <span style={{ backgroundColor: textColor }}></span>
-                <span style={{ backgroundColor: textColor }}></span>
+                <span style={{}}></span>
+                <span style={{}}></span>
+                <span style={{}}></span>
               </>
             )}
           </div>
@@ -166,7 +166,7 @@ const NavBar = () => {
       <ul className={menuOpen ? "open" : ""}>
         <li className="listNav borderLineNav" onClick={handleAboutClick}>
           <Link to="/">
-            <p className="aboutUsButtonNav" style={{ color: textColor }}>
+            <p style={{ color: textColor }} className="aboutUsButtonNav">
               About US
             </p>
           </Link>
@@ -176,14 +176,16 @@ const NavBar = () => {
           onClick={handleProjectsClick}
         >
           <Link to="/">
-            <p className="ourProjectsButtonNav" style={{ color: textColor }}>
+            <p className="aboutUsButtonNav" style={{ color: textColor }}>
               Our Projects
             </p>
           </Link>
         </li>
         <li className="listNav borderLineNav">
           <Link to="/Reports" onClick={closeTheNavBar} className="linkStyling">
-            <p style={{ color: textColor }}>Reports</p>
+            <p style={{ color: textColor }} className="aboutUsButtonNav">
+              Reports
+            </p>
           </Link>
         </li>
         <li className="listNav borderLineNav">
@@ -192,7 +194,9 @@ const NavBar = () => {
             onClick={handleAboutClick}
             className="linkStyling specialLink"
           >
-            <p style={{ color: textColor }}>Media Coverage</p>
+            <p style={{ color: textColor }} className="aboutUsButtonNav">
+              Media Coverage
+            </p>
           </Link>
         </li>
         <li>
