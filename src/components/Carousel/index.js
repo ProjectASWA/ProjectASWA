@@ -47,7 +47,7 @@ const CarouselImages = () => {
         renderArrowNext={(onClickHandler, hasNext, label) =>
           hasNext && <CustomNextArrow onClick={onClickHandler} />
         }
-        interval={2000}
+        interval={3000}
         infiniteLoop
         autoPlay
       >
