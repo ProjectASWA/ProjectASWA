@@ -27,7 +27,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.26); /* Initial transparent background */
+  /* background: rgba(0, 0, 0, 0.26); /* Initial transparent background */
+  background: linear-gradient(to right, #FDFCFB,#e2d1c32a);
   position: fixed;
   top: 0;
   left: 0;
@@ -36,8 +37,10 @@ nav {
   padding: 0 20px;
   box-sizing: border-box;
   overflow-x: hidden;
+  overflow-y: hidden;
   height: 91px;
   transition: background-color 0.5s; /* Smooth transition */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1082px) {
@@ -71,17 +74,16 @@ nav {
   background-color: #f7e5d7;
   border: 1px solid #f7e5d7;
   border-radius: 5px;
-  color: #202d33;
+  color: #ffffff;
   transform: scale(1.1);
-  /* font-size: 19px;
-  font-weight: 600  ; */
+  /* font-size: 19px; */
+  font-weight: 500;
 }
 
 .aboutUsButtonNav {
   width: 142px;
   text-align: center;
   font-family: "Sathoshi", sans-serif;
-  padding-top: 5px;
   color: #ffffff;
 }
 

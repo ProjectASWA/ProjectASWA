@@ -7,8 +7,8 @@ const NavBar = () => {
   const [scrollToAbout, setScrollToAbout] = useState(false);
   const [scrollToProjects, setScrollToProjects] = useState(false);
   const [projectsActive, setProjectsActive] = useState(false); // State to track active state of "Our Projects"
-  const [backgroundColor, setBackgroundColor] = useState("rgba(0, 0, 0, 0.26)"); // Initial transparent background
-  const [textColor, setTextColor] = useState("#ffffff"); // Initial text color
+  const [backgroundColor, setBackgroundColor] = useState("linear-gradient(to right, #ffffff, rgba(0,0,0,0.02))"); // Initial transparent background
+  const [textColor, setTextColor] = useState("#000000"); // Initial text color
   const [borderColor, setBorderColor] = useState("#ffffff"); // Initial border color
   const location = useLocation();
 
@@ -58,14 +58,14 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+       if (window.scrollY > 50) {
         // Adjust this value as needed
         setBackgroundColor("#FAF5F1"); // New background color
         setTextColor("#000000"); // New text color
         setBorderColor("#F7E5D7"); // New border color
       } else {
-        setBackgroundColor("rgba(0, 0, 0, 0.26)"); // Initial transparent background
-        setTextColor("#ffffff"); // Initial text color
+        setBackgroundColor("rgba(0,0,0,0.02)"); // Initial transparent background
+        setTextColor("#000000"); // Initial text color
         setBorderColor("#ffffff"); // Initial border color
       }
     };
@@ -146,7 +146,7 @@ const NavBar = () => {
               className="donateStyling donateMobile"
               onClick={handleDonateClick}
             >
-              Donate
+              DONATE
             </button>
           </Link>
           <div className="menu" onClick={handleMenuClick}>
@@ -212,7 +212,7 @@ const NavBar = () => {
         </li>
         <li className="mobileDonate">
           <button onClick={handleDonateClick} className="donateStyling">
-            Donate
+            DONATE
           </button>
         </li>
       </ul>
