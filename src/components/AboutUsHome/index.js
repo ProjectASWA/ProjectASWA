@@ -23,20 +23,7 @@ const AboutUsHomeSection = () => {
           <div className="about-main-section-heading">
             <h1 className="about-main-heading">ASWA Organisation</h1>
           </div>
-          <div className="video-container mobileDevicesVideoContainer">
-            <ReactPlayer
-              width="90%"
-              height="300px"
-              style={{
-                borderRadius: "8px",
-                border: "3px solid black",
-                borderWidth: "10px",
-                minWidth: "202px",
-              }}
-              url="https://www.youtube.com/watch?v=aSSbjNIl1HA"
-              controls={true}
-            />
-          </div>
+          
           <div className="about-contents-text-container">
             <div className="about-contents-container">
               <p className="about-heading">Love all serve all</p>
@@ -67,6 +54,20 @@ const AboutUsHomeSection = () => {
                 </button>
               </Link>
             </div>
+          </div>
+          <div className="video-container mobileDevicesVideoContainer">
+            <ReactPlayer
+              width="90%"
+              height="300px"
+              style={{
+                borderRadius: "8px",
+                border: "3px solid black",
+                borderWidth: "10px",
+                minWidth: "202px",
+              }}
+              url="https://www.youtube.com/watch?v=aSSbjNIl1HA"
+              controls={true}
+            />
           </div>
         </div>
         <div className="video-container large-screen-video">

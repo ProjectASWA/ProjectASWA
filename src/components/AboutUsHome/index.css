@@ -206,6 +206,10 @@
   background: #36b0b8;
 }
 
+.mobileDevicesVideoContainer{
+  margin-bottom: 35px;
+}
+
 @media screen and (max-width: 1440px) {
   .arrange-about-us {
     width: 95%;
