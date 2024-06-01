@@ -69,7 +69,7 @@ const HomeVisits = () => {
   return (
     <div className="annamparabrahmam-main-container">
       <div>
-        <img src="/Images/homeVisitsBanner.png" className="homeVisits-image" />
+        <img src="/Images/homeVisitsBannerImage.png" className="homeVisits-image" />
       </div>
       <div className="homeVisitsContainerContents">
         <h1 className="homeVisitsHeading">Home Visits</h1>
