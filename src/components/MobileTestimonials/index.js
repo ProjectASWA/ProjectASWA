@@ -23,6 +23,29 @@ function MobileTestimonials() {
         <Slider {...settings}  style = {{height: "max-content", paddingBottom: "10px"}}>
         <div style = {{height: '100%'}}>
             <div className='mobile-testimonials-card'>
+                <img src="/Images/jp.jpeg" className = "image-mobile-testimonial" alt="Image 1" />
+                <div className='mobile-testimonials-contents-container'>
+                    <img
+                    className="double-quotes-image mobile-quotes"
+                    src={"/Images/double-quotes-l.1024x786.png"}
+                    />
+                    <p className="TestimonialsCard-description mobile-description">
+                        I am very happy that Mr. Srinivas, his mother, Mrs.Haritha, and the ASWA volunteers 
+                        are enthusiastic and commited in doing something useful for the society that will
+                        have long-term results. I am satisfied for being part of 14th Anniversary
+                        celebrations along with you. This environment reminded of a sentence from telugu
+                        song "Echutalo unna hayyi verechatlo ledu (ఇచ్చుటలో ఉన్న హాయి వేరేచట్టలో లేదు)", ASWA is living 
+                        example of that. I can definitely say that India has a great future when we look at the NGOs like ASWA, 
+                        who are working tirelessly for the betterment of the society.
+                    </p>
+                    <div className='mobile-testimonials-name-container'>
+                    <p className="TestimonialsCard-name mobile-name-text">- Shri Tanikella Bharani Actor, Poet & Director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style = {{height: '100%'}}>
+            <div className='mobile-testimonials-card'>
                 <img src="/Images/tanikella-bharani.avif" className = "image-mobile-testimonial" alt="Image 1" />
                 <div className='mobile-testimonials-contents-container'>
                     <img
@@ -34,7 +57,7 @@ function MobileTestimonials() {
                     have affection and love towards arts, education, life and created a
                     platform to exhibit their skills. ASWA started like a drop of water
                     7yrs ago, is currently flowing like a canal and can turn into a
-                    river & spreads out vastly.*”
+                    river & spreads out vastly.
                     </p>
                     <div className='mobile-testimonials-name-container'>
                     <p className="TestimonialsCard-name mobile-name-text">- Shri Tanikella Bharani Actor, Poet & Director</p>

@@ -50,6 +50,37 @@ const Testimonials = () => {
         showStatus={false}
         dots={false}
       >
+
+        <div className="arrangeTestimonialsRow">
+          <div>
+            <img
+              className="testimonialImageLarge"
+              src="/Images/jp.jpeg"
+              alt="Image 1"
+            />
+          </div>
+          <div className="contentsTestimonialLarge">
+            <div className="divQuotesContainer">
+              <img
+                className="fontSizeQuotes"
+                src="/Images/double-quotes-l.1024x786.png"
+              />
+            </div>
+            <p className="paraQuotesLarge">
+              I am very happy that Mr. Srinivas, his mother, Mrs.Haritha, and the ASWA volunteers 
+              are enthusiastic and commited in doing something useful for the society that will
+              have long-term results. I am satisfied for being part of 14th Anniversary
+              celebrations along with you. This environment reminded of a sentence from telugu
+              song "Echutalo unna hayyi verechatlo ledu (ఇచ్చుటలో ఉన్న హాయి వేరేచట్టలో లేదు)", ASWA is living 
+              example of that. I can definitely say that India has a great future when we look at the NGOs like ASWA, 
+              who are working tirelessly for the betterment of the society.
+            </p>
+            <h1 className="testimonials-title-large">
+              - Shri Jayaprakash Narayan <br></br>Rtd. IAS
+            </h1>
+          </div>
+        </div>
+
         <div className="arrangeTestimonialsRow">
           <div>
             <img

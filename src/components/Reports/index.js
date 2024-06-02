@@ -10,14 +10,14 @@ const AnnualReportsObj = [
   {
     id: 1,
     year: 2023,
-    image: "/Images/annualReportPoster.jpg",
+    image: "/Images/ImpactReport2023.png",
     description: "2023 Annual Reports",
     pdfLink: "/Images/annualReports2023.pdf",
   },
   {
     id: 2,
     year: 2022,
-    image: "/Images/annualReport2022.png",
+    image: "/Images/ImpactReport2022.png",
     description: "2022 Annual Reports",
     pdfLink: "/Images/annualReports2022.pdf",
   },
@@ -167,7 +167,7 @@ class Reports extends Component {
               }}
               className={`${annualButton ? "activeButtonReports" : ""} buttonReports`}
             >
-              Annual reports
+              Impact reports
             </button>
           </div>
           <div className="buttonReportsContainer">
