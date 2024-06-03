@@ -15,6 +15,7 @@ const randomIndex = Math.floor(Math.random() * quotationsArr.length);
 
 const Footer = () => {
   return (
+    <div>
     <div className="footer-main-container">
       <div className="footer-sub-container">
         <div className="footer-section-first-container">
@@ -28,7 +29,7 @@ const Footer = () => {
                     className="locationImageFooter"
                     src="/Images/email.svg"
                   />
-                  <p className="mail">amma.aswa@gmail.com</p>
+                  <p className="mail">info@aswa4u.org</p>
                 </div>
               </a>
             </div>
@@ -155,6 +156,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    </div>
+    <p className="copyright">
+          {" "}
+          © 2024 ASWA - Amma Social Welfare Assosication. All rights reserved.{" "}
+        </p>                
     </div>
   );
 };

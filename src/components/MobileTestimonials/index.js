@@ -39,7 +39,8 @@ function MobileTestimonials() {
                         who are working tirelessly for the betterment of the society.
                     </p>
                     <div className='mobile-testimonials-name-container'>
-                    <p className="TestimonialsCard-name mobile-name-text">- Shri Tanikella Bharani Actor, Poet & Director</p>
+                    <p className="TestimonialsCard-name mobile-name-text">- Shri Jayaprakash Narayan
+                    <br/>Rtd.IAS</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +61,8 @@ function MobileTestimonials() {
                     river & spreads out vastly.
                     </p>
                     <div className='mobile-testimonials-name-container'>
-                    <p className="TestimonialsCard-name mobile-name-text">- Shri Tanikella Bharani Actor, Poet & Director</p>
+                    <p className="TestimonialsCard-name mobile-name-text">- Shri Tanikella Bharani Actor
+                    <br/>Poet & Director</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +82,7 @@ function MobileTestimonials() {
                     </p>
                     <div className='mobile-testimonials-name-container'>
                     <p className="TestimonialsCard-name mobile-name-text">- Shri Tammareddy Bharadwaj
-                    Producer & Director.</p>
+                    <br/>Producer & Director.</p>
                     </div>
                 </div>
             </div>
@@ -99,7 +101,8 @@ function MobileTestimonials() {
                     Work on root cause of the problems and fix them for better society.
                     </p>
                     <div className='mobile-testimonials-name-container'>
-                    <p className="TestimonialsCard-name mobile-name-text">- Padma Shri Sirivennela Seetharama Sastry Lyricist & Poet</p>
+                    <p className="TestimonialsCard-name mobile-name-text">- Padma Shri Sirivennela Seetharama Sastry 
+                    <br/>Lyricist & Poet</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +123,7 @@ function MobileTestimonials() {
                     </p>
                     <div className='mobile-testimonials-name-container'>
                     <p className="TestimonialsCard-name mobile-name-text">- Shri V V Lakshmi Narayana
-                    Ex. JD CBI</p>
+                    <br/>Ex. JD CBI</p>
                     </div>
                 </div>
             </div>
