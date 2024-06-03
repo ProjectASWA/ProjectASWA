@@ -40,9 +40,9 @@ function App() {
           <Route exact path="/Education" component={Education} />
           <Route exact path="/AnnamParabrahmam" component={AnnamParabrahmam} />
           <Route exact path="/Environment" component={Environment} />
-          <Route exact path="/DonateProject" component={DonateProject} />
+          <Route exact path="/bloodconnect" component={DonateProject} />
           <Route exact path="/HomeVisits" component={HomeVisits} />
-          <Route exact path="/volunteer" component={Volunteer} />
+          <Route exact path="/join-us/become-a-member" component={Volunteer} />
           <Route exact path="/pdf" component={PdfComponent} />
           <Route exact path="/impactReports" component={ImpactReports} />
           <Route exact path="/donate" component={donate} />

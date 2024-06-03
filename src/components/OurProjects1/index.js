@@ -108,7 +108,7 @@ class OurProjects1 extends Component {
           >
             <div className="our-projects1-image-text-container">
               <p className="our-projects1-image-heading">Blood Connect</p>
-              <Link className="ourprojectscard-link" to={"/DonateProject"}>
+              <Link className="ourprojectscard-link" to={"/bloodconnect"}>
                 <button className="our-projects1-image-button">
                   Know More
                 </button>

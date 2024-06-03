@@ -200,7 +200,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/volunteer">
+          <Link to="/join-us/become-a-member/">
             <button
               className="joinWithUs"
               onClick={handleAboutClick}
