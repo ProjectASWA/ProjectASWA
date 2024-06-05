@@ -18,7 +18,12 @@ const CustomNextArrow = ({ onClick }) => (
 
 const CarouselImages = () => {
   const history = useHistory();
-  const handleClick = () => {
+
+  const handleClickReport = () => {
+    history.push("/Reports");
+  };
+
+  const handleClickEducation = () => {
     history.push("/Education");
   };
 
@@ -51,6 +56,17 @@ const CarouselImages = () => {
         infiniteLoop
         autoPlay
       >
+        <div className="customCarousel6">
+          <div className="customCarouselTextContainer">
+            <h1 className="carouselHeading">Impact Report 2023-24</h1>
+            <p className="carouselDescription">
+              A document which showcases our hard work, struggle, progress, achivements, accountability, transparency and much more.
+            </p>
+            <button onClick={handleClickReport} className="knowMoreCarousel">
+              Know More
+            </button>
+          </div>
+        </div>
         <div className="customCarousel5">
           <div className="customCarousel5Container">
             <div className="arrangeDecoration">
@@ -95,7 +111,7 @@ const CarouselImages = () => {
               Providing quality education and career guidance to unlock
               potential and create opportunities.
             </p>
-            <button onClick={handleClick} className="knowMoreCarousel">
+            <button onClick={handleClickEducation} className="knowMoreCarousel">
               Know More
             </button>
           </div>

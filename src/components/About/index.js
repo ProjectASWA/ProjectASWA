@@ -3,12 +3,14 @@ import { withRouter } from "react-router-dom";
 import "./index.css";
 import SuccessStories from "../SuccessStories";
 import OurTeam from "../OurTeam";
+import WorkingCommitte from "../WorkingCommitee";
 import VisionAndMission from "../VisionAndMission";
 import AboutUsNavbar from "../AboutUsNavbar";
 
 const headerImages = {
   SuccessStories: "/Images/Success Stories (1).png",
   OurTeam: "/Images/ourteam.png",
+  WorkingCommitte: "/Images/ourteam.png",
   VisionAndMission: "/Images/Vision And Mission.png",
 };
 
@@ -56,6 +58,8 @@ class About extends Component {
     switch (selectedComponent) {
       case "OurTeam":
         return <OurTeam />;
+      case "WorkingCommitte":
+          return <WorkingCommitte />;        
       case "VisionAndMission":
         return <VisionAndMission />;
       default:

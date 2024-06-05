@@ -32,7 +32,7 @@
 
 .visionandmission-navbar-button {
   display: flex;
-  width: 30%;
+  width: 20%;
   height: 40px;
   padding: var(--Spacing-2xs, 8px) var(--Spacing-xs, 12px);
   justify-content: center;

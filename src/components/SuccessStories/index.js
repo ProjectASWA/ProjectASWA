@@ -3,7 +3,7 @@ import "./index.css";
 const SuccessStories = () => {
   return (
     <div className="success-stories-container">
-      <h1 className="success-stories-heading">Success Stories</h1>
+      <br/>
       <div className="testimonials-container1">
         <div className="success-stories-testimonials-container">
           <div className="success-stories-testimonial-image-container">

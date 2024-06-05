@@ -1,0 +1,122 @@
+.our-team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .our-team-container {
+    width: 98%;
+    margin-top: 0px;
+  }
+}
+
+.our-team-heading {
+  color: #000;
+  font-family: 'Sathoshi', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.our-team-cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.our-team-card-container {
+  display: flex;
+  width: 26%;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .our-team-card-container {
+    width: 37%;
+    /* gap: 15px; */
+  }
+}
+
+.our-team-image {
+  height: 371px;
+  width: 100%;
+}
+
+.our-team-image-1 {
+  height: 371px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 556px) {
+  .our-team-image {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 557px) and (max-width: 992px) {
+  .our-team-image {
+    height: 275px;
+    width: 100%;
+  }
+}
+
+.our-team-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 11px;
+  text-align: left;
+}
+
+.our-team-text-heading {
+  color: #2e4049;
+  font-family: 'Sathoshi', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 28.8px */
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .our-team-text-heading {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.our-team-text-description {
+  color: #2e4049;
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .our-team-text-description {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}

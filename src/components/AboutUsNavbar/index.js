@@ -27,6 +27,14 @@ const AboutUsNavbar = ({ onSelectedComponent, activeComponent }) => {
       </button>
       <button
         className={`visionandmission-navbar-button ${
+          activeComponent === "WorkingCommitte" ? "active" : ""
+        }`}
+        onClick={() => handleButtonClick("WorkingCommitte")}
+      >
+        Working Committe
+      </button>      
+      <button
+        className={`visionandmission-navbar-button ${
           activeComponent === "SuccessStories" ? "active" : ""
         }`}
         onClick={() => handleButtonClick("SuccessStories")}

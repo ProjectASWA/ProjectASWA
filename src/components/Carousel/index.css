@@ -1,3 +1,25 @@
+.customCarousel6 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/impactreportbanner.jpg");
+  position: relative;
+  z-index: 1001;
+}
+
+.customCarousel6 h1 {
+  font-size: 74px;
+  color: rgb(184, 141, 241);
+  word-break: normal;
+  width: 60%;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 75px;
+  font-family: "Sathoshi", sans-serif;
+  margin-bottom: 5px;
+}
+
 .customCarousel1 {
   height: 100vh;
   width: 100%;
@@ -288,6 +310,12 @@ Carousel {
   }
 
   .carouselHeading {
+    font-size: 32px;
+    width: 90%;
+    padding-left: 30px;
+  }
+
+  .customCarousel6 h1 {
     font-size: 32px;
     width: 90%;
     padding-left: 30px;
