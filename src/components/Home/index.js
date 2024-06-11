@@ -23,12 +23,13 @@ const Home = () => {
       <AboutUsHomeSection />
       <Impact />
       <OurProjects1 />
-
-      <div className="testimonials-large-devices">
-        <Testimonials />
-      </div>
-      <div className="testimonials-small-devices">
-        <MobileTestimonials />
+      <div id="Testimonials">
+        <div className="testimonials-large-devices">
+          <Testimonials />
+        </div>
+        <div className="testimonials-small-devices">
+          <MobileTestimonials />
+        </div>
       </div>
       <CSRPartners />
     </div>

@@ -14,7 +14,8 @@ import DonateProject from "./components/DonateProject";
 import HomeVisits from "./components/HomeVisits";
 import Volunteer from "./components/Volunteer";
 import PdfComponent from "./components/PdfComponent";
-import ImpactReports from "./components/ImpactReports";
+import ImpactNumbers from "./components/ImpactNumbers";
+import ImpactSummary from "./components/ImpactSummary";
 import Footer from "./components/Footer";
 import VisionAndMission from "./components/VisionAndMission";
 import OurProjects1 from "./components/OurProjects1"; // Add this import
@@ -44,7 +45,8 @@ function App() {
           <Route exact path="/HomeVisits" component={HomeVisits} />
           <Route exact path="/join-us/become-a-member" component={Volunteer} />
           <Route exact path="/pdf" component={PdfComponent} />
-          <Route exact path="/impactReports" component={ImpactReports} />
+          <Route exact path="/OurImpact" component={ImpactNumbers} />
+          <Route exact path="/ImpactSummary" component={ImpactSummary} />          
           <Route exact path="/donate" component={donate} />
           <Route exact path="/ourProjects1" component={OurProjects1} />{" "}
           {/* Add this route */}

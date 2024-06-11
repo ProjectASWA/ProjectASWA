@@ -58,7 +58,7 @@ const Impact = () => {
   }, []);
 
   return (
-    <div className="arrangeCount">
+    <div className="arrangeCount" id="Our-Impact">
       <h1 className="impact-heading">Our Impact</h1>
       <div className="column-container">
         <div className="arrangeBgContainer" ref={targetRef}>
@@ -69,7 +69,7 @@ const Impact = () => {
               ))}
           </div>
           <div className="impact-button-container">
-            <Link className="link" to="/impactReports">
+            <Link className="link" to="/ImpactSummary">
               <button className="impact-button">KNOW MORE</button>
             </Link>
           </div>

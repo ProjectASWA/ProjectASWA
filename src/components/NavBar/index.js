@@ -6,7 +6,10 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrollToAbout, setScrollToAbout] = useState(false);
   const [scrollToProjects, setScrollToProjects] = useState(false);
+  const [scrollToImpact, setScrollToImpact] = useState(false);
+  const [scrollToTestimonials, setScrollToTestimonials] = useState(false);
   const [projectsActive, setProjectsActive] = useState(false); // State to track active state of "Our Projects"
+  const [impactActive, setImpactActive] = useState(false); // State to track active state of "Our Projects"
   const [backgroundColor, setBackgroundColor] = useState("linear-gradient(to right, #ffffff, rgba(0,0,0,0.02))"); // Initial transparent background
   const [textColor, setTextColor] = useState("#000000"); // Initial text color
   const [borderColor, setBorderColor] = useState("#ffffff"); // Initial border color
@@ -57,6 +60,37 @@ const NavBar = () => {
   }, [scrollToProjects]);
 
   useEffect(() => {
+    if (scrollToImpact) {
+      const impactSection = document.getElementById("Our-Impact");
+      if (impactSection) {
+        const yOffset = -100;
+        const y =
+        impactSection.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+      setScrollToImpact(false);
+    }
+  }, [scrollToImpact]);
+
+  useEffect(() => {
+    if (scrollToTestimonials) {
+      const impactSection = document.getElementById("Testimonials");
+      if (impactSection) {
+        const yOffset = -100;
+        const y =
+        impactSection.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+      setScrollToTestimonials(false);
+    }
+  }, [scrollToTestimonials]);
+
+
+  useEffect(() => {
     const handleScroll = () => {
        if (window.scrollY > 50) {
         // Adjust this value as needed
@@ -89,6 +123,16 @@ const NavBar = () => {
 
   const handleProjectsClick = () => {
     setScrollToProjects(true);
+    setMenuOpen(false);
+  };
+
+  const handleImpactClick = () => {
+    setScrollToImpact(true);
+    setMenuOpen(false);
+  };
+
+  const handleTestimonialsClick = () => {
+    setScrollToTestimonials(true);
     setMenuOpen(false);
   };
 
@@ -181,17 +225,29 @@ const NavBar = () => {
             </p>
           </Link>
         </li>
-        <li className="listNav borderLineNav">
-          <Link to="/Reports" onClick={closeTheNavBar} className="linkStyling">
+        <li
+          className={`listNav borderLineNav ${impactActive ? "active" : ""}`} // Add active class conditionally
+          onClick={handleImpactClick}
+        >
+          <Link to="/" onClick={closeTheNavBar} className="linkStyling">
             <p style={{ color: textColor }} className="aboutUsButtonNav">
-              Reports
+              Our Impact
             </p>
           </Link>
         </li>
+        <li
+          className={`listNav borderLineNav ${impactActive ? "active" : ""}`} // Add active class conditionally
+          onClick={handleTestimonialsClick}
+        >
+          <Link to="/" onClick={closeTheNavBar} className="linkStyling specialLink">
+            <p style={{ color: textColor }} className="aboutUsButtonNav">
+              Testimonials
+            </p>
+          </Link>
+        </li>        
         <li className="listNav borderLineNav">
           <Link
             to="/MediaCoverage"
-            onClick={handleAboutClick}
             className="linkStyling specialLink"
           >
             <p style={{ color: textColor }} className="aboutUsButtonNav">

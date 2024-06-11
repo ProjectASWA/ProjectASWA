@@ -57,7 +57,7 @@ nav {
   color: #ffffff;
   cursor: pointer;
   height: 40px;
-  padding: 10px;
+  padding: 4px;
   display: flex;
   align-items: center;
   transform: scale(1);
@@ -228,7 +228,13 @@ nav .menu span {
   }
 }
 
-@media (max-width: 1082px) {
+@media (min-width: 1080px) and (max-width: 1320px) {
+  .specialLink {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
   nav .menu {
     display: flex;
     align-items: center;
