@@ -6,37 +6,6 @@ import "./index.css";
 import AnnualReport from "../AnnualReport";
 import FinancialSection from "../FinancialSection";
 
-const AnnualReportsObj = [
-  {
-    id: 1,
-    year: 2024,
-    image: "/Images/ImpactReport2024.png",
-    description: "2023-24 Impact Report",
-    pdfLink: "/Images/ImpactReport2024.pdf",
-  },
-  {
-    id: 2,
-    year: 2023,
-    image: "/Images/ImpactReport2023.png",
-    description: "2022-23 Impact Report",
-    pdfLink: "/Images/annualReports2023.pdf",
-  },
-  {
-    id: 3,
-    year: 2022,
-    image: "/Images/ImpactReport2022.png",
-    description: "2019-22 Impact Report",
-    pdfLink: "/Images/annualReports2022.pdf",
-  },
-  {
-    id: 4,
-    year: 2022,
-    image: "/Images/annualReport2021.jpg",
-    description: "2021 Impact Report",
-    pdfLink: "/Images/annualReports2022.pdf",
-  },
-];
-
 const financialReportsObj = [
   {
     id: 1,
@@ -114,8 +83,7 @@ class Reports extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      annualButton: true,
-      financialButton: false,
+      financialButton: true,
       statuoryButton: false,
       carrierGuidanceButton: false,
     };
@@ -129,19 +97,12 @@ class Reports extends Component {
 
   render() {
     const {
-      annualButton,
       financialButton,
       statuoryButton,
       carrierGuidanceButton,
     } = this.state;
     return (
       <div className="reportsContainerBg">
-        {annualButton ? (
-          <img
-            className="reportsImageBackground"
-            src="/Images/Annual Reports.png"
-          />
-        ) : null}
         {financialButton ? (
           <img
             className="reportsImageBackground"
@@ -166,22 +127,6 @@ class Reports extends Component {
             <button
               onClick={() => {
                 this.setState({
-                  annualButton: true,
-                  financialButton: false,
-                  statuoryButton: false,
-                  carrierGuidanceButton: false,
-                });
-              }}
-              className={`${annualButton ? "activeButtonReports" : ""} buttonReports`}
-            >
-              Impact reports
-            </button>
-          </div>
-          <div className="buttonReportsContainer">
-            <button
-              onClick={() => {
-                this.setState({
-                  annualButton: false,
                   financialButton: true,
                   statuoryButton: false,
                   carrierGuidanceButton: false,
@@ -189,14 +134,13 @@ class Reports extends Component {
               }}
               className={`${financialButton ? "activeButtonReports" : ""} buttonReports`}
             >
-              Financial reports
+              Financial documents
             </button>
           </div>
           <div className="buttonReportsContainer">
             <button
               onClick={() => {
                 this.setState({
-                  annualButton: false,
                   financialButton: false,
                   statuoryButton: true,
                   carrierGuidanceButton: false,
@@ -204,14 +148,13 @@ class Reports extends Component {
               }}
               className={`${statuoryButton ? "activeButtonReports" : ""} buttonReports`}
             >
-              Statutory document
+              Statutory documents
             </button>
           </div>
           <div className="buttonReportsContainer">
             <button
               onClick={() => {
                 this.setState({
-                  annualButton: false,
                   financialButton: false,
                   statuoryButton: false,
                   carrierGuidanceButton: true,
@@ -223,20 +166,6 @@ class Reports extends Component {
             </button>
           </div>
         </div>
-        {annualButton ? (
-          <div className="reportsPosterArrange">
-            {AnnualReportsObj.map((eachDetails) => {
-              let a;
-              return (
-                <AnnualReport
-                  handleClick={this.openPdf}
-                  key={eachDetails.id}
-                  details={eachDetails}
-                />
-              );
-            })}
-          </div>
-        ) : null}
         {financialButton ? (
           <div className="reportsPosterArrange">
             {financialReportsObj.map((eachDetails) => {

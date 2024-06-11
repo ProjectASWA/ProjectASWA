@@ -12,12 +12,12 @@ const ImpactReports = () => {
       <div className="impact-reports-cards-container">
         <div className="impact-reports-first-card-container">
           <div className="environment-impact-reports-card">
-            <h4 className="impact-reports-card-heading">Impact Reports</h4>
+            <h4 className="impact-reports-card-heading">Volunteers</h4>
             <div className="environment-description-card">
               <h1 className="impact-reports-count">3500+</h1>
               <p className="impact-reports-card-description">
                 Our active participation includes over 3500 volunteers and
-                donors who achieved the following
+                donors who <i>achieved the following</i>
               </p>
             </div>
           </div>

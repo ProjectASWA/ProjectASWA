@@ -34,7 +34,7 @@ function MobileTestimonials() {
                         are enthusiastic and commited in doing something useful for the society that will
                         have long-term results. I am satisfied for being part of 14th Anniversary
                         celebrations along with you. This environment reminded of a sentence from telugu
-                        song "Echutalo unna hayyi verechatlo ledu (ఇచ్చుటలో ఉన్న హాయి వేరేచట్టలో లేదు)", ASWA is living 
+                        song "the pleasure in giving is not in any other activity (ఇచ్చుటలో ఉన్న హాయి వేరేచట్టలో లేదు)", ASWA is living 
                         example of that. I can definitely say that India has a great future when we look at the NGOs like ASWA, 
                         who are working tirelessly for the betterment of the society.
                     </p>

@@ -394,7 +394,6 @@ Carousel {
   /* Adjust positioning and dimensions of the carousel */
   position: relative;
   width: 100%;
-
   overflow: hidden;
   height: 100%;
   bottom: 5%;

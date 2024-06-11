@@ -20,7 +20,7 @@ const CarouselImages = () => {
   const history = useHistory();
 
   const handleClickReport = () => {
-    history.push("/Reports");
+    history.push("/ImpactSummary");
   };
 
   const handleClickEducation = () => {
@@ -56,17 +56,6 @@ const CarouselImages = () => {
         infiniteLoop
         autoPlay
       >
-        <div className="customCarousel6">
-          <div className="customCarouselTextContainer">
-            <h1 className="carouselHeading">Impact Report 2023-24</h1>
-            <p className="carouselDescription">
-              A document which showcases our hard work, struggle, progress, achivements, accountability, transparency and much more.
-            </p>
-            <button onClick={handleClickReport} className="knowMoreCarousel">
-              Know More
-            </button>
-          </div>
-        </div>
         <div className="customCarousel5">
           <div className="customCarousel5Container">
             <div className="arrangeDecoration">
@@ -104,6 +93,17 @@ const CarouselImages = () => {
             </div>
           </div>
         </div>
+        <div className="customCarousel6">
+          <div className="customCarouselTextContainer">
+            <h1 className="carouselHeading">Impact Report 2024</h1>
+            <p className="carouselDescription">
+              A document which showcases our hard work, struggle, progress, achivements, accountability, transparency and much more.
+            </p>
+            <button onClick={handleClickReport} className="knowMoreCarousel">
+              Know More
+            </button>
+          </div>
+        </div>        
         <div className="customCarousel1">
           <div className="customCarouselTextContainer">
             <h1 className="carouselHeading">Building Brighter Futures</h1>
