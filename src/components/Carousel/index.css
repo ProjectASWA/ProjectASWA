@@ -30,6 +30,16 @@
   z-index: 1001;
 }
 
+.customCarousel7 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/16th_Anniversary_Photo_SmallSize.jpg");
+  position: relative;
+  z-index: 1001;
+}
+
 Carousel {
   position: relative;
   z-index: 1001; /* Higher z-index for the carousel */

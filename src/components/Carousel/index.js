@@ -164,7 +164,8 @@ const CarouselImages = () => {
             </button>
           </div>
         </div>
-
+        <div className="customCarousel7">
+        </div>
         {/* Add more carousel items as needed */}
       </Carousel>
     </div>
