@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3bd92f5.css",
-    "main.js": "/static/js/main.6a0c9268.js",
+    "main.css": "/static/css/main.0160b0fe.css",
+    "main.js": "/static/js/main.1ee88ceb.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.dc866867.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.4bcf9971.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.794a7f52.chunk.js",
@@ -18,6 +18,7 @@
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b4b598b6.chunk.js",
     "static/media/EducationBannerChildren.jpg": "/static/media/EducationBannerChildren.131f774752b627724566.jpg",
     "static/media/successStories.png": "/static/media/successStories.936d40e6c2f7f79c88d6.png",
+    "static/media/16th_Anniversary_Photo_SmallSize.jpg": "/static/media/16th_Anniversary_Photo_SmallSize.7a39f8572a7beecc7186.jpg",
     "static/media/environmentBanner.jpg": "/static/media/environmentBanner.36881b046bcf11ee7918.jpg",
     "static/media/bloodImageDonateMobile.jpg": "/static/media/bloodImageDonateMobile.daf165a78ad56f060e76.jpg",
     "static/media/donateBanner.jpg": "/static/media/donateBanner.daf165a78ad56f060e76.jpg",
@@ -31,8 +32,8 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.d3bd92f5.css.map": "/static/css/main.d3bd92f5.css.map",
-    "main.6a0c9268.js.map": "/static/js/main.6a0c9268.js.map",
+    "main.0160b0fe.css.map": "/static/css/main.0160b0fe.css.map",
+    "main.1ee88ceb.js.map": "/static/js/main.1ee88ceb.js.map",
     "reactPlayerYouTube.dc866867.chunk.js.map": "/static/js/reactPlayerYouTube.dc866867.chunk.js.map",
     "reactPlayerSoundCloud.4bcf9971.chunk.js.map": "/static/js/reactPlayerSoundCloud.4bcf9971.chunk.js.map",
     "reactPlayerVimeo.794a7f52.chunk.js.map": "/static/js/reactPlayerVimeo.794a7f52.chunk.js.map",
@@ -49,7 +50,7 @@
     "reactPlayerPreview.b4b598b6.chunk.js.map": "/static/js/reactPlayerPreview.b4b598b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3bd92f5.css",
-    "static/js/main.6a0c9268.js"
+    "static/css/main.0160b0fe.css",
+    "static/js/main.1ee88ceb.js"
   ]
 }

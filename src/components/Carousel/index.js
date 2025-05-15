@@ -56,6 +56,8 @@ const CarouselImages = () => {
         infiniteLoop
         autoPlay
       >
+      <div className="customCarousel7">
+        </div>
         <div className="customCarousel5">
           <div className="customCarousel5Container">
             <div className="arrangeDecoration">
@@ -68,7 +70,7 @@ const CarouselImages = () => {
             </div>
             <div className="arrangeYearsBannerContainer">
               <div className="years16Container">
-                <img className="years16Image" src="/Images/banner16YearsChange.png" />
+                <img className="years16Image" src="/Images/17th-anniversary-golden-edition.png" />
               </div>
               <div className="childrenImageContainer">
                 <img
@@ -163,8 +165,6 @@ const CarouselImages = () => {
               Know More
             </button>
           </div>
-        </div>
-        <div className="customCarousel7">
         </div>
         {/* Add more carousel items as needed */}
       </Carousel>
