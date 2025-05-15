@@ -1,6 +1,7 @@
 import "./index.css";
 
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const mediaCoveragesImagesObj = [
   {
@@ -38,7 +39,15 @@ const mediaCoveragesImagesObj = [
   {
     id: 9,
     imageUrl: "/Images/mediaCoverage9.jpg",
-  },
+  }
+];
+
+const mediaCoveragesImagesObjwthLinks = [
+  {
+    id: 1,
+    imageUrl: "/Images/mediaCoverage10.png",
+    link: "https://epaper.navatelangana.com/Home/FullPage?eid=38&edate=16/06/2024&pgid=116316"
+  }
 ];
 
 const MediaCoverage = () => {
@@ -52,6 +61,18 @@ const MediaCoverage = () => {
         className="mediaCoverageImageBanner"
       />
       <div className="mediaCoverageImageContainer">
+      {mediaCoveragesImagesObjwthLinks.map((eachImage) => {
+          return (
+            <div>
+              <Link to={{ pathname: eachImage.link }} target="_blank">
+              <img
+                src={eachImage.imageUrl}
+                className="mediaCoverageImageStyling"
+              />
+              </Link>
+            </div>
+          );
+        })}        
         {mediaCoveragesImagesObj.map((eachImage) => {
           return (
             <div>

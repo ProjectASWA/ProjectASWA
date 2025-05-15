@@ -15,16 +15,17 @@
   }
 }
 
-.our-team-heading {
+/* .our-team-heading {
   color: #000;
   font-family: 'Sathoshi', sans-serif;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 30px;
+  font-style: bold;
   font-weight: 400;
   line-height: normal;
   margin-top: 10px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 15px;
+  margin-right: 5px;
+} */
 
 .our-team-cards-container {
   display: flex;
@@ -39,7 +40,7 @@
 
 .our-team-card-container {
   display: flex;
-  width: 26%;
+  width: 20%;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;

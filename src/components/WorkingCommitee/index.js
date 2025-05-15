@@ -3,6 +3,7 @@ import "./index.css";
 const WorkingCommitte = () => {
   return (
     <div className="our-team-container">
+      {/* <h2 className="our-team-heading">Workig Committee</h2> */}
       <div className="our-team-cards-container">
         <div className="our-team-card-container">
           <img src="/Images/ourTeam1.png" className="our-team-image" />
@@ -11,7 +12,8 @@ const WorkingCommitte = () => {
               Sreenivasa Prasad Sarvaraju
             </h4>
             <p className="our-team-text-description">
-              Founder & President <br/> Master's Degree In Financial Management (MFM)
+              Founder & President <br/>                        
+              Master's Degree In Financial Management (MFM)
               Worked in S&P Capital IQ.
             </p>
           </div>

@@ -13,7 +13,8 @@ const OurTeam = () => {
               Sreenivasa Prasad Sarvaraju
             </h4>
             <p className="our-team-text-description">
-              Founder & President Master's Degree In Financial Management (MFM)
+              Founder & President <br/>
+              Master's Degree In Financial Management (MFM)
               Worked in S&P Capital IQ
             </p>
           </div>
@@ -44,8 +45,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Dr. Hari Kumar Voruganti</h4>
             <p className="our-team-text-description">
-              Joint Secretary Ph.D. holder from IIT Kanpur. Associate Professor
-              of Mechanical Engineering in NIT Warangal.
+              Joint Secretary <br/>
+              Ph.D. from IIT Kanpur <br/>
+              Associate Professor @ NIT Warangal
             </p>
           </div>
         </div>
@@ -54,8 +56,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Naresh Kumar Burjukadi</h4>
             <p className="our-team-text-description">
-              Treasurer Master of Commerce Working in Distribution Department of
-              Indian Immunological Ltd
+              Treasurer <br/>
+              Master of Commerce <br/>
+              Working @ Indian Immunological Ltd
             </p>
           </div>
         </div>
@@ -64,8 +67,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Haritha Vemulapalli</h4>
             <p className="our-team-text-description">
-              Executive Member Master of Business Administration Worked as
-              Senior Research Associate in S&P Capital IQ
+              Executive Member <br/>
+              Master of Business Administration <br/>
+              Senior Research Associate @ S&P Capital IQ
             </p>
           </div>
         </div>
@@ -74,8 +78,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Sarath Chandra Vakati</h4>
             <p className="our-team-text-description">
-              Executive Member M.Com with MFM Working as Data Researcher in S &
-              P Globa
+              Executive Member <br/>
+              M.Com with MFM <br/>
+              Data Researcher @ S & P Global
             </p>
           </div>
         </div>
@@ -84,8 +89,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Mahesh Desu</h4>
             <p className="our-team-text-description">
-              Executive Member Master of Business Administration Working as an
-              Operational Head of Ganaay Millets Pvt Ltd
+              Executive Member <br/>
+              Master of Business Administration <br/>
+              Operational Head @ Ganaay Millets Pvt Ltd
             </p>
           </div>
         </div>
@@ -94,8 +100,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Dhanesh Kumar Khakkar</h4>
             <p className="our-team-text-description">
-              Project Leader - 'Vikas Primary' Master of Business Administration
-              Working as a Data Researcher in S & P Global
+              Project Leader - 'Vikas Primary' <br/>
+              Master of Business Administration <br/>
+              Data Researcher @ S & P Global
             </p>
           </div>
         </div>
@@ -106,8 +113,9 @@ const OurTeam = () => {
               Srinivasa Chakravarthi Borra
             </h4>
             <p className="our-team-text-description">
-              Project Leader - 'Vikas- High School' Master of Computer
-              Applications Working as a Software Engg in Cognizant Technologies
+              Project Leader - 'Vikas- High School' <br/>
+              Master of Computer Applications <br/>
+              Software Engineer @ Cognizant Technologies
             </p>
           </div>
         </div>
@@ -116,8 +124,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Siva Sankar Kantheti</h4>
             <p className="our-team-text-description">
-              Core Team Member- 'CHDHC' Master's in Education Working for
-              Viridus Social Impact Solutions
+              Core Team Member- 'CHDHC' <br/>
+              Master's in Education <br/>
+              Working for Viridus Social Impact Solutions
             </p>
           </div>
         </div>
@@ -126,8 +135,9 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Parameswarachari Sharabu</h4>
             <p className="our-team-text-description">
-              Project Leader - Annam Parabhramam M.B.A. Working as a Research
-              Associate in S & P Global
+              Project Leader - Annam Parabhramam <br/>
+              Master of Business Administration <br/>
+              Working as a Research Associate in S & P Global
             </p>
           </div>
         </div>
@@ -136,8 +146,8 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Suman Yelati</h4>
             <p className="our-team-text-description">
-              Core Team Member- 'CHDHC' B Tech from IIIT-Hyderabad Software
-              Architect, Bosch, USA
+              Core Team Member- 'CHDHC' <br/>
+              B.Tech from IIIT- Hyderabad Software Architect, Bosch, USA
             </p>
           </div>
         </div>
@@ -146,8 +156,8 @@ const OurTeam = () => {
           <div className="our-team-text-container">
             <h4 className="our-team-text-heading">Mani Kumar Kalavala</h4>
             <p className="our-team-text-description">
-              Project Leader - Share & Care Master of Technology Working in TATA
-              Consultancy Services
+              Project Leader - Share & Care <br/>
+              Master of Technology Working in TATA Consultancy Services
             </p>
           </div>
         </div>

@@ -25,9 +25,9 @@ const SuccessStories = () => {
               life.
             </p>
             <p className="success-stories-testimonial-name">
-              - Ramya Dudapaka <br />
-              First Generation College-Going Student, Cheyutha Scholarship
-              Recipient
+              Ramya Dudapaka <br />
+              First Generation College-Going Student <br/>
+              Cheyutha Scholarship Recipient
             </p>
           </div>
         </div>
@@ -64,9 +64,9 @@ const SuccessStories = () => {
               with ASWA.
             </p>
             <p className="success-stories-testimonial-name">
-              - Jagadeesh Nandyala,
-              <br /> markapuram Andhra Pradesh, First Generation College-Going
-              Student, Cheyutha Scholarship Recipient
+              Jagadeesh Nandyala <br />
+              Markapuram Andhra Pradesh, First Generation College-Going Student <br/>
+              Cheyutha Scholarship Recipient
             </p>
           </div>
         </div>
@@ -90,9 +90,9 @@ const SuccessStories = () => {
               best in my education and prove worthy of the organization's help.
             </p>
             <p className="success-stories-testimonial-name">
-              - Nunavath Lavanya
-              <br /> First Generation College-Going Student, Cheyutha
-              Scholarship Recipient
+              Nunavath Lavanya <br/>
+              First Generation College-Going Student <br/>
+              Cheyutha Scholarship Recipient
             </p>
           </div>
         </div>
@@ -119,8 +119,9 @@ const SuccessStories = () => {
               Once settled, I will join the ASWA.
             </p>
             <p className="success-stories-testimonial-name">
-              - Manoja Kaampe <br />
-              Karimnagar, Telangana, First Generation College-Going Student,
+              Manoja Kaampe <br />
+              Karimnagar, Telangana, <br/>
+              First Generation College-Going Student <br/>
               Cheyutha Scholarship Recipient
             </p>
           </div>
