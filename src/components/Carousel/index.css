@@ -1,3 +1,25 @@
+.customCarousel8 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/17_anniversary.jpg");
+  position: relative;
+  z-index: 1001;
+}
+
+.customCarousel8 h1 {
+  font-size: 74px;
+  color: white;
+  word-break: normal;
+  width: 60%;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 75px;
+  font-family: "Sathoshi", sans-serif;
+  margin-bottom: 5px;
+}
+
 .customCarousel6 {
   height: 100vh;
   width: 100%;

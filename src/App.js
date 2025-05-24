@@ -20,6 +20,7 @@ import Footer from "./components/Footer";
 import VisionAndMission from "./components/VisionAndMission";
 import OurProjects1 from "./components/OurProjects1"; // Add this import
 import donate from "./components/donate";
+import Redirect from './components/register';
 
 import "./styles.css";
 
@@ -48,7 +49,8 @@ function App() {
           <Route exact path="/OurImpact" component={ImpactNumbers} />
           <Route exact path="/ImpactSummary" component={ImpactSummary} />          
           <Route exact path="/donate" component={donate} />
-          <Route exact path="/ourProjects1" component={OurProjects1} />{" "}
+          <Route exact path="/ourProjects1" component={OurProjects1} />
+          <Route exact path="/register" component={Redirect} /> {/* Add this route */}
           {/* Add this route */}
         </Switch>
         <Route

@@ -19,6 +19,10 @@ const CustomNextArrow = ({ onClick }) => (
 const CarouselImages = () => {
   const history = useHistory();
 
+  const handleClickRegister = () => {
+    history.push("/register");
+  };
+
   const handleClickReport = () => {
     history.push("/ImpactSummary");
   };
@@ -56,9 +60,22 @@ const CarouselImages = () => {
         infiniteLoop
         autoPlay
       >
-      <div className="customCarousel7">
+      <div className="customCarousel8">
+        <div className="customCarouselTextContainer">
+          <h1 className="carouselHeading">17th Anniversary Celebrations</h1>
+          <p className="carouselDescription">
+            You are cordially invited to our anniversary celebrations. <br />
+            Join us to know what we achived so far.
+          </p>
+          <button onClick={handleClickRegister} className="knowMoreCarousel">
+            Register Here
+          </button>
         </div>
-        <div className="customCarousel5">
+      </div>         
+      <div className="customCarousel7">
+        {/* Singel Photo Carousel without Text */}
+      </div>
+         {/*    <div className="customCarousel5">
           <div className="customCarousel5Container">
             <div className="arrangeDecoration">
               <div className="decorationContainer">
@@ -94,7 +111,7 @@ const CarouselImages = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="customCarousel6">
           <div className="customCarouselTextContainer">
             <h1 className="carouselHeading">Impact Report 2024</h1>
