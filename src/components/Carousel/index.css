@@ -347,7 +347,7 @@ Carousel {
     padding-left: 30px;
   }
 
-  .customCarousel6 h1 {
+  .customCarousel6 h1, .customCarousel8 h1 {
     font-size: 32px;
     width: 90%;
     padding-left: 30px;
