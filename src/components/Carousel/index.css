@@ -315,7 +315,7 @@ Carousel {
     background-size: center;
     background-size: cover;
   }
-
+  
   .customCarousel2 {
     background-image: url("/public/Images/bloodImageDonateMobile.jpg");
     height: 100vh;
@@ -433,9 +433,27 @@ Carousel {
 }
 
 
-@media  screen and (max-width: 500px) {
+@media  screen and (max-width: 600px) {
   .years16ContainerMobile{
     width: 60%;
     max-width: 500px;
   }
+
+  .customCarousel8 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/Images/bg_lights.jpg");
+  position: relative;
+  z-index: 1001;
+}
+.customCarouselTextContainer {
+  place-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: justify;
+  backdrop-filter: blur(10px);
+}
+
 }
