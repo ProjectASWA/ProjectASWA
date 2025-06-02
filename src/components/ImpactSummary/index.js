@@ -11,29 +11,29 @@ const AnnualReportsObj = [
   {
     id: 1,
     year: 2024,
+    image: "/Images/ImpactReport2025.png",
+    description: "2024-25 Impact Report",
+    pdfLink: "/Images/ImpactReport2025.pdf",
+  },
+  {
+    id: 2,
+    year: 2024,
     image: "/Images/ImpactReport2024.png",
     description: "2023-24 Impact Report",
     pdfLink: "/Images/ImpactReport2024.pdf",
   },
   {
-    id: 2,
+    id: 3,
     year: 2023,
     image: "/Images/ImpactReport2023.png",
     description: "2022-23 Impact Report",
     pdfLink: "/Images/annualReports2023.pdf",
   },
   {
-    id: 3,
+    id: 4,
     year: 2022,
     image: "/Images/ImpactReport2022.png",
     description: "2019-22 Impact Report",
-    pdfLink: "/Images/annualReports2022.pdf",
-  },
-  {
-    id: 4,
-    year: 2022,
-    image: "/Images/annualReport2021.jpg",
-    description: "2021 Impact Report",
     pdfLink: "/Images/annualReports2022.pdf",
   }
 ];

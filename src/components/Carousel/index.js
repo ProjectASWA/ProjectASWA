@@ -60,7 +60,7 @@ const CarouselImages = () => {
         infiniteLoop
         autoPlay
       >
-      <div className="customCarousel8">
+{/*       <div className="customCarousel8">
         <div className="customCarouselTextContainer">
           <h1 className="carouselHeading">17th Anniversary Celebrations</h1>
           <p className="carouselDescription">
@@ -71,7 +71,7 @@ const CarouselImages = () => {
             Register Here
           </button>
         </div>
-      </div>         
+      </div>   */}       
       <div className="customCarousel7">
         {/* Singel Photo Carousel without Text */}
       </div>
@@ -114,7 +114,7 @@ const CarouselImages = () => {
         </div> */}
         <div className="customCarousel6">
           <div className="customCarouselTextContainer">
-            <h1 className="carouselHeading">Impact Report 2024</h1>
+            <h1 className="carouselHeading">Impact Report 2025</h1>
             <p className="carouselDescription">
               A document which showcases our hard work, struggle, progress, achivements, accountability, transparency and much more.
             </p>
