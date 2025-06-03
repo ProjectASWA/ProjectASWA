@@ -30,7 +30,7 @@ function App() {
       <div className="App">
         <Route
           render={({ location }) => {
-            if (location.pathname !== "/pdf" && location.pathname !== "/donate") return <NavBar />;
+            if (location.pathname !== "/pdf") return <NavBar />;
           }}
         />
         <Switch>
@@ -55,7 +55,7 @@ function App() {
         </Switch>
         <Route
           render={({ location }) => {
-            if (location.pathname !== "/pdf" && location.pathname !== "/donate") return <Footer />;
+            if (location.pathname !== "/pdf") return <Footer />;
           }}
         />
       </div>

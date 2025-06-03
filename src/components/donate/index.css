@@ -1,3 +1,8 @@
+body {
+  background-image: url('/public/Images/payment_bg.png'); /* Example relative path */
+  background-repeat: no-repeat;
+  background-position: right;   /* Align image to the right vertically centered */
+}
 
 .rounded-box {
     background-color: #f0f4f9;
@@ -5,16 +10,19 @@
     padding: 50px;
     width: 350px; 
     position: relative; /* Needed for button positioning */
-    margin: auto;
-    margin-top: 40px;
-  }
+    margin: 10% auto; /* Center the box */
+    height: 100%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18); /* Added shadow */ 
+}
+
   .rounded-box h2 {
     margin-bottom: 20px;
-    font-family: "Cambria", "Helvetica Neue", sans-serif;;
+    font-family: "Cambria", "Helvetica Neue", sans-serif;
   }
 
   .rounded-box p {
-    font-family: "Calibri", "Helvetica Neue", sans-serif;;
+    font-family: "Calibri", "Helvetica Neue", sans-serif;
+    text-align: justify;
   }
 
   .ok-button {
@@ -30,5 +38,5 @@
     font-size: 16px;
     margin: auto;
     cursor: pointer; /* Make it look like a button */
+    font-family: "Cambria", "Helvetica Neue", sans-serif;
   }
-  

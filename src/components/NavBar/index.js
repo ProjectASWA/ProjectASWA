@@ -141,12 +141,13 @@ const NavBar = () => {
   };
 
   const handleDonateClick = () => {
-    const confirmDonate = window.confirm(
+/*     const confirmDonate = window.confirm(
       "You will be redirected to the designated ASWA Rayzorpay Payment Page (Gateway). Upon successful donation, you will be redirected back to aswa4u.org."
     );
     if (confirmDonate) {
       window.location.href = "https://pages.razorpay.com/aswa";
-    }
+    } */
+
   };
 
   const crossIcon = (
@@ -186,10 +187,7 @@ const NavBar = () => {
         </Link>
         <div className="mobileDevicesNavConatainer">
           <Link className="linkStyling" to="/donate">
-            <button
-              className="donateStyling donateMobile"
-              onClick={handleDonateClick}
-            >
+            <button className="donateStyling donateMobile">
               DONATE
             </button>
           </Link>
@@ -267,9 +265,11 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="mobileDonate">
-          <button onClick={handleDonateClick} className="donateStyling">
-            DONATE
-          </button>
+            <Link to="/donate">
+              <button className="donateStyling">
+                DONATE
+              </button>
+            </Link>
         </li>
       </ul>
     </nav>
