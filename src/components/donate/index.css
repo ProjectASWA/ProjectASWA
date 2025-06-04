@@ -1,7 +1,8 @@
-body {
+.donate-page {
   background-image: url('/public/Images/payment_bg.png'); /* Example relative path */
   background-repeat: no-repeat;
-  background-position: right;   /* Align image to the right vertically centered */
+  background-position: right center;
+  display: flex;
 }
 
 .rounded-box {

@@ -11,7 +11,7 @@ const donate = () => {
     }, []);
 
     return (
-        <>
+        <div class="donate-page">
             <div class="rounded-box">
                 <h2>Important Disclaimer</h2>
                 <p>You will be redirected to the designated ASWA Rayzorpay Payment Page (Gateway). Upon successful donation, you will be redirected back to aswa4u.org.</p>
@@ -25,7 +25,7 @@ const donate = () => {
                     style={{ display: 'block', margin:'15px auto 0px', maxWidth: '90px', borderRadius: '10px' }} 
                 /> 
             </div>      
-        </>
+        </div>
     );
 };
 
