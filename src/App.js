@@ -14,11 +14,8 @@ import DonateProject from "./components/DonateProject";
 import HomeVisits from "./components/HomeVisits";
 import Volunteer from "./components/Volunteer";
 import PdfComponent from "./components/PdfComponent";
-import ImpactNumbers from "./components/ImpactNumbers";
-import OurImpactHome from "./components/OurImpactHome";
 import OurImpact from "./components/OurImpact";
 import Footer from "./components/Footer";
-import VisionAndMission from "./components/VisionAndMission";
 import OurProjects1 from "./components/OurProjects1"; // Add this import
 import donate from "./components/donate";
 import Redirect from './components/register';
@@ -47,8 +44,8 @@ function App() {
           <Route exact path="/HomeVisits" component={HomeVisits} />
           <Route exact path="/join-us/become-a-member" component={Volunteer} />
           <Route exact path="/pdf" component={PdfComponent} />
-          <Route exact path="/OurImpactHome" component={OurImpactHome} />
           <Route exact path="/OurImpact" component={OurImpact} />      
+          <Route exact path="/ImpactSummary" component={OurImpact} />      
           <Route exact path="/donate" component={donate} />
           <Route exact path="/ourProjects1" component={OurProjects1} />
           <Route exact path="/register" component={Redirect} /> {/* Add this route */}
