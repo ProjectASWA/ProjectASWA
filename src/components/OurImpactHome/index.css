@@ -1,0 +1,178 @@
+.arrangeCount {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.arrangeCount::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/Images/EducationBannerChildren.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.45;
+  background-color: rgba(0, 0, 0, 0.6);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.arrangeBgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 35px;
+}
+
+.impact-heading {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-size: 40px;
+  opacity: 0.9;
+}
+
+.countUpAnimationHeading {
+  font-size: 40px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.descriptionStyling {
+  margin: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .arrangeBgContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    bottom: 60px;
+    gap: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .impact-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .impact-heading {
+    margin-bottom: 5px;
+  }
+  .arrangeBgContainer {
+    padding: 45px;
+    padding-top: 130px;
+  }
+}
+
+.impact-button {
+  display: flex;
+  width: 130px;
+  height: 40px;
+  padding: 15px var(--Spacing-none, 0px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--Corner-Radius-lg, 8px);
+  border: 2px solid var(--color-semantic-white-100, #fff);
+  background-color: transparent;
+  color: var(--color-semantic-white-100, #fff);
+  text-align: center;
+  font-family: "Sathoshi", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 30px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.impact-button:hover {
+  background-color: var(--color-semantic-white-100, #fff);
+  color: var(--color-semantic-black-100, #000);
+  transform: scale(1.1);
+}
+
+.impact-button-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.impact-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.impact-heading {
+  font-family: "Sathoshi", sans-serif;
+}
+
+/* Example CSS adjustment */
+@media (min-width: 992px) {
+  .impact-button-container {
+    /* Remove any styles that might be disabling the button */
+    pointer-events: auto;
+    /* Reset pointer-events to default */
+  }
+}
+
+@media (max-width: 576px) {
+  .impact-button-container {
+    justify-content: center;
+  }
+
+  .countUpAnimationHeading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .countUpAnimationHeading {
+    font-size: 34px;
+  }
+  .backgroundStylingImageImpact {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 380px) {
+  .impact-card-container{
+    gap: 10px;
+    row-gap: 50px;
+  }
+  .arrangeBgContainer{
+    gap: 0px;
+  }
+}

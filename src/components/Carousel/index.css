@@ -25,14 +25,14 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url("/public/Images/impactreportbanner.jpg");
+  background-image: url("/public/Images/NewImpactImage.jpg");
   position: relative;
   z-index: 1001;
 }
 
 .customCarousel6 h1 {
   font-size: 74px;
-  color: rgb(184, 141, 241);
+  color: rgb(65, 189, 54);
   word-break: normal;
   width: 60%;
   text-align: left;

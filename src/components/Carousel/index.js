@@ -24,7 +24,7 @@ const CarouselImages = () => {
   };
 
   const handleClickReport = () => {
-    history.push("/ImpactSummary");
+    history.push("/OurImpact");
   };
 
   const handleClickEducation = () => {
@@ -72,9 +72,6 @@ const CarouselImages = () => {
           </button>
         </div>
       </div>   */}       
-      <div className="customCarousel7">
-        {/* Singel Photo Carousel without Text */}
-      </div>
          {/*    <div className="customCarousel5">
           <div className="customCarousel5Container">
             <div className="arrangeDecoration">
@@ -115,7 +112,7 @@ const CarouselImages = () => {
         <div className="customCarousel6">
           <div className="customCarouselTextContainer">
             <h1 className="carouselHeading">Impact Report 2025</h1>
-            <p className="carouselDescription">
+            <p className="carouselDescription secondBannerSideHeading">
               A document which showcases our hard work, struggle, progress, achivements, accountability, transparency and much more.
             </p>
             <button onClick={handleClickReport} className="knowMoreCarousel">
@@ -123,6 +120,9 @@ const CarouselImages = () => {
             </button>
           </div>
         </div>        
+        <div className="customCarousel7">
+          {/* Singel Photo Carousel without Text */}
+        </div>
         <div className="customCarousel1">
           <div className="customCarouselTextContainer">
             <h1 className="carouselHeading">Building Brighter Futures</h1>

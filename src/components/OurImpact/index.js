@@ -1,82 +1,28 @@
-import React, { useRef, useEffect, useState } from "react";
-import ImpactCard from "../ImpactCard";
+import { Component } from "react";
+
 import "./index.css";
-import { Link } from "react-router-dom";
+import ImpactNumbers from "../ImpactNumbers";
 
-const imagesArr = [
-  {
-    id: 1,
-    image: "/Images/pinkbackground.png",
-    count: 150,
-    description: "Students Benefited",
-  },
-  {
-    id: 2,
-    image: "/Images/greenbackgroun.png",
-    count: 12,
-    description: "Lives Saved",
-  },
-  {
-    id: 3,
-    image: "/Images/brownbackground.png",
-    count: 25,
-    description: "Hunger Fulfilled",
-  },
-  {
-    id: 4,
-    image: "/Images/purplebackground.png",
-    count: 3,
-    description: "Active Members",
-  },
-];
 
-const Impact = () => {
-  const targetRef = useRef(null);
-  const [isIntersected, setIsIntersected] = useState(false);
-
-  useEffect(() => {
-    const callback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setIsIntersected(true);
-          console.log("intersecting");
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(callback, { threshold: 0.5 });
-
-    if (targetRef.current) {
-      observer.observe(targetRef.current);
-    }
-
-    return () => {
-      if (targetRef.current) {
-        observer.unobserve(targetRef.current);
-      }
-    };
-  }, []);
-
-  return (
-    <div className="arrangeCount" id="Our-Impact">
-      <h1 className="impact-heading">Our Impact</h1>
-      <div className="column-container">
-        <div className="arrangeBgContainer" ref={targetRef}>
-          <div className="impact-card-container">
-            {isIntersected &&
-              imagesArr.map((eachItem) => (
-                <ImpactCard key={eachItem.id} details={eachItem} />
-              ))}
-          </div>
-          <div className="impact-button-container">
-            <Link className="link" to="/ImpactSummary">
-              <button className="impact-button">KNOW MORE</button>
-            </Link>
-          </div>
+const ImpactSummary = () => {
+    return (
+      <div className="reportsContainerBg">
+        <img
+          className="reportsImageBackground"
+          src="/Images/impactreports1.png"
+        />
+        <div className="reportsButtonContainer">
+          <p className="reportsButtonText">
+             Our Impact Summary
+          </p>
+          <p className="reportsButtonText">
+              Impact Reports
+          </p>
+        </div>
+        <div className="reportsPosterArrange">
+          <ImpactNumbers />
         </div>
       </div>
-    </div>
-  );
-};
-
-export default Impact;
+    );
+  }
+export default ImpactSummary;

@@ -1,3 +1,24 @@
+.impact-summary-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  padding: 15px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.impact-numbers {
+  margin-right: 50px;
+  width: 60%;
+}
+
+.impact-reports{
+  border-left: #ebe6fd 2px solid;
+  width: 40%;
+  height: 100%;
+}
+
 .impact-reports-image-container {
   width: 100%;
   height: 40vh;
@@ -10,12 +31,10 @@
 
 .impact-reports-cards-container {
   display: flex;
-  padding: 16px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 48px;
-  width: 90%;
-  margin: auto;
+  gap: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 992px) {
@@ -30,14 +49,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 48px;
+  gap: 20px;
 }
 
 .impact-reports-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -49,7 +68,7 @@
   flex-wrap: wrap;
 }
 
-.impact-reports-card-heading {
+.impact-reports-card-heading, .impact-reports-side-heading {
   color: #000;
   font-family: "Segoe UI","Sathoshi", sans-serif;
   font-size: 25px;
@@ -58,6 +77,10 @@
   line-height: normal;
   margin-bottom: 16px;
   text-align: left;
+}
+
+.impact-reports-side-heading {
+  margin-left: 82px;
 }
 
 @media screen and (max-width: 992px) {
@@ -94,7 +117,7 @@
 }
 
 .impact-reports-count {
-  color: #5843b4;
+  color: #f2902f;
   font-family: Calibri, "Sathoshi", sans-serif;
   font-size: 24px;
   font-style: normal;

@@ -1,14 +1,52 @@
 import "./index.css";
+import { Component } from "react";
+import AnnualReport from "../AnnualReport";
+import { withRouter } from "react-router-dom";
 
-import { useEffect } from "react";
+const AnnualReportsObj = [
+  {
+    id: 1,
+    year: 2024,
+    image: "/Images/ImpactReport2025.png",
+    description: "2024-25 Impact Report",
+    pdfLink: "/Images/ImpactReport2025.pdf",
+  },
+  {
+    id: 2,
+    year: 2024,
+    image: "/Images/ImpactReport2024.png",
+    description: "2023-24 Impact Report",
+    pdfLink: "/Images/ImpactReport2024.pdf",
+  },
+  {
+    id: 3,
+    year: 2023,
+    image: "/Images/ImpactReport2023.png",
+    description: "2022-23 Impact Report",
+    pdfLink: "/Images/annualReports2023.pdf",
+  },
+  {
+    id: 4,
+    year: 2022,
+    image: "/Images/ImpactReport2022.png",
+    description: "2019-22 Impact Report",
+    pdfLink: "/Images/annualReports2022.pdf",
+  }
+];
 
-const ImpactReports = () => {
-  useEffect(() => {
+class ImpactReports extends Component {
+  componentDidMount() {
     window.scrollTo(0, 0);
-  }, []);
+  }
 
+  openPdf = (link) => {
+    this.props.history.push("/pdf", { pdfLink: link });
+  };
+
+  render() {
   return (
-    <div>
+    <div className="impact-summary-container">
+      <div className="impact-numbers">
       <div className="impact-reports-cards-container">
         <div className="impact-reports-first-card-container">
           <div className="environment-impact-reports-card">
@@ -127,8 +165,24 @@ const ImpactReports = () => {
           </div>
         </div>
       </div>
+      </div>
+      <div className="impact-reports">
+        <div className="reportsPosterArrange">
+          {AnnualReportsObj.map((eachDetails) => {
+            let a;
+            return (
+              <AnnualReport
+                handleClick={this.openPdf}
+                key={eachDetails.id}
+                details={eachDetails}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
-};
+}
+}
 
-export default ImpactReports;
+export default withRouter(ImpactReports);

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import CarouselImages from "../Carousel";
 import CSRPartners from "../CSRPartners";
-import Impact from "../OurImpact";
+import OurImpactHome from "../OurImpactHome";
 import Testimonials from "../Testimonials";
 import MobileTestimonials from "../MobileTestimonials";
 import AboutUsHomeSection from "../AboutUsHome";
@@ -28,7 +28,7 @@ const Home = () => {
     <div className="home-container">
       <CarouselImages />
       <AboutUsHomeSection />
-      <Impact />
+      <OurImpactHome />
       <OurProjects1 />
       <div id="Testimonials">
         <div className="testimonials-large-devices">

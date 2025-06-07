@@ -1,178 +1,141 @@
-.arrangeCount {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.6);
+.reportsContainerBg {
+  padding-bottom: 50px;
+  background-color: #fffcf7;
 }
 
-.arrangeCount::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.reportsImageBackground {
   width: 100%;
-  height: 100%;
-  background-image: url("/public/Images/EducationBannerChildren.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.45;
-  background-color: rgba(0, 0, 0, 0.6);
-  mix-blend-mode: multiply;
-  pointer-events: none;
+  height: 300px;
 }
 
-.arrangeBgContainer {
+@media screen and (max-width: 768px) {
+  .reportsImageBackground {
+    height: 200px;
+  }
+}
+
+.reportsButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  background-color: #f1f5f9;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border: 1px solid var(--Color-Border-neutral---Subtle, #cbd5e1);
+  border-radius: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.reportsButtonText {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Sathoshi", sans-serif;
+}
+
+.buttonReportsContainer {
+  width: 24%;
+}
+
+.buttonReports {
+  display: flex;
+  width: 95%;
+  height: 45px;
+  padding: var(--Spacing-2xs, 8px) var(--Spacing-xs, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Spacing-2xs, 8px);
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.reportsPoster {
+  height: 250px;
+  width: 200px;
+}
+
+.reportsPosterArrange {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 35px;
+  justify-content: space-evenly;
 }
 
-.impact-heading {
-  text-align: center;
+.reportsKnowMoreButton {
+  border-radius: 5px;
+  background: #f2902f;
+  display: flex;
+  width: 150px;
+  border: none;
+  height: 30px;
+  padding: 15px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   color: white;
-  padding-top: 50px;
-  font-size: 40px;
-  opacity: 0.9;
-}
-
-.countUpAnimationHeading {
-  font-size: 40px;
-  margin: 10px;
-  margin-bottom: 0px;
-}
-
-.descriptionStyling {
-  margin: 5px;
-}
-
-@media screen and (max-width: 1000px) {
-  .arrangeBgContainer {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 50px;
-    position: relative;
-    bottom: 60px;
-    gap: 40px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .impact-heading {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-left: 0px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .impact-heading {
-    margin-bottom: 5px;
-  }
-  .arrangeBgContainer {
-    padding: 45px;
-    padding-top: 130px;
-  }
-}
-
-.impact-button {
-  display: flex;
-  width: 130px;
-  height: 40px;
-  padding: 15px var(--Spacing-none, 0px);
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: var(--Corner-Radius-lg, 8px);
-  border: 2px solid var(--color-semantic-white-100, #fff);
-  background-color: transparent;
-  color: var(--color-semantic-white-100, #fff);
-  text-align: center;
-  font-family: "Sathoshi", sans-serif;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 142.857% */
-  text-transform: uppercase;
-  cursor: pointer;
-  margin-top: 30px;
-  transform: scale(1);
-  transition: transform 0.3s ease;
-}
-
-.impact-button:hover {
-  background-color: var(--color-semantic-white-100, #fff);
-  color: var(--color-semantic-black-100, #000);
-  transform: scale(1.1);
-}
-
-.impact-button-container {
-  display: flex;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 30px;
+  font-weight: 500;
   cursor: pointer;
 }
 
-.column-container {
-  display: flex;
-  flex-direction: column;
+.reportsPosterContainer {
+  padding: 25px;
 }
 
-.link {
-  text-decoration: none;
-}
-
-.impact-card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 60px;
-}
-
-.impact-heading {
+.yearNumberReports {
+  font-size: 16px;
+  text-align: left;
   font-family: "Sathoshi", sans-serif;
+  margin-bottom: 10px;
 }
 
-/* Example CSS adjustment */
-@media (min-width: 992px) {
-  .impact-button-container {
-    /* Remove any styles that might be disabling the button */
-    pointer-events: auto;
-    /* Reset pointer-events to default */
-  }
+.activeButtonReports {
+  background-color: #36b0b8;
+  color: white;
 }
 
-@media (max-width: 576px) {
-  .impact-button-container {
-    justify-content: center;
+@media (max-width: 768px) {
+  .buttonReports {
+    height: 30px;
+    font-size: 9px;
+    padding: 5px;
+  }
+  .reportsButtonContainer {
+    width: 90%;
+    border-radius: 6px;
+    padding: 10px;
+  }
+  .buttonReportsContainer {
+    width: 25%;
+    border-radius: 6px;
   }
 
-  .countUpAnimationHeading {
-    font-size: 30px;
+  .reportsPosterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
   }
-}
 
-@media (max-width: 380px) {
-  .countUpAnimationHeading {
-    font-size: 34px;
+  .yearNumberReports {
+    font-size: 14px;
+    font-family: "Sathoshi", sans-serif;
+    margin-top: 18px;
   }
-  .backgroundStylingImageImpact {
-    width: 120px;
-    height: 120px;
+  .reportsKnowMoreButton {
+    padding: 10px;
   }
-}
 
-@media (max-width: 380px) {
-  .impact-card-container{
-    gap: 10px;
-    row-gap: 50px;
-  }
-  .arrangeBgContainer{
-    gap: 0px;
+  .reportsPoster {
+    width: 126px;
+    height: 170px;
   }
 }
